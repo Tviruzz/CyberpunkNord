@@ -27,11 +27,11 @@ AMainCharacter::AMainCharacter()
 	MaxHealth = 100;
 	Health = MaxHealth;
 
-	WalkSpeed = 500.0f;
-	RunSpeed = 1000.0f;
+	WalkSpeed = 331.0f;
+	RunSpeed = 500.0f;
 
 	SprintAction = nullptr;
-	bIsSprinting = false;
+	
 
 	// Set size for collision capsule
 	GetCapsuleComponent()->InitCapsuleSize(42.f, 96.0f);
@@ -107,8 +107,6 @@ void AMainCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 
 		//Moving
 		EnhancedInputComponent->BindAction(MoveAction, ETriggerEvent::Triggered, this, &AMainCharacter::Move);
-		EnhancedInputComponent->BindAction(SprintAction, ETriggerEvent::Started, this, &AMainCharacter::StartSprinting);
-		EnhancedInputComponent->BindAction(SprintAction, ETriggerEvent::Canceled, this, &AMainCharacter::StopSprinting);
 
 		//Looking
 		EnhancedInputComponent->BindAction(LookAction, ETriggerEvent::Triggered, this, &AMainCharacter::Look);
@@ -118,11 +116,12 @@ void AMainCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 	}
 }
 
+
 void AMainCharacter::Move(const FInputActionValue& Value)
 {
 	// input is a Vector2D
 	FVector2D MovementVector = Value.Get<FVector2D>();
-
+	
 	if (Controller != nullptr)
 	{
 		// find out which way is forward
@@ -134,7 +133,7 @@ void AMainCharacter::Move(const FInputActionValue& Value)
 
 		// get right vector 
 		const FVector RightDirection = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
-		float SpeedMultiplier = bIsSprinting ? RunSpeed : WalkSpeed;
+		
 
 
 		// add movement 
@@ -161,12 +160,4 @@ void AMainCharacter::Interact(const FInputActionValue& Value)
 	
 }
 
-void AMainCharacter::StartSprinting(const FInputActionValue& Value)
-{
-	bIsSprinting = true;
-}
 
-void AMainCharacter::StopSprinting(const FInputActionValue& Value)
-{
-	bIsSprinting = false;
-}

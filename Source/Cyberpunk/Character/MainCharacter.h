@@ -59,9 +59,6 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MainVariables | Stats | Speed | ")
 	float RunSpeed;
 	
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "MainVariables | Movement")
-	bool bIsSprinting;
-	
 	//Ammo Type Amount
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MainVariables | Ammo | ")
 	int LightAmmo;
@@ -93,14 +90,6 @@ public:
 	/** Called For Interact input */
 	UFUNCTION(BlueprintCallable, Category = "Inputs")
 	void Interact(const FInputActionValue& Value);
-
-
-	/** Funciones para manejar la lógica de correr */
-	UFUNCTION(BlueprintCallable, Category = "Character|Custom")
-	void StartSprinting(const FInputActionValue& Value);
-
-	UFUNCTION(BlueprintCallable, Category = "Character|Custom")
-	void StopSprinting(const FInputActionValue& Value);
 
 
 public:
