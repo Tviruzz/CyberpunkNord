@@ -12,6 +12,7 @@
 #include "EnhancedInputComponent.h"
 #include "EnhancedInputSubsystems.h"
 
+
 // Sets default values
 AMainCharacter::AMainCharacter()
 {
@@ -26,11 +27,14 @@ AMainCharacter::AMainCharacter()
 
 	MaxHealth = 100;
 	Health = MaxHealth;
-
-	WalkSpeed = 331.0f;
-	RunSpeed = 500.0f;
+	WalkSpeed = 300.0f;
+	RunSpeed = 600.0f;
 
 	SprintAction = nullptr;
+
+	//UCharacterMovementComponent* MovementPtr = Cast<UCharacterMovementComponent>(GetCharacterMovement());
+	//MovementPtr->MaxWalkSpeed = WalkSpeed;
+
 	
 
 	// Set size for collision capsule
@@ -50,11 +54,13 @@ AMainCharacter::AMainCharacter()
 	GetCharacterMovement()->JumpZVelocity = 700.f;
 	GetCharacterMovement()->AirControl = 0.35f;
 
-	//Change Speed to WalkSpeed Variable
+	//WalkSpeed
 	GetCharacterMovement()->MaxWalkSpeed = WalkSpeed;
+
 
 	GetCharacterMovement()->MinAnalogWalkSpeed = 20.f;
 	GetCharacterMovement()->BrakingDecelerationWalking = 2000.f;
+
 
 	// Create a camera boom (pulls in towards the player if there is a collision)
 	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
@@ -85,6 +91,7 @@ void AMainCharacter::BeginPlay()
 			Subsystem->AddMappingContext(DefaultMappingContext, 0);
 		}
 	}
+	GetCharacterMovement()->MaxWalkSpeed = WalkSpeed;
 }
 
 // Called every frame
@@ -169,7 +176,9 @@ void AMainCharacter::Sprint(const FInputActionValue& Value)
 
 void AMainCharacter::StopSprint(const FInputActionValue& Value)
 {
+	//GetCharacterMovement()->MaxWalkSpeed = WalkSpeed;
 	GetCharacterMovement()->MaxWalkSpeed = WalkSpeed;
 }
+
 
 

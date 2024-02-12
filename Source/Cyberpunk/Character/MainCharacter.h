@@ -54,8 +54,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MainVariables | Stats | Health | ")
 	float MaxHealth;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MainVariables | Stats | Speed | ")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MainVariables | Stats | Health | ")
 	float WalkSpeed;
+
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MainVariables | Stats | Speed | ")
 	float RunSpeed;
