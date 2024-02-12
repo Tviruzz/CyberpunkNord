@@ -42,6 +42,7 @@ class CYBERPUNK_API AMainCharacter : public ACharacter
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
 	class UInputAction* InteractAction;
 
+
 public:
 
 	//MainVariables
@@ -90,6 +91,10 @@ public:
 	/** Called For Interact input */
 	UFUNCTION(BlueprintCallable, Category = "Inputs")
 	void Interact(const FInputActionValue& Value);
+
+	void Sprint(const FInputActionValue& Value);
+	void StopSprint(const FInputActionValue& Value);
+
 
 
 public:
