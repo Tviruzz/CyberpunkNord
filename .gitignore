@@ -76,3 +76,12 @@ DerivedDataCache/*
 # Exclude Configure folder
 !Configure/
 
+# Wwise 
+.backup*
+.cache*
+*.akd
+*.prof
+*.validationcache
+*.wsettings
+IncrementalSoundBankData.xml
+!Plugins/
