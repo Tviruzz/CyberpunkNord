@@ -1,0 +1,36 @@
+{
+ "ProjectInfo": {
+  "Project": {
+   "Name": "CyberpunkNord_WwiseProject",
+   "GUID": "{947A4641-7A41-44C3-B43A-634F010F517B}",
+   "Generator": "2022.1.10.8393"
+  },
+  "CacheRoot": "../.cache",
+  "Platforms": [
+   {
+    "Name": "Mac",
+    "GUID": "{8BA63B48-77C1-46AD-832E-7BB88E4B3DBA}",
+    "BasePlatform": "Mac",
+    "BasePlatformGUID": "{9C6217D5-DD11-4795-87C1-6CE02853C540}",
+    "Path": "Mac"
+   },
+   {
+    "Name": "Windows",
+    "GUID": "{9F28B10A-DAB4-4AED-BE2D-0846CBF5B2DF}",
+    "BasePlatform": "Windows",
+    "BasePlatformGUID": "{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}",
+    "Path": "Windows"
+   }
+  ],
+  "Languages": [
+   {
+    "Name": "English(US)",
+    "Id": "684519430",
+    "GUID": "{B3FBF1B1-F378-43FF-8E58-991E3501F328}",
+    "Default": "true",
+    "UseAsStandIn": "true"
+   }
+  ],
+  "FileHash": "{24B51CB8-6B85-2C56-13E2-190B56903D20}"
+ }
+}

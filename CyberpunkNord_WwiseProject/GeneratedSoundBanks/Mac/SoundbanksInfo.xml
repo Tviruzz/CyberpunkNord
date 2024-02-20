@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Mac</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1097980931" Type="Event" GUID="{A1F154B2-61E0-4AB8-95DA-BEB3A474C07E}" Language="SFX" Hash="{16ED291A-20D9-64BE-B0AC-5609CC359E1E}">
+			<ObjectPath>TestEvent</ObjectPath>
+			<ShortName>TestEvent</ShortName>
+			<Path>Event/TestEvent.bnk</Path>
+			<Media>
+				<File Id="384914275" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MX_Gems_Stinger_01.wav</ShortName>
+					<Path>Media/384914275.wem</Path>
+					<CachePath>SFX/MX_Gems_Stinger_01_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1097980931" Name="TestEvent" ObjectPath="\Events\MikoEvents\TestEvent" GUID="{A1F154B2-61E0-4AB8-95DA-BEB3A474C07E}" DurationType="OneShot" DurationMin="2.9674375" DurationMax="2.9674375">
+					<MediaRefs>
+						<MediaRef Id="384914275"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{F56A610C-C7C4-F874-B68B-7ADDF94EBB7A}">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Audio Devices\Default Work Unit\No_Output" GUID="{E4AD3F58-5ADC-45CE-87DC-EB7FB72ECD33}" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" ObjectPath="\Audio Devices\Default Work Unit\System" GUID="{301F03C9-A989-47F3-BCBD-A45D3B5F747A}" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+			</Busses>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{E66A8139-C159-F5B7-EF29-9D0F7CFC8EB7}</FileHash>
+</SoundBanksInfo>
