@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<SoundBanks>
+		<SoundBank Id="1097980931" Type="Event" GUID="{A1F154B2-61E0-4AB8-95DA-BEB3A474C07E}" Language="SFX" Hash="{16ED291A-20D9-64BE-B0AC-5609CC359E1E}">
+			<ObjectPath>TestEvent</ObjectPath>
+			<ShortName>TestEvent</ShortName>
+			<Path>Event/TestEvent.bnk</Path>
+			<Media>
+				<File Id="384914275" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MX_Gems_Stinger_01.wav</ShortName>
+					<Path>Media/384914275.wem</Path>
+					<CachePath>SFX/MX_Gems_Stinger_01_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1097980931" Name="TestEvent" ObjectPath="\Events\MikoEvents\TestEvent" GUID="{A1F154B2-61E0-4AB8-95DA-BEB3A474C07E}" DurationType="OneShot" DurationMin="2.9674375" DurationMax="2.9674375">
+					<MediaRefs>
+						<MediaRef Id="384914275"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{B9CB7709-41DB-6033-002D-0903D48A2C35}</FileHash>
+</SoundBanksInfo>
