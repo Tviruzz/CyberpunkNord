@@ -82,5 +82,5 @@ DerivedDataCache/*
 *.wsettings
 IncrementalSoundBankData.xml
 !Plugins/
-Plugins/Wwise/Source/WwiseSoundEngine/Public/Generated/AktvOSPlugins.h
-Plugins/Wwise/Source/WwiseSoundEngine/Public/Generated/AkiOSPlugins.h
+!Plugins/Wwise/Source/WwiseSoundEngine/Public/Generated/AktvOSPlugins.h
+!Plugins/Wwise/Source/WwiseSoundEngine/Public/Generated/AkiOSPlugins.h
