@@ -1,0 +1,9 @@
+Event	ID	Name			Wwise Object Path	Notes
+	563777050	Play_Test_Emmiter			\MikoEvents\Play_Test_Emmiter	
+
+Modulator Envelope	ID	Name			Wwise Object Path	Notes
+	433300004	Modulator Envelope (Custom)				
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	1068762654	Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Miko\TestAudio_Emmiter_3D\Synth One	
+

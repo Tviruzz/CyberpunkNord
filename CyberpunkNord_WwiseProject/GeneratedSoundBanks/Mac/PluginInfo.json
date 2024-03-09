@@ -11,6 +11,13 @@
     "StaticLib": "AkToneSource"
    },
    {
+    "LibName": "Wwise Synth One",
+    "LibId": "9699330",
+    "Type": "Source",
+    "DLL": "AkSynthOne",
+    "StaticLib": "AkSynthOneSource"
+   },
+   {
     "LibName": "System",
     "LibId": "11403271",
     "Type": "AudioDevice"
@@ -21,6 +28,6 @@
     "Type": "AudioDevice"
    }
   ],
-  "FileHash": "{3D76BBD5-943A-1D09-A431-81D14FFAC05F}"
+  "FileHash": "{BFACC6B7-16AE-C82F-BEFA-701A0C937770}"
  }
 }

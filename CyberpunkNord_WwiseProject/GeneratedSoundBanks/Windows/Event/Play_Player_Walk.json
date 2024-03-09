@@ -19,7 +19,7 @@
       {
        "Id": "959635804",
        "Name": "Tone Generator",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\TestAudio200ms\\Tone Generator",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\TestAudio200ms_2D\\Tone Generator",
        "GUID": "{3347EFA6-D0BF-4E04-8B01-31FA04A58DC2}",
        "LibName": "Wwise Tone Generator",
        "LibId": "6684674"
@@ -46,6 +46,6 @@
     ]
    }
   ],
-  "FileHash": "{9F847FE2-0F07-8649-D366-5FD6067CAAAA}"
+  "FileHash": "{07426230-AE9B-0CD6-30D7-4571FBB9209A}"
  }
 }

@@ -7,7 +7,7 @@
 			<Path>Event/Play_Player_Walk.bnk</Path>
 			<Plugins>
 				<Custom>
-					<Plugin Id="959635804" Name="Tone Generator" ObjectPath="\Actor-Mixer Hierarchy\Miko\TestAudio200ms\Tone Generator" GUID="{3347EFA6-D0BF-4E04-8B01-31FA04A58DC2}" LibName="Wwise Tone Generator" LibId="6684674"/>
+					<Plugin Id="959635804" Name="Tone Generator" ObjectPath="\Actor-Mixer Hierarchy\Miko\TestAudio200ms_2D\Tone Generator" GUID="{3347EFA6-D0BF-4E04-8B01-31FA04A58DC2}" LibName="Wwise Tone Generator" LibId="6684674"/>
 				</Custom>
 			</Plugins>
 			<Events>
@@ -21,5 +21,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D8D4C3FB-2EB5-0EAB-6F8E-F1155CC657B9}</FileHash>
+	<FileHash>{C1827385-38ED-0049-9476-372611CC2F9F}</FileHash>
 </SoundBanksInfo>

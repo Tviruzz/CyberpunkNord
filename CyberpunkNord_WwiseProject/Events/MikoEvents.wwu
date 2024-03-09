@@ -74,6 +74,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Test_Emmiter" ID="{AAF57E4B-7885-4800-A51A-BAF51823C999}">
+					<ChildrenList>
+						<Action Name="" ID="{C7C26205-069F-4393-A443-235441C40CB0}" ShortID="75097449">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TestAudio_Emmiter_3D" ID="{D5968C7A-304C-4383-A20B-BA76C46B400F}" WorkUnitID="{A7EB45C4-B939-4480-A678-788D7A20EEBC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

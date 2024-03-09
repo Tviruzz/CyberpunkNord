@@ -106,6 +106,127 @@
 						<ActiveSource Name="Tone Generator" ID="{3347EFA6-D0BF-4E04-8B01-31FA04A58DC2}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="TestAudio_Emmiter_3D" ID="{D5968C7A-304C-4383-A20B-BA76C46B400F}" ShortID="330965751">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="Highpass" Type="int16">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{40C35093-F201-4CC5-96E9-8C9E4C9ED5E2}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="18"/>
+											<Property Name="Min" Type="Real64" Value="-23"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Lowpass" Type="int16">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{57917E3F-B2D0-4D68-87C7-9BE251D72105}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="17"/>
+											<Property Name="Min" Type="Real64" Value="-20"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{96FBDB84-2A2A-42DA-A505-2B6CB5170365}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="708"/>
+											<Property Name="Min" Type="Real64" Value="-404"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Att_Test_Emmiter" ID="{6CB5FA59-8459-47F3-AD72-0EE58920D174}" WorkUnitID="{209CE162-1530-472A-88BF-84988A550C44}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{932E0AC6-AE92-4FF8-946B-9BB811A26F11}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50DB7172-A696-46DE-9D2C-909BB5145933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="Synth One" ID="{7502B11E-1B31-4AA2-9D96-08B06C9B9B1D}" ShortID="1068762654" PluginName="Wwise Synth One" CompanyID="0" PluginID="148">
+							<PropertyList>
+								<Property Name="FmAmount" Type="Real32" Value="18.4"/>
+								<Property Name="FrequencyMode" Type="int32" Value="1"/>
+								<Property Name="NoiseShape" Type="int32" Value="2"/>
+								<Property Name="Osc1Level" Type="Real32" Value="-7"/>
+								<Property Name="Osc1Pwm" Type="Real32" Value="49"/>
+								<Property Name="Osc1Transpose" Type="int32" Value="-3183"/>
+								<Property Name="Osc1Waveform" Type="int32" Value="3"/>
+								<Property Name="Osc2Level" Type="Real32" Value="5"/>
+								<Property Name="Osc2Pwm" Type="Real32" Value="100"/>
+								<Property Name="Osc2Transpose" Type="int32" Value="-3334"/>
+								<Property Name="OutputLevel" Type="Real32" Value="-3"/>
+							</PropertyList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{73C081C9-054D-4B80-821B-AC9B7593E0EC}" ShortID="339386583">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="OutputLevel"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<Custom>
+															<ModulatorEnvelope Name="Modulator Envelope (Custom)" ID="{A0F96879-3AFD-42BE-A973-D8E5C78F1C80}" ShortID="433300004">
+																<PropertyList>
+																	<Property Name="EnvelopeAttackTime" Type="Real64" Value="0.01"/>
+																</PropertyList>
+															</ModulatorEnvelope>
+														</Custom>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{64A14D3D-FEF9-434B-9353-FB7715D2DCEF}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-96</YPos>
+																		<Flags>21</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>0</YPos>
+																		<Flags>53</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<Language>SFX</Language>
+						</SourcePlugin>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Synth One" ID="{7502B11E-1B31-4AA2-9D96-08B06C9B9B1D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
