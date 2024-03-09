@@ -1,19 +1,19 @@
 {
  "SoundBanksInfo": {
-  "Platform": "Mac",
-  "BasePlatform": "Mac",
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
   "SchemaVersion": "16",
   "SoundBankVersion": "145",
   "SoundBanks": [
    {
-    "Id": "1097980931",
+    "Id": "2175711460",
     "Type": "Event",
-    "GUID": "{A1F154B2-61E0-4AB8-95DA-BEB3A474C07E}",
+    "GUID": "{B9359494-47E0-4E87-A3CC-2DDBBC8F9690}",
     "Language": "SFX",
-    "Hash": "{F359A101-7DFB-FD54-8A60-0C7A2F8BCFD5}",
-    "ObjectPath": "TestEvent",
-    "ShortName": "TestEvent",
-    "Path": "Event/TestEvent.bnk",
+    "Hash": "{D20B9BE1-5572-69B9-49E9-F90A9335213E}",
+    "ObjectPath": "Play_Player_Dash",
+    "ShortName": "Play_Player_Dash",
+    "Path": "Event/Play_Player_Dash.bnk",
     "Media": [
      {
       "Id": "384914275",
@@ -27,10 +27,10 @@
     ],
     "Events": [
      {
-      "Id": "1097980931",
-      "Name": "TestEvent",
-      "ObjectPath": "\\Events\\MikoEvents\\TestEvent",
-      "GUID": "{A1F154B2-61E0-4AB8-95DA-BEB3A474C07E}",
+      "Id": "2175711460",
+      "Name": "Play_Player_Dash",
+      "ObjectPath": "\\Events\\MikoEvents\\Play_Player_Dash",
+      "GUID": "{B9359494-47E0-4E87-A3CC-2DDBBC8F9690}",
       "DurationType": "OneShot",
       "DurationMin": "0.94149595",
       "DurationMax": "0.94149595",
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{3C2C4557-73B2-431F-EB67-4094107BBD8D}"
+  "FileHash": "{8B06A689-BD78-7684-DC0C-565159996894}"
  }
 }

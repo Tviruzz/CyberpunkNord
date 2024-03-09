@@ -14,6 +14,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Player_Walk" ID="{2D4A392D-B75B-44AC-B9FE-89979C7CB37F}">
+					<ChildrenList>
+						<Action Name="" ID="{2FD69310-957E-49F2-A5FE-EF6F1DCDD041}" ShortID="1060495592">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TestAudio200ms" ID="{7DE7403E-C985-4BE5-A104-1736E5838CA4}" WorkUnitID="{A7EB45C4-B939-4480-A678-788D7A20EEBC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Player_Dash" ID="{B9359494-47E0-4E87-A3CC-2DDBBC8F9690}">
+					<ChildrenList>
+						<Action Name="" ID="{2AC6CBE5-36EC-4110-A521-E6D20FBAAA86}" ShortID="317964689">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TestAudio" ID="{15BA4EBA-24A2-4E99-9421-0713D4CBF5A6}" WorkUnitID="{A7EB45C4-B939-4480-A678-788D7A20EEBC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

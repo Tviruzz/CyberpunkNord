@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{A1F154B2-61E0-4AB8-95DA-BEB3A474C07E}",
     "Language": "SFX",
-    "Hash": "{16ED291A-20D9-64BE-B0AC-5609CC359E1E}",
+    "Hash": "{F359A101-7DFB-FD54-8A60-0C7A2F8BCFD5}",
     "ObjectPath": "TestEvent",
     "ShortName": "TestEvent",
     "Path": "Event/TestEvent.bnk",
@@ -22,7 +22,7 @@
       "Location": "Loose",
       "ShortName": "MX_Gems_Stinger_01.wav",
       "Path": "Media/384914275.wem",
-      "CachePath": "SFX/MX_Gems_Stinger_01_10C4C929.wem"
+      "CachePath": "SFX/MX_Gems_Stinger_01_1A2685A5.wem"
      }
     ],
     "Events": [
@@ -32,8 +32,8 @@
       "ObjectPath": "\\Events\\MikoEvents\\TestEvent",
       "GUID": "{A1F154B2-61E0-4AB8-95DA-BEB3A474C07E}",
       "DurationType": "OneShot",
-      "DurationMin": "2.9674375",
-      "DurationMax": "2.9674375",
+      "DurationMin": "0.94149595",
+      "DurationMax": "0.94149595",
       "MediaRefs": [
        {
         "Id": "384914275"
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{E231871A-22BA-BD9F-53BB-5BEAC9881BC1}"
+  "FileHash": "{70211191-64E6-20DD-16CD-F54CB9EF80D5}"
  }
 }

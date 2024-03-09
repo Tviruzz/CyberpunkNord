@@ -18,7 +18,7 @@
     "Type": "Event",
     "GUID": "{A1F154B2-61E0-4AB8-95DA-BEB3A474C07E}",
     "Language": "SFX",
-    "Hash": "{16ED291A-20D9-64BE-B0AC-5609CC359E1E}",
+    "Hash": "{F359A101-7DFB-FD54-8A60-0C7A2F8BCFD5}",
     "ObjectPath": "TestEvent",
     "ShortName": "TestEvent",
     "Path": "Event/TestEvent.bnk",
@@ -30,7 +30,7 @@
       "Location": "Loose",
       "ShortName": "MX_Gems_Stinger_01.wav",
       "Path": "Media/384914275.wem",
-      "CachePath": "SFX/MX_Gems_Stinger_01_10C4C929.wem"
+      "CachePath": "SFX/MX_Gems_Stinger_01_1A2685A5.wem"
      }
     ],
     "Events": [
@@ -40,8 +40,8 @@
       "ObjectPath": "\\Events\\MikoEvents\\TestEvent",
       "GUID": "{A1F154B2-61E0-4AB8-95DA-BEB3A474C07E}",
       "DurationType": "OneShot",
-      "DurationMin": "2.9674375",
-      "DurationMax": "2.9674375",
+      "DurationMin": "0.94149595",
+      "DurationMax": "0.94149595",
       "MediaRefs": [
        {
         "Id": "384914275"
@@ -55,7 +55,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{986487A9-2683-E47A-8688-3D0FE6FDB954}",
+    "Hash": "{F1E15106-03FD-8588-1435-0099292C17A6}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -87,8 +87,85 @@
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
      }
     ]
+   },
+   {
+    "Id": "2175711460",
+    "Type": "Event",
+    "GUID": "{B9359494-47E0-4E87-A3CC-2DDBBC8F9690}",
+    "Language": "SFX",
+    "Hash": "{D20B9BE1-5572-69B9-49E9-F90A9335213E}",
+    "ObjectPath": "Play_Player_Dash",
+    "ShortName": "Play_Player_Dash",
+    "Path": "Event/Play_Player_Dash.bnk",
+    "Media": [
+     {
+      "Id": "384914275",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MX_Gems_Stinger_01.wav",
+      "Path": "Media/384914275.wem",
+      "CachePath": "SFX/MX_Gems_Stinger_01_1A2685A5.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2175711460",
+      "Name": "Play_Player_Dash",
+      "ObjectPath": "\\Events\\MikoEvents\\Play_Player_Dash",
+      "GUID": "{B9359494-47E0-4E87-A3CC-2DDBBC8F9690}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.94149595",
+      "DurationMax": "0.94149595",
+      "MediaRefs": [
+       {
+        "Id": "384914275"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "2825395259",
+    "Type": "Event",
+    "GUID": "{2D4A392D-B75B-44AC-B9FE-89979C7CB37F}",
+    "Language": "SFX",
+    "Hash": "{9B05769B-9CBC-C6A7-7534-3429387F9A5E}",
+    "ObjectPath": "Play_Player_Walk",
+    "ShortName": "Play_Player_Walk",
+    "Path": "Event/Play_Player_Walk.bnk",
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "959635804",
+       "Name": "Tone Generator",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\TestAudio200ms\\Tone Generator",
+       "GUID": "{3347EFA6-D0BF-4E04-8B01-31FA04A58DC2}",
+       "LibName": "Wwise Tone Generator",
+       "LibId": "6684674"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "2825395259",
+      "Name": "Play_Player_Walk",
+      "ObjectPath": "\\Events\\MikoEvents\\Play_Player_Walk",
+      "GUID": "{2D4A392D-B75B-44AC-B9FE-89979C7CB37F}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.54531664",
+      "DurationMax": "0.7851278",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "959635804"
+        }
+       ]
+      }
+     }
+    ]
    }
   ],
-  "FileHash": "{494093B8-31F1-E1EF-488C-5B3833B46EB6}"
+  "FileHash": "{071A794A-B734-DFC2-D26A-4AB2B02B6D11}"
  }
 }

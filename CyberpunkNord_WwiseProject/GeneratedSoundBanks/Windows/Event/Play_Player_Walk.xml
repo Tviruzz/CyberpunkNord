@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<SoundBanks>
+		<SoundBank Id="2825395259" Type="Event" GUID="{2D4A392D-B75B-44AC-B9FE-89979C7CB37F}" Language="SFX" Hash="{9B05769B-9CBC-C6A7-7534-3429387F9A5E}">
+			<ObjectPath>Play_Player_Walk</ObjectPath>
+			<ShortName>Play_Player_Walk</ShortName>
+			<Path>Event/Play_Player_Walk.bnk</Path>
+			<Plugins>
+				<Custom>
+					<Plugin Id="959635804" Name="Tone Generator" ObjectPath="\Actor-Mixer Hierarchy\Miko\TestAudio200ms\Tone Generator" GUID="{3347EFA6-D0BF-4E04-8B01-31FA04A58DC2}" LibName="Wwise Tone Generator" LibId="6684674"/>
+				</Custom>
+			</Plugins>
+			<Events>
+				<Event Id="2825395259" Name="Play_Player_Walk" ObjectPath="\Events\MikoEvents\Play_Player_Walk" GUID="{2D4A392D-B75B-44AC-B9FE-89979C7CB37F}" DurationType="OneShot" DurationMin="0.54531664" DurationMax="0.7851278">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="959635804"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{8EFD4C00-B6D0-FAC8-4C3A-4839E6773655}</FileHash>
+</SoundBanksInfo>
