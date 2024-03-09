@@ -9,7 +9,7 @@
 				<File Id="384914275" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>MX_Gems_Stinger_01.wav</ShortName>
 					<Path>Media/384914275.wem</Path>
-					<CachePath>SFX/MX_Gems_Stinger_01_1A2685A5.wem</CachePath>
+					<CachePath>SFX/MX_Gems_Stinger_01_FC6846D4.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -21,5 +21,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{1481FDC3-A6B2-D77A-9A1D-6D75F1406D20}</FileHash>
+	<FileHash>{091B74B6-0740-9686-D40A-2ACD4BA14F29}</FileHash>
 </SoundBanksInfo>

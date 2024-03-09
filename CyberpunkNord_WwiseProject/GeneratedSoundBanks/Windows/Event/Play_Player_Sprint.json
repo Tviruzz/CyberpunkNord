@@ -1,0 +1,51 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "1122778924",
+    "Type": "Event",
+    "GUID": "{FCAC40F7-76BD-46AB-87FF-ED7062E763C3}",
+    "Language": "SFX",
+    "Hash": "{B96F48F4-9F6C-593B-82DE-85E1EAA089AC}",
+    "ObjectPath": "Play_Player_Sprint",
+    "ShortName": "Play_Player_Sprint",
+    "Path": "Event/Play_Player_Sprint.bnk",
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "959635804",
+       "Name": "Tone Generator",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\TestAudio200ms\\Tone Generator",
+       "GUID": "{3347EFA6-D0BF-4E04-8B01-31FA04A58DC2}",
+       "LibName": "Wwise Tone Generator",
+       "LibId": "6684674"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "1122778924",
+      "Name": "Play_Player_Sprint",
+      "ObjectPath": "\\Events\\MikoEvents\\Play_Player_Sprint",
+      "GUID": "{FCAC40F7-76BD-46AB-87FF-ED7062E763C3}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.54531664",
+      "DurationMax": "0.7851278",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "959635804"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{5B5EE0E7-E8E0-1931-FBE4-38DFB0157901}"
+ }
+}

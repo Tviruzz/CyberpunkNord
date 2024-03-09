@@ -9,6 +9,25 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
+		<SoundBank Id="674615794" Type="Event" GUID="{1859CFF1-9FB0-479D-AF24-4512EB2D1B56}" Language="SFX" Hash="{3D16821E-62B5-6E80-7295-F2CF1CC18FF3}">
+			<ObjectPath>Play_Player_Crouch</ObjectPath>
+			<ShortName>Play_Player_Crouch</ShortName>
+			<Path>Event/Play_Player_Crouch.bnk</Path>
+			<Plugins>
+				<Custom>
+					<Plugin Id="959635804" Name="Tone Generator" ObjectPath="\Actor-Mixer Hierarchy\Miko\TestAudio200ms\Tone Generator" GUID="{3347EFA6-D0BF-4E04-8B01-31FA04A58DC2}" LibName="Wwise Tone Generator" LibId="6684674"/>
+				</Custom>
+			</Plugins>
+			<Events>
+				<Event Id="674615794" Name="Play_Player_Crouch" ObjectPath="\Events\MikoEvents\Play_Player_Crouch" GUID="{1859CFF1-9FB0-479D-AF24-4512EB2D1B56}" DurationType="OneShot" DurationMin="0.54531664" DurationMax="0.7851278">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="959635804"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+			</Events>
+		</SoundBank>
 		<SoundBank Id="1097980931" Type="Event" GUID="{A1F154B2-61E0-4AB8-95DA-BEB3A474C07E}" Language="SFX" Hash="{F359A101-7DFB-FD54-8A60-0C7A2F8BCFD5}">
 			<ObjectPath>TestEvent</ObjectPath>
 			<ShortName>TestEvent</ShortName>
@@ -17,7 +36,7 @@
 				<File Id="384914275" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>MX_Gems_Stinger_01.wav</ShortName>
 					<Path>Media/384914275.wem</Path>
-					<CachePath>SFX/MX_Gems_Stinger_01_1A2685A5.wem</CachePath>
+					<CachePath>SFX/MX_Gems_Stinger_01_FC6846D4.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -25,6 +44,25 @@
 					<MediaRefs>
 						<MediaRef Id="384914275"/>
 					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1122778924" Type="Event" GUID="{FCAC40F7-76BD-46AB-87FF-ED7062E763C3}" Language="SFX" Hash="{B96F48F4-9F6C-593B-82DE-85E1EAA089AC}">
+			<ObjectPath>Play_Player_Sprint</ObjectPath>
+			<ShortName>Play_Player_Sprint</ShortName>
+			<Path>Event/Play_Player_Sprint.bnk</Path>
+			<Plugins>
+				<Custom>
+					<Plugin Id="959635804" Name="Tone Generator" ObjectPath="\Actor-Mixer Hierarchy\Miko\TestAudio200ms\Tone Generator" GUID="{3347EFA6-D0BF-4E04-8B01-31FA04A58DC2}" LibName="Wwise Tone Generator" LibId="6684674"/>
+				</Custom>
+			</Plugins>
+			<Events>
+				<Event Id="1122778924" Name="Play_Player_Sprint" ObjectPath="\Events\MikoEvents\Play_Player_Sprint" GUID="{FCAC40F7-76BD-46AB-87FF-ED7062E763C3}" DurationType="OneShot" DurationMin="0.54531664" DurationMax="0.7851278">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="959635804"/>
+						</Custom>
+					</PluginRefs>
 				</Event>
 			</Events>
 		</SoundBank>
@@ -50,7 +88,7 @@
 				<File Id="384914275" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>MX_Gems_Stinger_01.wav</ShortName>
 					<Path>Media/384914275.wem</Path>
-					<CachePath>SFX/MX_Gems_Stinger_01_1A2685A5.wem</CachePath>
+					<CachePath>SFX/MX_Gems_Stinger_01_FC6846D4.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -81,5 +119,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{091155F3-79D2-061B-4786-92A6DBF1F2D8}</FileHash>
+	<FileHash>{46768DA7-1CB2-2667-7460-85D4D50C030B}</FileHash>
 </SoundBanksInfo>

@@ -32,7 +32,7 @@
 						<ActiveSource Name="MX_Gems_Stinger_01" ID="{2E55B6D4-6656-4281-B655-419FF2A05263}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="TestAudio200ms" ID="{7DE7403E-C985-4BE5-A104-1736E5838CA4}" ShortID="855477911">
+				<Sound Name="TestAudio200ms_2D" ID="{7DE7403E-C985-4BE5-A104-1736E5838CA4}" ShortID="855477911">
 					<PropertyList>
 						<Property Name="Highpass" Type="int16">
 							<ValueList>

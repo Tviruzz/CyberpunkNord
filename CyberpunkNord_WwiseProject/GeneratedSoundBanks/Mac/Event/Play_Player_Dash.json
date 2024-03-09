@@ -22,7 +22,7 @@
       "Location": "Loose",
       "ShortName": "MX_Gems_Stinger_01.wav",
       "Path": "Media/384914275.wem",
-      "CachePath": "SFX/MX_Gems_Stinger_01_1A2685A5.wem"
+      "CachePath": "SFX/MX_Gems_Stinger_01_FC6846D4.wem"
      }
     ],
     "Events": [
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{203C892F-C5F9-45DE-4750-FD52F7C5C2A0}"
+  "FileHash": "{59BC6868-F2E2-D070-6006-441C5EB2B6FC}"
  }
 }

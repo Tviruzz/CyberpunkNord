@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	674615794	Play_Player_Crouch			\MikoEvents\Play_Player_Crouch	
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	959635804	Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Miko\TestAudio200ms\Tone Generator	
+

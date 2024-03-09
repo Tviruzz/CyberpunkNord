@@ -15,22 +15,60 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_Player_Walk" ID="{2D4A392D-B75B-44AC-B9FE-89979C7CB37F}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="21"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{2FD69310-957E-49F2-A5FE-EF6F1DCDD041}" ShortID="1060495592">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="TestAudio200ms" ID="{7DE7403E-C985-4BE5-A104-1736E5838CA4}" WorkUnitID="{A7EB45C4-B939-4480-A678-788D7A20EEBC}"/>
+									<ObjectRef Name="TestAudio200ms_2D" ID="{7DE7403E-C985-4BE5-A104-1736E5838CA4}" WorkUnitID="{A7EB45C4-B939-4480-A678-788D7A20EEBC}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_Player_Dash" ID="{B9359494-47E0-4E87-A3CC-2DDBBC8F9690}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="21"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{2AC6CBE5-36EC-4110-A521-E6D20FBAAA86}" ShortID="317964689">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="TestAudio" ID="{15BA4EBA-24A2-4E99-9421-0713D4CBF5A6}" WorkUnitID="{A7EB45C4-B939-4480-A678-788D7A20EEBC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Player_Sprint" ID="{FCAC40F7-76BD-46AB-87FF-ED7062E763C3}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="21"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{A6130D12-47B4-44E3-B2EC-0E26013AF551}" ShortID="129669404">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TestAudio200ms_2D" ID="{7DE7403E-C985-4BE5-A104-1736E5838CA4}" WorkUnitID="{A7EB45C4-B939-4480-A678-788D7A20EEBC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Player_Crouch" ID="{1859CFF1-9FB0-479D-AF24-4512EB2D1B56}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="21"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{BE448FD7-4C3B-485F-AE10-41D29BFB9740}" ShortID="921883912">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TestAudio200ms_2D" ID="{7DE7403E-C985-4BE5-A104-1736E5838CA4}" WorkUnitID="{A7EB45C4-B939-4480-A678-788D7A20EEBC}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
