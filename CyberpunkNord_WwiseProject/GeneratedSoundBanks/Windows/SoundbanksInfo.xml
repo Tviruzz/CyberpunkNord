@@ -9,7 +9,45 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1097980931" Type="Event" GUID="{A1F154B2-61E0-4AB8-95DA-BEB3A474C07E}" Language="SFX" Hash="{16ED291A-20D9-64BE-B0AC-5609CC359E1E}">
+		<SoundBank Id="563777050" Type="Event" GUID="{AAF57E4B-7885-4800-A51A-BAF51823C999}" Language="SFX" Hash="{39E0E004-23AA-5897-0F2A-615E46F1A191}">
+			<ObjectPath>Play_Test_Emmiter</ObjectPath>
+			<ShortName>Play_Test_Emmiter</ShortName>
+			<Path>Event/Play_Test_Emmiter.bnk</Path>
+			<Plugins>
+				<Custom>
+					<Plugin Id="1068762654" Name="Synth One" ObjectPath="\Actor-Mixer Hierarchy\Miko\TestAudio_Emmiter_3D\Synth One" GUID="{7502B11E-1B31-4AA2-9D96-08B06C9B9B1D}" LibName="Wwise Synth One" LibId="9699330"/>
+				</Custom>
+			</Plugins>
+			<Events>
+				<Event Id="563777050" Name="Play_Test_Emmiter" ObjectPath="\Events\MikoEvents\Play_Test_Emmiter" GUID="{AAF57E4B-7885-4800-A51A-BAF51823C999}" MaxAttenuation="200" DurationType="Unknown">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="1068762654"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="674615794" Type="Event" GUID="{1859CFF1-9FB0-479D-AF24-4512EB2D1B56}" Language="SFX" Hash="{3D16821E-62B5-6E80-7295-F2CF1CC18FF3}">
+			<ObjectPath>Play_Player_Crouch</ObjectPath>
+			<ShortName>Play_Player_Crouch</ShortName>
+			<Path>Event/Play_Player_Crouch.bnk</Path>
+			<Plugins>
+				<Custom>
+					<Plugin Id="959635804" Name="Tone Generator" ObjectPath="\Actor-Mixer Hierarchy\Miko\TestAudio200ms_2D\Tone Generator" GUID="{3347EFA6-D0BF-4E04-8B01-31FA04A58DC2}" LibName="Wwise Tone Generator" LibId="6684674"/>
+				</Custom>
+			</Plugins>
+			<Events>
+				<Event Id="674615794" Name="Play_Player_Crouch" ObjectPath="\Events\MikoEvents\Play_Player_Crouch" GUID="{1859CFF1-9FB0-479D-AF24-4512EB2D1B56}" DurationType="OneShot" DurationMin="0.54531664" DurationMax="0.7851278">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="959635804"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1097980931" Type="Event" GUID="{A1F154B2-61E0-4AB8-95DA-BEB3A474C07E}" Language="SFX" Hash="{F359A101-7DFB-FD54-8A60-0C7A2F8BCFD5}">
 			<ObjectPath>TestEvent</ObjectPath>
 			<ShortName>TestEvent</ShortName>
 			<Path>Event/TestEvent.bnk</Path>
@@ -17,18 +55,37 @@
 				<File Id="384914275" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>MX_Gems_Stinger_01.wav</ShortName>
 					<Path>Media/384914275.wem</Path>
-					<CachePath>SFX/MX_Gems_Stinger_01_10C4C929.wem</CachePath>
+					<CachePath>SFX/MX_Gems_Stinger_01_FC6846D4.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1097980931" Name="TestEvent" ObjectPath="\Events\MikoEvents\TestEvent" GUID="{A1F154B2-61E0-4AB8-95DA-BEB3A474C07E}" DurationType="OneShot" DurationMin="2.9674375" DurationMax="2.9674375">
+				<Event Id="1097980931" Name="TestEvent" ObjectPath="\Events\MikoEvents\TestEvent" GUID="{A1F154B2-61E0-4AB8-95DA-BEB3A474C07E}" DurationType="OneShot" DurationMin="0.94149595" DurationMax="0.94149595">
 					<MediaRefs>
 						<MediaRef Id="384914275"/>
 					</MediaRefs>
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{986487A9-2683-E47A-8688-3D0FE6FDB954}">
+		<SoundBank Id="1122778924" Type="Event" GUID="{FCAC40F7-76BD-46AB-87FF-ED7062E763C3}" Language="SFX" Hash="{B96F48F4-9F6C-593B-82DE-85E1EAA089AC}">
+			<ObjectPath>Play_Player_Sprint</ObjectPath>
+			<ShortName>Play_Player_Sprint</ShortName>
+			<Path>Event/Play_Player_Sprint.bnk</Path>
+			<Plugins>
+				<Custom>
+					<Plugin Id="959635804" Name="Tone Generator" ObjectPath="\Actor-Mixer Hierarchy\Miko\TestAudio200ms_2D\Tone Generator" GUID="{3347EFA6-D0BF-4E04-8B01-31FA04A58DC2}" LibName="Wwise Tone Generator" LibId="6684674"/>
+				</Custom>
+			</Plugins>
+			<Events>
+				<Event Id="1122778924" Name="Play_Player_Sprint" ObjectPath="\Events\MikoEvents\Play_Player_Sprint" GUID="{FCAC40F7-76BD-46AB-87FF-ED7062E763C3}" DurationType="OneShot" DurationMin="0.54531664" DurationMax="0.7851278">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="959635804"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{BD8BCF6F-FC86-1E05-6EA8-C9BB5D96727F}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -42,6 +99,44 @@
 				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 			</Busses>
 		</SoundBank>
+		<SoundBank Id="2175711460" Type="Event" GUID="{B9359494-47E0-4E87-A3CC-2DDBBC8F9690}" Language="SFX" Hash="{D20B9BE1-5572-69B9-49E9-F90A9335213E}">
+			<ObjectPath>Play_Player_Dash</ObjectPath>
+			<ShortName>Play_Player_Dash</ShortName>
+			<Path>Event/Play_Player_Dash.bnk</Path>
+			<Media>
+				<File Id="384914275" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MX_Gems_Stinger_01.wav</ShortName>
+					<Path>Media/384914275.wem</Path>
+					<CachePath>SFX/MX_Gems_Stinger_01_FC6846D4.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2175711460" Name="Play_Player_Dash" ObjectPath="\Events\MikoEvents\Play_Player_Dash" GUID="{B9359494-47E0-4E87-A3CC-2DDBBC8F9690}" DurationType="OneShot" DurationMin="0.94149595" DurationMax="0.94149595">
+					<MediaRefs>
+						<MediaRef Id="384914275"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="2825395259" Type="Event" GUID="{2D4A392D-B75B-44AC-B9FE-89979C7CB37F}" Language="SFX" Hash="{9B05769B-9CBC-C6A7-7534-3429387F9A5E}">
+			<ObjectPath>Play_Player_Walk</ObjectPath>
+			<ShortName>Play_Player_Walk</ShortName>
+			<Path>Event/Play_Player_Walk.bnk</Path>
+			<Plugins>
+				<Custom>
+					<Plugin Id="959635804" Name="Tone Generator" ObjectPath="\Actor-Mixer Hierarchy\Miko\TestAudio200ms_2D\Tone Generator" GUID="{3347EFA6-D0BF-4E04-8B01-31FA04A58DC2}" LibName="Wwise Tone Generator" LibId="6684674"/>
+				</Custom>
+			</Plugins>
+			<Events>
+				<Event Id="2825395259" Name="Play_Player_Walk" ObjectPath="\Events\MikoEvents\Play_Player_Walk" GUID="{2D4A392D-B75B-44AC-B9FE-89979C7CB37F}" DurationType="OneShot" DurationMin="0.54531664" DurationMax="0.7851278">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="959635804"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+			</Events>
+		</SoundBank>
 	</SoundBanks>
-	<FileHash>{BD3F9D31-EEBF-8995-F225-EFEBF8102A21}</FileHash>
+	<FileHash>{979B8E90-A33C-DCC1-9397-394330E1842F}</FileHash>
 </SoundBanksInfo>

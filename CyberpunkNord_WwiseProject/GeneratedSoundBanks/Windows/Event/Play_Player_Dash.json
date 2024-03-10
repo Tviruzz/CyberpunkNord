@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "2175711460",
+    "Type": "Event",
+    "GUID": "{B9359494-47E0-4E87-A3CC-2DDBBC8F9690}",
+    "Language": "SFX",
+    "Hash": "{D20B9BE1-5572-69B9-49E9-F90A9335213E}",
+    "ObjectPath": "Play_Player_Dash",
+    "ShortName": "Play_Player_Dash",
+    "Path": "Event/Play_Player_Dash.bnk",
+    "Media": [
+     {
+      "Id": "384914275",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MX_Gems_Stinger_01.wav",
+      "Path": "Media/384914275.wem",
+      "CachePath": "SFX/MX_Gems_Stinger_01_FC6846D4.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2175711460",
+      "Name": "Play_Player_Dash",
+      "ObjectPath": "\\Events\\MikoEvents\\Play_Player_Dash",
+      "GUID": "{B9359494-47E0-4E87-A3CC-2DDBBC8F9690}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.94149595",
+      "DurationMax": "0.94149595",
+      "MediaRefs": [
+       {
+        "Id": "384914275"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{9B1CF8CE-6AEC-7702-D219-B6B2B40CC333}"
+ }
+}

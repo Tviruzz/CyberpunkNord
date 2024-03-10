@@ -4,6 +4,20 @@
   "BasePlatform": "Mac",
   "PluginLibs": [
    {
+    "LibName": "Wwise Tone Generator",
+    "LibId": "6684674",
+    "Type": "Source",
+    "DLL": "AkToneGen",
+    "StaticLib": "AkToneSource"
+   },
+   {
+    "LibName": "Wwise Synth One",
+    "LibId": "9699330",
+    "Type": "Source",
+    "DLL": "AkSynthOne",
+    "StaticLib": "AkSynthOneSource"
+   },
+   {
     "LibName": "System",
     "LibId": "11403271",
     "Type": "AudioDevice"
@@ -14,6 +28,6 @@
     "Type": "AudioDevice"
    }
   ],
-  "FileHash": "{FBB1DD20-2267-5DFC-9D4C-1103B4D6B869}"
+  "FileHash": "{BFACC6B7-16AE-C82F-BEFA-701A0C937770}"
  }
 }

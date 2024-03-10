@@ -16,5 +16,6 @@ Copyright (c) 2024 Audiokinetic Inc.
 *******************************************************************************/
 
 #if PLATFORM_TVOS
-
+#include <AK/Plugin/AkToneSourceFactory.h>
+#include <AK/Plugin/AkSynthOneSourceFactory.h>
 #endif

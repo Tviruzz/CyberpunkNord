@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<SoundBanks>
+		<SoundBank Id="674615794" Type="Event" GUID="{1859CFF1-9FB0-479D-AF24-4512EB2D1B56}" Language="SFX" Hash="{3D16821E-62B5-6E80-7295-F2CF1CC18FF3}">
+			<ObjectPath>Play_Player_Crouch</ObjectPath>
+			<ShortName>Play_Player_Crouch</ShortName>
+			<Path>Event/Play_Player_Crouch.bnk</Path>
+			<Plugins>
+				<Custom>
+					<Plugin Id="959635804" Name="Tone Generator" ObjectPath="\Actor-Mixer Hierarchy\Miko\TestAudio200ms_2D\Tone Generator" GUID="{3347EFA6-D0BF-4E04-8B01-31FA04A58DC2}" LibName="Wwise Tone Generator" LibId="6684674"/>
+				</Custom>
+			</Plugins>
+			<Events>
+				<Event Id="674615794" Name="Play_Player_Crouch" ObjectPath="\Events\MikoEvents\Play_Player_Crouch" GUID="{1859CFF1-9FB0-479D-AF24-4512EB2D1B56}" DurationType="OneShot" DurationMin="0.54531664" DurationMax="0.7851278">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="959635804"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{6D3F9535-539B-8EFF-F9AD-58DD6F799048}</FileHash>
+</SoundBanksInfo>
