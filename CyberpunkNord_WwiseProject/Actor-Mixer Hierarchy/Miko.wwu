@@ -82,6 +82,9 @@
 						</Property>
 					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Att_Test_Emmiter" ID="{6CB5FA59-8459-47F3-AD72-0EE58920D174}" WorkUnitID="{209CE162-1530-472A-88BF-84988A550C44}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{932E0AC6-AE92-4FF8-946B-9BB811A26F11}"/>
 						</Reference>

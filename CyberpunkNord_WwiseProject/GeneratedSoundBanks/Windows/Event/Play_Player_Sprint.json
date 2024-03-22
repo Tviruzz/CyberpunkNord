@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{FCAC40F7-76BD-46AB-87FF-ED7062E763C3}",
     "Language": "SFX",
-    "Hash": "{B96F48F4-9F6C-593B-82DE-85E1EAA089AC}",
+    "Hash": "{E980BBCC-0558-B70A-0663-692A42D1A932}",
     "ObjectPath": "Play_Player_Sprint",
     "ShortName": "Play_Player_Sprint",
     "Path": "Event/Play_Player_Sprint.bnk",
@@ -32,6 +32,7 @@
       "Name": "Play_Player_Sprint",
       "ObjectPath": "\\Events\\MikoEvents\\Play_Player_Sprint",
       "GUID": "{FCAC40F7-76BD-46AB-87FF-ED7062E763C3}",
+      "MaxAttenuation": "200",
       "DurationType": "OneShot",
       "DurationMin": "0.54531664",
       "DurationMax": "0.7851278",
@@ -46,6 +47,6 @@
     ]
    }
   ],
-  "FileHash": "{57B939B5-C2BF-D746-5D4D-D3CA64BB3771}"
+  "FileHash": "{3A014AB9-2B9F-BA36-810E-064197FF418C}"
  }
 }

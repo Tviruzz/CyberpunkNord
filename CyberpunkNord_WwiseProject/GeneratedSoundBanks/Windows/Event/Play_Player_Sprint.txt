@@ -2,5 +2,5 @@ Event	ID	Name			Wwise Object Path	Notes
 	1122778924	Play_Player_Sprint			\MikoEvents\Play_Player_Sprint	
 
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
-	959635804	Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Miko\TestAudio200ms\Tone Generator	
+	959635804	Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Miko\TestAudio200ms_2D\Tone Generator	
 

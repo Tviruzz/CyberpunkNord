@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{1859CFF1-9FB0-479D-AF24-4512EB2D1B56}",
     "Language": "SFX",
-    "Hash": "{3D16821E-62B5-6E80-7295-F2CF1CC18FF3}",
+    "Hash": "{AE13AC1E-476E-7D63-279C-C81BECDCA29E}",
     "ObjectPath": "Play_Player_Crouch",
     "ShortName": "Play_Player_Crouch",
     "Path": "Event/Play_Player_Crouch.bnk",
@@ -32,6 +32,7 @@
       "Name": "Play_Player_Crouch",
       "ObjectPath": "\\Events\\MikoEvents\\Play_Player_Crouch",
       "GUID": "{1859CFF1-9FB0-479D-AF24-4512EB2D1B56}",
+      "MaxAttenuation": "200",
       "DurationType": "OneShot",
       "DurationMin": "0.54531664",
       "DurationMax": "0.7851278",
@@ -46,6 +47,6 @@
     ]
    }
   ],
-  "FileHash": "{4D61170E-5086-76A4-A446-41D57A305900}"
+  "FileHash": "{C718C191-97A3-8938-FA76-0AD88ACD97E2}"
  }
 }
