@@ -1,25 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="2825395259" Type="Event" GUID="{2D4A392D-B75B-44AC-B9FE-89979C7CB37F}" Language="SFX" Hash="{EA079ED0-A016-CF50-8CCC-34E5E61EB6CE}">
+		<SoundBank Id="2825395259" Type="Event" GUID="{2D4A392D-B75B-44AC-B9FE-89979C7CB37F}" Language="SFX" Hash="{20BCD85C-3894-755F-1795-903D372B33A3}">
 			<ObjectPath>Play_Player_Walk</ObjectPath>
 			<ShortName>Play_Player_Walk</ShortName>
 			<Path>Event/Play_Player_Walk.bnk</Path>
-			<Plugins>
-				<Custom>
-					<Plugin Id="959635804" Name="Tone Generator" ObjectPath="\Actor-Mixer Hierarchy\Miko\TestAudio200ms_2D\Tone Generator" GUID="{3347EFA6-D0BF-4E04-8B01-31FA04A58DC2}" LibName="Wwise Tone Generator" LibId="6684674"/>
-				</Custom>
-			</Plugins>
+			<Media>
+				<File Id="419108382" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>FOOTSTEP - Metal Board Walk Barefoot Male - 2.wav</ShortName>
+					<Path>Media/419108382.wem</Path>
+					<CachePath>SFX/FOOTSTEP - Metal Board Walk Barefoot Male - 2_10C4C929.wem</CachePath>
+				</File>
+				<File Id="544166167" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>FOOTSTEP - Metal Board Walk Barefoot Male - 25.wav</ShortName>
+					<Path>Media/544166167.wem</Path>
+					<CachePath>SFX/FOOTSTEP - Metal Board Walk Barefoot Male - 25_10C4C929.wem</CachePath>
+				</File>
+				<File Id="914767242" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>FOOTSTEP - Metal Board Walk Barefoot Male - 18.wav</ShortName>
+					<Path>Media/914767242.wem</Path>
+					<CachePath>SFX/FOOTSTEP - Metal Board Walk Barefoot Male - 18_10C4C929.wem</CachePath>
+				</File>
+				<File Id="972862536" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>FOOTSTEP - Metal Board Walk Barefoot Male - 21.wav</ShortName>
+					<Path>Media/972862536.wem</Path>
+					<CachePath>SFX/FOOTSTEP - Metal Board Walk Barefoot Male - 21_10C4C929.wem</CachePath>
+				</File>
+				<File Id="987664844" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>FOOTSTEP - Metal Board Walk Barefoot Male - 12.wav</ShortName>
+					<Path>Media/987664844.wem</Path>
+					<CachePath>SFX/FOOTSTEP - Metal Board Walk Barefoot Male - 12_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1033842121" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>FOOTSTEP - Metal Board Walk Barefoot Male - 13.wav</ShortName>
+					<Path>Media/1033842121.wem</Path>
+					<CachePath>SFX/FOOTSTEP - Metal Board Walk Barefoot Male - 13_10C4C929.wem</CachePath>
+				</File>
+			</Media>
 			<Events>
-				<Event Id="2825395259" Name="Play_Player_Walk" ObjectPath="\Events\MikoEvents\Play_Player_Walk" GUID="{2D4A392D-B75B-44AC-B9FE-89979C7CB37F}" MaxAttenuation="200" DurationType="OneShot" DurationMin="0.54531664" DurationMax="0.7851278">
-					<PluginRefs>
-						<Custom>
-							<PluginRef Id="959635804"/>
-						</Custom>
-					</PluginRefs>
+				<Event Id="2825395259" Name="Play_Player_Walk" ObjectPath="\Events\AndresEvents\MainCharacter\Play_Player_Walk" GUID="{2D4A392D-B75B-44AC-B9FE-89979C7CB37F}" DurationType="OneShot" DurationMin="0.25238803" DurationMax="0.49889678">
+					<MediaRefs>
+						<MediaRef Id="419108382"/>
+						<MediaRef Id="544166167"/>
+						<MediaRef Id="914767242"/>
+						<MediaRef Id="972862536"/>
+						<MediaRef Id="987664844"/>
+						<MediaRef Id="1033842121"/>
+					</MediaRefs>
 				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B093270B-E86C-235D-07B9-C245E1DB1634}</FileHash>
+	<FileHash>{AF126BA3-E00E-7C0B-C78A-95C277D42F56}</FileHash>
 </SoundBanksInfo>
