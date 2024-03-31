@@ -4,13 +4,6 @@
   "BasePlatform": "Windows",
   "PluginLibs": [
    {
-    "LibName": "Wwise Tone Generator",
-    "LibId": "6684674",
-    "Type": "Source",
-    "DLL": "AkToneGen",
-    "StaticLib": "AkToneSource"
-   },
-   {
     "LibName": "Wwise Synth One",
     "LibId": "9699330",
     "Type": "Source",
@@ -28,6 +21,6 @@
     "Type": "AudioDevice"
    }
   ],
-  "FileHash": "{D485B0BA-12FA-12B7-EDEE-A1B1A06FB1F2}"
+  "FileHash": "{E2467BCD-FD66-8921-B109-95E8A86729CA}"
  }
 }

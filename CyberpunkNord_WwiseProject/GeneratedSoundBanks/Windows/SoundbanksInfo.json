@@ -57,39 +57,95 @@
     "Type": "Event",
     "GUID": "{1859CFF1-9FB0-479D-AF24-4512EB2D1B56}",
     "Language": "SFX",
-    "Hash": "{AE13AC1E-476E-7D63-279C-C81BECDCA29E}",
+    "Hash": "{ED4254B5-A9FC-9A7B-ECE0-4F2B8A2FA370}",
     "ObjectPath": "Play_Player_Crouch",
     "ShortName": "Play_Player_Crouch",
     "Path": "Event/Play_Player_Crouch.bnk",
-    "Plugins": {
-     "Custom": [
-      {
-       "Id": "959635804",
-       "Name": "Tone Generator",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\TestAudio200ms_2D\\Tone Generator",
-       "GUID": "{3347EFA6-D0BF-4E04-8B01-31FA04A58DC2}",
-       "LibName": "Wwise Tone Generator",
-       "LibId": "6684674"
-      }
-     ]
-    },
+    "Media": [
+     {
+      "Id": "177420167",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FOOTSTEP - Metal Board Jump Barefoot Male - 7.wav",
+      "Path": "Media/177420167.wem",
+      "CachePath": "SFX/FOOTSTEP - Metal Board Jump Barefoot Male - 7_10C4C929.wem"
+     },
+     {
+      "Id": "212353768",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FOOTSTEP - Metal Board Jump Barefoot Male - 6.wav",
+      "Path": "Media/212353768.wem",
+      "CachePath": "SFX/FOOTSTEP - Metal Board Jump Barefoot Male - 6_10C4C929.wem"
+     },
+     {
+      "Id": "257864722",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FOOTSTEP - Metal Board Jump Barefoot Male - 5.wav",
+      "Path": "Media/257864722.wem",
+      "CachePath": "SFX/FOOTSTEP - Metal Board Jump Barefoot Male - 5_10C4C929.wem"
+     },
+     {
+      "Id": "364733943",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FOOTSTEP - Metal Board Jump Barefoot Male - 4.wav",
+      "Path": "Media/364733943.wem",
+      "CachePath": "SFX/FOOTSTEP - Metal Board Jump Barefoot Male - 4_10C4C929.wem"
+     },
+     {
+      "Id": "403840310",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FOOTSTEP - Metal Board Jump Barefoot Male - 9.wav",
+      "Path": "Media/403840310.wem",
+      "CachePath": "SFX/FOOTSTEP - Metal Board Jump Barefoot Male - 9_10C4C929.wem"
+     },
+     {
+      "Id": "878877450",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FOOTSTEP - Metal Board Jump Barefoot Male - 8.wav",
+      "Path": "Media/878877450.wem",
+      "CachePath": "SFX/FOOTSTEP - Metal Board Jump Barefoot Male - 8_10C4C929.wem"
+     }
+    ],
     "Events": [
      {
       "Id": "674615794",
       "Name": "Play_Player_Crouch",
-      "ObjectPath": "\\Events\\MikoEvents\\Play_Player_Crouch",
+      "ObjectPath": "\\Events\\AndresEvents\\MainCharacter\\Play_Player_Crouch",
       "GUID": "{1859CFF1-9FB0-479D-AF24-4512EB2D1B56}",
-      "MaxAttenuation": "200",
       "DurationType": "OneShot",
-      "DurationMin": "0.54531664",
-      "DurationMax": "0.7851278",
-      "PluginRefs": {
-       "Custom": [
-        {
-         "Id": "959635804"
-        }
-       ]
-      }
+      "DurationMin": "0.42788967",
+      "DurationMax": "0.5932994",
+      "MediaRefs": [
+       {
+        "Id": "177420167"
+       },
+       {
+        "Id": "212353768"
+       },
+       {
+        "Id": "257864722"
+       },
+       {
+        "Id": "364733943"
+       },
+       {
+        "Id": "403840310"
+       },
+       {
+        "Id": "878877450"
+       }
+      ]
      }
     ]
    },
@@ -135,39 +191,95 @@
     "Type": "Event",
     "GUID": "{FCAC40F7-76BD-46AB-87FF-ED7062E763C3}",
     "Language": "SFX",
-    "Hash": "{E980BBCC-0558-B70A-0663-692A42D1A932}",
+    "Hash": "{DA95FB79-60DD-FFCC-6157-F8C0C4B2EFBC}",
     "ObjectPath": "Play_Player_Sprint",
     "ShortName": "Play_Player_Sprint",
     "Path": "Event/Play_Player_Sprint.bnk",
-    "Plugins": {
-     "Custom": [
-      {
-       "Id": "959635804",
-       "Name": "Tone Generator",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\TestAudio200ms_2D\\Tone Generator",
-       "GUID": "{3347EFA6-D0BF-4E04-8B01-31FA04A58DC2}",
-       "LibName": "Wwise Tone Generator",
-       "LibId": "6684674"
-      }
-     ]
-    },
+    "Media": [
+     {
+      "Id": "129869701",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FOOTSTEP - Metal Board Run Barefoot Male - 18.wav",
+      "Path": "Media/129869701.wem",
+      "CachePath": "SFX/FOOTSTEP - Metal Board Run Barefoot Male - 18_10C4C929.wem"
+     },
+     {
+      "Id": "149879831",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FOOTSTEP - Metal Board Run Barefoot Male - 20.wav",
+      "Path": "Media/149879831.wem",
+      "CachePath": "SFX/FOOTSTEP - Metal Board Run Barefoot Male - 20_10C4C929.wem"
+     },
+     {
+      "Id": "214167902",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FOOTSTEP - Metal Board Run Barefoot Male - 24.wav",
+      "Path": "Media/214167902.wem",
+      "CachePath": "SFX/FOOTSTEP - Metal Board Run Barefoot Male - 24_10C4C929.wem"
+     },
+     {
+      "Id": "536041142",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FOOTSTEP - Metal Board Run Barefoot Male - 23.wav",
+      "Path": "Media/536041142.wem",
+      "CachePath": "SFX/FOOTSTEP - Metal Board Run Barefoot Male - 23_10C4C929.wem"
+     },
+     {
+      "Id": "950110410",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FOOTSTEP - Metal Board Run Barefoot Male - 22.wav",
+      "Path": "Media/950110410.wem",
+      "CachePath": "SFX/FOOTSTEP - Metal Board Run Barefoot Male - 22_10C4C929.wem"
+     },
+     {
+      "Id": "1006970097",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FOOTSTEP - Metal Board Run Barefoot Male - 21.wav",
+      "Path": "Media/1006970097.wem",
+      "CachePath": "SFX/FOOTSTEP - Metal Board Run Barefoot Male - 21_10C4C929.wem"
+     }
+    ],
     "Events": [
      {
       "Id": "1122778924",
       "Name": "Play_Player_Sprint",
-      "ObjectPath": "\\Events\\MikoEvents\\Play_Player_Sprint",
+      "ObjectPath": "\\Events\\AndresEvents\\MainCharacter\\Play_Player_Sprint",
       "GUID": "{FCAC40F7-76BD-46AB-87FF-ED7062E763C3}",
-      "MaxAttenuation": "200",
       "DurationType": "OneShot",
-      "DurationMin": "0.54531664",
-      "DurationMax": "0.7851278",
-      "PluginRefs": {
-       "Custom": [
-        {
-         "Id": "959635804"
-        }
-       ]
-      }
+      "DurationMin": "0.31336623",
+      "DurationMax": "0.46894485",
+      "MediaRefs": [
+       {
+        "Id": "129869701"
+       },
+       {
+        "Id": "149879831"
+       },
+       {
+        "Id": "214167902"
+       },
+       {
+        "Id": "536041142"
+       },
+       {
+        "Id": "950110410"
+       },
+       {
+        "Id": "1006970097"
+       }
+      ]
      }
     ]
    },
@@ -176,7 +288,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{BD8BCF6F-FC86-1E05-6EA8-C9BB5D96727F}",
+    "Hash": "{16C4026D-28E3-22FE-6F96-69A2F005506C}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -214,33 +326,33 @@
     "Type": "Event",
     "GUID": "{B9359494-47E0-4E87-A3CC-2DDBBC8F9690}",
     "Language": "SFX",
-    "Hash": "{D20B9BE1-5572-69B9-49E9-F90A9335213E}",
+    "Hash": "{A0086CF3-2516-F09E-2450-7D838D2B6450}",
     "ObjectPath": "Play_Player_Dash",
     "ShortName": "Play_Player_Dash",
     "Path": "Event/Play_Player_Dash.bnk",
     "Media": [
      {
-      "Id": "384914275",
+      "Id": "836899746",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Loose",
-      "ShortName": "MX_Gems_Stinger_01.wav",
-      "Path": "Media/384914275.wem",
-      "CachePath": "SFX/MX_Gems_Stinger_01_FC6846D4.wem"
+      "ShortName": "AndresDash.wav",
+      "Path": "Media/836899746.wem",
+      "CachePath": "SFX/AndresDash_10C4C929.wem"
      }
     ],
     "Events": [
      {
       "Id": "2175711460",
       "Name": "Play_Player_Dash",
-      "ObjectPath": "\\Events\\MikoEvents\\Play_Player_Dash",
+      "ObjectPath": "\\Events\\AndresEvents\\MainCharacter\\Play_Player_Dash",
       "GUID": "{B9359494-47E0-4E87-A3CC-2DDBBC8F9690}",
       "DurationType": "OneShot",
-      "DurationMin": "0.94149595",
-      "DurationMax": "0.94149595",
+      "DurationMin": "0.8",
+      "DurationMax": "0.8",
       "MediaRefs": [
        {
-        "Id": "384914275"
+        "Id": "836899746"
        }
       ]
      }
@@ -251,43 +363,99 @@
     "Type": "Event",
     "GUID": "{2D4A392D-B75B-44AC-B9FE-89979C7CB37F}",
     "Language": "SFX",
-    "Hash": "{EA079ED0-A016-CF50-8CCC-34E5E61EB6CE}",
+    "Hash": "{20BCD85C-3894-755F-1795-903D372B33A3}",
     "ObjectPath": "Play_Player_Walk",
     "ShortName": "Play_Player_Walk",
     "Path": "Event/Play_Player_Walk.bnk",
-    "Plugins": {
-     "Custom": [
-      {
-       "Id": "959635804",
-       "Name": "Tone Generator",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\TestAudio200ms_2D\\Tone Generator",
-       "GUID": "{3347EFA6-D0BF-4E04-8B01-31FA04A58DC2}",
-       "LibName": "Wwise Tone Generator",
-       "LibId": "6684674"
-      }
-     ]
-    },
+    "Media": [
+     {
+      "Id": "419108382",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FOOTSTEP - Metal Board Walk Barefoot Male - 2.wav",
+      "Path": "Media/419108382.wem",
+      "CachePath": "SFX/FOOTSTEP - Metal Board Walk Barefoot Male - 2_10C4C929.wem"
+     },
+     {
+      "Id": "544166167",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FOOTSTEP - Metal Board Walk Barefoot Male - 25.wav",
+      "Path": "Media/544166167.wem",
+      "CachePath": "SFX/FOOTSTEP - Metal Board Walk Barefoot Male - 25_10C4C929.wem"
+     },
+     {
+      "Id": "914767242",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FOOTSTEP - Metal Board Walk Barefoot Male - 18.wav",
+      "Path": "Media/914767242.wem",
+      "CachePath": "SFX/FOOTSTEP - Metal Board Walk Barefoot Male - 18_10C4C929.wem"
+     },
+     {
+      "Id": "972862536",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FOOTSTEP - Metal Board Walk Barefoot Male - 21.wav",
+      "Path": "Media/972862536.wem",
+      "CachePath": "SFX/FOOTSTEP - Metal Board Walk Barefoot Male - 21_10C4C929.wem"
+     },
+     {
+      "Id": "987664844",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FOOTSTEP - Metal Board Walk Barefoot Male - 12.wav",
+      "Path": "Media/987664844.wem",
+      "CachePath": "SFX/FOOTSTEP - Metal Board Walk Barefoot Male - 12_10C4C929.wem"
+     },
+     {
+      "Id": "1033842121",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FOOTSTEP - Metal Board Walk Barefoot Male - 13.wav",
+      "Path": "Media/1033842121.wem",
+      "CachePath": "SFX/FOOTSTEP - Metal Board Walk Barefoot Male - 13_10C4C929.wem"
+     }
+    ],
     "Events": [
      {
       "Id": "2825395259",
       "Name": "Play_Player_Walk",
-      "ObjectPath": "\\Events\\MikoEvents\\Play_Player_Walk",
+      "ObjectPath": "\\Events\\AndresEvents\\MainCharacter\\Play_Player_Walk",
       "GUID": "{2D4A392D-B75B-44AC-B9FE-89979C7CB37F}",
-      "MaxAttenuation": "200",
       "DurationType": "OneShot",
-      "DurationMin": "0.54531664",
-      "DurationMax": "0.7851278",
-      "PluginRefs": {
-       "Custom": [
-        {
-         "Id": "959635804"
-        }
-       ]
-      }
+      "DurationMin": "0.25238803",
+      "DurationMax": "0.49889678",
+      "MediaRefs": [
+       {
+        "Id": "419108382"
+       },
+       {
+        "Id": "544166167"
+       },
+       {
+        "Id": "914767242"
+       },
+       {
+        "Id": "972862536"
+       },
+       {
+        "Id": "987664844"
+       },
+       {
+        "Id": "1033842121"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{0F2572EF-D70F-CE51-B494-4F71013DA480}"
+  "FileHash": "{AC7845D8-5060-A298-E6F6-1BB10068B82D}"
  }
 }

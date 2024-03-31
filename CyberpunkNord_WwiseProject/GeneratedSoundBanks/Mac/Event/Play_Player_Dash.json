@@ -10,39 +10,39 @@
     "Type": "Event",
     "GUID": "{B9359494-47E0-4E87-A3CC-2DDBBC8F9690}",
     "Language": "SFX",
-    "Hash": "{D20B9BE1-5572-69B9-49E9-F90A9335213E}",
+    "Hash": "{A0086CF3-2516-F09E-2450-7D838D2B6450}",
     "ObjectPath": "Play_Player_Dash",
     "ShortName": "Play_Player_Dash",
     "Path": "Event/Play_Player_Dash.bnk",
     "Media": [
      {
-      "Id": "384914275",
+      "Id": "836899746",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Loose",
-      "ShortName": "MX_Gems_Stinger_01.wav",
-      "Path": "Media/384914275.wem",
-      "CachePath": "SFX/MX_Gems_Stinger_01_FC6846D4.wem"
+      "ShortName": "AndresDash.wav",
+      "Path": "Media/836899746.wem",
+      "CachePath": "SFX/AndresDash_10C4C929.wem"
      }
     ],
     "Events": [
      {
       "Id": "2175711460",
       "Name": "Play_Player_Dash",
-      "ObjectPath": "\\Events\\MikoEvents\\Play_Player_Dash",
+      "ObjectPath": "\\Events\\AndresEvents\\MainCharacter\\Play_Player_Dash",
       "GUID": "{B9359494-47E0-4E87-A3CC-2DDBBC8F9690}",
       "DurationType": "OneShot",
-      "DurationMin": "0.94149595",
-      "DurationMax": "0.94149595",
+      "DurationMin": "0.8",
+      "DurationMax": "0.8",
       "MediaRefs": [
        {
-        "Id": "384914275"
+        "Id": "836899746"
        }
       ]
      }
     ]
    }
   ],
-  "FileHash": "{59BC6868-F2E2-D070-6006-441C5EB2B6FC}"
+  "FileHash": "{D32813DD-5B0E-BF07-F80E-CB91C09462C0}"
  }
 }

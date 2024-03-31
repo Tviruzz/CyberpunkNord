@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{07F36C23-B3F2-4F74-8813-6554DEA35701}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="AndresEvents" ID="{07F36C23-B3F2-4F74-8813-6554DEA35701}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="17"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Folder Name="MainCharacter" ID="{94687120-77A3-4EEE-B5DF-217ACC50EC51}" ShortID="381596481">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="23"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="Play_Player_Walk" ID="{2D4A392D-B75B-44AC-B9FE-89979C7CB37F}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="23"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{2FD69310-957E-49F2-A5FE-EF6F1DCDD041}" ShortID="1060495592">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Generic_Walk" ID="{C0D8363C-76CE-40F2-ABDB-AEA1609D293F}" WorkUnitID="{FB47D513-4945-4780-A015-B5AA30E0112E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Player_Dash" ID="{B9359494-47E0-4E87-A3CC-2DDBBC8F9690}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="23"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{2AC6CBE5-36EC-4110-A521-E6D20FBAAA86}" ShortID="317964689">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Generic_Dash" ID="{35B99C8D-92B5-4FF5-8317-DECCB73EF3AC}" WorkUnitID="{FB47D513-4945-4780-A015-B5AA30E0112E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Player_Crouch" ID="{1859CFF1-9FB0-479D-AF24-4512EB2D1B56}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="23"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{BE448FD7-4C3B-485F-AE10-41D29BFB9740}" ShortID="921883912">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Generic_Crouch" ID="{FD9B5E4B-4983-49F2-920D-01B463E4BD20}" WorkUnitID="{FB47D513-4945-4780-A015-B5AA30E0112E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Player_Sprint" ID="{FCAC40F7-76BD-46AB-87FF-ED7062E763C3}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="23"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{A6130D12-47B4-44E3-B2EC-0E26013AF551}" ShortID="129669404">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Generic_Sprint" ID="{42A73041-C21B-41C8-8D93-11516E0DF242}" WorkUnitID="{FB47D513-4945-4780-A015-B5AA30E0112E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
