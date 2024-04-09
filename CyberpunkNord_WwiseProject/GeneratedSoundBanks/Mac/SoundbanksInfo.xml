@@ -9,6 +9,25 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
+		<SoundBank Id="169023713" Type="Event" GUID="{DD52A457-23A1-499C-8AB6-ACCE282F13E5}" Language="SFX" Hash="{5D04CEE8-B9F2-51DC-BDC6-0D7C37E36A95}">
+			<ObjectPath>Play_Scan</ObjectPath>
+			<ShortName>Play_Scan</ShortName>
+			<Path>Event/Play_Scan.bnk</Path>
+			<Plugins>
+				<Custom>
+					<Plugin Id="134915275" Name="Synth One" ObjectPath="\Actor-Mixer Hierarchy\Miko\Player_Scan\Synth One" GUID="{F5FF84F9-6D98-4E19-9BDF-2D360387441A}" LibName="Wwise Synth One" LibId="9699330"/>
+				</Custom>
+			</Plugins>
+			<Events>
+				<Event Id="169023713" Name="Play_Scan" ObjectPath="\Events\MikoEvents\Play_Scan" GUID="{DD52A457-23A1-499C-8AB6-ACCE282F13E5}" DurationType="Unknown">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="134915275"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+			</Events>
+		</SoundBank>
 		<SoundBank Id="563777050" Type="Event" GUID="{AAF57E4B-7885-4800-A51A-BAF51823C999}" Language="SFX" Hash="{39E0E004-23AA-5897-0F2A-615E46F1A191}">
 			<ObjectPath>Play_Test_Emmiter</ObjectPath>
 			<ShortName>Play_Test_Emmiter</ShortName>
@@ -76,6 +95,57 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+		</SoundBank>
+		<SoundBank Id="889160563" Type="Event" GUID="{E48C02B7-42EB-4B96-8569-29A9CB964CD2}" Language="SFX" Hash="{4D7A43BF-AA1B-5ED9-9603-17D4CDA78318}">
+			<ObjectPath>Play_Gun_Pickup</ObjectPath>
+			<ShortName>Play_Gun_Pickup</ShortName>
+			<Path>Event/Play_Gun_Pickup.bnk</Path>
+			<Plugins>
+				<Custom>
+					<Plugin Id="150159743" Name="Synth One" ObjectPath="\Actor-Mixer Hierarchy\Miko\Gun_Pickup\Sniper\TestSniperPickup\Synth One" GUID="{5E742ED1-F043-4EF2-8C48-7C8B3CADE6A6}" LibName="Wwise Synth One" LibId="9699330"/>
+					<Plugin Id="466626232" Name="Synth One" ObjectPath="\Actor-Mixer Hierarchy\Miko\Gun_Pickup\Pistol\TestPistolPickup\Synth One" GUID="{1ECFC7B4-118A-42DA-B12F-E9536FDC09DC}" LibName="Wwise Synth One" LibId="9699330"/>
+					<Plugin Id="808801550" Name="Synth One" ObjectPath="\Actor-Mixer Hierarchy\Miko\Gun_Pickup\Rifle\TestRiflePickup\Synth One" GUID="{414E0DB0-23BB-4D43-B214-2B532A7269E0}" LibName="Wwise Synth One" LibId="9699330"/>
+				</Custom>
+			</Plugins>
+			<Events>
+				<Event Id="889160563" Name="Play_Gun_Pickup" ObjectPath="\Events\MikoEvents\Play_Gun_Pickup" GUID="{E48C02B7-42EB-4B96-8569-29A9CB964CD2}" DurationType="Unknown">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1613795745" Id="2550763292" GUID="{C15DE933-4891-4D62-BE78-F1763A353FA8}"/>
+							<PluginRefs>
+								<Custom>
+									<PluginRef Id="150159743"/>
+								</Custom>
+							</PluginRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1613795745" Id="324443136" GUID="{A1812AA0-79E8-4BCD-86C4-6C5C8A20B88A}" Default="true"/>
+							<PluginRefs>
+								<Custom>
+									<PluginRef Id="466626232"/>
+								</Custom>
+							</PluginRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1613795745" Id="4262674733" GUID="{734914CE-A7F4-4A30-8072-9EBFF2B9B848}"/>
+							<PluginRefs>
+								<Custom>
+									<PluginRef Id="808801550"/>
+								</Custom>
+							</PluginRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="1613795745" Name="GunType" ObjectPath="\Switches\GameSwitches\GunType" GUID="{FC45C451-ABE4-4F59-9F95-63920C9DD869}">
+					<Switches>
+						<Switch Id="324443136" Name="Pistol" ObjectPath="\Switches\GameSwitches\GunType\Pistol" GUID="{A1812AA0-79E8-4BCD-86C4-6C5C8A20B88A}"/>
+						<Switch Id="2550763292" Name="Sniper" ObjectPath="\Switches\GameSwitches\GunType\Sniper" GUID="{C15DE933-4891-4D62-BE78-F1763A353FA8}"/>
+						<Switch Id="4262674733" Name="Rifle" ObjectPath="\Switches\GameSwitches\GunType\Rifle" GUID="{734914CE-A7F4-4A30-8072-9EBFF2B9B848}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 		<SoundBank Id="1097980931" Type="Event" GUID="{A1F154B2-61E0-4AB8-95DA-BEB3A474C07E}" Language="SFX" Hash="{F359A101-7DFB-FD54-8A60-0C7A2F8BCFD5}">
 			<ObjectPath>TestEvent</ObjectPath>
@@ -158,6 +228,30 @@
 			<Busses>
 				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 			</Busses>
+			<SwitchGroups>
+				<SwitchGroup Id="1613795745" Name="GunType" ObjectPath="\Switches\GameSwitches\GunType" GUID="{FC45C451-ABE4-4F59-9F95-63920C9DD869}">
+					<Switches>
+						<Switch Id="324443136" Name="Pistol" ObjectPath="\Switches\GameSwitches\GunType\Pistol" GUID="{A1812AA0-79E8-4BCD-86C4-6C5C8A20B88A}"/>
+						<Switch Id="2550763292" Name="Sniper" ObjectPath="\Switches\GameSwitches\GunType\Sniper" GUID="{C15DE933-4891-4D62-BE78-F1763A353FA8}"/>
+						<Switch Id="4262674733" Name="Rifle" ObjectPath="\Switches\GameSwitches\GunType\Rifle" GUID="{734914CE-A7F4-4A30-8072-9EBFF2B9B848}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3072116243" Name="GroundMaterial" ObjectPath="\Switches\GameSwitches\GroundMaterial" GUID="{BD6B4F10-C7BD-40BF-97FB-625F462E0405}">
+					<Switches>
+						<Switch Id="841620460" Name="Concrete" ObjectPath="\Switches\GameSwitches\GroundMaterial\Concrete" GUID="{5383347C-1CEE-4762-8A6E-FDC799775B7F}"/>
+						<Switch Id="2058049674" Name="Wood" ObjectPath="\Switches\GameSwitches\GroundMaterial\Wood" GUID="{D5EE8140-AD3A-4AB7-8555-1B654B7FE760}"/>
+						<Switch Id="2195636714" Name="Dirt" ObjectPath="\Switches\GameSwitches\GroundMaterial\Dirt" GUID="{AA09118D-62C0-4715-A524-EE74CD2F7838}"/>
+						<Switch Id="2473969246" Name="Metal" ObjectPath="\Switches\GameSwitches\GroundMaterial\Metal" GUID="{42936048-1680-4DE9-9A1F-428DF342A1F0}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3696829535" Name="AmmoType" ObjectPath="\Switches\GameSwitches\AmmoType" GUID="{EA26FC22-56A4-42A1-BB70-E9BB6768C352}">
+					<Switches>
+						<Switch Id="1935470627" Name="Light" ObjectPath="\Switches\GameSwitches\AmmoType\Light" GUID="{F741AD96-187A-49F5-BC80-FA2CF8C3EE2A}"/>
+						<Switch Id="2732489590" Name="Heavy" ObjectPath="\Switches\GameSwitches\AmmoType\Heavy" GUID="{AFB39EAD-EC00-4E13-BDB0-E3086FCF5965}"/>
+						<Switch Id="2849147824" Name="Medium" ObjectPath="\Switches\GameSwitches\AmmoType\Medium" GUID="{691F4D69-6EC6-421F-994F-B71CC2AE2E3C}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 		<SoundBank Id="2175711460" Type="Event" GUID="{B9359494-47E0-4E87-A3CC-2DDBBC8F9690}" Language="SFX" Hash="{A0086CF3-2516-F09E-2450-7D838D2B6450}">
 			<ObjectPath>Play_Player_Dash</ObjectPath>
@@ -227,6 +321,57 @@
 				</Event>
 			</Events>
 		</SoundBank>
+		<SoundBank Id="4269559823" Type="Event" GUID="{ED3592B0-EF02-4A32-A446-AAAA08A9E2B1}" Language="SFX" Hash="{88745FBF-B242-0855-9572-F778449930AF}">
+			<ObjectPath>Play_Ammo_Pickup</ObjectPath>
+			<ShortName>Play_Ammo_Pickup</ShortName>
+			<Path>Event/Play_Ammo_Pickup.bnk</Path>
+			<Plugins>
+				<Custom>
+					<Plugin Id="169472566" Name="Synth One" ObjectPath="\Actor-Mixer Hierarchy\Miko\Ammo_Pickup\Light\LightPickup\Synth One" GUID="{F4C497F8-0792-4E40-92E8-97AE68F39452}" LibName="Wwise Synth One" LibId="9699330"/>
+					<Plugin Id="255460811" Name="Synth One" ObjectPath="\Actor-Mixer Hierarchy\Miko\Ammo_Pickup\Heavy\HeavyPickup\Synth One" GUID="{E6450DE8-EEA5-415D-BFBE-48ACDA665BEE}" LibName="Wwise Synth One" LibId="9699330"/>
+					<Plugin Id="610260876" Name="Synth One" ObjectPath="\Actor-Mixer Hierarchy\Miko\Ammo_Pickup\Medium\MediumPickup\Synth One" GUID="{919D6D61-446F-4D55-BF39-056E36354362}" LibName="Wwise Synth One" LibId="9699330"/>
+				</Custom>
+			</Plugins>
+			<Events>
+				<Event Id="4269559823" Name="Play_Ammo_Pickup" ObjectPath="\Events\MikoEvents\Play_Ammo_Pickup" GUID="{ED3592B0-EF02-4A32-A446-AAAA08A9E2B1}" DurationType="Unknown">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3696829535" Id="2849147824" GUID="{691F4D69-6EC6-421F-994F-B71CC2AE2E3C}"/>
+							<PluginRefs>
+								<Custom>
+									<PluginRef Id="610260876"/>
+								</Custom>
+							</PluginRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3696829535" Id="1935470627" GUID="{F741AD96-187A-49F5-BC80-FA2CF8C3EE2A}" Default="true"/>
+							<PluginRefs>
+								<Custom>
+									<PluginRef Id="169472566"/>
+								</Custom>
+							</PluginRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3696829535" Id="2732489590" GUID="{AFB39EAD-EC00-4E13-BDB0-E3086FCF5965}"/>
+							<PluginRefs>
+								<Custom>
+									<PluginRef Id="255460811"/>
+								</Custom>
+							</PluginRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="3696829535" Name="AmmoType" ObjectPath="\Switches\GameSwitches\AmmoType" GUID="{EA26FC22-56A4-42A1-BB70-E9BB6768C352}">
+					<Switches>
+						<Switch Id="1935470627" Name="Light" ObjectPath="\Switches\GameSwitches\AmmoType\Light" GUID="{F741AD96-187A-49F5-BC80-FA2CF8C3EE2A}"/>
+						<Switch Id="2732489590" Name="Heavy" ObjectPath="\Switches\GameSwitches\AmmoType\Heavy" GUID="{AFB39EAD-EC00-4E13-BDB0-E3086FCF5965}"/>
+						<Switch Id="2849147824" Name="Medium" ObjectPath="\Switches\GameSwitches\AmmoType\Medium" GUID="{691F4D69-6EC6-421F-994F-B71CC2AE2E3C}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
 	</SoundBanks>
-	<FileHash>{155D1855-440B-ABC4-F02E-E3640088ABFF}</FileHash>
+	<FileHash>{58668AA4-67CF-8388-B65B-C6E5EEF01B5C}</FileHash>
 </SoundBanksInfo>

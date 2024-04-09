@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C91FCD48-89D4-43E4-A561-3574F1DADB9A}" SchemaVersion="110">
+	<Switches>
+		<WorkUnit Name="GameSwitches" ID="{C91FCD48-89D4-43E4-A561-3574F1DADB9A}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="GroundMaterial" ID="{BD6B4F10-C7BD-40BF-97FB-625F462E0405}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="25"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Concrete" ID="{5383347C-1CEE-4762-8A6E-FDC799775B7F}"/>
+						<Switch Name="Metal" ID="{42936048-1680-4DE9-9A1F-428DF342A1F0}"/>
+						<Switch Name="Wood" ID="{D5EE8140-AD3A-4AB7-8555-1B654B7FE760}"/>
+						<Switch Name="Dirt" ID="{AA09118D-62C0-4715-A524-EE74CD2F7838}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="AmmoType" ID="{EA26FC22-56A4-42A1-BB70-E9BB6768C352}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="24"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Light" ID="{F741AD96-187A-49F5-BC80-FA2CF8C3EE2A}"/>
+						<Switch Name="Medium" ID="{691F4D69-6EC6-421F-994F-B71CC2AE2E3C}"/>
+						<Switch Name="Heavy" ID="{AFB39EAD-EC00-4E13-BDB0-E3086FCF5965}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="GunType" ID="{FC45C451-ABE4-4F59-9F95-63920C9DD869}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="11"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Rifle" ID="{734914CE-A7F4-4A30-8072-9EBFF2B9B848}"/>
+						<Switch Name="Sniper" ID="{C15DE933-4891-4D62-BE78-F1763A353FA8}"/>
+						<Switch Name="Pistol" ID="{A1812AA0-79E8-4BCD-86C4-6C5C8A20B88A}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

@@ -1,0 +1,21 @@
+Event	ID	Name			Wwise Object Path	Notes
+	4269559823	Play_Ammo_Pickup			\MikoEvents\Play_Ammo_Pickup	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3696829535	AmmoType			\GameSwitches\AmmoType	
+
+Switch	ID	Name	Switch Group			Notes
+	1935470627	Light	AmmoType			
+	2732489590	Heavy	AmmoType			
+	2849147824	Medium	AmmoType			
+
+Modulator Envelope	ID	Name			Wwise Object Path	Notes
+	20036202	Modulator Envelope (Custom)				
+	217047426	Modulator Envelope (Custom)				
+	430130084	Modulator Envelope (Custom)				
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	169472566	Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Miko\Ammo_Pickup\Light\LightPickup\Synth One	
+	255460811	Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Miko\Ammo_Pickup\Heavy\HeavyPickup\Synth One	
+	610260876	Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Miko\Ammo_Pickup\Medium\MediumPickup\Synth One	
+

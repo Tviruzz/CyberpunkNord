@@ -1,0 +1,10 @@
+Event	ID	Name			Wwise Object Path	Notes
+	169023713	Play_Scan			\MikoEvents\Play_Scan	
+
+Modulator Envelope	ID	Name			Wwise Object Path	Notes
+	263701387	Modulator Envelope (Custom)				
+	991953739	Modulator Envelope (Custom)				
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	134915275	Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Miko\Player_Scan\Synth One	
+

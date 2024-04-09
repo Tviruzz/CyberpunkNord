@@ -1,0 +1,134 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "4269559823",
+    "Type": "Event",
+    "GUID": "{ED3592B0-EF02-4A32-A446-AAAA08A9E2B1}",
+    "Language": "SFX",
+    "Hash": "{88745FBF-B242-0855-9572-F778449930AF}",
+    "ObjectPath": "Play_Ammo_Pickup",
+    "ShortName": "Play_Ammo_Pickup",
+    "Path": "Event/Play_Ammo_Pickup.bnk",
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "169472566",
+       "Name": "Synth One",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\Ammo_Pickup\\Light\\LightPickup\\Synth One",
+       "GUID": "{F4C497F8-0792-4E40-92E8-97AE68F39452}",
+       "LibName": "Wwise Synth One",
+       "LibId": "9699330"
+      },
+      {
+       "Id": "255460811",
+       "Name": "Synth One",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\Ammo_Pickup\\Heavy\\HeavyPickup\\Synth One",
+       "GUID": "{E6450DE8-EEA5-415D-BFBE-48ACDA665BEE}",
+       "LibName": "Wwise Synth One",
+       "LibId": "9699330"
+      },
+      {
+       "Id": "610260876",
+       "Name": "Synth One",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\Ammo_Pickup\\Medium\\MediumPickup\\Synth One",
+       "GUID": "{919D6D61-446F-4D55-BF39-056E36354362}",
+       "LibName": "Wwise Synth One",
+       "LibId": "9699330"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "4269559823",
+      "Name": "Play_Ammo_Pickup",
+      "ObjectPath": "\\Events\\MikoEvents\\Play_Ammo_Pickup",
+      "GUID": "{ED3592B0-EF02-4A32-A446-AAAA08A9E2B1}",
+      "DurationType": "Unknown",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3696829535",
+         "Id": "2849147824",
+         "GUID": "{691F4D69-6EC6-421F-994F-B71CC2AE2E3C}"
+        },
+        "PluginRefs": {
+         "Custom": [
+          {
+           "Id": "610260876"
+          }
+         ]
+        }
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3696829535",
+         "Id": "1935470627",
+         "GUID": "{F741AD96-187A-49F5-BC80-FA2CF8C3EE2A}",
+         "Default": "true"
+        },
+        "PluginRefs": {
+         "Custom": [
+          {
+           "Id": "169472566"
+          }
+         ]
+        }
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3696829535",
+         "Id": "2732489590",
+         "GUID": "{AFB39EAD-EC00-4E13-BDB0-E3086FCF5965}"
+        },
+        "PluginRefs": {
+         "Custom": [
+          {
+           "Id": "255460811"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "3696829535",
+      "Name": "AmmoType",
+      "ObjectPath": "\\Switches\\GameSwitches\\AmmoType",
+      "GUID": "{EA26FC22-56A4-42A1-BB70-E9BB6768C352}",
+      "Switches": [
+       {
+        "Id": "1935470627",
+        "Name": "Light",
+        "ObjectPath": "\\Switches\\GameSwitches\\AmmoType\\Light",
+        "GUID": "{F741AD96-187A-49F5-BC80-FA2CF8C3EE2A}"
+       },
+       {
+        "Id": "2732489590",
+        "Name": "Heavy",
+        "ObjectPath": "\\Switches\\GameSwitches\\AmmoType\\Heavy",
+        "GUID": "{AFB39EAD-EC00-4E13-BDB0-E3086FCF5965}"
+       },
+       {
+        "Id": "2849147824",
+        "Name": "Medium",
+        "ObjectPath": "\\Switches\\GameSwitches\\AmmoType\\Medium",
+        "GUID": "{691F4D69-6EC6-421F-994F-B71CC2AE2E3C}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{D9616C46-FB86-7CFF-FF6F-2F3D4025E917}"
+ }
+}

@@ -2,8 +2,16 @@
 <WwiseDocument Type="WorkUnit" ID="{40CFC354-4461-4D07-A3CD-0C9C19EFCDF6}" SchemaVersion="110">
 	<Events>
 		<WorkUnit Name="MikoEvents" ID="{40CFC354-4461-4D07-A3CD-0C9C19EFCDF6}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="3"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
 			<ChildrenList>
 				<Event Name="TestEvent" ID="{A1F154B2-61E0-4AB8-95DA-BEB3A474C07E}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="3"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{B635F415-8ADD-4DE6-8B1B-5920DC460039}" ShortID="26931333">
 							<ReferenceList>
@@ -15,11 +23,56 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_Test_Emmiter" ID="{AAF57E4B-7885-4800-A51A-BAF51823C999}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="3"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{C7C26205-069F-4393-A443-235441C40CB0}" ShortID="75097449">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="TestAudio_Emmiter_3D" ID="{D5968C7A-304C-4383-A20B-BA76C46B400F}" WorkUnitID="{A7EB45C4-B939-4480-A678-788D7A20EEBC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Gun_Pickup" ID="{E48C02B7-42EB-4B96-8569-29A9CB964CD2}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="3"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{887274E6-6C15-4708-B358-949355AC3DAD}" ShortID="438222633">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gun_Pickup" ID="{98B1FD6B-DCB2-408B-A453-480E8290A30D}" WorkUnitID="{A7EB45C4-B939-4480-A678-788D7A20EEBC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Ammo_Pickup" ID="{ED3592B0-EF02-4A32-A446-AAAA08A9E2B1}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="3"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{2A88DA60-6007-4E75-B369-C4E7FD722324}" ShortID="454122928">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ammo_Pickup" ID="{87241199-7B6A-464B-9735-110E3B229ACA}" WorkUnitID="{A7EB45C4-B939-4480-A678-788D7A20EEBC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Scan" ID="{DD52A457-23A1-499C-8AB6-ACCE282F13E5}">
+					<ChildrenList>
+						<Action Name="" ID="{5B00D5E4-466C-4BDE-83BE-936CC8765992}" ShortID="709170451">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player_Scan" ID="{B1F2F2CB-0E6E-4A58-B38A-B7C0A0BCF8AF}" WorkUnitID="{A7EB45C4-B939-4480-A678-788D7A20EEBC}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

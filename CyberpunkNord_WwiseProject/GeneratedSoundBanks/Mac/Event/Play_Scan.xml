@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
+	<SoundBanks>
+		<SoundBank Id="169023713" Type="Event" GUID="{DD52A457-23A1-499C-8AB6-ACCE282F13E5}" Language="SFX" Hash="{5D04CEE8-B9F2-51DC-BDC6-0D7C37E36A95}">
+			<ObjectPath>Play_Scan</ObjectPath>
+			<ShortName>Play_Scan</ShortName>
+			<Path>Event/Play_Scan.bnk</Path>
+			<Plugins>
+				<Custom>
+					<Plugin Id="134915275" Name="Synth One" ObjectPath="\Actor-Mixer Hierarchy\Miko\Player_Scan\Synth One" GUID="{F5FF84F9-6D98-4E19-9BDF-2D360387441A}" LibName="Wwise Synth One" LibId="9699330"/>
+				</Custom>
+			</Plugins>
+			<Events>
+				<Event Id="169023713" Name="Play_Scan" ObjectPath="\Events\MikoEvents\Play_Scan" GUID="{DD52A457-23A1-499C-8AB6-ACCE282F13E5}" DurationType="Unknown">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="134915275"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{665C4867-D506-0764-2D44-975B99589CA2}</FileHash>
+</SoundBanksInfo>
