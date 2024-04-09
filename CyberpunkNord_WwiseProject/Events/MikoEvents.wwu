@@ -78,6 +78,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Gun_Shoot" ID="{6C35B7F2-824A-4A0E-A3B2-F18D8B96B227}">
+					<ChildrenList>
+						<Action Name="" ID="{BC6C4620-01B1-4CC7-B00E-95FFE4EEFB25}" ShortID="541369214">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gun_Shoot" ID="{DBDAB9AB-7094-480F-AFAB-5BCAA3B79C3D}" WorkUnitID="{A7EB45C4-B939-4480-A678-788D7A20EEBC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="889160563" Type="Event" GUID="{E48C02B7-42EB-4B96-8569-29A9CB964CD2}" Language="SFX" Hash="{4D7A43BF-AA1B-5ED9-9603-17D4CDA78318}">
+		<SoundBank Id="889160563" Type="Event" GUID="{E48C02B7-42EB-4B96-8569-29A9CB964CD2}" Language="SFX" Hash="{ACD3618F-378A-7BB4-E18B-AA47B6737CB2}">
 			<ObjectPath>Play_Gun_Pickup</ObjectPath>
 			<ShortName>Play_Gun_Pickup</ShortName>
 			<Path>Event/Play_Gun_Pickup.bnk</Path>
@@ -47,11 +47,12 @@
 					<Switches>
 						<Switch Id="324443136" Name="Pistol" ObjectPath="\Switches\GameSwitches\GunType\Pistol" GUID="{A1812AA0-79E8-4BCD-86C4-6C5C8A20B88A}"/>
 						<Switch Id="2550763292" Name="Sniper" ObjectPath="\Switches\GameSwitches\GunType\Sniper" GUID="{C15DE933-4891-4D62-BE78-F1763A353FA8}"/>
+						<Switch Id="3354297748" Name="Empty" ObjectPath="\Switches\GameSwitches\GunType\Empty" GUID="{74C65360-8F0C-4D0B-955B-D6C491ABC0C3}"/>
 						<Switch Id="4262674733" Name="Rifle" ObjectPath="\Switches\GameSwitches\GunType\Rifle" GUID="{734914CE-A7F4-4A30-8072-9EBFF2B9B848}"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B95A5CE2-B513-7F61-0550-308561FB39F3}</FileHash>
+	<FileHash>{804895A7-EE7A-65BF-4D47-7E8F24390E5F}</FileHash>
 </SoundBanksInfo>

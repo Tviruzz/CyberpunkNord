@@ -6,37 +6,45 @@
   "SoundBankVersion": "145",
   "SoundBanks": [
    {
-    "Id": "889160563",
+    "Id": "2371775700",
     "Type": "Event",
-    "GUID": "{E48C02B7-42EB-4B96-8569-29A9CB964CD2}",
+    "GUID": "{6C35B7F2-824A-4A0E-A3B2-F18D8B96B227}",
     "Language": "SFX",
-    "Hash": "{ACD3618F-378A-7BB4-E18B-AA47B6737CB2}",
-    "ObjectPath": "Play_Gun_Pickup",
-    "ShortName": "Play_Gun_Pickup",
-    "Path": "Event/Play_Gun_Pickup.bnk",
+    "Hash": "{BAC47880-0AD4-6739-F448-B53C3CCF2D3E}",
+    "ObjectPath": "Play_Gun_Shoot",
+    "ShortName": "Play_Gun_Shoot",
+    "Path": "Event/Play_Gun_Shoot.bnk",
     "Plugins": {
      "Custom": [
       {
-       "Id": "150159743",
+       "Id": "183355157",
        "Name": "Synth One",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\Gun_Pickup\\Sniper\\TestSniperPickup\\Synth One",
-       "GUID": "{5E742ED1-F043-4EF2-8C48-7C8B3CADE6A6}",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\Gun_Shoot\\Empty_Shoot\\EmptyShootGun\\Synth One",
+       "GUID": "{ABB4B78E-737B-4453-987E-6C19E57D80F6}",
        "LibName": "Wwise Synth One",
        "LibId": "9699330"
       },
       {
-       "Id": "466626232",
+       "Id": "389799868",
        "Name": "Synth One",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\Gun_Pickup\\Pistol\\TestPistolPickup\\Synth One",
-       "GUID": "{1ECFC7B4-118A-42DA-B12F-E9536FDC09DC}",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\Gun_Shoot\\Sniper_Shoot\\SniperShootGun\\Synth One",
+       "GUID": "{336FD919-587A-4290-950F-B23921EDAEE9}",
        "LibName": "Wwise Synth One",
        "LibId": "9699330"
       },
       {
-       "Id": "808801550",
+       "Id": "944493094",
        "Name": "Synth One",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\Gun_Pickup\\Rifle\\TestRiflePickup\\Synth One",
-       "GUID": "{414E0DB0-23BB-4D43-B214-2B532A7269E0}",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\Gun_Shoot\\Pistol_Shoot\\PistolShootGun\\Synth One",
+       "GUID": "{C3185C73-D5ED-4BAB-B594-7F15278244E6}",
+       "LibName": "Wwise Synth One",
+       "LibId": "9699330"
+      },
+      {
+       "Id": "998034893",
+       "Name": "Synth One",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\Gun_Shoot\\Rifle_Shoot\\RifleShootGun\\Synth One",
+       "GUID": "{CC08F419-F73C-43C3-A246-CCFA12F28CD8}",
        "LibName": "Wwise Synth One",
        "LibId": "9699330"
       }
@@ -44,10 +52,10 @@
     },
     "Events": [
      {
-      "Id": "889160563",
-      "Name": "Play_Gun_Pickup",
-      "ObjectPath": "\\Events\\MikoEvents\\Play_Gun_Pickup",
-      "GUID": "{E48C02B7-42EB-4B96-8569-29A9CB964CD2}",
+      "Id": "2371775700",
+      "Name": "Play_Gun_Shoot",
+      "ObjectPath": "\\Events\\MikoEvents\\Play_Gun_Shoot",
+      "GUID": "{6C35B7F2-824A-4A0E-A3B2-F18D8B96B227}",
       "DurationType": "Unknown",
       "SwitchContainers": [
        {
@@ -60,7 +68,23 @@
         "PluginRefs": {
          "Custom": [
           {
-           "Id": "150159743"
+           "Id": "389799868"
+          }
+         ]
+        }
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1613795745",
+         "Id": "3354297748",
+         "GUID": "{74C65360-8F0C-4D0B-955B-D6C491ABC0C3}",
+         "Default": "true"
+        },
+        "PluginRefs": {
+         "Custom": [
+          {
+           "Id": "183355157"
           }
          ]
         }
@@ -70,13 +94,12 @@
          "GroupType": "Switch",
          "GroupId": "1613795745",
          "Id": "324443136",
-         "GUID": "{A1812AA0-79E8-4BCD-86C4-6C5C8A20B88A}",
-         "Default": "true"
+         "GUID": "{A1812AA0-79E8-4BCD-86C4-6C5C8A20B88A}"
         },
         "PluginRefs": {
          "Custom": [
           {
-           "Id": "466626232"
+           "Id": "944493094"
           }
          ]
         }
@@ -91,7 +114,7 @@
         "PluginRefs": {
          "Custom": [
           {
-           "Id": "808801550"
+           "Id": "998034893"
           }
          ]
         }
@@ -135,6 +158,6 @@
     ]
    }
   ],
-  "FileHash": "{B79636C8-5B55-D093-DD9C-B3E81250C062}"
+  "FileHash": "{B97AEB5F-CFA6-F28B-892A-18349302BD5B}"
  }
 }

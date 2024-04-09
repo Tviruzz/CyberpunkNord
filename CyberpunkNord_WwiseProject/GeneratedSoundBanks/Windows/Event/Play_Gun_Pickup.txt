@@ -7,6 +7,7 @@ Switch Group	ID	Name			Wwise Object Path	Notes
 Switch	ID	Name	Switch Group			Notes
 	324443136	Pistol	GunType			
 	2550763292	Sniper	GunType			
+	3354297748	Empty	GunType			
 	4262674733	Rifle	GunType			
 
 Modulator Envelope	ID	Name			Wwise Object Path	Notes

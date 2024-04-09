@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<SoundBanks>
+		<SoundBank Id="2371775700" Type="Event" GUID="{6C35B7F2-824A-4A0E-A3B2-F18D8B96B227}" Language="SFX" Hash="{BAC47880-0AD4-6739-F448-B53C3CCF2D3E}">
+			<ObjectPath>Play_Gun_Shoot</ObjectPath>
+			<ShortName>Play_Gun_Shoot</ShortName>
+			<Path>Event/Play_Gun_Shoot.bnk</Path>
+			<Plugins>
+				<Custom>
+					<Plugin Id="183355157" Name="Synth One" ObjectPath="\Actor-Mixer Hierarchy\Miko\Gun_Shoot\Empty_Shoot\EmptyShootGun\Synth One" GUID="{ABB4B78E-737B-4453-987E-6C19E57D80F6}" LibName="Wwise Synth One" LibId="9699330"/>
+					<Plugin Id="389799868" Name="Synth One" ObjectPath="\Actor-Mixer Hierarchy\Miko\Gun_Shoot\Sniper_Shoot\SniperShootGun\Synth One" GUID="{336FD919-587A-4290-950F-B23921EDAEE9}" LibName="Wwise Synth One" LibId="9699330"/>
+					<Plugin Id="944493094" Name="Synth One" ObjectPath="\Actor-Mixer Hierarchy\Miko\Gun_Shoot\Pistol_Shoot\PistolShootGun\Synth One" GUID="{C3185C73-D5ED-4BAB-B594-7F15278244E6}" LibName="Wwise Synth One" LibId="9699330"/>
+					<Plugin Id="998034893" Name="Synth One" ObjectPath="\Actor-Mixer Hierarchy\Miko\Gun_Shoot\Rifle_Shoot\RifleShootGun\Synth One" GUID="{CC08F419-F73C-43C3-A246-CCFA12F28CD8}" LibName="Wwise Synth One" LibId="9699330"/>
+				</Custom>
+			</Plugins>
+			<Events>
+				<Event Id="2371775700" Name="Play_Gun_Shoot" ObjectPath="\Events\MikoEvents\Play_Gun_Shoot" GUID="{6C35B7F2-824A-4A0E-A3B2-F18D8B96B227}" DurationType="Unknown">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1613795745" Id="2550763292" GUID="{C15DE933-4891-4D62-BE78-F1763A353FA8}"/>
+							<PluginRefs>
+								<Custom>
+									<PluginRef Id="389799868"/>
+								</Custom>
+							</PluginRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1613795745" Id="3354297748" GUID="{74C65360-8F0C-4D0B-955B-D6C491ABC0C3}" Default="true"/>
+							<PluginRefs>
+								<Custom>
+									<PluginRef Id="183355157"/>
+								</Custom>
+							</PluginRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1613795745" Id="324443136" GUID="{A1812AA0-79E8-4BCD-86C4-6C5C8A20B88A}"/>
+							<PluginRefs>
+								<Custom>
+									<PluginRef Id="944493094"/>
+								</Custom>
+							</PluginRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1613795745" Id="4262674733" GUID="{734914CE-A7F4-4A30-8072-9EBFF2B9B848}"/>
+							<PluginRefs>
+								<Custom>
+									<PluginRef Id="998034893"/>
+								</Custom>
+							</PluginRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="1613795745" Name="GunType" ObjectPath="\Switches\GameSwitches\GunType" GUID="{FC45C451-ABE4-4F59-9F95-63920C9DD869}">
+					<Switches>
+						<Switch Id="324443136" Name="Pistol" ObjectPath="\Switches\GameSwitches\GunType\Pistol" GUID="{A1812AA0-79E8-4BCD-86C4-6C5C8A20B88A}"/>
+						<Switch Id="2550763292" Name="Sniper" ObjectPath="\Switches\GameSwitches\GunType\Sniper" GUID="{C15DE933-4891-4D62-BE78-F1763A353FA8}"/>
+						<Switch Id="3354297748" Name="Empty" ObjectPath="\Switches\GameSwitches\GunType\Empty" GUID="{74C65360-8F0C-4D0B-955B-D6C491ABC0C3}"/>
+						<Switch Id="4262674733" Name="Rifle" ObjectPath="\Switches\GameSwitches\GunType\Rifle" GUID="{734914CE-A7F4-4A30-8072-9EBFF2B9B848}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{5D9772B8-5D94-7A69-B40F-426D346130B0}</FileHash>
+</SoundBanksInfo>

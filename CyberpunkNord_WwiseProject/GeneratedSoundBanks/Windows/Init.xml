@@ -19,6 +19,7 @@
 					<Switches>
 						<Switch Id="324443136" Name="Pistol" ObjectPath="\Switches\GameSwitches\GunType\Pistol" GUID="{A1812AA0-79E8-4BCD-86C4-6C5C8A20B88A}"/>
 						<Switch Id="2550763292" Name="Sniper" ObjectPath="\Switches\GameSwitches\GunType\Sniper" GUID="{C15DE933-4891-4D62-BE78-F1763A353FA8}"/>
+						<Switch Id="3354297748" Name="Empty" ObjectPath="\Switches\GameSwitches\GunType\Empty" GUID="{74C65360-8F0C-4D0B-955B-D6C491ABC0C3}"/>
 						<Switch Id="4262674733" Name="Rifle" ObjectPath="\Switches\GameSwitches\GunType\Rifle" GUID="{734914CE-A7F4-4A30-8072-9EBFF2B9B848}"/>
 					</Switches>
 				</SwitchGroup>
@@ -40,5 +41,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{58A1FCC0-2580-EDFB-4283-EFC720F6BEA6}</FileHash>
+	<FileHash>{F34D518C-CEE2-2AD7-BD14-B2B0FD2060B2}</FileHash>
 </SoundBanksInfo>

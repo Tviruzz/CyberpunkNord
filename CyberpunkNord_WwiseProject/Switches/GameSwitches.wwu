@@ -35,6 +35,7 @@
 						<Switch Name="Rifle" ID="{734914CE-A7F4-4A30-8072-9EBFF2B9B848}"/>
 						<Switch Name="Sniper" ID="{C15DE933-4891-4D62-BE78-F1763A353FA8}"/>
 						<Switch Name="Pistol" ID="{A1812AA0-79E8-4BCD-86C4-6C5C8A20B88A}"/>
+						<Switch Name="Empty" ID="{74C65360-8F0C-4D0B-955B-D6C491ABC0C3}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>

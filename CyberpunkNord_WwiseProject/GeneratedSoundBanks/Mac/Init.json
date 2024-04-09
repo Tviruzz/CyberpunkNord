@@ -62,6 +62,12 @@
         "GUID": "{C15DE933-4891-4D62-BE78-F1763A353FA8}"
        },
        {
+        "Id": "3354297748",
+        "Name": "Empty",
+        "ObjectPath": "\\Switches\\GameSwitches\\GunType\\Empty",
+        "GUID": "{74C65360-8F0C-4D0B-955B-D6C491ABC0C3}"
+       },
+       {
         "Id": "4262674733",
         "Name": "Rifle",
         "ObjectPath": "\\Switches\\GameSwitches\\GunType\\Rifle",
@@ -130,6 +136,6 @@
     ]
    }
   ],
-  "FileHash": "{789FBBCE-2F06-9B85-0673-A695C744D546}"
+  "FileHash": "{59274ACB-733E-6DE8-ACF0-CA36D497CFFC}"
  }
 }

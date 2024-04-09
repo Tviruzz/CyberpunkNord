@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{ED3592B0-EF02-4A32-A446-AAAA08A9E2B1}",
     "Language": "SFX",
-    "Hash": "{88745FBF-B242-0855-9572-F778449930AF}",
+    "Hash": "{57CAE6D3-3C33-8E45-0419-54F595612C49}",
     "ObjectPath": "Play_Ammo_Pickup",
     "ShortName": "Play_Ammo_Pickup",
     "Path": "Event/Play_Ammo_Pickup.bnk",
@@ -129,6 +129,6 @@
     ]
    }
   ],
-  "FileHash": "{D9616C46-FB86-7CFF-FF6F-2F3D4025E917}"
+  "FileHash": "{9BDE4E38-D293-C186-98D2-3E6B9C94BF64}"
  }
 }
