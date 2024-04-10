@@ -1478,6 +1478,585 @@
 						</GroupingList>
 					</GroupingInfo>
 				</SwitchContainer>
+				<SwitchContainer Name="Gun_Reload" ID="{773A4C20-6A2A-4F64-AC20-5F637B8A37EA}" ShortID="676445222">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{932E0AC6-AE92-4FF8-946B-9BB811A26F11}"/>
+						</Reference>
+						<Reference Name="DefaultSwitchOrState">
+							<ObjectRef Name="Empty" ID="{74C65360-8F0C-4D0B-955B-D6C491ABC0C3}" WorkUnitID="{C91FCD48-89D4-43E4-A561-3574F1DADB9A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50DB7172-A696-46DE-9D2C-909BB5145933}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="GunType" ID="{FC45C451-ABE4-4F59-9F95-63920C9DD869}" WorkUnitID="{C91FCD48-89D4-43E4-A561-3574F1DADB9A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Pistol" ID="{98F1030E-2B93-4AA3-99AD-171FE1D8BE21}" ShortID="943058150">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{932E0AC6-AE92-4FF8-946B-9BB811A26F11}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50DB7172-A696-46DE-9D2C-909BB5145933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Pistol_Reload" ID="{341E8888-FD0E-4D4A-9008-72997134C3AA}" ShortID="440349831">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{932E0AC6-AE92-4FF8-946B-9BB811A26F11}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50DB7172-A696-46DE-9D2C-909BB5145933}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<SourcePlugin Name="Synth One" ID="{3897342C-3FBA-4678-B011-6CCBBF521B96}" ShortID="1030436109" PluginName="Wwise Synth One" CompanyID="0" PluginID="148">
+											<PropertyList>
+												<Property Name="BaseFrequency" Type="Real32" Value="99"/>
+												<Property Name="FmAmount" Type="Real32" Value="53.1"/>
+												<Property Name="NoiseLevel" Type="Real32" Value="-20"/>
+												<Property Name="NoiseShape" Type="int32" Value="2"/>
+												<Property Name="Osc1Pwm" Type="Real32" Value="100"/>
+												<Property Name="OutputLevel" Type="Real32" Value="-14"/>
+											</PropertyList>
+											<ObjectLists>
+												<ObjectList Name="RTPC">
+													<Reference>
+														<Local>
+															<RTPC Name="" ID="{92881A9E-8820-49A3-85DC-B6328215C665}" ShortID="757272429">
+																<PropertyList>
+																	<Property Name="PropertyName" Type="string" Value="OutputLevel"/>
+																</PropertyList>
+																<ReferenceList>
+																	<Reference Name="ControlInput">
+																		<Custom>
+																			<ModulatorEnvelope Name="Modulator Envelope (Custom)" ID="{71DFB0A1-A68C-4130-812C-1C09F5A45EA0}" ShortID="964576055">
+																				<PropertyList>
+																					<Property Name="EnvelopeAttackCurve" Type="Real64" Value="100"/>
+																					<Property Name="EnvelopeAttackTime" Type="Real64" Value="0"/>
+																					<Property Name="EnvelopeDecayTime" Type="Real64" Value="0.473"/>
+																					<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0.663"/>
+																					<Property Name="EnvelopeSustainLevel" Type="Real64" Value="0"/>
+																				</PropertyList>
+																			</ModulatorEnvelope>
+																		</Custom>
+																	</Reference>
+																	<Reference Name="Curve">
+																		<Custom>
+																			<Curve Name="" ID="{9422C943-3505-4BB9-A75D-AFF9EA564FC1}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>-96</YPos>
+																						<Flags>21</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>1</XPos>
+																						<YPos>0</YPos>
+																						<Flags>53</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</RTPC>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<RTPC Name="" ID="{AD8DCE04-91EC-40FF-A11F-6FBD6D6FEC2F}" ShortID="1060638427">
+																<PropertyList>
+																	<Property Name="PropertyName" Type="string" Value="Osc1Pwm"/>
+																</PropertyList>
+																<ReferenceList>
+																	<Reference Name="ControlInput">
+																		<Custom>
+																			<ModulatorEnvelope Name="Modulator Envelope (Custom)" ID="{C105ED59-D9E7-4B82-BA71-85490DB8F098}" ShortID="622585742">
+																				<PropertyList>
+																					<Property Name="EnvelopeAttackTime" Type="Real64" Value="0"/>
+																					<Property Name="EnvelopeReleaseTime" Type="Real64" Value="1"/>
+																					<Property Name="EnvelopeSustainLevel" Type="Real64" Value="31.6"/>
+																				</PropertyList>
+																			</ModulatorEnvelope>
+																		</Custom>
+																	</Reference>
+																	<Reference Name="Curve">
+																		<Custom>
+																			<Curve Name="" ID="{6C4CE18C-FB76-418A-AA4A-D8CA72AB78BC}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="1"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>50</YPos>
+																						<Flags>21</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>1</XPos>
+																						<YPos>84.86707</YPos>
+																						<Flags>53</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</RTPC>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+											<Language>SFX</Language>
+										</SourcePlugin>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Synth One" ID="{3897342C-3FBA-4678-B011-6CCBBF521B96}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Rifle" ID="{4A9E2192-3A16-4A70-AB7D-056A50C92796}" ShortID="673751085">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{932E0AC6-AE92-4FF8-946B-9BB811A26F11}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50DB7172-A696-46DE-9D2C-909BB5145933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Rifle_Reload" ID="{0B76011A-1A63-4C4B-908A-1D2B2CA04D21}" ShortID="1015937483">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{932E0AC6-AE92-4FF8-946B-9BB811A26F11}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50DB7172-A696-46DE-9D2C-909BB5145933}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<SourcePlugin Name="Synth One" ID="{DBBF72DB-CCC1-4AD3-A448-30C344334C92}" ShortID="549356377" PluginName="Wwise Synth One" CompanyID="0" PluginID="148">
+											<PropertyList>
+												<Property Name="BaseFrequency" Type="Real32" Value="66"/>
+												<Property Name="FmAmount" Type="Real32" Value="67.3"/>
+												<Property Name="NoiseLevel" Type="Real32" Value="-20"/>
+												<Property Name="NoiseShape" Type="int32" Value="2"/>
+												<Property Name="Osc1Pwm" Type="Real32" Value="100"/>
+												<Property Name="Osc2Pwm" Type="Real32" Value="47"/>
+												<Property Name="OutputLevel" Type="Real32" Value="-10"/>
+											</PropertyList>
+											<ObjectLists>
+												<ObjectList Name="RTPC">
+													<Reference>
+														<Local>
+															<RTPC Name="" ID="{068EBAD2-3CA9-489B-B321-225166C61E45}" ShortID="335954381">
+																<PropertyList>
+																	<Property Name="PropertyName" Type="string" Value="OutputLevel"/>
+																</PropertyList>
+																<ReferenceList>
+																	<Reference Name="ControlInput">
+																		<Custom>
+																			<ModulatorEnvelope Name="Modulator Envelope (Custom)" ID="{C4D46DAE-71D3-40C6-B28B-9F9ACC6B9802}" ShortID="144476991">
+																				<PropertyList>
+																					<Property Name="EnvelopeAttackCurve" Type="Real64" Value="100"/>
+																					<Property Name="EnvelopeAttackTime" Type="Real64" Value="0"/>
+																					<Property Name="EnvelopeDecayTime" Type="Real64" Value="0.473"/>
+																					<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0.663"/>
+																					<Property Name="EnvelopeSustainLevel" Type="Real64" Value="0"/>
+																				</PropertyList>
+																			</ModulatorEnvelope>
+																		</Custom>
+																	</Reference>
+																	<Reference Name="Curve">
+																		<Custom>
+																			<Curve Name="" ID="{820EA593-328A-4F81-BDF2-38AA190AD044}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>-96</YPos>
+																						<Flags>21</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>1</XPos>
+																						<YPos>0</YPos>
+																						<Flags>53</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</RTPC>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<RTPC Name="" ID="{17838080-B649-44C8-92A2-7CB925E859B3}" ShortID="375589692">
+																<PropertyList>
+																	<Property Name="PropertyName" Type="string" Value="Osc1Pwm"/>
+																</PropertyList>
+																<ReferenceList>
+																	<Reference Name="ControlInput">
+																		<Custom>
+																			<ModulatorEnvelope Name="Modulator Envelope (Custom)" ID="{72CE93F1-D568-4250-9034-C1CD8656822D}" ShortID="220711080">
+																				<PropertyList>
+																					<Property Name="EnvelopeAttackTime" Type="Real64" Value="0"/>
+																					<Property Name="EnvelopeReleaseTime" Type="Real64" Value="1"/>
+																					<Property Name="EnvelopeSustainLevel" Type="Real64" Value="31.6"/>
+																				</PropertyList>
+																			</ModulatorEnvelope>
+																		</Custom>
+																	</Reference>
+																	<Reference Name="Curve">
+																		<Custom>
+																			<Curve Name="" ID="{82551D7A-38C9-4D61-AA1C-77FC4A70E1FC}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="1"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>50</YPos>
+																						<Flags>21</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>1</XPos>
+																						<YPos>84.86707</YPos>
+																						<Flags>53</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</RTPC>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+											<Language>SFX</Language>
+										</SourcePlugin>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Synth One" ID="{DBBF72DB-CCC1-4AD3-A448-30C344334C92}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Sniper" ID="{19B6CE62-2C3C-4397-9C1D-275E915C40CD}" ShortID="236686970">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{932E0AC6-AE92-4FF8-946B-9BB811A26F11}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50DB7172-A696-46DE-9D2C-909BB5145933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Sniper_Reload" ID="{D9F62F82-3DBD-48C4-8916-756C7F2B71DA}" ShortID="264847768">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{932E0AC6-AE92-4FF8-946B-9BB811A26F11}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50DB7172-A696-46DE-9D2C-909BB5145933}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<SourcePlugin Name="Synth One" ID="{36B1694E-C062-40ED-85C9-0624479C3CD4}" ShortID="817392042" PluginName="Wwise Synth One" CompanyID="0" PluginID="148">
+											<PropertyList>
+												<Property Name="BaseFrequency" Type="Real32" Value="99"/>
+												<Property Name="FmAmount" Type="Real32" Value="33.1"/>
+												<Property Name="NoiseLevel" Type="Real32" Value="-20"/>
+												<Property Name="NoiseShape" Type="int32" Value="2"/>
+												<Property Name="OperationMode" Type="int32" Value="1"/>
+												<Property Name="Osc1Pwm" Type="Real32" Value="100"/>
+												<Property Name="OutputLevel" Type="Real32" Value="3"/>
+											</PropertyList>
+											<ObjectLists>
+												<ObjectList Name="RTPC">
+													<Reference>
+														<Local>
+															<RTPC Name="" ID="{5479B9DB-7B93-4A2D-A61C-F9B822F4C610}" ShortID="333658141">
+																<PropertyList>
+																	<Property Name="PropertyName" Type="string" Value="OutputLevel"/>
+																</PropertyList>
+																<ReferenceList>
+																	<Reference Name="ControlInput">
+																		<Custom>
+																			<ModulatorEnvelope Name="Modulator Envelope (Custom)" ID="{3D1E3E64-C7C5-459E-B50C-D6370EA17736}" ShortID="646596791">
+																				<PropertyList>
+																					<Property Name="EnvelopeAttackCurve" Type="Real64" Value="100"/>
+																					<Property Name="EnvelopeAttackTime" Type="Real64" Value="0"/>
+																					<Property Name="EnvelopeDecayTime" Type="Real64" Value="0.473"/>
+																					<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0.663"/>
+																					<Property Name="EnvelopeSustainLevel" Type="Real64" Value="0"/>
+																				</PropertyList>
+																			</ModulatorEnvelope>
+																		</Custom>
+																	</Reference>
+																	<Reference Name="Curve">
+																		<Custom>
+																			<Curve Name="" ID="{3BD1D644-A014-4A40-8281-A79AC1B43D80}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>-96</YPos>
+																						<Flags>21</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>1</XPos>
+																						<YPos>0</YPos>
+																						<Flags>53</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</RTPC>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<RTPC Name="" ID="{2D7B13DE-B7DC-4C8C-A0E8-9B5FCA98E758}" ShortID="236998806">
+																<PropertyList>
+																	<Property Name="PropertyName" Type="string" Value="Osc1Pwm"/>
+																</PropertyList>
+																<ReferenceList>
+																	<Reference Name="ControlInput">
+																		<Custom>
+																			<ModulatorEnvelope Name="Modulator Envelope (Custom)" ID="{A4F5EAB4-BAAC-48DD-8ACA-E97D3335D93E}" ShortID="774078385">
+																				<PropertyList>
+																					<Property Name="EnvelopeAttackTime" Type="Real64" Value="0"/>
+																					<Property Name="EnvelopeReleaseTime" Type="Real64" Value="1"/>
+																					<Property Name="EnvelopeSustainLevel" Type="Real64" Value="31.6"/>
+																				</PropertyList>
+																			</ModulatorEnvelope>
+																		</Custom>
+																	</Reference>
+																	<Reference Name="Curve">
+																		<Custom>
+																			<Curve Name="" ID="{1155BC4A-51D6-4FEA-AF8F-8767F82ABB2E}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="1"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>50</YPos>
+																						<Flags>21</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>1</XPos>
+																						<YPos>84.86707</YPos>
+																						<Flags>53</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</RTPC>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+											<Language>SFX</Language>
+										</SourcePlugin>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Synth One" ID="{36B1694E-C062-40ED-85C9-0624479C3CD4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Empty" ID="{666CC573-F9FD-4EB3-8D5B-9B4B74F4A759}" ShortID="655552946">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{932E0AC6-AE92-4FF8-946B-9BB811A26F11}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50DB7172-A696-46DE-9D2C-909BB5145933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Empty_Reload" ID="{2F2FE9EE-7C7F-4646-A46F-CAC50200A9ED}" ShortID="663498937">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{932E0AC6-AE92-4FF8-946B-9BB811A26F11}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50DB7172-A696-46DE-9D2C-909BB5145933}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<SourcePlugin Name="Synth One" ID="{B043D827-0C19-48B1-A3F9-82D506BD67B4}" ShortID="237638765" PluginName="Wwise Synth One" CompanyID="0" PluginID="148">
+											<PropertyList>
+												<Property Name="BaseFrequency" Type="Real32" Value="94"/>
+												<Property Name="FmAmount" Type="Real32" Value="100"/>
+												<Property Name="NoiseLevel" Type="Real32" Value="-20"/>
+												<Property Name="NoiseShape" Type="int32" Value="2"/>
+												<Property Name="OperationMode" Type="int32" Value="1"/>
+												<Property Name="Osc1Pwm" Type="Real32" Value="100"/>
+												<Property Name="Osc2Pwm" Type="Real32" Value="47"/>
+												<Property Name="OutputLevel" Type="Real32" Value="-6"/>
+											</PropertyList>
+											<ObjectLists>
+												<ObjectList Name="RTPC">
+													<Reference>
+														<Local>
+															<RTPC Name="" ID="{35CB89FB-CDC0-4640-A1F7-BFA239F9CAB6}" ShortID="858994139">
+																<PropertyList>
+																	<Property Name="PropertyName" Type="string" Value="OutputLevel"/>
+																</PropertyList>
+																<ReferenceList>
+																	<Reference Name="ControlInput">
+																		<Custom>
+																			<ModulatorEnvelope Name="Modulator Envelope (Custom)" ID="{DC5B4CAC-B1B8-42D5-8616-9496F24DB175}" ShortID="243245846">
+																				<PropertyList>
+																					<Property Name="EnvelopeAttackCurve" Type="Real64" Value="100"/>
+																					<Property Name="EnvelopeAttackTime" Type="Real64" Value="0"/>
+																					<Property Name="EnvelopeDecayTime" Type="Real64" Value="0.215"/>
+																					<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0.563"/>
+																					<Property Name="EnvelopeSustainLevel" Type="Real64" Value="0"/>
+																				</PropertyList>
+																			</ModulatorEnvelope>
+																		</Custom>
+																	</Reference>
+																	<Reference Name="Curve">
+																		<Custom>
+																			<Curve Name="" ID="{3D656D03-0DD1-456E-A42D-E1F120230C65}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>-96</YPos>
+																						<Flags>21</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>1</XPos>
+																						<YPos>0</YPos>
+																						<Flags>53</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</RTPC>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<RTPC Name="" ID="{F9B9E93C-5A89-4074-89D8-841E52846A2E}" ShortID="523593984">
+																<PropertyList>
+																	<Property Name="PropertyName" Type="string" Value="Osc1Pwm"/>
+																</PropertyList>
+																<ReferenceList>
+																	<Reference Name="ControlInput">
+																		<Custom>
+																			<ModulatorEnvelope Name="Modulator Envelope (Custom)" ID="{A1A96129-5911-42C0-A1C9-64F9894BBF48}" ShortID="548350049">
+																				<PropertyList>
+																					<Property Name="EnvelopeAttackTime" Type="Real64" Value="0"/>
+																					<Property Name="EnvelopeDecayTime" Type="Real64" Value="0"/>
+																					<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0"/>
+																					<Property Name="EnvelopeSustainLevel" Type="Real64" Value="31.6"/>
+																				</PropertyList>
+																			</ModulatorEnvelope>
+																		</Custom>
+																	</Reference>
+																	<Reference Name="Curve">
+																		<Custom>
+																			<Curve Name="" ID="{BE25DAF7-F5F0-408F-B86C-37E3A1FBFF7C}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="1"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>50</YPos>
+																						<Flags>21</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>1</XPos>
+																						<YPos>84.86707</YPos>
+																						<Flags>53</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</RTPC>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+											<Language>SFX</Language>
+										</SourcePlugin>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Synth One" ID="{B043D827-0C19-48B1-A3F9-82D506BD67B4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="Pistol" ID="{98F1030E-2B93-4AA3-99AD-171FE1D8BE21}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Sniper" ID="{19B6CE62-2C3C-4397-9C1D-275E915C40CD}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Empty" ID="{666CC573-F9FD-4EB3-8D5B-9B4B74F4A759}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Rifle" ID="{4A9E2192-3A16-4A70-AB7D-056A50C92796}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="Sniper" ID="{C15DE933-4891-4D62-BE78-F1763A353FA8}"/>
+								<ItemList>
+									<ItemRef Name="Sniper" ID="{19B6CE62-2C3C-4397-9C1D-275E915C40CD}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Pistol" ID="{A1812AA0-79E8-4BCD-86C4-6C5C8A20B88A}"/>
+								<ItemList>
+									<ItemRef Name="Pistol" ID="{98F1030E-2B93-4AA3-99AD-171FE1D8BE21}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Rifle" ID="{734914CE-A7F4-4A30-8072-9EBFF2B9B848}"/>
+								<ItemList>
+									<ItemRef Name="Rifle" ID="{4A9E2192-3A16-4A70-AB7D-056A50C92796}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

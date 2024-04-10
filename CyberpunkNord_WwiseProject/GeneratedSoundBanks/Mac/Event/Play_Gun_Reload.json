@@ -1,0 +1,139 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "2003795032",
+    "Type": "Event",
+    "GUID": "{C4223D45-CAE6-4BBB-88CA-21F88AA151AE}",
+    "Language": "SFX",
+    "Hash": "{61B9F797-35E2-B495-D02A-B82F4E2B3FE3}",
+    "ObjectPath": "Play_Gun_Reload",
+    "ShortName": "Play_Gun_Reload",
+    "Path": "Event/Play_Gun_Reload.bnk",
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "549356377",
+       "Name": "Synth One",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\Gun_Reload\\Rifle\\Rifle_Reload\\Synth One",
+       "GUID": "{DBBF72DB-CCC1-4AD3-A448-30C344334C92}",
+       "LibName": "Wwise Synth One",
+       "LibId": "9699330"
+      },
+      {
+       "Id": "817392042",
+       "Name": "Synth One",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\Gun_Reload\\Sniper\\Sniper_Reload\\Synth One",
+       "GUID": "{36B1694E-C062-40ED-85C9-0624479C3CD4}",
+       "LibName": "Wwise Synth One",
+       "LibId": "9699330"
+      },
+      {
+       "Id": "1030436109",
+       "Name": "Synth One",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\Gun_Reload\\Pistol\\Pistol_Reload\\Synth One",
+       "GUID": "{3897342C-3FBA-4678-B011-6CCBBF521B96}",
+       "LibName": "Wwise Synth One",
+       "LibId": "9699330"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "2003795032",
+      "Name": "Play_Gun_Reload",
+      "ObjectPath": "\\Events\\MikoEvents\\Play_Gun_Reload",
+      "GUID": "{C4223D45-CAE6-4BBB-88CA-21F88AA151AE}",
+      "DurationType": "Unknown",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1613795745",
+         "Id": "2550763292",
+         "GUID": "{C15DE933-4891-4D62-BE78-F1763A353FA8}"
+        },
+        "PluginRefs": {
+         "Custom": [
+          {
+           "Id": "817392042"
+          }
+         ]
+        }
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1613795745",
+         "Id": "324443136",
+         "GUID": "{A1812AA0-79E8-4BCD-86C4-6C5C8A20B88A}"
+        },
+        "PluginRefs": {
+         "Custom": [
+          {
+           "Id": "1030436109"
+          }
+         ]
+        }
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1613795745",
+         "Id": "4262674733",
+         "GUID": "{734914CE-A7F4-4A30-8072-9EBFF2B9B848}"
+        },
+        "PluginRefs": {
+         "Custom": [
+          {
+           "Id": "549356377"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "1613795745",
+      "Name": "GunType",
+      "ObjectPath": "\\Switches\\GameSwitches\\GunType",
+      "GUID": "{FC45C451-ABE4-4F59-9F95-63920C9DD869}",
+      "Switches": [
+       {
+        "Id": "324443136",
+        "Name": "Pistol",
+        "ObjectPath": "\\Switches\\GameSwitches\\GunType\\Pistol",
+        "GUID": "{A1812AA0-79E8-4BCD-86C4-6C5C8A20B88A}"
+       },
+       {
+        "Id": "2550763292",
+        "Name": "Sniper",
+        "ObjectPath": "\\Switches\\GameSwitches\\GunType\\Sniper",
+        "GUID": "{C15DE933-4891-4D62-BE78-F1763A353FA8}"
+       },
+       {
+        "Id": "3354297748",
+        "Name": "Empty",
+        "ObjectPath": "\\Switches\\GameSwitches\\GunType\\Empty",
+        "GUID": "{74C65360-8F0C-4D0B-955B-D6C491ABC0C3}"
+       },
+       {
+        "Id": "4262674733",
+        "Name": "Rifle",
+        "ObjectPath": "\\Switches\\GameSwitches\\GunType\\Rifle",
+        "GUID": "{734914CE-A7F4-4A30-8072-9EBFF2B9B848}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{EE4EFA5F-E992-0B12-D0F4-F18E7F6017AC}"
+ }
+}

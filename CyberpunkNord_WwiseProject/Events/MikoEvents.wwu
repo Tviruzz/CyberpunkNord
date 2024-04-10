@@ -89,6 +89,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Gun_Reload" ID="{C4223D45-CAE6-4BBB-88CA-21F88AA151AE}">
+					<ChildrenList>
+						<Action Name="" ID="{2543CCA9-8636-4AF3-9889-BCFDA7A13F38}" ShortID="1001423654">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gun_Reload" ID="{773A4C20-6A2A-4F64-AC20-5F637B8A37EA}" WorkUnitID="{A7EB45C4-B939-4480-A678-788D7A20EEBC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
