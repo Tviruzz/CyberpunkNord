@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{AAF57E4B-7885-4800-A51A-BAF51823C999}",
     "Language": "SFX",
-    "Hash": "{39E0E004-23AA-5897-0F2A-615E46F1A191}",
+    "Hash": "{DEF72980-1F5D-6958-F851-D20ACF285D08}",
     "ObjectPath": "Play_Test_Emmiter",
     "ShortName": "Play_Test_Emmiter",
     "Path": "Event/Play_Test_Emmiter.bnk",
@@ -19,7 +19,7 @@
       {
        "Id": "1068762654",
        "Name": "Synth One",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\TestAudio_Emmiter_3D\\Synth One",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\SpatialAudioRouting\\TestAudio_Emmiter_3D\\Synth One",
        "GUID": "{7502B11E-1B31-4AA2-9D96-08B06C9B9B1D}",
        "LibName": "Wwise Synth One",
        "LibId": "9699330"
@@ -32,7 +32,7 @@
       "Name": "Play_Test_Emmiter",
       "ObjectPath": "\\Events\\MikoEvents\\Play_Test_Emmiter",
       "GUID": "{AAF57E4B-7885-4800-A51A-BAF51823C999}",
-      "MaxAttenuation": "200",
+      "MaxAttenuation": "475",
       "DurationType": "Unknown",
       "PluginRefs": {
        "Custom": [
@@ -45,6 +45,6 @@
     ]
    }
   ],
-  "FileHash": "{5C5A36C0-73A2-B17D-D7C5-EE08B3ADE573}"
+  "FileHash": "{BE77FD6C-E0A0-D61B-049B-A13192DF443A}"
  }
 }

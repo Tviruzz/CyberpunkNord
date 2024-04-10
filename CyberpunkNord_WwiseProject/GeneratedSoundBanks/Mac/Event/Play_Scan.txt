@@ -5,6 +5,9 @@ Modulator Envelope	ID	Name			Wwise Object Path	Notes
 	263701387	Modulator Envelope (Custom)				
 	991953739	Modulator Envelope (Custom)				
 
+Effect plug-ins	ID	Name	Type				Notes
+	515095871	Stereo Delay (Custom)	Wwise Stereo Delay			
+
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
-	134915275	Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Miko\Player_Scan\Synth One	
+	134915275	Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Miko\SpatialAudioRouting\Player_Scan\Synth One	
 

@@ -17,8 +17,8 @@ Modulator Envelope	ID	Name			Wwise Object Path	Notes
 	962899873	Modulator Envelope (Custom)				
 
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
-	183355157	Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Miko\Gun_Shoot\Empty_Shoot\EmptyShootGun\Synth One	
-	389799868	Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Miko\Gun_Shoot\Sniper_Shoot\SniperShootGun\Synth One	
-	944493094	Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Miko\Gun_Shoot\Pistol_Shoot\PistolShootGun\Synth One	
-	998034893	Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Miko\Gun_Shoot\Rifle_Shoot\RifleShootGun\Synth One	
+	183355157	Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Miko\SpatialAudioRouting\Gun_Shoot\Empty_Shoot\EmptyShootGun\Synth One	
+	389799868	Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Miko\SpatialAudioRouting\Gun_Shoot\Sniper_Shoot\SniperShootGun\Synth One	
+	944493094	Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Miko\SpatialAudioRouting\Gun_Shoot\Pistol_Shoot\PistolShootGun\Synth One	
+	998034893	Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Miko\SpatialAudioRouting\Gun_Shoot\Rifle_Shoot\RifleShootGun\Synth One	
 

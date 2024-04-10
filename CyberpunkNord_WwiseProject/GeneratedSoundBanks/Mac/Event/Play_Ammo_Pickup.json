@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{ED3592B0-EF02-4A32-A446-AAAA08A9E2B1}",
     "Language": "SFX",
-    "Hash": "{57CAE6D3-3C33-8E45-0419-54F595612C49}",
+    "Hash": "{11D16D85-555E-2E93-4598-2D9435A9FE94}",
     "ObjectPath": "Play_Ammo_Pickup",
     "ShortName": "Play_Ammo_Pickup",
     "Path": "Event/Play_Ammo_Pickup.bnk",
@@ -19,7 +19,7 @@
       {
        "Id": "169472566",
        "Name": "Synth One",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\Ammo_Pickup\\Light\\LightPickup\\Synth One",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\SpatialAudioRouting\\Ammo_Pickup\\Light\\LightPickup\\Synth One",
        "GUID": "{F4C497F8-0792-4E40-92E8-97AE68F39452}",
        "LibName": "Wwise Synth One",
        "LibId": "9699330"
@@ -27,7 +27,7 @@
       {
        "Id": "255460811",
        "Name": "Synth One",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\Ammo_Pickup\\Heavy\\HeavyPickup\\Synth One",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\SpatialAudioRouting\\Ammo_Pickup\\Heavy\\HeavyPickup\\Synth One",
        "GUID": "{E6450DE8-EEA5-415D-BFBE-48ACDA665BEE}",
        "LibName": "Wwise Synth One",
        "LibId": "9699330"
@@ -35,7 +35,7 @@
       {
        "Id": "610260876",
        "Name": "Synth One",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\Ammo_Pickup\\Medium\\MediumPickup\\Synth One",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\SpatialAudioRouting\\Ammo_Pickup\\Medium\\MediumPickup\\Synth One",
        "GUID": "{919D6D61-446F-4D55-BF39-056E36354362}",
        "LibName": "Wwise Synth One",
        "LibId": "9699330"
@@ -48,6 +48,7 @@
       "Name": "Play_Ammo_Pickup",
       "ObjectPath": "\\Events\\MikoEvents\\Play_Ammo_Pickup",
       "GUID": "{ED3592B0-EF02-4A32-A446-AAAA08A9E2B1}",
+      "MaxAttenuation": "475",
       "DurationType": "Unknown",
       "SwitchContainers": [
        {
@@ -129,6 +130,6 @@
     ]
    }
   ],
-  "FileHash": "{EC912725-6827-2844-71C4-BE4581CB2BF9}"
+  "FileHash": "{38357E35-15CB-4713-3A95-C5F51F970B96}"
  }
 }

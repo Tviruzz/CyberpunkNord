@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="2825395259" Type="Event" GUID="{2D4A392D-B75B-44AC-B9FE-89979C7CB37F}" Language="SFX" Hash="{20BCD85C-3894-755F-1795-903D372B33A3}">
+		<SoundBank Id="2825395259" Type="Event" GUID="{2D4A392D-B75B-44AC-B9FE-89979C7CB37F}" Language="SFX" Hash="{969303C0-CEDE-F296-8A8B-A1F6AD1C73A9}">
 			<ObjectPath>Play_Player_Walk</ObjectPath>
 			<ShortName>Play_Player_Walk</ShortName>
 			<Path>Event/Play_Player_Walk.bnk</Path>
@@ -38,7 +38,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2825395259" Name="Play_Player_Walk" ObjectPath="\Events\AndresEvents\MainCharacter\Play_Player_Walk" GUID="{2D4A392D-B75B-44AC-B9FE-89979C7CB37F}" DurationType="OneShot" DurationMin="0.25238803" DurationMax="0.49889678">
+				<Event Id="2825395259" Name="Play_Player_Walk" ObjectPath="\Events\AndresEvents\MainCharacter\Play_Player_Walk" GUID="{2D4A392D-B75B-44AC-B9FE-89979C7CB37F}" MaxAttenuation="475" DurationType="OneShot" DurationMin="0.25238803" DurationMax="0.49889678">
 					<MediaRefs>
 						<MediaRef Id="419108382"/>
 						<MediaRef Id="544166167"/>
@@ -51,5 +51,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{AF126BA3-E00E-7C0B-C78A-95C277D42F56}</FileHash>
+	<FileHash>{00E8387E-674C-EB6B-4640-141981622F3C}</FileHash>
 </SoundBanksInfo>

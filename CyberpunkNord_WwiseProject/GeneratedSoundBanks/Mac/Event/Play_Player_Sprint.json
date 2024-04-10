@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{FCAC40F7-76BD-46AB-87FF-ED7062E763C3}",
     "Language": "SFX",
-    "Hash": "{DA95FB79-60DD-FFCC-6157-F8C0C4B2EFBC}",
+    "Hash": "{00DACFCE-153F-899B-235E-4FAE5D12E45D}",
     "ObjectPath": "Play_Player_Sprint",
     "ShortName": "Play_Player_Sprint",
     "Path": "Event/Play_Player_Sprint.bnk",
@@ -76,6 +76,7 @@
       "Name": "Play_Player_Sprint",
       "ObjectPath": "\\Events\\AndresEvents\\MainCharacter\\Play_Player_Sprint",
       "GUID": "{FCAC40F7-76BD-46AB-87FF-ED7062E763C3}",
+      "MaxAttenuation": "475",
       "DurationType": "OneShot",
       "DurationMin": "0.31336623",
       "DurationMax": "0.46894485",
@@ -103,6 +104,6 @@
     ]
    }
   ],
-  "FileHash": "{8DB2F3BB-5151-D9DC-325C-A07E215EA7FC}"
+  "FileHash": "{934A34AC-2399-7E18-2227-4DBB9255E1DE}"
  }
 }

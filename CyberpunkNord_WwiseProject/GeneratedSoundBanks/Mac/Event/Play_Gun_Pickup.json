@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{E48C02B7-42EB-4B96-8569-29A9CB964CD2}",
     "Language": "SFX",
-    "Hash": "{ACD3618F-378A-7BB4-E18B-AA47B6737CB2}",
+    "Hash": "{EFAB5527-7BE6-EC69-344D-232F4896267C}",
     "ObjectPath": "Play_Gun_Pickup",
     "ShortName": "Play_Gun_Pickup",
     "Path": "Event/Play_Gun_Pickup.bnk",
@@ -19,7 +19,7 @@
       {
        "Id": "150159743",
        "Name": "Synth One",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\Gun_Pickup\\Sniper\\TestSniperPickup\\Synth One",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\SpatialAudioRouting\\Gun_Pickup\\Sniper\\TestSniperPickup\\Synth One",
        "GUID": "{5E742ED1-F043-4EF2-8C48-7C8B3CADE6A6}",
        "LibName": "Wwise Synth One",
        "LibId": "9699330"
@@ -27,7 +27,7 @@
       {
        "Id": "466626232",
        "Name": "Synth One",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\Gun_Pickup\\Pistol\\TestPistolPickup\\Synth One",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\SpatialAudioRouting\\Gun_Pickup\\Pistol\\TestPistolPickup\\Synth One",
        "GUID": "{1ECFC7B4-118A-42DA-B12F-E9536FDC09DC}",
        "LibName": "Wwise Synth One",
        "LibId": "9699330"
@@ -35,7 +35,7 @@
       {
        "Id": "808801550",
        "Name": "Synth One",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\Gun_Pickup\\Rifle\\TestRiflePickup\\Synth One",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\SpatialAudioRouting\\Gun_Pickup\\Rifle\\TestRiflePickup\\Synth One",
        "GUID": "{414E0DB0-23BB-4D43-B214-2B532A7269E0}",
        "LibName": "Wwise Synth One",
        "LibId": "9699330"
@@ -48,6 +48,7 @@
       "Name": "Play_Gun_Pickup",
       "ObjectPath": "\\Events\\MikoEvents\\Play_Gun_Pickup",
       "GUID": "{E48C02B7-42EB-4B96-8569-29A9CB964CD2}",
+      "MaxAttenuation": "475",
       "DurationType": "Unknown",
       "SwitchContainers": [
        {
@@ -135,6 +136,6 @@
     ]
    }
   ],
-  "FileHash": "{75EFDD1D-2B76-167B-0C7C-BDF3C03BBC8E}"
+  "FileHash": "{001CD313-3F6A-6347-273D-2D025788B1E9}"
  }
 }

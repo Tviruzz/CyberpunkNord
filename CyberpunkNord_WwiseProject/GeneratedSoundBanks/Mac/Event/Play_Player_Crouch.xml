@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="674615794" Type="Event" GUID="{1859CFF1-9FB0-479D-AF24-4512EB2D1B56}" Language="SFX" Hash="{ED4254B5-A9FC-9A7B-ECE0-4F2B8A2FA370}">
+		<SoundBank Id="674615794" Type="Event" GUID="{1859CFF1-9FB0-479D-AF24-4512EB2D1B56}" Language="SFX" Hash="{96AFA85A-2F06-079C-378C-18A8317006CE}">
 			<ObjectPath>Play_Player_Crouch</ObjectPath>
 			<ShortName>Play_Player_Crouch</ShortName>
 			<Path>Event/Play_Player_Crouch.bnk</Path>
@@ -38,7 +38,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="674615794" Name="Play_Player_Crouch" ObjectPath="\Events\AndresEvents\MainCharacter\Play_Player_Crouch" GUID="{1859CFF1-9FB0-479D-AF24-4512EB2D1B56}" DurationType="OneShot" DurationMin="0.42788967" DurationMax="0.5932994">
+				<Event Id="674615794" Name="Play_Player_Crouch" ObjectPath="\Events\AndresEvents\MainCharacter\Play_Player_Crouch" GUID="{1859CFF1-9FB0-479D-AF24-4512EB2D1B56}" MaxAttenuation="475" DurationType="OneShot" DurationMin="0.42788967" DurationMax="0.5932994">
 					<MediaRefs>
 						<MediaRef Id="177420167"/>
 						<MediaRef Id="212353768"/>
@@ -51,5 +51,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{6909D927-9441-AFEC-AB1C-D5D25B618A1F}</FileHash>
+	<FileHash>{3D9B016C-A6F1-7764-CA6C-7B0072317356}</FileHash>
 </SoundBanksInfo>

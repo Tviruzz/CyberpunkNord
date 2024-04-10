@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{2D4A392D-B75B-44AC-B9FE-89979C7CB37F}",
     "Language": "SFX",
-    "Hash": "{20BCD85C-3894-755F-1795-903D372B33A3}",
+    "Hash": "{969303C0-CEDE-F296-8A8B-A1F6AD1C73A9}",
     "ObjectPath": "Play_Player_Walk",
     "ShortName": "Play_Player_Walk",
     "Path": "Event/Play_Player_Walk.bnk",
@@ -76,6 +76,7 @@
       "Name": "Play_Player_Walk",
       "ObjectPath": "\\Events\\AndresEvents\\MainCharacter\\Play_Player_Walk",
       "GUID": "{2D4A392D-B75B-44AC-B9FE-89979C7CB37F}",
+      "MaxAttenuation": "475",
       "DurationType": "OneShot",
       "DurationMin": "0.25238803",
       "DurationMax": "0.49889678",
@@ -103,6 +104,6 @@
     ]
    }
   ],
-  "FileHash": "{39A7268F-E1C2-80C2-4AFD-C97A707613F1}"
+  "FileHash": "{0333E9FA-7C44-791A-532C-0F89A9C6D29F}"
  }
 }

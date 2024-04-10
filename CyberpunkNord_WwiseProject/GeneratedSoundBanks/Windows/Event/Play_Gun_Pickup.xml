@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="889160563" Type="Event" GUID="{E48C02B7-42EB-4B96-8569-29A9CB964CD2}" Language="SFX" Hash="{ACD3618F-378A-7BB4-E18B-AA47B6737CB2}">
+		<SoundBank Id="889160563" Type="Event" GUID="{E48C02B7-42EB-4B96-8569-29A9CB964CD2}" Language="SFX" Hash="{EFAB5527-7BE6-EC69-344D-232F4896267C}">
 			<ObjectPath>Play_Gun_Pickup</ObjectPath>
 			<ShortName>Play_Gun_Pickup</ShortName>
 			<Path>Event/Play_Gun_Pickup.bnk</Path>
 			<Plugins>
 				<Custom>
-					<Plugin Id="150159743" Name="Synth One" ObjectPath="\Actor-Mixer Hierarchy\Miko\Gun_Pickup\Sniper\TestSniperPickup\Synth One" GUID="{5E742ED1-F043-4EF2-8C48-7C8B3CADE6A6}" LibName="Wwise Synth One" LibId="9699330"/>
-					<Plugin Id="466626232" Name="Synth One" ObjectPath="\Actor-Mixer Hierarchy\Miko\Gun_Pickup\Pistol\TestPistolPickup\Synth One" GUID="{1ECFC7B4-118A-42DA-B12F-E9536FDC09DC}" LibName="Wwise Synth One" LibId="9699330"/>
-					<Plugin Id="808801550" Name="Synth One" ObjectPath="\Actor-Mixer Hierarchy\Miko\Gun_Pickup\Rifle\TestRiflePickup\Synth One" GUID="{414E0DB0-23BB-4D43-B214-2B532A7269E0}" LibName="Wwise Synth One" LibId="9699330"/>
+					<Plugin Id="150159743" Name="Synth One" ObjectPath="\Actor-Mixer Hierarchy\Miko\SpatialAudioRouting\Gun_Pickup\Sniper\TestSniperPickup\Synth One" GUID="{5E742ED1-F043-4EF2-8C48-7C8B3CADE6A6}" LibName="Wwise Synth One" LibId="9699330"/>
+					<Plugin Id="466626232" Name="Synth One" ObjectPath="\Actor-Mixer Hierarchy\Miko\SpatialAudioRouting\Gun_Pickup\Pistol\TestPistolPickup\Synth One" GUID="{1ECFC7B4-118A-42DA-B12F-E9536FDC09DC}" LibName="Wwise Synth One" LibId="9699330"/>
+					<Plugin Id="808801550" Name="Synth One" ObjectPath="\Actor-Mixer Hierarchy\Miko\SpatialAudioRouting\Gun_Pickup\Rifle\TestRiflePickup\Synth One" GUID="{414E0DB0-23BB-4D43-B214-2B532A7269E0}" LibName="Wwise Synth One" LibId="9699330"/>
 				</Custom>
 			</Plugins>
 			<Events>
-				<Event Id="889160563" Name="Play_Gun_Pickup" ObjectPath="\Events\MikoEvents\Play_Gun_Pickup" GUID="{E48C02B7-42EB-4B96-8569-29A9CB964CD2}" DurationType="Unknown">
+				<Event Id="889160563" Name="Play_Gun_Pickup" ObjectPath="\Events\MikoEvents\Play_Gun_Pickup" GUID="{E48C02B7-42EB-4B96-8569-29A9CB964CD2}" MaxAttenuation="475" DurationType="Unknown">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="1613795745" Id="2550763292" GUID="{C15DE933-4891-4D62-BE78-F1763A353FA8}"/>
@@ -54,5 +54,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E538F9DE-DF48-73F7-971B-73F5B9F3E04C}</FileHash>
+	<FileHash>{A6DA3AF1-02DA-B5F3-7227-DA565AA04EDA}</FileHash>
 </SoundBanksInfo>

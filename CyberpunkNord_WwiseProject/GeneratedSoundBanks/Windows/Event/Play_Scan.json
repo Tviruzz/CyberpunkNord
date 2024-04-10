@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{DD52A457-23A1-499C-8AB6-ACCE282F13E5}",
     "Language": "SFX",
-    "Hash": "{5D04CEE8-B9F2-51DC-BDC6-0D7C37E36A95}",
+    "Hash": "{B33A0E12-0F7C-6D49-166D-248D58A9E80F}",
     "ObjectPath": "Play_Scan",
     "ShortName": "Play_Scan",
     "Path": "Event/Play_Scan.bnk",
@@ -19,10 +19,18 @@
       {
        "Id": "134915275",
        "Name": "Synth One",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\Player_Scan\\Synth One",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\SpatialAudioRouting\\Player_Scan\\Synth One",
        "GUID": "{F5FF84F9-6D98-4E19-9BDF-2D360387441A}",
        "LibName": "Wwise Synth One",
        "LibId": "9699330"
+      },
+      {
+       "Id": "515095871",
+       "Name": "Stereo Delay (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\SpatialAudioRouting\\Player_Scan\\Stereo Delay (Custom)",
+       "GUID": "{6310D895-BEDC-46BB-91A4-B7E19F49D5C0}",
+       "LibName": "Wwise Stereo Delay",
+       "LibId": "8847363"
       }
      ]
     },
@@ -37,6 +45,9 @@
        "Custom": [
         {
          "Id": "134915275"
+        },
+        {
+         "Id": "515095871"
         }
        ]
       }
@@ -44,6 +55,6 @@
     ]
    }
   ],
-  "FileHash": "{875BACF0-9A64-75D1-BA8A-A628892DBE57}"
+  "FileHash": "{53325CDA-CFF0-B2B4-BC2E-818E86669883}"
  }
 }

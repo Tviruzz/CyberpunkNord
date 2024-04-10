@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{1859CFF1-9FB0-479D-AF24-4512EB2D1B56}",
     "Language": "SFX",
-    "Hash": "{ED4254B5-A9FC-9A7B-ECE0-4F2B8A2FA370}",
+    "Hash": "{96AFA85A-2F06-079C-378C-18A8317006CE}",
     "ObjectPath": "Play_Player_Crouch",
     "ShortName": "Play_Player_Crouch",
     "Path": "Event/Play_Player_Crouch.bnk",
@@ -76,6 +76,7 @@
       "Name": "Play_Player_Crouch",
       "ObjectPath": "\\Events\\AndresEvents\\MainCharacter\\Play_Player_Crouch",
       "GUID": "{1859CFF1-9FB0-479D-AF24-4512EB2D1B56}",
+      "MaxAttenuation": "475",
       "DurationType": "OneShot",
       "DurationMin": "0.42788967",
       "DurationMax": "0.5932994",
@@ -103,6 +104,6 @@
     ]
    }
   ],
-  "FileHash": "{167A5B87-6B3F-9DE9-5AD2-6D123273B0F6}"
+  "FileHash": "{FBFA15A2-5504-B408-4033-DEC2FB427A12}"
  }
 }

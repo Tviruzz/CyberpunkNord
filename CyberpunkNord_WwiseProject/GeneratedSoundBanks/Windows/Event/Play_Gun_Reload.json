@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{C4223D45-CAE6-4BBB-88CA-21F88AA151AE}",
     "Language": "SFX",
-    "Hash": "{61B9F797-35E2-B495-D02A-B82F4E2B3FE3}",
+    "Hash": "{1611443E-4081-66F2-5B68-029A553C414E}",
     "ObjectPath": "Play_Gun_Reload",
     "ShortName": "Play_Gun_Reload",
     "Path": "Event/Play_Gun_Reload.bnk",
@@ -19,7 +19,7 @@
       {
        "Id": "549356377",
        "Name": "Synth One",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\Gun_Reload\\Rifle\\Rifle_Reload\\Synth One",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\SpatialAudioRouting\\Gun_Reload\\Rifle\\Rifle_Reload\\Synth One",
        "GUID": "{DBBF72DB-CCC1-4AD3-A448-30C344334C92}",
        "LibName": "Wwise Synth One",
        "LibId": "9699330"
@@ -27,7 +27,7 @@
       {
        "Id": "817392042",
        "Name": "Synth One",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\Gun_Reload\\Sniper\\Sniper_Reload\\Synth One",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\SpatialAudioRouting\\Gun_Reload\\Sniper\\Sniper_Reload\\Synth One",
        "GUID": "{36B1694E-C062-40ED-85C9-0624479C3CD4}",
        "LibName": "Wwise Synth One",
        "LibId": "9699330"
@@ -35,7 +35,7 @@
       {
        "Id": "1030436109",
        "Name": "Synth One",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\Gun_Reload\\Pistol\\Pistol_Reload\\Synth One",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\SpatialAudioRouting\\Gun_Reload\\Pistol\\Pistol_Reload\\Synth One",
        "GUID": "{3897342C-3FBA-4678-B011-6CCBBF521B96}",
        "LibName": "Wwise Synth One",
        "LibId": "9699330"
@@ -48,6 +48,7 @@
       "Name": "Play_Gun_Reload",
       "ObjectPath": "\\Events\\MikoEvents\\Play_Gun_Reload",
       "GUID": "{C4223D45-CAE6-4BBB-88CA-21F88AA151AE}",
+      "MaxAttenuation": "475",
       "DurationType": "Unknown",
       "SwitchContainers": [
        {
@@ -134,6 +135,6 @@
     ]
    }
   ],
-  "FileHash": "{B5B2C220-0EDF-6D62-276F-A6E3744AEBCE}"
+  "FileHash": "{BFAEAAC3-F303-ACB0-4456-719EEBB380A1}"
  }
 }

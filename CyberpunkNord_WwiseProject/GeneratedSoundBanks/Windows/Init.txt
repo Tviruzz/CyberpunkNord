@@ -1,5 +1,11 @@
 Audio Bus	ID	Name			Wwise Object Path	Notes
-	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3803692087	Master Audio Bus			\GameBuses\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	3072345656	RoomAuxBus			\GameBuses\Master Audio Bus\RoomAuxBus	
+
+Effect plug-ins	ID	Name	Type				Notes
+	842161204	Wwise_RoomVerb_(Custom)	Wwise RoomVerb			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

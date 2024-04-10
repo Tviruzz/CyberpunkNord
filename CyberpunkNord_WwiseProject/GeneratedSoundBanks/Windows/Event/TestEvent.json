@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{A1F154B2-61E0-4AB8-95DA-BEB3A474C07E}",
     "Language": "SFX",
-    "Hash": "{F359A101-7DFB-FD54-8A60-0C7A2F8BCFD5}",
+    "Hash": "{D5FC1372-E6BA-54BC-9C5B-5C1CE286F4BD}",
     "ObjectPath": "TestEvent",
     "ShortName": "TestEvent",
     "Path": "Event/TestEvent.bnk",
@@ -31,6 +31,7 @@
       "Name": "TestEvent",
       "ObjectPath": "\\Events\\MikoEvents\\TestEvent",
       "GUID": "{A1F154B2-61E0-4AB8-95DA-BEB3A474C07E}",
+      "MaxAttenuation": "475",
       "DurationType": "OneShot",
       "DurationMin": "0.94149595",
       "DurationMax": "0.94149595",
@@ -43,6 +44,6 @@
     ]
    }
   ],
-  "FileHash": "{92AF53E5-38D7-AEC7-629C-AB5F4D722020}"
+  "FileHash": "{E2BC9CFD-D103-5C18-DB31-567D7D2F9020}"
  }
 }

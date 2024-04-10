@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="2003795032" Type="Event" GUID="{C4223D45-CAE6-4BBB-88CA-21F88AA151AE}" Language="SFX" Hash="{61B9F797-35E2-B495-D02A-B82F4E2B3FE3}">
+		<SoundBank Id="2003795032" Type="Event" GUID="{C4223D45-CAE6-4BBB-88CA-21F88AA151AE}" Language="SFX" Hash="{1611443E-4081-66F2-5B68-029A553C414E}">
 			<ObjectPath>Play_Gun_Reload</ObjectPath>
 			<ShortName>Play_Gun_Reload</ShortName>
 			<Path>Event/Play_Gun_Reload.bnk</Path>
 			<Plugins>
 				<Custom>
-					<Plugin Id="549356377" Name="Synth One" ObjectPath="\Actor-Mixer Hierarchy\Miko\Gun_Reload\Rifle\Rifle_Reload\Synth One" GUID="{DBBF72DB-CCC1-4AD3-A448-30C344334C92}" LibName="Wwise Synth One" LibId="9699330"/>
-					<Plugin Id="817392042" Name="Synth One" ObjectPath="\Actor-Mixer Hierarchy\Miko\Gun_Reload\Sniper\Sniper_Reload\Synth One" GUID="{36B1694E-C062-40ED-85C9-0624479C3CD4}" LibName="Wwise Synth One" LibId="9699330"/>
-					<Plugin Id="1030436109" Name="Synth One" ObjectPath="\Actor-Mixer Hierarchy\Miko\Gun_Reload\Pistol\Pistol_Reload\Synth One" GUID="{3897342C-3FBA-4678-B011-6CCBBF521B96}" LibName="Wwise Synth One" LibId="9699330"/>
+					<Plugin Id="549356377" Name="Synth One" ObjectPath="\Actor-Mixer Hierarchy\Miko\SpatialAudioRouting\Gun_Reload\Rifle\Rifle_Reload\Synth One" GUID="{DBBF72DB-CCC1-4AD3-A448-30C344334C92}" LibName="Wwise Synth One" LibId="9699330"/>
+					<Plugin Id="817392042" Name="Synth One" ObjectPath="\Actor-Mixer Hierarchy\Miko\SpatialAudioRouting\Gun_Reload\Sniper\Sniper_Reload\Synth One" GUID="{36B1694E-C062-40ED-85C9-0624479C3CD4}" LibName="Wwise Synth One" LibId="9699330"/>
+					<Plugin Id="1030436109" Name="Synth One" ObjectPath="\Actor-Mixer Hierarchy\Miko\SpatialAudioRouting\Gun_Reload\Pistol\Pistol_Reload\Synth One" GUID="{3897342C-3FBA-4678-B011-6CCBBF521B96}" LibName="Wwise Synth One" LibId="9699330"/>
 				</Custom>
 			</Plugins>
 			<Events>
-				<Event Id="2003795032" Name="Play_Gun_Reload" ObjectPath="\Events\MikoEvents\Play_Gun_Reload" GUID="{C4223D45-CAE6-4BBB-88CA-21F88AA151AE}" DurationType="Unknown">
+				<Event Id="2003795032" Name="Play_Gun_Reload" ObjectPath="\Events\MikoEvents\Play_Gun_Reload" GUID="{C4223D45-CAE6-4BBB-88CA-21F88AA151AE}" MaxAttenuation="475" DurationType="Unknown">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="1613795745" Id="2550763292" GUID="{C15DE933-4891-4D62-BE78-F1763A353FA8}"/>
@@ -54,5 +54,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C7D4C188-605D-E226-5B7D-37F3A8A117F5}</FileHash>
+	<FileHash>{CF51B09B-C2A9-BAB5-A5D9-1E05465760A6}</FileHash>
 </SoundBanksInfo>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="1122778924" Type="Event" GUID="{FCAC40F7-76BD-46AB-87FF-ED7062E763C3}" Language="SFX" Hash="{DA95FB79-60DD-FFCC-6157-F8C0C4B2EFBC}">
+		<SoundBank Id="1122778924" Type="Event" GUID="{FCAC40F7-76BD-46AB-87FF-ED7062E763C3}" Language="SFX" Hash="{00DACFCE-153F-899B-235E-4FAE5D12E45D}">
 			<ObjectPath>Play_Player_Sprint</ObjectPath>
 			<ShortName>Play_Player_Sprint</ShortName>
 			<Path>Event/Play_Player_Sprint.bnk</Path>
@@ -38,7 +38,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1122778924" Name="Play_Player_Sprint" ObjectPath="\Events\AndresEvents\MainCharacter\Play_Player_Sprint" GUID="{FCAC40F7-76BD-46AB-87FF-ED7062E763C3}" DurationType="OneShot" DurationMin="0.31336623" DurationMax="0.46894485">
+				<Event Id="1122778924" Name="Play_Player_Sprint" ObjectPath="\Events\AndresEvents\MainCharacter\Play_Player_Sprint" GUID="{FCAC40F7-76BD-46AB-87FF-ED7062E763C3}" MaxAttenuation="475" DurationType="OneShot" DurationMin="0.31336623" DurationMax="0.46894485">
 					<MediaRefs>
 						<MediaRef Id="129869701"/>
 						<MediaRef Id="149879831"/>
@@ -51,5 +51,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{607A0D64-984A-87DA-DD1B-4F227E9AEA65}</FileHash>
+	<FileHash>{34D84D6F-0641-F370-9266-22667BDAC008}</FileHash>
 </SoundBanksInfo>

@@ -16,5 +16,7 @@ Copyright (c) 2024 Audiokinetic Inc.
 *******************************************************************************/
 
 #if PLATFORM_IOS
+#include <AK/Plugin/AkRoomVerbFXFactory.h>
+#include <AK/Plugin/AkStereoDelayFXFactory.h>
 #include <AK/Plugin/AkSynthOneSourceFactory.h>
 #endif

@@ -15,7 +15,7 @@ Modulator Envelope	ID	Name			Wwise Object Path	Notes
 	430130084	Modulator Envelope (Custom)				
 
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
-	169472566	Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Miko\Ammo_Pickup\Light\LightPickup\Synth One	
-	255460811	Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Miko\Ammo_Pickup\Heavy\HeavyPickup\Synth One	
-	610260876	Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Miko\Ammo_Pickup\Medium\MediumPickup\Synth One	
+	169472566	Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Miko\SpatialAudioRouting\Ammo_Pickup\Light\LightPickup\Synth One	
+	255460811	Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Miko\SpatialAudioRouting\Ammo_Pickup\Heavy\HeavyPickup\Synth One	
+	610260876	Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Miko\SpatialAudioRouting\Ammo_Pickup\Medium\MediumPickup\Synth One	
 

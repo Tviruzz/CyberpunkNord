@@ -1,19 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{16C4026D-28E3-22FE-6F96-69A2F005506C}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{8B084F1C-61A9-A365-3C8F-C98F5EB3168B}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
+				<Custom>
+					<Plugin Id="842161204" Name="Wwise_RoomVerb_(Custom)" ObjectPath="\Master-Mixer Hierarchy\GameBuses\Master Audio Bus\RoomAuxBus\Wwise_RoomVerb_(Custom)" GUID="{766AFB46-5A22-4E20-850B-4D7BE19AC268}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</Custom>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Audio Devices\Default Work Unit\No_Output" GUID="{E4AD3F58-5ADC-45CE-87DC-EB7FB72ECD33}" LibName="No Output" LibId="11862023"/>
 					<Plugin Id="3859886410" Name="System" ObjectPath="\Audio Devices\Default Work Unit\System" GUID="{301F03C9-A989-47F3-BCBD-A45D3B5F747A}" LibName="System" LibId="11403271"/>
 				</AudioDevices>
 			</Plugins>
 			<Busses>
-				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\GameBuses\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 			</Busses>
+			<AuxBusses>
+				<AuxBus Id="3072345656" Name="RoomAuxBus" ObjectPath="\Master-Mixer Hierarchy\GameBuses\Master Audio Bus\RoomAuxBus" GUID="{D3CEEF66-2EBC-4B6F-9F63-6CD92D504D99}">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="842161204"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
 			<SwitchGroups>
 				<SwitchGroup Id="1613795745" Name="GunType" ObjectPath="\Switches\GameSwitches\GunType" GUID="{FC45C451-ABE4-4F59-9F95-63920C9DD869}">
 					<Switches>
@@ -41,5 +53,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{F34D518C-CEE2-2AD7-BD14-B2B0FD2060B2}</FileHash>
+	<FileHash>{35C3CD66-7680-E8BD-B2B1-8954C5BA01A0}</FileHash>
 </SoundBanksInfo>

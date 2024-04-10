@@ -18,7 +18,7 @@
     "Type": "Event",
     "GUID": "{DD52A457-23A1-499C-8AB6-ACCE282F13E5}",
     "Language": "SFX",
-    "Hash": "{5D04CEE8-B9F2-51DC-BDC6-0D7C37E36A95}",
+    "Hash": "{B33A0E12-0F7C-6D49-166D-248D58A9E80F}",
     "ObjectPath": "Play_Scan",
     "ShortName": "Play_Scan",
     "Path": "Event/Play_Scan.bnk",
@@ -27,10 +27,18 @@
       {
        "Id": "134915275",
        "Name": "Synth One",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\Player_Scan\\Synth One",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\SpatialAudioRouting\\Player_Scan\\Synth One",
        "GUID": "{F5FF84F9-6D98-4E19-9BDF-2D360387441A}",
        "LibName": "Wwise Synth One",
        "LibId": "9699330"
+      },
+      {
+       "Id": "515095871",
+       "Name": "Stereo Delay (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\SpatialAudioRouting\\Player_Scan\\Stereo Delay (Custom)",
+       "GUID": "{6310D895-BEDC-46BB-91A4-B7E19F49D5C0}",
+       "LibName": "Wwise Stereo Delay",
+       "LibId": "8847363"
       }
      ]
     },
@@ -45,6 +53,9 @@
        "Custom": [
         {
          "Id": "134915275"
+        },
+        {
+         "Id": "515095871"
         }
        ]
       }
@@ -56,7 +67,7 @@
     "Type": "Event",
     "GUID": "{AAF57E4B-7885-4800-A51A-BAF51823C999}",
     "Language": "SFX",
-    "Hash": "{39E0E004-23AA-5897-0F2A-615E46F1A191}",
+    "Hash": "{DEF72980-1F5D-6958-F851-D20ACF285D08}",
     "ObjectPath": "Play_Test_Emmiter",
     "ShortName": "Play_Test_Emmiter",
     "Path": "Event/Play_Test_Emmiter.bnk",
@@ -65,7 +76,7 @@
       {
        "Id": "1068762654",
        "Name": "Synth One",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\TestAudio_Emmiter_3D\\Synth One",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\SpatialAudioRouting\\TestAudio_Emmiter_3D\\Synth One",
        "GUID": "{7502B11E-1B31-4AA2-9D96-08B06C9B9B1D}",
        "LibName": "Wwise Synth One",
        "LibId": "9699330"
@@ -78,7 +89,7 @@
       "Name": "Play_Test_Emmiter",
       "ObjectPath": "\\Events\\MikoEvents\\Play_Test_Emmiter",
       "GUID": "{AAF57E4B-7885-4800-A51A-BAF51823C999}",
-      "MaxAttenuation": "200",
+      "MaxAttenuation": "475",
       "DurationType": "Unknown",
       "PluginRefs": {
        "Custom": [
@@ -95,7 +106,7 @@
     "Type": "Event",
     "GUID": "{1859CFF1-9FB0-479D-AF24-4512EB2D1B56}",
     "Language": "SFX",
-    "Hash": "{ED4254B5-A9FC-9A7B-ECE0-4F2B8A2FA370}",
+    "Hash": "{96AFA85A-2F06-079C-378C-18A8317006CE}",
     "ObjectPath": "Play_Player_Crouch",
     "ShortName": "Play_Player_Crouch",
     "Path": "Event/Play_Player_Crouch.bnk",
@@ -161,6 +172,7 @@
       "Name": "Play_Player_Crouch",
       "ObjectPath": "\\Events\\AndresEvents\\MainCharacter\\Play_Player_Crouch",
       "GUID": "{1859CFF1-9FB0-479D-AF24-4512EB2D1B56}",
+      "MaxAttenuation": "475",
       "DurationType": "OneShot",
       "DurationMin": "0.42788967",
       "DurationMax": "0.5932994",
@@ -192,7 +204,7 @@
     "Type": "Event",
     "GUID": "{E48C02B7-42EB-4B96-8569-29A9CB964CD2}",
     "Language": "SFX",
-    "Hash": "{ACD3618F-378A-7BB4-E18B-AA47B6737CB2}",
+    "Hash": "{EFAB5527-7BE6-EC69-344D-232F4896267C}",
     "ObjectPath": "Play_Gun_Pickup",
     "ShortName": "Play_Gun_Pickup",
     "Path": "Event/Play_Gun_Pickup.bnk",
@@ -201,7 +213,7 @@
       {
        "Id": "150159743",
        "Name": "Synth One",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\Gun_Pickup\\Sniper\\TestSniperPickup\\Synth One",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\SpatialAudioRouting\\Gun_Pickup\\Sniper\\TestSniperPickup\\Synth One",
        "GUID": "{5E742ED1-F043-4EF2-8C48-7C8B3CADE6A6}",
        "LibName": "Wwise Synth One",
        "LibId": "9699330"
@@ -209,7 +221,7 @@
       {
        "Id": "466626232",
        "Name": "Synth One",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\Gun_Pickup\\Pistol\\TestPistolPickup\\Synth One",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\SpatialAudioRouting\\Gun_Pickup\\Pistol\\TestPistolPickup\\Synth One",
        "GUID": "{1ECFC7B4-118A-42DA-B12F-E9536FDC09DC}",
        "LibName": "Wwise Synth One",
        "LibId": "9699330"
@@ -217,7 +229,7 @@
       {
        "Id": "808801550",
        "Name": "Synth One",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\Gun_Pickup\\Rifle\\TestRiflePickup\\Synth One",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\SpatialAudioRouting\\Gun_Pickup\\Rifle\\TestRiflePickup\\Synth One",
        "GUID": "{414E0DB0-23BB-4D43-B214-2B532A7269E0}",
        "LibName": "Wwise Synth One",
        "LibId": "9699330"
@@ -230,6 +242,7 @@
       "Name": "Play_Gun_Pickup",
       "ObjectPath": "\\Events\\MikoEvents\\Play_Gun_Pickup",
       "GUID": "{E48C02B7-42EB-4B96-8569-29A9CB964CD2}",
+      "MaxAttenuation": "475",
       "DurationType": "Unknown",
       "SwitchContainers": [
        {
@@ -321,7 +334,7 @@
     "Type": "Event",
     "GUID": "{A1F154B2-61E0-4AB8-95DA-BEB3A474C07E}",
     "Language": "SFX",
-    "Hash": "{F359A101-7DFB-FD54-8A60-0C7A2F8BCFD5}",
+    "Hash": "{D5FC1372-E6BA-54BC-9C5B-5C1CE286F4BD}",
     "ObjectPath": "TestEvent",
     "ShortName": "TestEvent",
     "Path": "Event/TestEvent.bnk",
@@ -342,6 +355,7 @@
       "Name": "TestEvent",
       "ObjectPath": "\\Events\\MikoEvents\\TestEvent",
       "GUID": "{A1F154B2-61E0-4AB8-95DA-BEB3A474C07E}",
+      "MaxAttenuation": "475",
       "DurationType": "OneShot",
       "DurationMin": "0.94149595",
       "DurationMax": "0.94149595",
@@ -358,7 +372,7 @@
     "Type": "Event",
     "GUID": "{FCAC40F7-76BD-46AB-87FF-ED7062E763C3}",
     "Language": "SFX",
-    "Hash": "{DA95FB79-60DD-FFCC-6157-F8C0C4B2EFBC}",
+    "Hash": "{00DACFCE-153F-899B-235E-4FAE5D12E45D}",
     "ObjectPath": "Play_Player_Sprint",
     "ShortName": "Play_Player_Sprint",
     "Path": "Event/Play_Player_Sprint.bnk",
@@ -424,6 +438,7 @@
       "Name": "Play_Player_Sprint",
       "ObjectPath": "\\Events\\AndresEvents\\MainCharacter\\Play_Player_Sprint",
       "GUID": "{FCAC40F7-76BD-46AB-87FF-ED7062E763C3}",
+      "MaxAttenuation": "475",
       "DurationType": "OneShot",
       "DurationMin": "0.31336623",
       "DurationMax": "0.46894485",
@@ -455,11 +470,21 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{33F5C769-7E8C-E009-C5CD-E34DBC5F74DC}",
+    "Hash": "{B29503D7-5D44-7408-7254-2F23B3787F0A}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
     "Plugins": {
+     "Custom": [
+      {
+       "Id": "842161204",
+       "Name": "Wwise_RoomVerb_(Custom)",
+       "ObjectPath": "\\Master-Mixer Hierarchy\\GameBuses\\Master Audio Bus\\RoomAuxBus\\Wwise_RoomVerb_(Custom)",
+       "GUID": "{766AFB46-5A22-4E20-850B-4D7BE19AC268}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ],
      "AudioDevices": [
       {
        "Id": "2317455096",
@@ -483,8 +508,23 @@
      {
       "Id": "3803692087",
       "Name": "Master Audio Bus",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\GameBuses\\Master Audio Bus",
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     }
+    ],
+    "AuxBusses": [
+     {
+      "Id": "3072345656",
+      "Name": "RoomAuxBus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\GameBuses\\Master Audio Bus\\RoomAuxBus",
+      "GUID": "{D3CEEF66-2EBC-4B6F-9F63-6CD92D504D99}",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "842161204"
+        }
+       ]
+      }
      }
     ],
     "SwitchGroups": [
@@ -585,7 +625,7 @@
     "Type": "Event",
     "GUID": "{C4223D45-CAE6-4BBB-88CA-21F88AA151AE}",
     "Language": "SFX",
-    "Hash": "{61B9F797-35E2-B495-D02A-B82F4E2B3FE3}",
+    "Hash": "{1611443E-4081-66F2-5B68-029A553C414E}",
     "ObjectPath": "Play_Gun_Reload",
     "ShortName": "Play_Gun_Reload",
     "Path": "Event/Play_Gun_Reload.bnk",
@@ -594,7 +634,7 @@
       {
        "Id": "549356377",
        "Name": "Synth One",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\Gun_Reload\\Rifle\\Rifle_Reload\\Synth One",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\SpatialAudioRouting\\Gun_Reload\\Rifle\\Rifle_Reload\\Synth One",
        "GUID": "{DBBF72DB-CCC1-4AD3-A448-30C344334C92}",
        "LibName": "Wwise Synth One",
        "LibId": "9699330"
@@ -602,7 +642,7 @@
       {
        "Id": "817392042",
        "Name": "Synth One",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\Gun_Reload\\Sniper\\Sniper_Reload\\Synth One",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\SpatialAudioRouting\\Gun_Reload\\Sniper\\Sniper_Reload\\Synth One",
        "GUID": "{36B1694E-C062-40ED-85C9-0624479C3CD4}",
        "LibName": "Wwise Synth One",
        "LibId": "9699330"
@@ -610,7 +650,7 @@
       {
        "Id": "1030436109",
        "Name": "Synth One",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\Gun_Reload\\Pistol\\Pistol_Reload\\Synth One",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\SpatialAudioRouting\\Gun_Reload\\Pistol\\Pistol_Reload\\Synth One",
        "GUID": "{3897342C-3FBA-4678-B011-6CCBBF521B96}",
        "LibName": "Wwise Synth One",
        "LibId": "9699330"
@@ -623,6 +663,7 @@
       "Name": "Play_Gun_Reload",
       "ObjectPath": "\\Events\\MikoEvents\\Play_Gun_Reload",
       "GUID": "{C4223D45-CAE6-4BBB-88CA-21F88AA151AE}",
+      "MaxAttenuation": "475",
       "DurationType": "Unknown",
       "SwitchContainers": [
        {
@@ -713,7 +754,7 @@
     "Type": "Event",
     "GUID": "{B9359494-47E0-4E87-A3CC-2DDBBC8F9690}",
     "Language": "SFX",
-    "Hash": "{A0086CF3-2516-F09E-2450-7D838D2B6450}",
+    "Hash": "{B89D26F3-7D76-E70F-931A-DA02DA8BC122}",
     "ObjectPath": "Play_Player_Dash",
     "ShortName": "Play_Player_Dash",
     "Path": "Event/Play_Player_Dash.bnk",
@@ -750,7 +791,7 @@
     "Type": "Event",
     "GUID": "{6C35B7F2-824A-4A0E-A3B2-F18D8B96B227}",
     "Language": "SFX",
-    "Hash": "{BAC47880-0AD4-6739-F448-B53C3CCF2D3E}",
+    "Hash": "{DEF98C99-9673-FA96-D979-A0B392FD66D2}",
     "ObjectPath": "Play_Gun_Shoot",
     "ShortName": "Play_Gun_Shoot",
     "Path": "Event/Play_Gun_Shoot.bnk",
@@ -759,7 +800,7 @@
       {
        "Id": "183355157",
        "Name": "Synth One",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\Gun_Shoot\\Empty_Shoot\\EmptyShootGun\\Synth One",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\SpatialAudioRouting\\Gun_Shoot\\Empty_Shoot\\EmptyShootGun\\Synth One",
        "GUID": "{ABB4B78E-737B-4453-987E-6C19E57D80F6}",
        "LibName": "Wwise Synth One",
        "LibId": "9699330"
@@ -767,7 +808,7 @@
       {
        "Id": "389799868",
        "Name": "Synth One",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\Gun_Shoot\\Sniper_Shoot\\SniperShootGun\\Synth One",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\SpatialAudioRouting\\Gun_Shoot\\Sniper_Shoot\\SniperShootGun\\Synth One",
        "GUID": "{336FD919-587A-4290-950F-B23921EDAEE9}",
        "LibName": "Wwise Synth One",
        "LibId": "9699330"
@@ -775,7 +816,7 @@
       {
        "Id": "944493094",
        "Name": "Synth One",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\Gun_Shoot\\Pistol_Shoot\\PistolShootGun\\Synth One",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\SpatialAudioRouting\\Gun_Shoot\\Pistol_Shoot\\PistolShootGun\\Synth One",
        "GUID": "{C3185C73-D5ED-4BAB-B594-7F15278244E6}",
        "LibName": "Wwise Synth One",
        "LibId": "9699330"
@@ -783,7 +824,7 @@
       {
        "Id": "998034893",
        "Name": "Synth One",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\Gun_Shoot\\Rifle_Shoot\\RifleShootGun\\Synth One",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\SpatialAudioRouting\\Gun_Shoot\\Rifle_Shoot\\RifleShootGun\\Synth One",
        "GUID": "{CC08F419-F73C-43C3-A246-CCFA12F28CD8}",
        "LibName": "Wwise Synth One",
        "LibId": "9699330"
@@ -796,6 +837,7 @@
       "Name": "Play_Gun_Shoot",
       "ObjectPath": "\\Events\\MikoEvents\\Play_Gun_Shoot",
       "GUID": "{6C35B7F2-824A-4A0E-A3B2-F18D8B96B227}",
+      "MaxAttenuation": "475",
       "DurationType": "Unknown",
       "SwitchContainers": [
        {
@@ -902,7 +944,7 @@
     "Type": "Event",
     "GUID": "{2D4A392D-B75B-44AC-B9FE-89979C7CB37F}",
     "Language": "SFX",
-    "Hash": "{20BCD85C-3894-755F-1795-903D372B33A3}",
+    "Hash": "{969303C0-CEDE-F296-8A8B-A1F6AD1C73A9}",
     "ObjectPath": "Play_Player_Walk",
     "ShortName": "Play_Player_Walk",
     "Path": "Event/Play_Player_Walk.bnk",
@@ -968,6 +1010,7 @@
       "Name": "Play_Player_Walk",
       "ObjectPath": "\\Events\\AndresEvents\\MainCharacter\\Play_Player_Walk",
       "GUID": "{2D4A392D-B75B-44AC-B9FE-89979C7CB37F}",
+      "MaxAttenuation": "475",
       "DurationType": "OneShot",
       "DurationMin": "0.25238803",
       "DurationMax": "0.49889678",
@@ -995,11 +1038,48 @@
     ]
    },
    {
+    "Id": "3072345656",
+    "Type": "Bus",
+    "GUID": "{D3CEEF66-2EBC-4B6F-9F63-6CD92D504D99}",
+    "Language": "SFX",
+    "Hash": "{A0E65EC4-5781-FB1C-A3BF-70DF94B72094}",
+    "ObjectPath": "RoomAuxBus",
+    "ShortName": "RoomAuxBus",
+    "Path": "Bus/RoomAuxBus.bnk",
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "842161204",
+       "Name": "Wwise_RoomVerb_(Custom)",
+       "ObjectPath": "\\Master-Mixer Hierarchy\\GameBuses\\Master Audio Bus\\RoomAuxBus\\Wwise_RoomVerb_(Custom)",
+       "GUID": "{766AFB46-5A22-4E20-850B-4D7BE19AC268}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
+    "AuxBusses": [
+     {
+      "Id": "3072345656",
+      "Name": "RoomAuxBus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\GameBuses\\Master Audio Bus\\RoomAuxBus",
+      "GUID": "{D3CEEF66-2EBC-4B6F-9F63-6CD92D504D99}",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "842161204"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
     "Id": "4269559823",
     "Type": "Event",
     "GUID": "{ED3592B0-EF02-4A32-A446-AAAA08A9E2B1}",
     "Language": "SFX",
-    "Hash": "{57CAE6D3-3C33-8E45-0419-54F595612C49}",
+    "Hash": "{11D16D85-555E-2E93-4598-2D9435A9FE94}",
     "ObjectPath": "Play_Ammo_Pickup",
     "ShortName": "Play_Ammo_Pickup",
     "Path": "Event/Play_Ammo_Pickup.bnk",
@@ -1008,7 +1088,7 @@
       {
        "Id": "169472566",
        "Name": "Synth One",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\Ammo_Pickup\\Light\\LightPickup\\Synth One",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\SpatialAudioRouting\\Ammo_Pickup\\Light\\LightPickup\\Synth One",
        "GUID": "{F4C497F8-0792-4E40-92E8-97AE68F39452}",
        "LibName": "Wwise Synth One",
        "LibId": "9699330"
@@ -1016,7 +1096,7 @@
       {
        "Id": "255460811",
        "Name": "Synth One",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\Ammo_Pickup\\Heavy\\HeavyPickup\\Synth One",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\SpatialAudioRouting\\Ammo_Pickup\\Heavy\\HeavyPickup\\Synth One",
        "GUID": "{E6450DE8-EEA5-415D-BFBE-48ACDA665BEE}",
        "LibName": "Wwise Synth One",
        "LibId": "9699330"
@@ -1024,7 +1104,7 @@
       {
        "Id": "610260876",
        "Name": "Synth One",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\Ammo_Pickup\\Medium\\MediumPickup\\Synth One",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\SpatialAudioRouting\\Ammo_Pickup\\Medium\\MediumPickup\\Synth One",
        "GUID": "{919D6D61-446F-4D55-BF39-056E36354362}",
        "LibName": "Wwise Synth One",
        "LibId": "9699330"
@@ -1037,6 +1117,7 @@
       "Name": "Play_Ammo_Pickup",
       "ObjectPath": "\\Events\\MikoEvents\\Play_Ammo_Pickup",
       "GUID": "{ED3592B0-EF02-4A32-A446-AAAA08A9E2B1}",
+      "MaxAttenuation": "475",
       "DurationType": "Unknown",
       "SwitchContainers": [
        {
@@ -1118,6 +1199,6 @@
     ]
    }
   ],
-  "FileHash": "{99B4BD76-0F9A-88F4-1F40-26EFD1E5D901}"
+  "FileHash": "{8A632B6E-5F23-506E-FA70-605A874515E1}"
  }
 }
