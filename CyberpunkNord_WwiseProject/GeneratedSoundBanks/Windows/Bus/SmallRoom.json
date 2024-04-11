@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "2933838247",
+    "Type": "Bus",
+    "GUID": "{B430C053-4215-4414-9FD4-5385A21F252E}",
+    "Language": "SFX",
+    "Hash": "{5A652894-6464-B212-3F5B-8FE54E5DC315}",
+    "ObjectPath": "SmallRoom",
+    "ShortName": "SmallRoom",
+    "Path": "Bus/SmallRoom.bnk",
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "646227570",
+       "Name": "Wwise_RoomVerb_(Custom)",
+       "ObjectPath": "\\Master-Mixer Hierarchy\\GameBuses\\Master Audio Bus\\Passthrough\\SmallRoom\\Wwise_RoomVerb_(Custom)",
+       "GUID": "{F7BDF46F-8125-48C4-9652-FBC18C5264B3}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
+    "AuxBusses": [
+     {
+      "Id": "2933838247",
+      "Name": "SmallRoom",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\GameBuses\\Master Audio Bus\\Passthrough\\SmallRoom",
+      "GUID": "{B430C053-4215-4414-9FD4-5385A21F252E}",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "646227570"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{70F85EB7-0883-DBB0-423F-08E85F633346}"
+ }
+}

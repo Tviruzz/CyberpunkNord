@@ -18,33 +18,84 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AuxBus Name="RoomAuxBus" ID="{D3CEEF66-2EBC-4B6F-9F63-6CD92D504D99}">
+						<Bus Name="MainBeds" ID="{AADE205F-0BAA-4C10-B68F-D32A99B52E20}">
 							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="BusChannelConfig" Type="int32">
 									<ValueList>
 										<Value>3584</Value>
 									</ValueList>
 								</Property>
-								<Property Name="Color" Type="int16" Value="11"/>
-								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
-								<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
-								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</Bus>
+						<Bus Name="Objects" ID="{83292D70-34FF-4223-821D-E911F4B9DC00}">
+							<PropertyList>
+								<Property Name="BusChannelConfig" Type="int32">
+									<ValueList>
+										<Value>768</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+						</Bus>
+						<Bus Name="Passthrough" ID="{A95CE1DA-4C76-4C9D-A91F-6CDC1320BEB7}">
+							<PropertyList>
+								<Property Name="BusChannelConfig" Type="int32">
+									<ValueList>
+										<Value>3840</Value>
+									</ValueList>
+								</Property>
 								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Effect0">
-									<Custom>
-										<Effect Name="Wwise_RoomVerb_(Custom)" ID="{766AFB46-5A22-4E20-850B-4D7BE19AC268}" ShortID="842161204" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
-											<PropertyList>
-												<Property Name="DecayTime" Type="Real32" Value="3.5"/>
-												<Property Name="RoomSize" Type="Real32" Value="47"/>
-											</PropertyList>
-										</Effect>
-									</Custom>
-								</Reference>
-							</ReferenceList>
-						</AuxBus>
+							<ChildrenList>
+								<AuxBus Name="RoomAuxBus" ID="{D3CEEF66-2EBC-4B6F-9F63-6CD92D504D99}">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="Color" Type="int16" Value="11"/>
+										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+										<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Effect0">
+											<Custom>
+												<Effect Name="Wwise_RoomVerb_(Custom)" ID="{766AFB46-5A22-4E20-850B-4D7BE19AC268}" ShortID="842161204" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+													<PropertyList>
+														<Property Name="DecayTime" Type="Real32" Value="2.3"/>
+														<Property Name="RoomSize" Type="Real32" Value="47"/>
+													</PropertyList>
+												</Effect>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+								</AuxBus>
+								<AuxBus Name="SmallRoom" ID="{B430C053-4215-4414-9FD4-5385A21F252E}">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>6</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Color" Type="int16" Value="11"/>
+										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+										<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Effect0">
+											<Custom>
+												<Effect Name="Wwise_RoomVerb_(Custom)" ID="{F7BDF46F-8125-48C4-9652-FBC18C5264B3}" ShortID="646227570" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+													<PropertyList>
+														<Property Name="ERPattern" Type="int32" Value="22"/>
+													</PropertyList>
+												</Effect>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+								</AuxBus>
+							</ChildrenList>
+						</Bus>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>

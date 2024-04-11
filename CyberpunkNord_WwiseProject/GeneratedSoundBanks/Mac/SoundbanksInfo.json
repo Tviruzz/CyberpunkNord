@@ -470,16 +470,24 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{B29503D7-5D44-7408-7254-2F23B3787F0A}",
+    "Hash": "{8ADE17B9-7425-398F-A9BD-3CC1E1DE7B84}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
     "Plugins": {
      "Custom": [
       {
+       "Id": "646227570",
+       "Name": "Wwise_RoomVerb_(Custom)",
+       "ObjectPath": "\\Master-Mixer Hierarchy\\GameBuses\\Master Audio Bus\\Passthrough\\SmallRoom\\Wwise_RoomVerb_(Custom)",
+       "GUID": "{F7BDF46F-8125-48C4-9652-FBC18C5264B3}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
        "Id": "842161204",
        "Name": "Wwise_RoomVerb_(Custom)",
-       "ObjectPath": "\\Master-Mixer Hierarchy\\GameBuses\\Master Audio Bus\\RoomAuxBus\\Wwise_RoomVerb_(Custom)",
+       "ObjectPath": "\\Master-Mixer Hierarchy\\GameBuses\\Master Audio Bus\\Passthrough\\RoomAuxBus\\Wwise_RoomVerb_(Custom)",
        "GUID": "{766AFB46-5A22-4E20-850B-4D7BE19AC268}",
        "LibName": "Wwise RoomVerb",
        "LibId": "7733251"
@@ -506,6 +514,24 @@
     },
     "Busses": [
      {
+      "Id": "1695690031",
+      "Name": "Objects",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\GameBuses\\Master Audio Bus\\Objects",
+      "GUID": "{83292D70-34FF-4223-821D-E911F4B9DC00}"
+     },
+     {
+      "Id": "2779380550",
+      "Name": "MainBeds",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\GameBuses\\Master Audio Bus\\MainBeds",
+      "GUID": "{AADE205F-0BAA-4C10-B68F-D32A99B52E20}"
+     },
+     {
+      "Id": "2804736953",
+      "Name": "Passthrough",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\GameBuses\\Master Audio Bus\\Passthrough",
+      "GUID": "{A95CE1DA-4C76-4C9D-A91F-6CDC1320BEB7}"
+     },
+     {
       "Id": "3803692087",
       "Name": "Master Audio Bus",
       "ObjectPath": "\\Master-Mixer Hierarchy\\GameBuses\\Master Audio Bus",
@@ -514,9 +540,22 @@
     ],
     "AuxBusses": [
      {
+      "Id": "2933838247",
+      "Name": "SmallRoom",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\GameBuses\\Master Audio Bus\\Passthrough\\SmallRoom",
+      "GUID": "{B430C053-4215-4414-9FD4-5385A21F252E}",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "646227570"
+        }
+       ]
+      }
+     },
+     {
       "Id": "3072345656",
       "Name": "RoomAuxBus",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\GameBuses\\Master Audio Bus\\RoomAuxBus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\GameBuses\\Master Audio Bus\\Passthrough\\RoomAuxBus",
       "GUID": "{D3CEEF66-2EBC-4B6F-9F63-6CD92D504D99}",
       "PluginRefs": {
        "Custom": [
@@ -1038,11 +1077,48 @@
     ]
    },
    {
+    "Id": "2933838247",
+    "Type": "Bus",
+    "GUID": "{B430C053-4215-4414-9FD4-5385A21F252E}",
+    "Language": "SFX",
+    "Hash": "{5A652894-6464-B212-3F5B-8FE54E5DC315}",
+    "ObjectPath": "SmallRoom",
+    "ShortName": "SmallRoom",
+    "Path": "Bus/SmallRoom.bnk",
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "646227570",
+       "Name": "Wwise_RoomVerb_(Custom)",
+       "ObjectPath": "\\Master-Mixer Hierarchy\\GameBuses\\Master Audio Bus\\Passthrough\\SmallRoom\\Wwise_RoomVerb_(Custom)",
+       "GUID": "{F7BDF46F-8125-48C4-9652-FBC18C5264B3}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
+    "AuxBusses": [
+     {
+      "Id": "2933838247",
+      "Name": "SmallRoom",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\GameBuses\\Master Audio Bus\\Passthrough\\SmallRoom",
+      "GUID": "{B430C053-4215-4414-9FD4-5385A21F252E}",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "646227570"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
     "Id": "3072345656",
     "Type": "Bus",
     "GUID": "{D3CEEF66-2EBC-4B6F-9F63-6CD92D504D99}",
     "Language": "SFX",
-    "Hash": "{A0E65EC4-5781-FB1C-A3BF-70DF94B72094}",
+    "Hash": "{7573656F-5C61-0A0D-CAAF-A4B466CF9450}",
     "ObjectPath": "RoomAuxBus",
     "ShortName": "RoomAuxBus",
     "Path": "Bus/RoomAuxBus.bnk",
@@ -1051,7 +1127,7 @@
       {
        "Id": "842161204",
        "Name": "Wwise_RoomVerb_(Custom)",
-       "ObjectPath": "\\Master-Mixer Hierarchy\\GameBuses\\Master Audio Bus\\RoomAuxBus\\Wwise_RoomVerb_(Custom)",
+       "ObjectPath": "\\Master-Mixer Hierarchy\\GameBuses\\Master Audio Bus\\Passthrough\\RoomAuxBus\\Wwise_RoomVerb_(Custom)",
        "GUID": "{766AFB46-5A22-4E20-850B-4D7BE19AC268}",
        "LibName": "Wwise RoomVerb",
        "LibId": "7733251"
@@ -1062,7 +1138,7 @@
      {
       "Id": "3072345656",
       "Name": "RoomAuxBus",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\GameBuses\\Master Audio Bus\\RoomAuxBus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\GameBuses\\Master Audio Bus\\Passthrough\\RoomAuxBus",
       "GUID": "{D3CEEF66-2EBC-4B6F-9F63-6CD92D504D99}",
       "PluginRefs": {
        "Custom": [
@@ -1199,6 +1275,6 @@
     ]
    }
   ],
-  "FileHash": "{8A632B6E-5F23-506E-FA70-605A874515E1}"
+  "FileHash": "{F9C7F8A4-E701-BF4D-91FC-8F1CA71D7B6F}"
  }
 }

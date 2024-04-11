@@ -12,7 +12,7 @@
 						</Property>
 						<Property Name="MinSystemAudioObjectsRequired" Type="Uint16">
 							<ValueList>
-								<Value>16</Value>
+								<Value>15</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>

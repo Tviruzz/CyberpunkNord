@@ -1,5 +1,5 @@
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
-	3072345656	RoomAuxBus			\GameBuses\Master Audio Bus\RoomAuxBus	
+	3072345656	RoomAuxBus			\GameBuses\Master Audio Bus\Passthrough\RoomAuxBus	
 
 Effect plug-ins	ID	Name	Type				Notes
 	842161204	Wwise_RoomVerb_(Custom)	Wwise RoomVerb			

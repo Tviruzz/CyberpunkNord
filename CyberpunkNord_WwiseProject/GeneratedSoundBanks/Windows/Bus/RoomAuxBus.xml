@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="3072345656" Type="Bus" GUID="{D3CEEF66-2EBC-4B6F-9F63-6CD92D504D99}" Language="SFX" Hash="{A0E65EC4-5781-FB1C-A3BF-70DF94B72094}">
+		<SoundBank Id="3072345656" Type="Bus" GUID="{D3CEEF66-2EBC-4B6F-9F63-6CD92D504D99}" Language="SFX" Hash="{7573656F-5C61-0A0D-CAAF-A4B466CF9450}">
 			<ObjectPath>RoomAuxBus</ObjectPath>
 			<ShortName>RoomAuxBus</ShortName>
 			<Path>Bus/RoomAuxBus.bnk</Path>
 			<Plugins>
 				<Custom>
-					<Plugin Id="842161204" Name="Wwise_RoomVerb_(Custom)" ObjectPath="\Master-Mixer Hierarchy\GameBuses\Master Audio Bus\RoomAuxBus\Wwise_RoomVerb_(Custom)" GUID="{766AFB46-5A22-4E20-850B-4D7BE19AC268}" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="842161204" Name="Wwise_RoomVerb_(Custom)" ObjectPath="\Master-Mixer Hierarchy\GameBuses\Master Audio Bus\Passthrough\RoomAuxBus\Wwise_RoomVerb_(Custom)" GUID="{766AFB46-5A22-4E20-850B-4D7BE19AC268}" LibName="Wwise RoomVerb" LibId="7733251"/>
 				</Custom>
 			</Plugins>
 			<AuxBusses>
-				<AuxBus Id="3072345656" Name="RoomAuxBus" ObjectPath="\Master-Mixer Hierarchy\GameBuses\Master Audio Bus\RoomAuxBus" GUID="{D3CEEF66-2EBC-4B6F-9F63-6CD92D504D99}">
+				<AuxBus Id="3072345656" Name="RoomAuxBus" ObjectPath="\Master-Mixer Hierarchy\GameBuses\Master Audio Bus\Passthrough\RoomAuxBus" GUID="{D3CEEF66-2EBC-4B6F-9F63-6CD92D504D99}">
 					<PluginRefs>
 						<Custom>
 							<PluginRef Id="842161204"/>
@@ -21,5 +21,5 @@
 			</AuxBusses>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{F1172487-F204-A32A-B4C9-8D24556634E6}</FileHash>
+	<FileHash>{EDAD6F65-0C44-97BF-17EA-E511F97B1296}</FileHash>
 </SoundBanksInfo>
