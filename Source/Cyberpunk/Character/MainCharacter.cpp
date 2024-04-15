@@ -27,7 +27,7 @@ AMainCharacter::AMainCharacter()
 
 	MaxHealth = 100;
 	Health = MaxHealth;
-	WalkSpeed = 300.0f;
+	WalkSpeed = 450.0f;
 	RunSpeed = 600.0f;
 
 	SprintAction = nullptr;
