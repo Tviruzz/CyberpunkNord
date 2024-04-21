@@ -1,13 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
-	169023713	Play_Scan			\MikoEvents\Play_Scan	
-
-Modulator Envelope	ID	Name			Wwise Object Path	Notes
-	263701387	Modulator Envelope (Custom)				
-	991953739	Modulator Envelope (Custom)				
+	169023713	Play_Scan			\AndresEvents\MainCharacter\Play_Scan	
 
 Effect plug-ins	ID	Name	Type				Notes
 	515095871	Stereo Delay (Custom)	Wwise Stereo Delay			
-
-Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
-	134915275	Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Miko\SpatialAudioRouting\Player_Scan\Synth One	
 

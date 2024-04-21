@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{2D4A392D-B75B-44AC-B9FE-89979C7CB37F}",
     "Language": "SFX",
-    "Hash": "{969303C0-CEDE-F296-8A8B-A1F6AD1C73A9}",
+    "Hash": "{F4F9EA09-8C63-E7DF-B2DC-0E8FE7B2490A}",
     "ObjectPath": "Play_Player_Walk",
     "ShortName": "Play_Player_Walk",
     "Path": "Event/Play_Player_Walk.bnk",
@@ -104,6 +104,6 @@
     ]
    }
   ],
-  "FileHash": "{B0719258-23C2-3F0E-5912-7C560E9894B0}"
+  "FileHash": "{C8848130-FAD3-1446-F528-AAFDBC707874}"
  }
 }

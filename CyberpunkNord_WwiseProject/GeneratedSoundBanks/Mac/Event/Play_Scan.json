@@ -10,24 +10,27 @@
     "Type": "Event",
     "GUID": "{DD52A457-23A1-499C-8AB6-ACCE282F13E5}",
     "Language": "SFX",
-    "Hash": "{B33A0E12-0F7C-6D49-166D-248D58A9E80F}",
+    "Hash": "{FF82F721-7A11-B6A8-8154-5C7F35062113}",
     "ObjectPath": "Play_Scan",
     "ShortName": "Play_Scan",
     "Path": "Event/Play_Scan.bnk",
+    "Media": [
+     {
+      "Id": "975560317",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AB_Generic_PlayerScan.wav",
+      "Path": "Media/975560317.wem",
+      "CachePath": "SFX/AB_Generic_PlayerScan_10C4C929.wem"
+     }
+    ],
     "Plugins": {
      "Custom": [
       {
-       "Id": "134915275",
-       "Name": "Synth One",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\SpatialAudioRouting\\Player_Scan\\Synth One",
-       "GUID": "{F5FF84F9-6D98-4E19-9BDF-2D360387441A}",
-       "LibName": "Wwise Synth One",
-       "LibId": "9699330"
-      },
-      {
        "Id": "515095871",
        "Name": "Stereo Delay (Custom)",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\SpatialAudioRouting\\Player_Scan\\Stereo Delay (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Andres\\SpatialAudioRouting\\MainCharacter\\Generic\\Player_Scan\\Stereo Delay (Custom)",
        "GUID": "{6310D895-BEDC-46BB-91A4-B7E19F49D5C0}",
        "LibName": "Wwise Stereo Delay",
        "LibId": "8847363"
@@ -38,14 +41,18 @@
      {
       "Id": "169023713",
       "Name": "Play_Scan",
-      "ObjectPath": "\\Events\\MikoEvents\\Play_Scan",
+      "ObjectPath": "\\Events\\AndresEvents\\MainCharacter\\Play_Scan",
       "GUID": "{DD52A457-23A1-499C-8AB6-ACCE282F13E5}",
-      "DurationType": "Unknown",
+      "DurationType": "OneShot",
+      "DurationMin": "1.32",
+      "DurationMax": "1.32",
+      "MediaRefs": [
+       {
+        "Id": "975560317"
+       }
+      ],
       "PluginRefs": {
        "Custom": [
-        {
-         "Id": "134915275"
-        },
         {
          "Id": "515095871"
         }
@@ -55,6 +62,6 @@
     ]
    }
   ],
-  "FileHash": "{E0918507-881D-5CF9-D107-D4F14D197B3A}"
+  "FileHash": "{F3F336FA-B2FA-0FDD-4C7E-B3F244B6C419}"
  }
 }

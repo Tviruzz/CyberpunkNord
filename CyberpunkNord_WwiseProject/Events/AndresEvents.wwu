@@ -22,7 +22,7 @@
 								<Action Name="" ID="{2FD69310-957E-49F2-A5FE-EF6F1DCDD041}" ShortID="1060495592">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Generic_Walk" ID="{C0D8363C-76CE-40F2-ABDB-AEA1609D293F}" WorkUnitID="{FB47D513-4945-4780-A015-B5AA30E0112E}"/>
+											<ObjectRef Name="Walk" ID="{C0D8363C-76CE-40F2-ABDB-AEA1609D293F}" WorkUnitID="{FB47D513-4945-4780-A015-B5AA30E0112E}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -37,7 +37,7 @@
 								<Action Name="" ID="{2AC6CBE5-36EC-4110-A521-E6D20FBAAA86}" ShortID="317964689">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Generic_Dash" ID="{35B99C8D-92B5-4FF5-8317-DECCB73EF3AC}" WorkUnitID="{FB47D513-4945-4780-A015-B5AA30E0112E}"/>
+											<ObjectRef Name="Player_Dash" ID="{35B99C8D-92B5-4FF5-8317-DECCB73EF3AC}" WorkUnitID="{FB47D513-4945-4780-A015-B5AA30E0112E}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -52,7 +52,7 @@
 								<Action Name="" ID="{BE448FD7-4C3B-485F-AE10-41D29BFB9740}" ShortID="921883912">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Generic_Crouch" ID="{FD9B5E4B-4983-49F2-920D-01B463E4BD20}" WorkUnitID="{FB47D513-4945-4780-A015-B5AA30E0112E}"/>
+											<ObjectRef Name="Crouch" ID="{FD9B5E4B-4983-49F2-920D-01B463E4BD20}" WorkUnitID="{FB47D513-4945-4780-A015-B5AA30E0112E}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -67,7 +67,70 @@
 								<Action Name="" ID="{A6130D12-47B4-44E3-B2EC-0E26013AF551}" ShortID="129669404">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Generic_Sprint" ID="{42A73041-C21B-41C8-8D93-11516E0DF242}" WorkUnitID="{FB47D513-4945-4780-A015-B5AA30E0112E}"/>
+											<ObjectRef Name="Sprint" ID="{42A73041-C21B-41C8-8D93-11516E0DF242}" WorkUnitID="{FB47D513-4945-4780-A015-B5AA30E0112E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Gun_Pickup" ID="{E48C02B7-42EB-4B96-8569-29A9CB964CD2}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="3"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{887274E6-6C15-4708-B358-949355AC3DAD}" ShortID="438222633">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Gun_Pickup" ID="{98B1FD6B-DCB2-408B-A453-480E8290A30D}" WorkUnitID="{FB47D513-4945-4780-A015-B5AA30E0112E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Ammo_Pickup" ID="{ED3592B0-EF02-4A32-A446-AAAA08A9E2B1}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="3"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{2A88DA60-6007-4E75-B369-C4E7FD722324}" ShortID="454122928">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ammo_Pickup" ID="{87241199-7B6A-464B-9735-110E3B229ACA}" WorkUnitID="{FB47D513-4945-4780-A015-B5AA30E0112E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Scan" ID="{DD52A457-23A1-499C-8AB6-ACCE282F13E5}">
+							<ChildrenList>
+								<Action Name="" ID="{5B00D5E4-466C-4BDE-83BE-936CC8765992}" ShortID="709170451">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player_Scan" ID="{B1F2F2CB-0E6E-4A58-B38A-B7C0A0BCF8AF}" WorkUnitID="{FB47D513-4945-4780-A015-B5AA30E0112E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Gun_Shoot" ID="{6C35B7F2-824A-4A0E-A3B2-F18D8B96B227}">
+							<ChildrenList>
+								<Action Name="" ID="{BC6C4620-01B1-4CC7-B00E-95FFE4EEFB25}" ShortID="541369214">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Gun_Shoot" ID="{DBDAB9AB-7094-480F-AFAB-5BCAA3B79C3D}" WorkUnitID="{FB47D513-4945-4780-A015-B5AA30E0112E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Gun_Reload" ID="{C4223D45-CAE6-4BBB-88CA-21F88AA151AE}">
+							<ChildrenList>
+								<Action Name="" ID="{2543CCA9-8636-4AF3-9889-BCFDA7A13F38}" ShortID="1001423654">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Gun_Reload" ID="{773A4C20-6A2A-4F64-AC20-5F637B8A37EA}" WorkUnitID="{FB47D513-4945-4780-A015-B5AA30E0112E}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

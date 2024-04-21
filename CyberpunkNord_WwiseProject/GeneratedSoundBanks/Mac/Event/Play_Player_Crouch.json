@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{1859CFF1-9FB0-479D-AF24-4512EB2D1B56}",
     "Language": "SFX",
-    "Hash": "{96AFA85A-2F06-079C-378C-18A8317006CE}",
+    "Hash": "{B77B2471-D894-0257-5E91-D4BDA447F09D}",
     "ObjectPath": "Play_Player_Crouch",
     "ShortName": "Play_Player_Crouch",
     "Path": "Event/Play_Player_Crouch.bnk",
@@ -104,6 +104,6 @@
     ]
    }
   ],
-  "FileHash": "{247EACD3-294E-4744-4009-A3081714B28A}"
+  "FileHash": "{DE1963E9-20EA-3F75-267D-5FC9CE21384C}"
  }
 }

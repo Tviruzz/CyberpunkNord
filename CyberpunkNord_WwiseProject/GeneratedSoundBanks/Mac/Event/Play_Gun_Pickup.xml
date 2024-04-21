@@ -1,43 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="889160563" Type="Event" GUID="{E48C02B7-42EB-4B96-8569-29A9CB964CD2}" Language="SFX" Hash="{EFAB5527-7BE6-EC69-344D-232F4896267C}">
+		<SoundBank Id="889160563" Type="Event" GUID="{E48C02B7-42EB-4B96-8569-29A9CB964CD2}" Language="SFX" Hash="{61E61E75-6A99-B9C0-9A57-7C3DB959DFB5}">
 			<ObjectPath>Play_Gun_Pickup</ObjectPath>
 			<ShortName>Play_Gun_Pickup</ShortName>
 			<Path>Event/Play_Gun_Pickup.bnk</Path>
-			<Plugins>
-				<Custom>
-					<Plugin Id="150159743" Name="Synth One" ObjectPath="\Actor-Mixer Hierarchy\Miko\SpatialAudioRouting\Gun_Pickup\Sniper\TestSniperPickup\Synth One" GUID="{5E742ED1-F043-4EF2-8C48-7C8B3CADE6A6}" LibName="Wwise Synth One" LibId="9699330"/>
-					<Plugin Id="466626232" Name="Synth One" ObjectPath="\Actor-Mixer Hierarchy\Miko\SpatialAudioRouting\Gun_Pickup\Pistol\TestPistolPickup\Synth One" GUID="{1ECFC7B4-118A-42DA-B12F-E9536FDC09DC}" LibName="Wwise Synth One" LibId="9699330"/>
-					<Plugin Id="808801550" Name="Synth One" ObjectPath="\Actor-Mixer Hierarchy\Miko\SpatialAudioRouting\Gun_Pickup\Rifle\TestRiflePickup\Synth One" GUID="{414E0DB0-23BB-4D43-B214-2B532A7269E0}" LibName="Wwise Synth One" LibId="9699330"/>
-				</Custom>
-			</Plugins>
+			<Media>
+				<File Id="75411657" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>AB_Generic_GunPickUp_Pistol.wav</ShortName>
+					<Path>Media/75411657.wem</Path>
+					<CachePath>SFX/AB_Generic_GunPickUp_Pistol_10C4C929.wem</CachePath>
+				</File>
+				<File Id="873936080" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>AB_Generic_GunPickUp_Rifle.wav</ShortName>
+					<Path>Media/873936080.wem</Path>
+					<CachePath>SFX/AB_Generic_GunPickUp_Rifle_10C4C929.wem</CachePath>
+				</File>
+				<File Id="914544821" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>AB_Generic_GunPickUp_Sniper.wav</ShortName>
+					<Path>Media/914544821.wem</Path>
+					<CachePath>SFX/AB_Generic_GunPickUp_Sniper_10C4C929.wem</CachePath>
+				</File>
+			</Media>
 			<Events>
-				<Event Id="889160563" Name="Play_Gun_Pickup" ObjectPath="\Events\MikoEvents\Play_Gun_Pickup" GUID="{E48C02B7-42EB-4B96-8569-29A9CB964CD2}" MaxAttenuation="475" DurationType="Unknown">
+				<Event Id="889160563" Name="Play_Gun_Pickup" ObjectPath="\Events\AndresEvents\MainCharacter\Play_Gun_Pickup" GUID="{E48C02B7-42EB-4B96-8569-29A9CB964CD2}" MaxAttenuation="475" DurationType="OneShot" DurationMin="0.32" DurationMax="0.44">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="1613795745" Id="2550763292" GUID="{C15DE933-4891-4D62-BE78-F1763A353FA8}"/>
-							<PluginRefs>
-								<Custom>
-									<PluginRef Id="150159743"/>
-								</Custom>
-							</PluginRefs>
+							<MediaRefs>
+								<MediaRef Id="914544821"/>
+							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="1613795745" Id="324443136" GUID="{A1812AA0-79E8-4BCD-86C4-6C5C8A20B88A}" Default="true"/>
-							<PluginRefs>
-								<Custom>
-									<PluginRef Id="466626232"/>
-								</Custom>
-							</PluginRefs>
+							<MediaRefs>
+								<MediaRef Id="75411657"/>
+							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="1613795745" Id="4262674733" GUID="{734914CE-A7F4-4A30-8072-9EBFF2B9B848}"/>
-							<PluginRefs>
-								<Custom>
-									<PluginRef Id="808801550"/>
-								</Custom>
-							</PluginRefs>
+							<MediaRefs>
+								<MediaRef Id="873936080"/>
+							</MediaRefs>
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
@@ -54,5 +58,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{6DDCE5E1-9AC2-A6A5-D59D-DD393D1683B7}</FileHash>
+	<FileHash>{A8741802-C652-274B-01D5-C3CCAC14C204}</FileHash>
 </SoundBanksInfo>

@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{A1F154B2-61E0-4AB8-95DA-BEB3A474C07E}",
     "Language": "SFX",
-    "Hash": "{D5FC1372-E6BA-54BC-9C5B-5C1CE286F4BD}",
+    "Hash": "{7B5D2E58-2D68-FD6D-D378-746744366632}",
     "ObjectPath": "TestEvent",
     "ShortName": "TestEvent",
     "Path": "Event/TestEvent.bnk",
@@ -44,6 +44,6 @@
     ]
    }
   ],
-  "FileHash": "{E2BC9CFD-D103-5C18-DB31-567D7D2F9020}"
+  "FileHash": "{6FC16072-CC25-78D1-F59A-E0CA6459E95F}"
  }
 }

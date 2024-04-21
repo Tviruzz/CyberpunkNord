@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{AAF57E4B-7885-4800-A51A-BAF51823C999}",
     "Language": "SFX",
-    "Hash": "{DEF72980-1F5D-6958-F851-D20ACF285D08}",
+    "Hash": "{CF9EE81E-5EA7-CA2B-C51C-11BDF5217CF8}",
     "ObjectPath": "Play_Test_Emmiter",
     "ShortName": "Play_Test_Emmiter",
     "Path": "Event/Play_Test_Emmiter.bnk",
@@ -45,6 +45,6 @@
     ]
    }
   ],
-  "FileHash": "{DE2EAD07-D23E-908A-033D-FD3F5BE78DDF}"
+  "FileHash": "{14E20F52-45DC-EFEE-CA60-7C6525A48928}"
  }
 }

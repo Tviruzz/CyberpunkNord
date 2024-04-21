@@ -1,5 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
-	889160563	Play_Gun_Pickup			\MikoEvents\Play_Gun_Pickup	
+	889160563	Play_Gun_Pickup			\AndresEvents\MainCharacter\Play_Gun_Pickup	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	1613795745	GunType			\GameSwitches\GunType	
@@ -9,14 +9,4 @@ Switch	ID	Name	Switch Group			Notes
 	2550763292	Sniper	GunType			
 	3354297748	Empty	GunType			
 	4262674733	Rifle	GunType			
-
-Modulator Envelope	ID	Name			Wwise Object Path	Notes
-	498302334	Modulator Envelope (Custom)				
-	571408194	Modulator Envelope (Custom)				
-	585656080	Modulator Envelope (Custom)				
-
-Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
-	150159743	Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Miko\SpatialAudioRouting\Gun_Pickup\Sniper\TestSniperPickup\Synth One	
-	466626232	Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Miko\SpatialAudioRouting\Gun_Pickup\Pistol\TestPistolPickup\Synth One	
-	808801550	Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Miko\SpatialAudioRouting\Gun_Pickup\Rifle\TestRiflePickup\Synth One	
 

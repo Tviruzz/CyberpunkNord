@@ -10,19 +10,19 @@
     "Type": "Event",
     "GUID": "{B9359494-47E0-4E87-A3CC-2DDBBC8F9690}",
     "Language": "SFX",
-    "Hash": "{B89D26F3-7D76-E70F-931A-DA02DA8BC122}",
+    "Hash": "{751FDC22-C4E5-E89B-EA39-514361C5BEC2}",
     "ObjectPath": "Play_Player_Dash",
     "ShortName": "Play_Player_Dash",
     "Path": "Event/Play_Player_Dash.bnk",
     "Media": [
      {
-      "Id": "836899746",
+      "Id": "178079268",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Loose",
-      "ShortName": "AndresDash.wav",
-      "Path": "Media/836899746.wem",
-      "CachePath": "SFX/AndresDash_10C4C929.wem"
+      "ShortName": "AB_Generic_PlayerDash.wav",
+      "Path": "Media/178079268.wem",
+      "CachePath": "SFX/AB_Generic_PlayerDash_10C4C929.wem"
      }
     ],
     "Events": [
@@ -36,13 +36,13 @@
       "DurationMax": "0.8",
       "MediaRefs": [
        {
-        "Id": "836899746"
+        "Id": "178079268"
        }
       ]
      }
     ]
    }
   ],
-  "FileHash": "{98FA56EF-13EA-D83F-5247-CF0DA5B76968}"
+  "FileHash": "{A3254D99-11A4-76A5-2254-4D68C787D919}"
  }
 }

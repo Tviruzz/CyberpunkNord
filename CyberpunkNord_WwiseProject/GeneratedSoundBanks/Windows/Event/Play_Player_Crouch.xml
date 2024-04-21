@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="674615794" Type="Event" GUID="{1859CFF1-9FB0-479D-AF24-4512EB2D1B56}" Language="SFX" Hash="{96AFA85A-2F06-079C-378C-18A8317006CE}">
+		<SoundBank Id="674615794" Type="Event" GUID="{1859CFF1-9FB0-479D-AF24-4512EB2D1B56}" Language="SFX" Hash="{B77B2471-D894-0257-5E91-D4BDA447F09D}">
 			<ObjectPath>Play_Player_Crouch</ObjectPath>
 			<ShortName>Play_Player_Crouch</ShortName>
 			<Path>Event/Play_Player_Crouch.bnk</Path>
@@ -51,5 +51,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{8E7109D4-6A76-D9F8-0CC9-BAF85AE27C2B}</FileHash>
+	<FileHash>{7B511428-4E01-95CE-B54E-4460B528A271}</FileHash>
 </SoundBanksInfo>

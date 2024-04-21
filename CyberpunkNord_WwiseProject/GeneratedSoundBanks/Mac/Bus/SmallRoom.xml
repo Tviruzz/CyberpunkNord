@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="2933838247" Type="Bus" GUID="{B430C053-4215-4414-9FD4-5385A21F252E}" Language="SFX" Hash="{5A652894-6464-B212-3F5B-8FE54E5DC315}">
+		<SoundBank Id="2933838247" Type="Bus" GUID="{B430C053-4215-4414-9FD4-5385A21F252E}" Language="SFX" Hash="{B3D0647E-D112-0120-61D7-DB52B6072D15}">
 			<ObjectPath>SmallRoom</ObjectPath>
 			<ShortName>SmallRoom</ShortName>
 			<Path>Bus/SmallRoom.bnk</Path>
@@ -21,5 +21,5 @@
 			</AuxBusses>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B0C4E1C0-E024-072A-8A6A-45BAF55CB476}</FileHash>
+	<FileHash>{B5F4CFAD-13EF-6F35-2E8F-ECECACF07D5D}</FileHash>
 </SoundBanksInfo>

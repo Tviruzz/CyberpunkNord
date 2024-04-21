@@ -37,69 +37,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Gun_Pickup" ID="{E48C02B7-42EB-4B96-8569-29A9CB964CD2}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="3"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-					<ChildrenList>
-						<Action Name="" ID="{887274E6-6C15-4708-B358-949355AC3DAD}" ShortID="438222633">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Gun_Pickup" ID="{98B1FD6B-DCB2-408B-A453-480E8290A30D}" WorkUnitID="{A7EB45C4-B939-4480-A678-788D7A20EEBC}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_Ammo_Pickup" ID="{ED3592B0-EF02-4A32-A446-AAAA08A9E2B1}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="3"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-					<ChildrenList>
-						<Action Name="" ID="{2A88DA60-6007-4E75-B369-C4E7FD722324}" ShortID="454122928">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Ammo_Pickup" ID="{87241199-7B6A-464B-9735-110E3B229ACA}" WorkUnitID="{A7EB45C4-B939-4480-A678-788D7A20EEBC}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_Scan" ID="{DD52A457-23A1-499C-8AB6-ACCE282F13E5}">
-					<ChildrenList>
-						<Action Name="" ID="{5B00D5E4-466C-4BDE-83BE-936CC8765992}" ShortID="709170451">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Player_Scan" ID="{B1F2F2CB-0E6E-4A58-B38A-B7C0A0BCF8AF}" WorkUnitID="{A7EB45C4-B939-4480-A678-788D7A20EEBC}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_Gun_Shoot" ID="{6C35B7F2-824A-4A0E-A3B2-F18D8B96B227}">
-					<ChildrenList>
-						<Action Name="" ID="{BC6C4620-01B1-4CC7-B00E-95FFE4EEFB25}" ShortID="541369214">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Gun_Shoot" ID="{DBDAB9AB-7094-480F-AFAB-5BCAA3B79C3D}" WorkUnitID="{A7EB45C4-B939-4480-A678-788D7A20EEBC}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_Gun_Reload" ID="{C4223D45-CAE6-4BBB-88CA-21F88AA151AE}">
-					<ChildrenList>
-						<Action Name="" ID="{2543CCA9-8636-4AF3-9889-BCFDA7A13F38}" ShortID="1001423654">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Gun_Reload" ID="{773A4C20-6A2A-4F64-AC20-5F637B8A37EA}" WorkUnitID="{A7EB45C4-B939-4480-A678-788D7A20EEBC}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

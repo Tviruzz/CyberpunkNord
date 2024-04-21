@@ -9,28 +9,36 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="169023713" Type="Event" GUID="{DD52A457-23A1-499C-8AB6-ACCE282F13E5}" Language="SFX" Hash="{B33A0E12-0F7C-6D49-166D-248D58A9E80F}">
+		<SoundBank Id="169023713" Type="Event" GUID="{DD52A457-23A1-499C-8AB6-ACCE282F13E5}" Language="SFX" Hash="{FF82F721-7A11-B6A8-8154-5C7F35062113}">
 			<ObjectPath>Play_Scan</ObjectPath>
 			<ShortName>Play_Scan</ShortName>
 			<Path>Event/Play_Scan.bnk</Path>
+			<Media>
+				<File Id="975560317" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>AB_Generic_PlayerScan.wav</ShortName>
+					<Path>Media/975560317.wem</Path>
+					<CachePath>SFX/AB_Generic_PlayerScan_10C4C929.wem</CachePath>
+				</File>
+			</Media>
 			<Plugins>
 				<Custom>
-					<Plugin Id="134915275" Name="Synth One" ObjectPath="\Actor-Mixer Hierarchy\Miko\SpatialAudioRouting\Player_Scan\Synth One" GUID="{F5FF84F9-6D98-4E19-9BDF-2D360387441A}" LibName="Wwise Synth One" LibId="9699330"/>
-					<Plugin Id="515095871" Name="Stereo Delay (Custom)" ObjectPath="\Actor-Mixer Hierarchy\Miko\SpatialAudioRouting\Player_Scan\Stereo Delay (Custom)" GUID="{6310D895-BEDC-46BB-91A4-B7E19F49D5C0}" LibName="Wwise Stereo Delay" LibId="8847363"/>
+					<Plugin Id="515095871" Name="Stereo Delay (Custom)" ObjectPath="\Actor-Mixer Hierarchy\Andres\SpatialAudioRouting\MainCharacter\Generic\Player_Scan\Stereo Delay (Custom)" GUID="{6310D895-BEDC-46BB-91A4-B7E19F49D5C0}" LibName="Wwise Stereo Delay" LibId="8847363"/>
 				</Custom>
 			</Plugins>
 			<Events>
-				<Event Id="169023713" Name="Play_Scan" ObjectPath="\Events\MikoEvents\Play_Scan" GUID="{DD52A457-23A1-499C-8AB6-ACCE282F13E5}" DurationType="Unknown">
+				<Event Id="169023713" Name="Play_Scan" ObjectPath="\Events\AndresEvents\MainCharacter\Play_Scan" GUID="{DD52A457-23A1-499C-8AB6-ACCE282F13E5}" DurationType="OneShot" DurationMin="1.32" DurationMax="1.32">
+					<MediaRefs>
+						<MediaRef Id="975560317"/>
+					</MediaRefs>
 					<PluginRefs>
 						<Custom>
-							<PluginRef Id="134915275"/>
 							<PluginRef Id="515095871"/>
 						</Custom>
 					</PluginRefs>
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="563777050" Type="Event" GUID="{AAF57E4B-7885-4800-A51A-BAF51823C999}" Language="SFX" Hash="{DEF72980-1F5D-6958-F851-D20ACF285D08}">
+		<SoundBank Id="563777050" Type="Event" GUID="{AAF57E4B-7885-4800-A51A-BAF51823C999}" Language="SFX" Hash="{CF9EE81E-5EA7-CA2B-C51C-11BDF5217CF8}">
 			<ObjectPath>Play_Test_Emmiter</ObjectPath>
 			<ShortName>Play_Test_Emmiter</ShortName>
 			<Path>Event/Play_Test_Emmiter.bnk</Path>
@@ -49,7 +57,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="674615794" Type="Event" GUID="{1859CFF1-9FB0-479D-AF24-4512EB2D1B56}" Language="SFX" Hash="{96AFA85A-2F06-079C-378C-18A8317006CE}">
+		<SoundBank Id="674615794" Type="Event" GUID="{1859CFF1-9FB0-479D-AF24-4512EB2D1B56}" Language="SFX" Hash="{B77B2471-D894-0257-5E91-D4BDA447F09D}">
 			<ObjectPath>Play_Player_Crouch</ObjectPath>
 			<ShortName>Play_Player_Crouch</ShortName>
 			<Path>Event/Play_Player_Crouch.bnk</Path>
@@ -98,43 +106,47 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="889160563" Type="Event" GUID="{E48C02B7-42EB-4B96-8569-29A9CB964CD2}" Language="SFX" Hash="{EFAB5527-7BE6-EC69-344D-232F4896267C}">
+		<SoundBank Id="889160563" Type="Event" GUID="{E48C02B7-42EB-4B96-8569-29A9CB964CD2}" Language="SFX" Hash="{61E61E75-6A99-B9C0-9A57-7C3DB959DFB5}">
 			<ObjectPath>Play_Gun_Pickup</ObjectPath>
 			<ShortName>Play_Gun_Pickup</ShortName>
 			<Path>Event/Play_Gun_Pickup.bnk</Path>
-			<Plugins>
-				<Custom>
-					<Plugin Id="150159743" Name="Synth One" ObjectPath="\Actor-Mixer Hierarchy\Miko\SpatialAudioRouting\Gun_Pickup\Sniper\TestSniperPickup\Synth One" GUID="{5E742ED1-F043-4EF2-8C48-7C8B3CADE6A6}" LibName="Wwise Synth One" LibId="9699330"/>
-					<Plugin Id="466626232" Name="Synth One" ObjectPath="\Actor-Mixer Hierarchy\Miko\SpatialAudioRouting\Gun_Pickup\Pistol\TestPistolPickup\Synth One" GUID="{1ECFC7B4-118A-42DA-B12F-E9536FDC09DC}" LibName="Wwise Synth One" LibId="9699330"/>
-					<Plugin Id="808801550" Name="Synth One" ObjectPath="\Actor-Mixer Hierarchy\Miko\SpatialAudioRouting\Gun_Pickup\Rifle\TestRiflePickup\Synth One" GUID="{414E0DB0-23BB-4D43-B214-2B532A7269E0}" LibName="Wwise Synth One" LibId="9699330"/>
-				</Custom>
-			</Plugins>
+			<Media>
+				<File Id="75411657" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>AB_Generic_GunPickUp_Pistol.wav</ShortName>
+					<Path>Media/75411657.wem</Path>
+					<CachePath>SFX/AB_Generic_GunPickUp_Pistol_10C4C929.wem</CachePath>
+				</File>
+				<File Id="873936080" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>AB_Generic_GunPickUp_Rifle.wav</ShortName>
+					<Path>Media/873936080.wem</Path>
+					<CachePath>SFX/AB_Generic_GunPickUp_Rifle_10C4C929.wem</CachePath>
+				</File>
+				<File Id="914544821" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>AB_Generic_GunPickUp_Sniper.wav</ShortName>
+					<Path>Media/914544821.wem</Path>
+					<CachePath>SFX/AB_Generic_GunPickUp_Sniper_10C4C929.wem</CachePath>
+				</File>
+			</Media>
 			<Events>
-				<Event Id="889160563" Name="Play_Gun_Pickup" ObjectPath="\Events\MikoEvents\Play_Gun_Pickup" GUID="{E48C02B7-42EB-4B96-8569-29A9CB964CD2}" MaxAttenuation="475" DurationType="Unknown">
+				<Event Id="889160563" Name="Play_Gun_Pickup" ObjectPath="\Events\AndresEvents\MainCharacter\Play_Gun_Pickup" GUID="{E48C02B7-42EB-4B96-8569-29A9CB964CD2}" MaxAttenuation="475" DurationType="OneShot" DurationMin="0.32" DurationMax="0.44">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="1613795745" Id="2550763292" GUID="{C15DE933-4891-4D62-BE78-F1763A353FA8}"/>
-							<PluginRefs>
-								<Custom>
-									<PluginRef Id="150159743"/>
-								</Custom>
-							</PluginRefs>
+							<MediaRefs>
+								<MediaRef Id="914544821"/>
+							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="1613795745" Id="324443136" GUID="{A1812AA0-79E8-4BCD-86C4-6C5C8A20B88A}" Default="true"/>
-							<PluginRefs>
-								<Custom>
-									<PluginRef Id="466626232"/>
-								</Custom>
-							</PluginRefs>
+							<MediaRefs>
+								<MediaRef Id="75411657"/>
+							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="1613795745" Id="4262674733" GUID="{734914CE-A7F4-4A30-8072-9EBFF2B9B848}"/>
-							<PluginRefs>
-								<Custom>
-									<PluginRef Id="808801550"/>
-								</Custom>
-							</PluginRefs>
+							<MediaRefs>
+								<MediaRef Id="873936080"/>
+							</MediaRefs>
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
@@ -150,7 +162,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1097980931" Type="Event" GUID="{A1F154B2-61E0-4AB8-95DA-BEB3A474C07E}" Language="SFX" Hash="{D5FC1372-E6BA-54BC-9C5B-5C1CE286F4BD}">
+		<SoundBank Id="1097980931" Type="Event" GUID="{A1F154B2-61E0-4AB8-95DA-BEB3A474C07E}" Language="SFX" Hash="{7B5D2E58-2D68-FD6D-D378-746744366632}">
 			<ObjectPath>TestEvent</ObjectPath>
 			<ShortName>TestEvent</ShortName>
 			<Path>Event/TestEvent.bnk</Path>
@@ -169,7 +181,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1122778924" Type="Event" GUID="{FCAC40F7-76BD-46AB-87FF-ED7062E763C3}" Language="SFX" Hash="{00DACFCE-153F-899B-235E-4FAE5D12E45D}">
+		<SoundBank Id="1122778924" Type="Event" GUID="{FCAC40F7-76BD-46AB-87FF-ED7062E763C3}" Language="SFX" Hash="{31C80B47-58A3-DF09-DB66-28E9FEBF24FF}">
 			<ObjectPath>Play_Player_Sprint</ObjectPath>
 			<ShortName>Play_Player_Sprint</ShortName>
 			<Path>Event/Play_Player_Sprint.bnk</Path>
@@ -218,7 +230,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{8ADE17B9-7425-398F-A9BD-3CC1E1DE7B84}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{20BACDFF-59A6-5B5D-D1B0-2200A264AD4E}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -280,43 +292,47 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2003795032" Type="Event" GUID="{C4223D45-CAE6-4BBB-88CA-21F88AA151AE}" Language="SFX" Hash="{1611443E-4081-66F2-5B68-029A553C414E}">
+		<SoundBank Id="2003795032" Type="Event" GUID="{C4223D45-CAE6-4BBB-88CA-21F88AA151AE}" Language="SFX" Hash="{B2120BAB-336D-12C5-2164-AFF01A5C9F41}">
 			<ObjectPath>Play_Gun_Reload</ObjectPath>
 			<ShortName>Play_Gun_Reload</ShortName>
 			<Path>Event/Play_Gun_Reload.bnk</Path>
-			<Plugins>
-				<Custom>
-					<Plugin Id="549356377" Name="Synth One" ObjectPath="\Actor-Mixer Hierarchy\Miko\SpatialAudioRouting\Gun_Reload\Rifle\Rifle_Reload\Synth One" GUID="{DBBF72DB-CCC1-4AD3-A448-30C344334C92}" LibName="Wwise Synth One" LibId="9699330"/>
-					<Plugin Id="817392042" Name="Synth One" ObjectPath="\Actor-Mixer Hierarchy\Miko\SpatialAudioRouting\Gun_Reload\Sniper\Sniper_Reload\Synth One" GUID="{36B1694E-C062-40ED-85C9-0624479C3CD4}" LibName="Wwise Synth One" LibId="9699330"/>
-					<Plugin Id="1030436109" Name="Synth One" ObjectPath="\Actor-Mixer Hierarchy\Miko\SpatialAudioRouting\Gun_Reload\Pistol\Pistol_Reload\Synth One" GUID="{3897342C-3FBA-4678-B011-6CCBBF521B96}" LibName="Wwise Synth One" LibId="9699330"/>
-				</Custom>
-			</Plugins>
+			<Media>
+				<File Id="22307643" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>AB_Generic_GunReload_Pistol.wav</ShortName>
+					<Path>Media/22307643.wem</Path>
+					<CachePath>SFX/AB_Generic_GunReload_Pistol_10C4C929.wem</CachePath>
+				</File>
+				<File Id="227080740" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>AB_Generic_GunReload_Sniper.wav</ShortName>
+					<Path>Media/227080740.wem</Path>
+					<CachePath>SFX/AB_Generic_GunReload_Sniper_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1007268203" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>AB_Generic_GunReload_Rifle.wav</ShortName>
+					<Path>Media/1007268203.wem</Path>
+					<CachePath>SFX/AB_Generic_GunReload_Rifle_10C4C929.wem</CachePath>
+				</File>
+			</Media>
 			<Events>
-				<Event Id="2003795032" Name="Play_Gun_Reload" ObjectPath="\Events\MikoEvents\Play_Gun_Reload" GUID="{C4223D45-CAE6-4BBB-88CA-21F88AA151AE}" MaxAttenuation="475" DurationType="Unknown">
+				<Event Id="2003795032" Name="Play_Gun_Reload" ObjectPath="\Events\AndresEvents\MainCharacter\Play_Gun_Reload" GUID="{C4223D45-CAE6-4BBB-88CA-21F88AA151AE}" MaxAttenuation="475" DurationType="OneShot" DurationMin="0.56" DurationMax="0.8">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="1613795745" Id="2550763292" GUID="{C15DE933-4891-4D62-BE78-F1763A353FA8}"/>
-							<PluginRefs>
-								<Custom>
-									<PluginRef Id="817392042"/>
-								</Custom>
-							</PluginRefs>
+							<MediaRefs>
+								<MediaRef Id="227080740"/>
+							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="1613795745" Id="324443136" GUID="{A1812AA0-79E8-4BCD-86C4-6C5C8A20B88A}"/>
-							<PluginRefs>
-								<Custom>
-									<PluginRef Id="1030436109"/>
-								</Custom>
-							</PluginRefs>
+							<MediaRefs>
+								<MediaRef Id="22307643"/>
+							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="1613795745" Id="4262674733" GUID="{734914CE-A7F4-4A30-8072-9EBFF2B9B848}"/>
-							<PluginRefs>
-								<Custom>
-									<PluginRef Id="549356377"/>
-								</Custom>
-							</PluginRefs>
+							<MediaRefs>
+								<MediaRef Id="1007268203"/>
+							</MediaRefs>
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
@@ -332,71 +348,113 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2175711460" Type="Event" GUID="{B9359494-47E0-4E87-A3CC-2DDBBC8F9690}" Language="SFX" Hash="{B89D26F3-7D76-E70F-931A-DA02DA8BC122}">
+		<SoundBank Id="2175711460" Type="Event" GUID="{B9359494-47E0-4E87-A3CC-2DDBBC8F9690}" Language="SFX" Hash="{751FDC22-C4E5-E89B-EA39-514361C5BEC2}">
 			<ObjectPath>Play_Player_Dash</ObjectPath>
 			<ShortName>Play_Player_Dash</ShortName>
 			<Path>Event/Play_Player_Dash.bnk</Path>
 			<Media>
-				<File Id="836899746" Language="SFX" Streaming="false" Location="Loose">
-					<ShortName>AndresDash.wav</ShortName>
-					<Path>Media/836899746.wem</Path>
-					<CachePath>SFX/AndresDash_10C4C929.wem</CachePath>
+				<File Id="178079268" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>AB_Generic_PlayerDash.wav</ShortName>
+					<Path>Media/178079268.wem</Path>
+					<CachePath>SFX/AB_Generic_PlayerDash_10C4C929.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
 				<Event Id="2175711460" Name="Play_Player_Dash" ObjectPath="\Events\AndresEvents\MainCharacter\Play_Player_Dash" GUID="{B9359494-47E0-4E87-A3CC-2DDBBC8F9690}" DurationType="OneShot" DurationMin="0.8" DurationMax="0.8">
 					<MediaRefs>
-						<MediaRef Id="836899746"/>
+						<MediaRef Id="178079268"/>
 					</MediaRefs>
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="2371775700" Type="Event" GUID="{6C35B7F2-824A-4A0E-A3B2-F18D8B96B227}" Language="SFX" Hash="{DEF98C99-9673-FA96-D979-A0B392FD66D2}">
+		<SoundBank Id="2371775700" Type="Event" GUID="{6C35B7F2-824A-4A0E-A3B2-F18D8B96B227}" Language="SFX" Hash="{EEAF7FC3-CDFA-1539-2568-BD7F9C3692F3}">
 			<ObjectPath>Play_Gun_Shoot</ObjectPath>
 			<ShortName>Play_Gun_Shoot</ShortName>
 			<Path>Event/Play_Gun_Shoot.bnk</Path>
-			<Plugins>
-				<Custom>
-					<Plugin Id="183355157" Name="Synth One" ObjectPath="\Actor-Mixer Hierarchy\Miko\SpatialAudioRouting\Gun_Shoot\Empty_Shoot\EmptyShootGun\Synth One" GUID="{ABB4B78E-737B-4453-987E-6C19E57D80F6}" LibName="Wwise Synth One" LibId="9699330"/>
-					<Plugin Id="389799868" Name="Synth One" ObjectPath="\Actor-Mixer Hierarchy\Miko\SpatialAudioRouting\Gun_Shoot\Sniper_Shoot\SniperShootGun\Synth One" GUID="{336FD919-587A-4290-950F-B23921EDAEE9}" LibName="Wwise Synth One" LibId="9699330"/>
-					<Plugin Id="944493094" Name="Synth One" ObjectPath="\Actor-Mixer Hierarchy\Miko\SpatialAudioRouting\Gun_Shoot\Pistol_Shoot\PistolShootGun\Synth One" GUID="{C3185C73-D5ED-4BAB-B594-7F15278244E6}" LibName="Wwise Synth One" LibId="9699330"/>
-					<Plugin Id="998034893" Name="Synth One" ObjectPath="\Actor-Mixer Hierarchy\Miko\SpatialAudioRouting\Gun_Shoot\Rifle_Shoot\RifleShootGun\Synth One" GUID="{CC08F419-F73C-43C3-A246-CCFA12F28CD8}" LibName="Wwise Synth One" LibId="9699330"/>
-				</Custom>
-			</Plugins>
+			<Media>
+				<File Id="970783" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>AB_Generic_GunShoot_Rifle2.wav</ShortName>
+					<Path>Media/970783.wem</Path>
+					<CachePath>SFX/AB_Generic_GunShoot_Rifle2_10C4C929.wem</CachePath>
+				</File>
+				<File Id="81399345" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>AB_Generic_GunShoot_Pistol1.wav</ShortName>
+					<Path>Media/81399345.wem</Path>
+					<CachePath>SFX/AB_Generic_GunShoot_Pistol1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="160391706" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>AB_Generic_GunShoot_Sniper1.wav</ShortName>
+					<Path>Media/160391706.wem</Path>
+					<CachePath>SFX/AB_Generic_GunShoot_Sniper1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="186205641" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>AB_Generic_GunShoot_Pistol2.wav</ShortName>
+					<Path>Media/186205641.wem</Path>
+					<CachePath>SFX/AB_Generic_GunShoot_Pistol2_10C4C929.wem</CachePath>
+				</File>
+				<File Id="192536123" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>AB_Generic_GunShoot_Rifle3.wav</ShortName>
+					<Path>Media/192536123.wem</Path>
+					<CachePath>SFX/AB_Generic_GunShoot_Rifle3_10C4C929.wem</CachePath>
+				</File>
+				<File Id="580878413" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>AB_Generic_GunShoot_Rifle1.wav</ShortName>
+					<Path>Media/580878413.wem</Path>
+					<CachePath>SFX/AB_Generic_GunShoot_Rifle1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="714389958" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>AB_Generic_GunShoot_Sniper2.wav</ShortName>
+					<Path>Media/714389958.wem</Path>
+					<CachePath>SFX/AB_Generic_GunShoot_Sniper2_10C4C929.wem</CachePath>
+				</File>
+				<File Id="735215668" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>AB_Generic_GunShoot_Pistol3.wav</ShortName>
+					<Path>Media/735215668.wem</Path>
+					<CachePath>SFX/AB_Generic_GunShoot_Pistol3_10C4C929.wem</CachePath>
+				</File>
+				<File Id="748811425" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>AB_Generic_GunShoot_Empty2.wav</ShortName>
+					<Path>Media/748811425.wem</Path>
+					<CachePath>SFX/AB_Generic_GunShoot_Empty2_10C4C929.wem</CachePath>
+				</File>
+				<File Id="862081436" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>AB_Generic_GunShoot_Empty1.wav</ShortName>
+					<Path>Media/862081436.wem</Path>
+					<CachePath>SFX/AB_Generic_GunShoot_Empty1_10C4C929.wem</CachePath>
+				</File>
+			</Media>
 			<Events>
-				<Event Id="2371775700" Name="Play_Gun_Shoot" ObjectPath="\Events\MikoEvents\Play_Gun_Shoot" GUID="{6C35B7F2-824A-4A0E-A3B2-F18D8B96B227}" MaxAttenuation="475" DurationType="Unknown">
+				<Event Id="2371775700" Name="Play_Gun_Shoot" ObjectPath="\Events\AndresEvents\MainCharacter\Play_Gun_Shoot" GUID="{6C35B7F2-824A-4A0E-A3B2-F18D8B96B227}" MaxAttenuation="475" DurationType="OneShot" DurationMin="1" DurationMax="2.56">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="1613795745" Id="2550763292" GUID="{C15DE933-4891-4D62-BE78-F1763A353FA8}"/>
-							<PluginRefs>
-								<Custom>
-									<PluginRef Id="389799868"/>
-								</Custom>
-							</PluginRefs>
+							<MediaRefs>
+								<MediaRef Id="160391706"/>
+								<MediaRef Id="714389958"/>
+							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="1613795745" Id="3354297748" GUID="{74C65360-8F0C-4D0B-955B-D6C491ABC0C3}" Default="true"/>
-							<PluginRefs>
-								<Custom>
-									<PluginRef Id="183355157"/>
-								</Custom>
-							</PluginRefs>
+							<MediaRefs>
+								<MediaRef Id="748811425"/>
+								<MediaRef Id="862081436"/>
+							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="1613795745" Id="324443136" GUID="{A1812AA0-79E8-4BCD-86C4-6C5C8A20B88A}"/>
-							<PluginRefs>
-								<Custom>
-									<PluginRef Id="944493094"/>
-								</Custom>
-							</PluginRefs>
+							<MediaRefs>
+								<MediaRef Id="81399345"/>
+								<MediaRef Id="186205641"/>
+								<MediaRef Id="735215668"/>
+							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="1613795745" Id="4262674733" GUID="{734914CE-A7F4-4A30-8072-9EBFF2B9B848}"/>
-							<PluginRefs>
-								<Custom>
-									<PluginRef Id="998034893"/>
-								</Custom>
-							</PluginRefs>
+							<MediaRefs>
+								<MediaRef Id="970783"/>
+								<MediaRef Id="192536123"/>
+								<MediaRef Id="580878413"/>
+							</MediaRefs>
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
@@ -412,7 +470,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2825395259" Type="Event" GUID="{2D4A392D-B75B-44AC-B9FE-89979C7CB37F}" Language="SFX" Hash="{969303C0-CEDE-F296-8A8B-A1F6AD1C73A9}">
+		<SoundBank Id="2825395259" Type="Event" GUID="{2D4A392D-B75B-44AC-B9FE-89979C7CB37F}" Language="SFX" Hash="{F4F9EA09-8C63-E7DF-B2DC-0E8FE7B2490A}">
 			<ObjectPath>Play_Player_Walk</ObjectPath>
 			<ShortName>Play_Player_Walk</ShortName>
 			<Path>Event/Play_Player_Walk.bnk</Path>
@@ -461,7 +519,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="2933838247" Type="Bus" GUID="{B430C053-4215-4414-9FD4-5385A21F252E}" Language="SFX" Hash="{5A652894-6464-B212-3F5B-8FE54E5DC315}">
+		<SoundBank Id="2933838247" Type="Bus" GUID="{B430C053-4215-4414-9FD4-5385A21F252E}" Language="SFX" Hash="{B3D0647E-D112-0120-61D7-DB52B6072D15}">
 			<ObjectPath>SmallRoom</ObjectPath>
 			<ShortName>SmallRoom</ShortName>
 			<Path>Bus/SmallRoom.bnk</Path>
@@ -499,43 +557,47 @@
 				</AuxBus>
 			</AuxBusses>
 		</SoundBank>
-		<SoundBank Id="4269559823" Type="Event" GUID="{ED3592B0-EF02-4A32-A446-AAAA08A9E2B1}" Language="SFX" Hash="{11D16D85-555E-2E93-4598-2D9435A9FE94}">
+		<SoundBank Id="4269559823" Type="Event" GUID="{ED3592B0-EF02-4A32-A446-AAAA08A9E2B1}" Language="SFX" Hash="{BDE3CB0C-5BAA-F39D-2FF3-B36706A1CAE4}">
 			<ObjectPath>Play_Ammo_Pickup</ObjectPath>
 			<ShortName>Play_Ammo_Pickup</ShortName>
 			<Path>Event/Play_Ammo_Pickup.bnk</Path>
-			<Plugins>
-				<Custom>
-					<Plugin Id="169472566" Name="Synth One" ObjectPath="\Actor-Mixer Hierarchy\Miko\SpatialAudioRouting\Ammo_Pickup\Light\LightPickup\Synth One" GUID="{F4C497F8-0792-4E40-92E8-97AE68F39452}" LibName="Wwise Synth One" LibId="9699330"/>
-					<Plugin Id="255460811" Name="Synth One" ObjectPath="\Actor-Mixer Hierarchy\Miko\SpatialAudioRouting\Ammo_Pickup\Heavy\HeavyPickup\Synth One" GUID="{E6450DE8-EEA5-415D-BFBE-48ACDA665BEE}" LibName="Wwise Synth One" LibId="9699330"/>
-					<Plugin Id="610260876" Name="Synth One" ObjectPath="\Actor-Mixer Hierarchy\Miko\SpatialAudioRouting\Ammo_Pickup\Medium\MediumPickup\Synth One" GUID="{919D6D61-446F-4D55-BF39-056E36354362}" LibName="Wwise Synth One" LibId="9699330"/>
-				</Custom>
-			</Plugins>
+			<Media>
+				<File Id="490227264" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>AB_Generic_AmmoPickUp_Light.wav</ShortName>
+					<Path>Media/490227264.wem</Path>
+					<CachePath>SFX/AB_Generic_AmmoPickUp_Light_10C4C929.wem</CachePath>
+				</File>
+				<File Id="654028670" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>AB_Generic_AmmoPickUp_Heavy.wav</ShortName>
+					<Path>Media/654028670.wem</Path>
+					<CachePath>SFX/AB_Generic_AmmoPickUp_Heavy_10C4C929.wem</CachePath>
+				</File>
+				<File Id="742883154" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>AB_Generic_AmmoPickUp_Medium.wav</ShortName>
+					<Path>Media/742883154.wem</Path>
+					<CachePath>SFX/AB_Generic_AmmoPickUp_Medium_10C4C929.wem</CachePath>
+				</File>
+			</Media>
 			<Events>
-				<Event Id="4269559823" Name="Play_Ammo_Pickup" ObjectPath="\Events\MikoEvents\Play_Ammo_Pickup" GUID="{ED3592B0-EF02-4A32-A446-AAAA08A9E2B1}" MaxAttenuation="475" DurationType="Unknown">
+				<Event Id="4269559823" Name="Play_Ammo_Pickup" ObjectPath="\Events\AndresEvents\MainCharacter\Play_Ammo_Pickup" GUID="{ED3592B0-EF02-4A32-A446-AAAA08A9E2B1}" MaxAttenuation="475" DurationType="OneShot" DurationMin="0.44" DurationMax="0.52">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="3696829535" Id="2849147824" GUID="{691F4D69-6EC6-421F-994F-B71CC2AE2E3C}"/>
-							<PluginRefs>
-								<Custom>
-									<PluginRef Id="610260876"/>
-								</Custom>
-							</PluginRefs>
+							<MediaRefs>
+								<MediaRef Id="742883154"/>
+							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="3696829535" Id="1935470627" GUID="{F741AD96-187A-49F5-BC80-FA2CF8C3EE2A}" Default="true"/>
-							<PluginRefs>
-								<Custom>
-									<PluginRef Id="169472566"/>
-								</Custom>
-							</PluginRefs>
+							<MediaRefs>
+								<MediaRef Id="490227264"/>
+							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="3696829535" Id="2732489590" GUID="{AFB39EAD-EC00-4E13-BDB0-E3086FCF5965}"/>
-							<PluginRefs>
-								<Custom>
-									<PluginRef Id="255460811"/>
-								</Custom>
-							</PluginRefs>
+							<MediaRefs>
+								<MediaRef Id="654028670"/>
+							</MediaRefs>
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
@@ -551,5 +613,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{F6C5BF54-21EA-0784-61B9-AA22F86FF6D0}</FileHash>
+	<FileHash>{D273D987-FFC0-215C-9520-72D2C83BC624}</FileHash>
 </SoundBanksInfo>

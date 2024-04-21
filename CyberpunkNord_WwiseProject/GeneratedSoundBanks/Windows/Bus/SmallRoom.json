@@ -10,7 +10,7 @@
     "Type": "Bus",
     "GUID": "{B430C053-4215-4414-9FD4-5385A21F252E}",
     "Language": "SFX",
-    "Hash": "{5A652894-6464-B212-3F5B-8FE54E5DC315}",
+    "Hash": "{B3D0647E-D112-0120-61D7-DB52B6072D15}",
     "ObjectPath": "SmallRoom",
     "ShortName": "SmallRoom",
     "Path": "Bus/SmallRoom.bnk",
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{70F85EB7-0883-DBB0-423F-08E85F633346}"
+  "FileHash": "{E63BEFE7-69E1-F11A-2485-D5EA693F7411}"
  }
 }

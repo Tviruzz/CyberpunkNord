@@ -10,46 +10,49 @@
     "Type": "Event",
     "GUID": "{C4223D45-CAE6-4BBB-88CA-21F88AA151AE}",
     "Language": "SFX",
-    "Hash": "{1611443E-4081-66F2-5B68-029A553C414E}",
+    "Hash": "{B2120BAB-336D-12C5-2164-AFF01A5C9F41}",
     "ObjectPath": "Play_Gun_Reload",
     "ShortName": "Play_Gun_Reload",
     "Path": "Event/Play_Gun_Reload.bnk",
-    "Plugins": {
-     "Custom": [
-      {
-       "Id": "549356377",
-       "Name": "Synth One",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\SpatialAudioRouting\\Gun_Reload\\Rifle\\Rifle_Reload\\Synth One",
-       "GUID": "{DBBF72DB-CCC1-4AD3-A448-30C344334C92}",
-       "LibName": "Wwise Synth One",
-       "LibId": "9699330"
-      },
-      {
-       "Id": "817392042",
-       "Name": "Synth One",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\SpatialAudioRouting\\Gun_Reload\\Sniper\\Sniper_Reload\\Synth One",
-       "GUID": "{36B1694E-C062-40ED-85C9-0624479C3CD4}",
-       "LibName": "Wwise Synth One",
-       "LibId": "9699330"
-      },
-      {
-       "Id": "1030436109",
-       "Name": "Synth One",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\SpatialAudioRouting\\Gun_Reload\\Pistol\\Pistol_Reload\\Synth One",
-       "GUID": "{3897342C-3FBA-4678-B011-6CCBBF521B96}",
-       "LibName": "Wwise Synth One",
-       "LibId": "9699330"
-      }
-     ]
-    },
+    "Media": [
+     {
+      "Id": "22307643",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AB_Generic_GunReload_Pistol.wav",
+      "Path": "Media/22307643.wem",
+      "CachePath": "SFX/AB_Generic_GunReload_Pistol_10C4C929.wem"
+     },
+     {
+      "Id": "227080740",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AB_Generic_GunReload_Sniper.wav",
+      "Path": "Media/227080740.wem",
+      "CachePath": "SFX/AB_Generic_GunReload_Sniper_10C4C929.wem"
+     },
+     {
+      "Id": "1007268203",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AB_Generic_GunReload_Rifle.wav",
+      "Path": "Media/1007268203.wem",
+      "CachePath": "SFX/AB_Generic_GunReload_Rifle_10C4C929.wem"
+     }
+    ],
     "Events": [
      {
       "Id": "2003795032",
       "Name": "Play_Gun_Reload",
-      "ObjectPath": "\\Events\\MikoEvents\\Play_Gun_Reload",
+      "ObjectPath": "\\Events\\AndresEvents\\MainCharacter\\Play_Gun_Reload",
       "GUID": "{C4223D45-CAE6-4BBB-88CA-21F88AA151AE}",
       "MaxAttenuation": "475",
-      "DurationType": "Unknown",
+      "DurationType": "OneShot",
+      "DurationMin": "0.56",
+      "DurationMax": "0.8",
       "SwitchContainers": [
        {
         "SwitchValue": {
@@ -58,13 +61,11 @@
          "Id": "2550763292",
          "GUID": "{C15DE933-4891-4D62-BE78-F1763A353FA8}"
         },
-        "PluginRefs": {
-         "Custom": [
-          {
-           "Id": "817392042"
-          }
-         ]
-        }
+        "MediaRefs": [
+         {
+          "Id": "227080740"
+         }
+        ]
        },
        {
         "SwitchValue": {
@@ -73,13 +74,11 @@
          "Id": "324443136",
          "GUID": "{A1812AA0-79E8-4BCD-86C4-6C5C8A20B88A}"
         },
-        "PluginRefs": {
-         "Custom": [
-          {
-           "Id": "1030436109"
-          }
-         ]
-        }
+        "MediaRefs": [
+         {
+          "Id": "22307643"
+         }
+        ]
        },
        {
         "SwitchValue": {
@@ -88,13 +87,11 @@
          "Id": "4262674733",
          "GUID": "{734914CE-A7F4-4A30-8072-9EBFF2B9B848}"
         },
-        "PluginRefs": {
-         "Custom": [
-          {
-           "Id": "549356377"
-          }
-         ]
-        }
+        "MediaRefs": [
+         {
+          "Id": "1007268203"
+         }
+        ]
        }
       ]
      }
@@ -135,6 +132,6 @@
     ]
    }
   ],
-  "FileHash": "{BFAEAAC3-F303-ACB0-4456-719EEBB380A1}"
+  "FileHash": "{FA9897EE-28E3-B67D-D5F6-8DBE2BCDDA9C}"
  }
 }

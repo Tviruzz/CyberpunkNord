@@ -1,5 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
-	2003795032	Play_Gun_Reload			\MikoEvents\Play_Gun_Reload	
+	2003795032	Play_Gun_Reload			\AndresEvents\MainCharacter\Play_Gun_Reload	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	1613795745	GunType			\GameSwitches\GunType	
@@ -9,17 +9,4 @@ Switch	ID	Name	Switch Group			Notes
 	2550763292	Sniper	GunType			
 	3354297748	Empty	GunType			
 	4262674733	Rifle	GunType			
-
-Modulator Envelope	ID	Name			Wwise Object Path	Notes
-	144476991	Modulator Envelope (Custom)				
-	220711080	Modulator Envelope (Custom)				
-	622585742	Modulator Envelope (Custom)				
-	646596791	Modulator Envelope (Custom)				
-	774078385	Modulator Envelope (Custom)				
-	964576055	Modulator Envelope (Custom)				
-
-Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
-	549356377	Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Miko\SpatialAudioRouting\Gun_Reload\Rifle\Rifle_Reload\Synth One	
-	817392042	Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Miko\SpatialAudioRouting\Gun_Reload\Sniper\Sniper_Reload\Synth One	
-	1030436109	Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Miko\SpatialAudioRouting\Gun_Reload\Pistol\Pistol_Reload\Synth One	
 

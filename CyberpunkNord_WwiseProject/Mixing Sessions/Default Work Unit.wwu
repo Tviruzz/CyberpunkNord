@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{03C96C60-6E4B-4E6D-800D-DBA8CDFC2E32}" SchemaVersion="110">
 	<MixingSessions>
-		<WorkUnit Name="Default Work Unit" ID="{03C96C60-6E4B-4E6D-800D-DBA8CDFC2E32}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{03C96C60-6E4B-4E6D-800D-DBA8CDFC2E32}" PersistMode="Standalone">
+			<ChildrenList>
+				<MixingSession Name="Mixer" ID="{23C9CF45-094F-4639-BA0D-633DEA01AAC4}">
+					<ObjectList>
+						<ObjectRef Name="SmallRoom" ID="{B430C053-4215-4414-9FD4-5385A21F252E}" WorkUnitID="{A72D3C2F-CF92-4BF6-B5B8-DFE4C467D742}"/>
+						<ObjectRef Name="RoomAuxBus" ID="{D3CEEF66-2EBC-4B6F-9F63-6CD92D504D99}" WorkUnitID="{A72D3C2F-CF92-4BF6-B5B8-DFE4C467D742}"/>
+						<ObjectRef Name="Passthrough" ID="{A95CE1DA-4C76-4C9D-A91F-6CDC1320BEB7}" WorkUnitID="{A72D3C2F-CF92-4BF6-B5B8-DFE4C467D742}"/>
+						<ObjectRef Name="Objects" ID="{83292D70-34FF-4223-821D-E911F4B9DC00}" WorkUnitID="{A72D3C2F-CF92-4BF6-B5B8-DFE4C467D742}"/>
+						<ObjectRef Name="MainBeds" ID="{AADE205F-0BAA-4C10-B68F-D32A99B52E20}" WorkUnitID="{A72D3C2F-CF92-4BF6-B5B8-DFE4C467D742}"/>
+						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A72D3C2F-CF92-4BF6-B5B8-DFE4C467D742}"/>
+					</ObjectList>
+				</MixingSession>
+			</ChildrenList>
+		</WorkUnit>
 	</MixingSessions>
 </WwiseDocument>

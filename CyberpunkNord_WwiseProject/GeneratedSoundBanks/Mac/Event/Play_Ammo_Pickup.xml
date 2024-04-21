@@ -1,43 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="4269559823" Type="Event" GUID="{ED3592B0-EF02-4A32-A446-AAAA08A9E2B1}" Language="SFX" Hash="{11D16D85-555E-2E93-4598-2D9435A9FE94}">
+		<SoundBank Id="4269559823" Type="Event" GUID="{ED3592B0-EF02-4A32-A446-AAAA08A9E2B1}" Language="SFX" Hash="{BDE3CB0C-5BAA-F39D-2FF3-B36706A1CAE4}">
 			<ObjectPath>Play_Ammo_Pickup</ObjectPath>
 			<ShortName>Play_Ammo_Pickup</ShortName>
 			<Path>Event/Play_Ammo_Pickup.bnk</Path>
-			<Plugins>
-				<Custom>
-					<Plugin Id="169472566" Name="Synth One" ObjectPath="\Actor-Mixer Hierarchy\Miko\SpatialAudioRouting\Ammo_Pickup\Light\LightPickup\Synth One" GUID="{F4C497F8-0792-4E40-92E8-97AE68F39452}" LibName="Wwise Synth One" LibId="9699330"/>
-					<Plugin Id="255460811" Name="Synth One" ObjectPath="\Actor-Mixer Hierarchy\Miko\SpatialAudioRouting\Ammo_Pickup\Heavy\HeavyPickup\Synth One" GUID="{E6450DE8-EEA5-415D-BFBE-48ACDA665BEE}" LibName="Wwise Synth One" LibId="9699330"/>
-					<Plugin Id="610260876" Name="Synth One" ObjectPath="\Actor-Mixer Hierarchy\Miko\SpatialAudioRouting\Ammo_Pickup\Medium\MediumPickup\Synth One" GUID="{919D6D61-446F-4D55-BF39-056E36354362}" LibName="Wwise Synth One" LibId="9699330"/>
-				</Custom>
-			</Plugins>
+			<Media>
+				<File Id="490227264" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>AB_Generic_AmmoPickUp_Light.wav</ShortName>
+					<Path>Media/490227264.wem</Path>
+					<CachePath>SFX/AB_Generic_AmmoPickUp_Light_10C4C929.wem</CachePath>
+				</File>
+				<File Id="654028670" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>AB_Generic_AmmoPickUp_Heavy.wav</ShortName>
+					<Path>Media/654028670.wem</Path>
+					<CachePath>SFX/AB_Generic_AmmoPickUp_Heavy_10C4C929.wem</CachePath>
+				</File>
+				<File Id="742883154" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>AB_Generic_AmmoPickUp_Medium.wav</ShortName>
+					<Path>Media/742883154.wem</Path>
+					<CachePath>SFX/AB_Generic_AmmoPickUp_Medium_10C4C929.wem</CachePath>
+				</File>
+			</Media>
 			<Events>
-				<Event Id="4269559823" Name="Play_Ammo_Pickup" ObjectPath="\Events\MikoEvents\Play_Ammo_Pickup" GUID="{ED3592B0-EF02-4A32-A446-AAAA08A9E2B1}" MaxAttenuation="475" DurationType="Unknown">
+				<Event Id="4269559823" Name="Play_Ammo_Pickup" ObjectPath="\Events\AndresEvents\MainCharacter\Play_Ammo_Pickup" GUID="{ED3592B0-EF02-4A32-A446-AAAA08A9E2B1}" MaxAttenuation="475" DurationType="OneShot" DurationMin="0.44" DurationMax="0.52">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="3696829535" Id="2849147824" GUID="{691F4D69-6EC6-421F-994F-B71CC2AE2E3C}"/>
-							<PluginRefs>
-								<Custom>
-									<PluginRef Id="610260876"/>
-								</Custom>
-							</PluginRefs>
+							<MediaRefs>
+								<MediaRef Id="742883154"/>
+							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="3696829535" Id="1935470627" GUID="{F741AD96-187A-49F5-BC80-FA2CF8C3EE2A}" Default="true"/>
-							<PluginRefs>
-								<Custom>
-									<PluginRef Id="169472566"/>
-								</Custom>
-							</PluginRefs>
+							<MediaRefs>
+								<MediaRef Id="490227264"/>
+							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="3696829535" Id="2732489590" GUID="{AFB39EAD-EC00-4E13-BDB0-E3086FCF5965}"/>
-							<PluginRefs>
-								<Custom>
-									<PluginRef Id="255460811"/>
-								</Custom>
-							</PluginRefs>
+							<MediaRefs>
+								<MediaRef Id="654028670"/>
+							</MediaRefs>
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
@@ -53,5 +57,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{1342FAA0-DB9C-33B0-DD06-B2C641BF9A21}</FileHash>
+	<FileHash>{2D5C934D-6708-4876-79CC-EF75DBE55E53}</FileHash>
 </SoundBanksInfo>

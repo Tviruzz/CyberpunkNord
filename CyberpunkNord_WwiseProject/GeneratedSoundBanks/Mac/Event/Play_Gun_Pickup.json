@@ -10,46 +10,49 @@
     "Type": "Event",
     "GUID": "{E48C02B7-42EB-4B96-8569-29A9CB964CD2}",
     "Language": "SFX",
-    "Hash": "{EFAB5527-7BE6-EC69-344D-232F4896267C}",
+    "Hash": "{61E61E75-6A99-B9C0-9A57-7C3DB959DFB5}",
     "ObjectPath": "Play_Gun_Pickup",
     "ShortName": "Play_Gun_Pickup",
     "Path": "Event/Play_Gun_Pickup.bnk",
-    "Plugins": {
-     "Custom": [
-      {
-       "Id": "150159743",
-       "Name": "Synth One",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\SpatialAudioRouting\\Gun_Pickup\\Sniper\\TestSniperPickup\\Synth One",
-       "GUID": "{5E742ED1-F043-4EF2-8C48-7C8B3CADE6A6}",
-       "LibName": "Wwise Synth One",
-       "LibId": "9699330"
-      },
-      {
-       "Id": "466626232",
-       "Name": "Synth One",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\SpatialAudioRouting\\Gun_Pickup\\Pistol\\TestPistolPickup\\Synth One",
-       "GUID": "{1ECFC7B4-118A-42DA-B12F-E9536FDC09DC}",
-       "LibName": "Wwise Synth One",
-       "LibId": "9699330"
-      },
-      {
-       "Id": "808801550",
-       "Name": "Synth One",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\Miko\\SpatialAudioRouting\\Gun_Pickup\\Rifle\\TestRiflePickup\\Synth One",
-       "GUID": "{414E0DB0-23BB-4D43-B214-2B532A7269E0}",
-       "LibName": "Wwise Synth One",
-       "LibId": "9699330"
-      }
-     ]
-    },
+    "Media": [
+     {
+      "Id": "75411657",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AB_Generic_GunPickUp_Pistol.wav",
+      "Path": "Media/75411657.wem",
+      "CachePath": "SFX/AB_Generic_GunPickUp_Pistol_10C4C929.wem"
+     },
+     {
+      "Id": "873936080",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AB_Generic_GunPickUp_Rifle.wav",
+      "Path": "Media/873936080.wem",
+      "CachePath": "SFX/AB_Generic_GunPickUp_Rifle_10C4C929.wem"
+     },
+     {
+      "Id": "914544821",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AB_Generic_GunPickUp_Sniper.wav",
+      "Path": "Media/914544821.wem",
+      "CachePath": "SFX/AB_Generic_GunPickUp_Sniper_10C4C929.wem"
+     }
+    ],
     "Events": [
      {
       "Id": "889160563",
       "Name": "Play_Gun_Pickup",
-      "ObjectPath": "\\Events\\MikoEvents\\Play_Gun_Pickup",
+      "ObjectPath": "\\Events\\AndresEvents\\MainCharacter\\Play_Gun_Pickup",
       "GUID": "{E48C02B7-42EB-4B96-8569-29A9CB964CD2}",
       "MaxAttenuation": "475",
-      "DurationType": "Unknown",
+      "DurationType": "OneShot",
+      "DurationMin": "0.32",
+      "DurationMax": "0.44",
       "SwitchContainers": [
        {
         "SwitchValue": {
@@ -58,13 +61,11 @@
          "Id": "2550763292",
          "GUID": "{C15DE933-4891-4D62-BE78-F1763A353FA8}"
         },
-        "PluginRefs": {
-         "Custom": [
-          {
-           "Id": "150159743"
-          }
-         ]
-        }
+        "MediaRefs": [
+         {
+          "Id": "914544821"
+         }
+        ]
        },
        {
         "SwitchValue": {
@@ -74,13 +75,11 @@
          "GUID": "{A1812AA0-79E8-4BCD-86C4-6C5C8A20B88A}",
          "Default": "true"
         },
-        "PluginRefs": {
-         "Custom": [
-          {
-           "Id": "466626232"
-          }
-         ]
-        }
+        "MediaRefs": [
+         {
+          "Id": "75411657"
+         }
+        ]
        },
        {
         "SwitchValue": {
@@ -89,13 +88,11 @@
          "Id": "4262674733",
          "GUID": "{734914CE-A7F4-4A30-8072-9EBFF2B9B848}"
         },
-        "PluginRefs": {
-         "Custom": [
-          {
-           "Id": "808801550"
-          }
-         ]
-        }
+        "MediaRefs": [
+         {
+          "Id": "873936080"
+         }
+        ]
        }
       ]
      }
@@ -136,6 +133,6 @@
     ]
    }
   ],
-  "FileHash": "{001CD313-3F6A-6347-273D-2D025788B1E9}"
+  "FileHash": "{CBC9AFF5-721C-ECED-42AA-400F054BE820}"
  }
 }
