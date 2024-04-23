@@ -91,7 +91,7 @@ void AMainCharacter::BeginPlay()
 			Subsystem->AddMappingContext(DefaultMappingContext, 0);
 		}
 	}
-	GetCharacterMovement()->MaxWalkSpeed = WalkSpeed;
+	
 }
 
 // Called every frame
@@ -120,7 +120,7 @@ void AMainCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 
 		EnhancedInputComponent->BindAction(InteractAction, ETriggerEvent::Started, this, &AMainCharacter::Interact);
 		
-		EnhancedInputComponent->BindAction(SprintAction, ETriggerEvent::Triggered, this, &AMainCharacter::Sprint);
+		EnhancedInputComponent->BindAction(SprintAction, ETriggerEvent::Started, this, &AMainCharacter::Sprint);
 		EnhancedInputComponent->BindAction(SprintAction, ETriggerEvent::Completed, this, &AMainCharacter::StopSprint);
 	}
 }
@@ -176,7 +176,7 @@ void AMainCharacter::Sprint(const FInputActionValue& Value)
 
 void AMainCharacter::StopSprint(const FInputActionValue& Value)
 {
-	//GetCharacterMovement()->MaxWalkSpeed = WalkSpeed;
+	
 	GetCharacterMovement()->MaxWalkSpeed = WalkSpeed;
 }
 
