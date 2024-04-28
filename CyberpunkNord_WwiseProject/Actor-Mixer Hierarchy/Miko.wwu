@@ -258,6 +258,109 @@
 								<ActiveSource Name="Tone Generator" ID="{3347EFA6-D0BF-4E04-8B01-31FA04A58DC2}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<RandomSequenceContainer Name="Player_Gun_Aim" ID="{DB193C33-6FBD-4574-B290-9066C68B5C44}" ShortID="354273602">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{932E0AC6-AE92-4FF8-946B-9BB811A26F11}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A72D3C2F-CF92-4BF6-B5B8-DFE4C467D742}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SFX_General_FO_Pistol_Aim_01" ID="{7724A99E-3B06-4DE3-826D-F14B64E0328C}" ShortID="934054664">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{932E0AC6-AE92-4FF8-946B-9BB811A26F11}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A72D3C2F-CF92-4BF6-B5B8-DFE4C467D742}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_General_FO_Pistol_Aim_01" ID="{B1ED6D17-B32C-41F8-978F-04286F60BF1C}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_General_FO_Pistol_Aim_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1012671640"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_General_FO_Pistol_Aim_01" ID="{B1ED6D17-B32C-41F8-978F-04286F60BF1C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_General_FO_Pistol_Aim_02" ID="{30A56D54-C0BB-49FE-A20D-DBFCB2026F1E}" ShortID="124086487">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{932E0AC6-AE92-4FF8-946B-9BB811A26F11}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A72D3C2F-CF92-4BF6-B5B8-DFE4C467D742}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_General_FO_Pistol_Aim_02" ID="{456E013B-F0C9-45ED-95F7-CDA432D4376E}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_General_FO_Pistol_Aim_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="850070289"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_General_FO_Pistol_Aim_02" ID="{456E013B-F0C9-45ED-95F7-CDA432D4376E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_General_FO_Pistol_Aim_03" ID="{B9DA4429-2FDC-4BD8-9B4D-F6D2F67E9043}" ShortID="350749075">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{932E0AC6-AE92-4FF8-946B-9BB811A26F11}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A72D3C2F-CF92-4BF6-B5B8-DFE4C467D742}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_General_FO_Pistol_Aim_03" ID="{0C9BB620-7D24-4F4D-93D5-1392973D99B9}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_General_FO_Pistol_Aim_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="14920469"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_General_FO_Pistol_Aim_03" ID="{0C9BB620-7D24-4F4D-93D5-1392973D99B9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<Sound Name="Player_Player_SwitchWeapon" ID="{C49BC825-7982-4D09-8C56-4C92E05E6F7C}" ShortID="221992034">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{932E0AC6-AE92-4FF8-946B-9BB811A26F11}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A72D3C2F-CF92-4BF6-B5B8-DFE4C467D742}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_General_FO_Player_SwitchWeapon_01" ID="{EF643FD1-AE12-41D0-94BB-0BF8363AEF90}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_General_FO_Player_SwitchWeapon_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="909562352"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_General_FO_Player_SwitchWeapon_01" ID="{EF643FD1-AE12-41D0-94BB-0BF8363AEF90}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>
