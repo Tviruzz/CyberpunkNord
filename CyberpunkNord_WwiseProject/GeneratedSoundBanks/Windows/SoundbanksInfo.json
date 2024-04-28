@@ -1220,6 +1220,106 @@
     ]
    },
    {
+    "Id": "3388488336",
+    "Type": "Event",
+    "GUID": "{D1144964-D94D-47FF-9FAC-B5BCFC930A00}",
+    "Language": "SFX",
+    "Hash": "{7815B6D8-3529-4D96-4F7A-B6067A0EC02D}",
+    "ObjectPath": "Play_Player_SwitchWeapon",
+    "ShortName": "Play_Player_SwitchWeapon",
+    "Path": "Event/Play_Player_SwitchWeapon.bnk",
+    "Media": [
+     {
+      "Id": "909562352",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_General_FO_Player_SwitchWeapon_01.wav",
+      "Path": "Media/909562352.wem",
+      "CachePath": "SFX/SFX_General_FO_Player_SwitchWeapon_01_10C4C929.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3388488336",
+      "Name": "Play_Player_SwitchWeapon",
+      "ObjectPath": "\\Events\\MikoEvents\\Play_Player_SwitchWeapon",
+      "GUID": "{D1144964-D94D-47FF-9FAC-B5BCFC930A00}",
+      "MaxAttenuation": "475",
+      "DurationType": "OneShot",
+      "DurationMin": "1.7833333",
+      "DurationMax": "1.7833333",
+      "MediaRefs": [
+       {
+        "Id": "909562352"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "4235729862",
+    "Type": "Event",
+    "GUID": "{1DA2EA2C-3580-4BAF-9EB8-B9163ADAF81F}",
+    "Language": "SFX",
+    "Hash": "{2AABE070-CBA5-26FC-ACE5-F029DFAD36BA}",
+    "ObjectPath": "Play_Gun_Aim",
+    "ShortName": "Play_Gun_Aim",
+    "Path": "Event/Play_Gun_Aim.bnk",
+    "Media": [
+     {
+      "Id": "14920469",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_General_FO_Pistol_Aim_03.wav",
+      "Path": "Media/14920469.wem",
+      "CachePath": "SFX/SFX_General_FO_Pistol_Aim_03_10C4C929.wem"
+     },
+     {
+      "Id": "850070289",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_General_FO_Pistol_Aim_02.wav",
+      "Path": "Media/850070289.wem",
+      "CachePath": "SFX/SFX_General_FO_Pistol_Aim_02_10C4C929.wem"
+     },
+     {
+      "Id": "1012671640",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_General_FO_Pistol_Aim_01.wav",
+      "Path": "Media/1012671640.wem",
+      "CachePath": "SFX/SFX_General_FO_Pistol_Aim_01_10C4C929.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "4235729862",
+      "Name": "Play_Gun_Aim",
+      "ObjectPath": "\\Events\\MikoEvents\\Play_Gun_Aim",
+      "GUID": "{1DA2EA2C-3580-4BAF-9EB8-B9163ADAF81F}",
+      "MaxAttenuation": "475",
+      "DurationType": "OneShot",
+      "DurationMin": "0.3315625",
+      "DurationMax": "0.46272916",
+      "MediaRefs": [
+       {
+        "Id": "14920469"
+       },
+       {
+        "Id": "850070289"
+       },
+       {
+        "Id": "1012671640"
+       }
+      ]
+     }
+    ]
+   },
+   {
     "Id": "4269559823",
     "Type": "Event",
     "GUID": "{ED3592B0-EF02-4A32-A446-AAAA08A9E2B1}",
@@ -1341,6 +1441,6 @@
     ]
    }
   ],
-  "FileHash": "{B78E9A5B-2C94-1732-F7F1-1AF462856773}"
+  "FileHash": "{88895D3A-D0B5-98A8-B5D1-2431236DBE04}"
  }
 }

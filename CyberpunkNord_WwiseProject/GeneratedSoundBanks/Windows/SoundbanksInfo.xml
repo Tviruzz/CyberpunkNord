@@ -557,6 +557,56 @@
 				</AuxBus>
 			</AuxBusses>
 		</SoundBank>
+		<SoundBank Id="3388488336" Type="Event" GUID="{D1144964-D94D-47FF-9FAC-B5BCFC930A00}" Language="SFX" Hash="{7815B6D8-3529-4D96-4F7A-B6067A0EC02D}">
+			<ObjectPath>Play_Player_SwitchWeapon</ObjectPath>
+			<ShortName>Play_Player_SwitchWeapon</ShortName>
+			<Path>Event/Play_Player_SwitchWeapon.bnk</Path>
+			<Media>
+				<File Id="909562352" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_General_FO_Player_SwitchWeapon_01.wav</ShortName>
+					<Path>Media/909562352.wem</Path>
+					<CachePath>SFX/SFX_General_FO_Player_SwitchWeapon_01_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3388488336" Name="Play_Player_SwitchWeapon" ObjectPath="\Events\MikoEvents\Play_Player_SwitchWeapon" GUID="{D1144964-D94D-47FF-9FAC-B5BCFC930A00}" MaxAttenuation="475" DurationType="OneShot" DurationMin="1.7833333" DurationMax="1.7833333">
+					<MediaRefs>
+						<MediaRef Id="909562352"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="4235729862" Type="Event" GUID="{1DA2EA2C-3580-4BAF-9EB8-B9163ADAF81F}" Language="SFX" Hash="{2AABE070-CBA5-26FC-ACE5-F029DFAD36BA}">
+			<ObjectPath>Play_Gun_Aim</ObjectPath>
+			<ShortName>Play_Gun_Aim</ShortName>
+			<Path>Event/Play_Gun_Aim.bnk</Path>
+			<Media>
+				<File Id="14920469" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_General_FO_Pistol_Aim_03.wav</ShortName>
+					<Path>Media/14920469.wem</Path>
+					<CachePath>SFX/SFX_General_FO_Pistol_Aim_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="850070289" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_General_FO_Pistol_Aim_02.wav</ShortName>
+					<Path>Media/850070289.wem</Path>
+					<CachePath>SFX/SFX_General_FO_Pistol_Aim_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1012671640" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_General_FO_Pistol_Aim_01.wav</ShortName>
+					<Path>Media/1012671640.wem</Path>
+					<CachePath>SFX/SFX_General_FO_Pistol_Aim_01_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="4235729862" Name="Play_Gun_Aim" ObjectPath="\Events\MikoEvents\Play_Gun_Aim" GUID="{1DA2EA2C-3580-4BAF-9EB8-B9163ADAF81F}" MaxAttenuation="475" DurationType="OneShot" DurationMin="0.3315625" DurationMax="0.46272916">
+					<MediaRefs>
+						<MediaRef Id="14920469"/>
+						<MediaRef Id="850070289"/>
+						<MediaRef Id="1012671640"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
 		<SoundBank Id="4269559823" Type="Event" GUID="{ED3592B0-EF02-4A32-A446-AAAA08A9E2B1}" Language="SFX" Hash="{BDE3CB0C-5BAA-F39D-2FF3-B36706A1CAE4}">
 			<ObjectPath>Play_Ammo_Pickup</ObjectPath>
 			<ShortName>Play_Ammo_Pickup</ShortName>
@@ -613,5 +663,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{EEB8AEA1-37E6-288C-CABF-4581837BEDBD}</FileHash>
+	<FileHash>{2707F684-8F2A-55D0-614C-5BE2603A01B4}</FileHash>
 </SoundBanksInfo>

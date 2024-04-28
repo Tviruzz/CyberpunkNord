@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
+	<SoundBanks>
+		<SoundBank Id="3388488336" Type="Event" GUID="{D1144964-D94D-47FF-9FAC-B5BCFC930A00}" Language="SFX" Hash="{7815B6D8-3529-4D96-4F7A-B6067A0EC02D}">
+			<ObjectPath>Play_Player_SwitchWeapon</ObjectPath>
+			<ShortName>Play_Player_SwitchWeapon</ShortName>
+			<Path>Event/Play_Player_SwitchWeapon.bnk</Path>
+			<Media>
+				<File Id="909562352" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_General_FO_Player_SwitchWeapon_01.wav</ShortName>
+					<Path>Media/909562352.wem</Path>
+					<CachePath>SFX/SFX_General_FO_Player_SwitchWeapon_01_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3388488336" Name="Play_Player_SwitchWeapon" ObjectPath="\Events\MikoEvents\Play_Player_SwitchWeapon" GUID="{D1144964-D94D-47FF-9FAC-B5BCFC930A00}" MaxAttenuation="475" DurationType="OneShot" DurationMin="1.7833333" DurationMax="1.7833333">
+					<MediaRefs>
+						<MediaRef Id="909562352"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{23C7775A-C340-05CE-DC4F-55A36945D270}</FileHash>
+</SoundBanksInfo>
