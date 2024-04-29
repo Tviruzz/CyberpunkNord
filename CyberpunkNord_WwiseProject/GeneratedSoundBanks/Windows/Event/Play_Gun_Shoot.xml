@@ -1,70 +1,124 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="2371775700" Type="Event" GUID="{6C35B7F2-824A-4A0E-A3B2-F18D8B96B227}" Language="SFX" Hash="{EEAF7FC3-CDFA-1539-2568-BD7F9C3692F3}">
+		<SoundBank Id="2371775700" Type="Event" GUID="{6C35B7F2-824A-4A0E-A3B2-F18D8B96B227}" Language="SFX" Hash="{3D87E8CD-DC4A-ADE7-2F64-B69D7A732C17}">
 			<ObjectPath>Play_Gun_Shoot</ObjectPath>
 			<ShortName>Play_Gun_Shoot</ShortName>
 			<Path>Event/Play_Gun_Shoot.bnk</Path>
 			<Media>
-				<File Id="970783" Language="SFX" Streaming="false" Location="Loose">
-					<ShortName>AB_Generic_GunShoot_Rifle2.wav</ShortName>
-					<Path>Media/970783.wem</Path>
-					<CachePath>SFX/AB_Generic_GunShoot_Rifle2_10C4C929.wem</CachePath>
+				<File Id="23116475" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_General_HFX_Pistol_Shoot_02.wav</ShortName>
+					<Path>Media/23116475.wem</Path>
+					<CachePath>SFX/SFX_General_HFX_Pistol_Shoot_02_10C4C929.wem</CachePath>
 				</File>
-				<File Id="81399345" Language="SFX" Streaming="false" Location="Loose">
-					<ShortName>AB_Generic_GunShoot_Pistol1.wav</ShortName>
-					<Path>Media/81399345.wem</Path>
-					<CachePath>SFX/AB_Generic_GunShoot_Pistol1_10C4C929.wem</CachePath>
+				<File Id="28261435" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_General_HFX_Rifle_Shoot_06.wav</ShortName>
+					<Path>Media/28261435.wem</Path>
+					<CachePath>SFX/SFX_General_HFX_Rifle_Shoot_06_10C4C929.wem</CachePath>
 				</File>
-				<File Id="160391706" Language="SFX" Streaming="false" Location="Loose">
-					<ShortName>AB_Generic_GunShoot_Sniper1.wav</ShortName>
-					<Path>Media/160391706.wem</Path>
-					<CachePath>SFX/AB_Generic_GunShoot_Sniper1_10C4C929.wem</CachePath>
+				<File Id="83658081" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_General_HFX_Sniper_Shoot_02.wav</ShortName>
+					<Path>Media/83658081.wem</Path>
+					<CachePath>SFX/SFX_General_HFX_Sniper_Shoot_02_10C4C929.wem</CachePath>
 				</File>
-				<File Id="186205641" Language="SFX" Streaming="false" Location="Loose">
-					<ShortName>AB_Generic_GunShoot_Pistol2.wav</ShortName>
-					<Path>Media/186205641.wem</Path>
-					<CachePath>SFX/AB_Generic_GunShoot_Pistol2_10C4C929.wem</CachePath>
+				<File Id="242075500" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_General_HFX_Rifle_Shoot_03.wav</ShortName>
+					<Path>Media/242075500.wem</Path>
+					<CachePath>SFX/SFX_General_HFX_Rifle_Shoot_03_10C4C929.wem</CachePath>
 				</File>
-				<File Id="192536123" Language="SFX" Streaming="false" Location="Loose">
-					<ShortName>AB_Generic_GunShoot_Rifle3.wav</ShortName>
-					<Path>Media/192536123.wem</Path>
-					<CachePath>SFX/AB_Generic_GunShoot_Rifle3_10C4C929.wem</CachePath>
+				<File Id="273721556" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_General_HFX_Sniper_Shoot_03.wav</ShortName>
+					<Path>Media/273721556.wem</Path>
+					<CachePath>SFX/SFX_General_HFX_Sniper_Shoot_03_10C4C929.wem</CachePath>
 				</File>
-				<File Id="580878413" Language="SFX" Streaming="false" Location="Loose">
-					<ShortName>AB_Generic_GunShoot_Rifle1.wav</ShortName>
-					<Path>Media/580878413.wem</Path>
-					<CachePath>SFX/AB_Generic_GunShoot_Rifle1_10C4C929.wem</CachePath>
+				<File Id="380445572" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_General_HFX_Pistol_Shoot_04.wav</ShortName>
+					<Path>Media/380445572.wem</Path>
+					<CachePath>SFX/SFX_General_HFX_Pistol_Shoot_04_10C4C929.wem</CachePath>
 				</File>
-				<File Id="714389958" Language="SFX" Streaming="false" Location="Loose">
-					<ShortName>AB_Generic_GunShoot_Sniper2.wav</ShortName>
-					<Path>Media/714389958.wem</Path>
-					<CachePath>SFX/AB_Generic_GunShoot_Sniper2_10C4C929.wem</CachePath>
+				<File Id="473170026" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_General_HFX_Rifle_Shoot_01.wav</ShortName>
+					<Path>Media/473170026.wem</Path>
+					<CachePath>SFX/SFX_General_HFX_Rifle_Shoot_01_10C4C929.wem</CachePath>
 				</File>
-				<File Id="735215668" Language="SFX" Streaming="false" Location="Loose">
-					<ShortName>AB_Generic_GunShoot_Pistol3.wav</ShortName>
-					<Path>Media/735215668.wem</Path>
-					<CachePath>SFX/AB_Generic_GunShoot_Pistol3_10C4C929.wem</CachePath>
+				<File Id="562076184" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_General_HFX_Rifle_Shoot_02.wav</ShortName>
+					<Path>Media/562076184.wem</Path>
+					<CachePath>SFX/SFX_General_HFX_Rifle_Shoot_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="579941104" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_General_HFX_Sniper_Shoot_06.wav</ShortName>
+					<Path>Media/579941104.wem</Path>
+					<CachePath>SFX/SFX_General_HFX_Sniper_Shoot_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="618501598" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_General_HFX_Pistol_Shoot_05.wav</ShortName>
+					<Path>Media/618501598.wem</Path>
+					<CachePath>SFX/SFX_General_HFX_Pistol_Shoot_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="623415857" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_General_HFX_Rifle_Shoot_05.wav</ShortName>
+					<Path>Media/623415857.wem</Path>
+					<CachePath>SFX/SFX_General_HFX_Rifle_Shoot_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="721447645" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_General_HFX_Pistol_Shoot_01.wav</ShortName>
+					<Path>Media/721447645.wem</Path>
+					<CachePath>SFX/SFX_General_HFX_Pistol_Shoot_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="725765793" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_General_HFX_Sniper_Shoot_04.wav</ShortName>
+					<Path>Media/725765793.wem</Path>
+					<CachePath>SFX/SFX_General_HFX_Sniper_Shoot_04_10C4C929.wem</CachePath>
 				</File>
 				<File Id="748811425" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>AB_Generic_GunShoot_Empty2.wav</ShortName>
 					<Path>Media/748811425.wem</Path>
 					<CachePath>SFX/AB_Generic_GunShoot_Empty2_10C4C929.wem</CachePath>
 				</File>
+				<File Id="822832330" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_General_HFX_Sniper_Shoot_05.wav</ShortName>
+					<Path>Media/822832330.wem</Path>
+					<CachePath>SFX/SFX_General_HFX_Sniper_Shoot_05_10C4C929.wem</CachePath>
+				</File>
 				<File Id="862081436" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>AB_Generic_GunShoot_Empty1.wav</ShortName>
 					<Path>Media/862081436.wem</Path>
 					<CachePath>SFX/AB_Generic_GunShoot_Empty1_10C4C929.wem</CachePath>
 				</File>
+				<File Id="900489630" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_General_HFX_Sniper_Shoot_01.wav</ShortName>
+					<Path>Media/900489630.wem</Path>
+					<CachePath>SFX/SFX_General_HFX_Sniper_Shoot_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="955989569" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_General_HFX_Pistol_Shoot_03.wav</ShortName>
+					<Path>Media/955989569.wem</Path>
+					<CachePath>SFX/SFX_General_HFX_Pistol_Shoot_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="982948292" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_General_HFX_Rifle_Shoot_04.wav</ShortName>
+					<Path>Media/982948292.wem</Path>
+					<CachePath>SFX/SFX_General_HFX_Rifle_Shoot_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1073412218" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_General_HFX_Pistol_Shoot_06.wav</ShortName>
+					<Path>Media/1073412218.wem</Path>
+					<CachePath>SFX/SFX_General_HFX_Pistol_Shoot_06_10C4C929.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
-				<Event Id="2371775700" Name="Play_Gun_Shoot" ObjectPath="\Events\AndresEvents\MainCharacter\Play_Gun_Shoot" GUID="{6C35B7F2-824A-4A0E-A3B2-F18D8B96B227}" MaxAttenuation="475" DurationType="OneShot" DurationMin="1" DurationMax="2.56">
+				<Event Id="2371775700" Name="Play_Gun_Shoot" ObjectPath="\Events\AndresEvents\MainCharacter\Play_Gun_Shoot" GUID="{6C35B7F2-824A-4A0E-A3B2-F18D8B96B227}" MaxAttenuation="475" DurationType="OneShot" DurationMin="0.56622916" DurationMax="1.24">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="1613795745" Id="2550763292" GUID="{C15DE933-4891-4D62-BE78-F1763A353FA8}"/>
 							<MediaRefs>
-								<MediaRef Id="160391706"/>
-								<MediaRef Id="714389958"/>
+								<MediaRef Id="83658081"/>
+								<MediaRef Id="273721556"/>
+								<MediaRef Id="579941104"/>
+								<MediaRef Id="725765793"/>
+								<MediaRef Id="822832330"/>
+								<MediaRef Id="900489630"/>
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
@@ -77,17 +131,23 @@
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="1613795745" Id="324443136" GUID="{A1812AA0-79E8-4BCD-86C4-6C5C8A20B88A}"/>
 							<MediaRefs>
-								<MediaRef Id="81399345"/>
-								<MediaRef Id="186205641"/>
-								<MediaRef Id="735215668"/>
+								<MediaRef Id="23116475"/>
+								<MediaRef Id="380445572"/>
+								<MediaRef Id="618501598"/>
+								<MediaRef Id="721447645"/>
+								<MediaRef Id="955989569"/>
+								<MediaRef Id="1073412218"/>
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="1613795745" Id="4262674733" GUID="{734914CE-A7F4-4A30-8072-9EBFF2B9B848}"/>
 							<MediaRefs>
-								<MediaRef Id="970783"/>
-								<MediaRef Id="192536123"/>
-								<MediaRef Id="580878413"/>
+								<MediaRef Id="28261435"/>
+								<MediaRef Id="242075500"/>
+								<MediaRef Id="473170026"/>
+								<MediaRef Id="562076184"/>
+								<MediaRef Id="623415857"/>
+								<MediaRef Id="982948292"/>
 							</MediaRefs>
 						</SwitchContainer>
 					</SwitchContainers>
@@ -105,5 +165,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D87595FC-0C7B-0F04-D0AD-BFCC39ED93AC}</FileHash>
+	<FileHash>{D2B982EF-8491-6A94-B9AC-D82396D0BF93}</FileHash>
 </SoundBanksInfo>

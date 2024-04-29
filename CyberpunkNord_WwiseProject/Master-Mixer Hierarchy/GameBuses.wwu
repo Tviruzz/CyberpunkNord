@@ -60,8 +60,15 @@
 											<Custom>
 												<Effect Name="Wwise_RoomVerb_(Custom)" ID="{766AFB46-5A22-4E20-850B-4D7BE19AC268}" ShortID="842161204" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
 													<PropertyList>
-														<Property Name="DecayTime" Type="Real32" Value="2.3"/>
-														<Property Name="RoomSize" Type="Real32" Value="47"/>
+														<Property Name="DecayTime" Type="Real32" Value="0.9"/>
+														<Property Name="Density" Type="Real32" Value="73"/>
+														<Property Name="Diffusion" Type="Real32" Value="20"/>
+														<Property Name="ERFrontBackDelay" Type="Real32" Value="100"/>
+														<Property Name="ERPattern" Type="int32" Value="22"/>
+														<Property Name="HFDamping" Type="Real32" Value="4.4"/>
+														<Property Name="Quality" Type="int32" Value="16"/>
+														<Property Name="RoomShape" Type="Real32" Value="81"/>
+														<Property Name="RoomSize" Type="Real32" Value="56"/>
 													</PropertyList>
 												</Effect>
 											</Custom>
