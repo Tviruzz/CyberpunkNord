@@ -37,6 +37,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Gun_Aim" ID="{1DA2EA2C-3580-4BAF-9EB8-B9163ADAF81F}">
+					<ChildrenList>
+						<Action Name="" ID="{C8A6F4CD-DA6D-4708-A235-90F30EBF5356}" ShortID="375948341">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player_Gun_Aim" ID="{DB193C33-6FBD-4574-B290-9066C68B5C44}" WorkUnitID="{A7EB45C4-B939-4480-A678-788D7A20EEBC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Player_SwitchWeapon" ID="{D1144964-D94D-47FF-9FAC-B5BCFC930A00}">
+					<ChildrenList>
+						<Action Name="" ID="{BD393980-CE13-4188-AC55-3039902A79E5}" ShortID="82460707">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player_Player_SwitchWeapon" ID="{C49BC825-7982-4D09-8C56-4C92E05E6F7C}" WorkUnitID="{A7EB45C4-B939-4480-A678-788D7A20EEBC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

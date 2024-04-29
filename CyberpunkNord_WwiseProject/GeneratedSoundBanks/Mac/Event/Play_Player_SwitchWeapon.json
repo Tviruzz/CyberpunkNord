@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "3388488336",
+    "Type": "Event",
+    "GUID": "{D1144964-D94D-47FF-9FAC-B5BCFC930A00}",
+    "Language": "SFX",
+    "Hash": "{7815B6D8-3529-4D96-4F7A-B6067A0EC02D}",
+    "ObjectPath": "Play_Player_SwitchWeapon",
+    "ShortName": "Play_Player_SwitchWeapon",
+    "Path": "Event/Play_Player_SwitchWeapon.bnk",
+    "Media": [
+     {
+      "Id": "909562352",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_General_FO_Player_SwitchWeapon_01.wav",
+      "Path": "Media/909562352.wem",
+      "CachePath": "SFX/SFX_General_FO_Player_SwitchWeapon_01_10C4C929.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3388488336",
+      "Name": "Play_Player_SwitchWeapon",
+      "ObjectPath": "\\Events\\MikoEvents\\Play_Player_SwitchWeapon",
+      "GUID": "{D1144964-D94D-47FF-9FAC-B5BCFC930A00}",
+      "MaxAttenuation": "475",
+      "DurationType": "OneShot",
+      "DurationMin": "1.7833333",
+      "DurationMax": "1.7833333",
+      "MediaRefs": [
+       {
+        "Id": "909562352"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{0616E79F-4EFE-112D-94C5-88A9C83A3491}"
+ }
+}

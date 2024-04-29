@@ -1,0 +1,73 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "4235729862",
+    "Type": "Event",
+    "GUID": "{1DA2EA2C-3580-4BAF-9EB8-B9163ADAF81F}",
+    "Language": "SFX",
+    "Hash": "{2AABE070-CBA5-26FC-ACE5-F029DFAD36BA}",
+    "ObjectPath": "Play_Gun_Aim",
+    "ShortName": "Play_Gun_Aim",
+    "Path": "Event/Play_Gun_Aim.bnk",
+    "Media": [
+     {
+      "Id": "14920469",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_General_FO_Pistol_Aim_03.wav",
+      "Path": "Media/14920469.wem",
+      "CachePath": "SFX/SFX_General_FO_Pistol_Aim_03_10C4C929.wem"
+     },
+     {
+      "Id": "850070289",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_General_FO_Pistol_Aim_02.wav",
+      "Path": "Media/850070289.wem",
+      "CachePath": "SFX/SFX_General_FO_Pistol_Aim_02_10C4C929.wem"
+     },
+     {
+      "Id": "1012671640",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_General_FO_Pistol_Aim_01.wav",
+      "Path": "Media/1012671640.wem",
+      "CachePath": "SFX/SFX_General_FO_Pistol_Aim_01_10C4C929.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "4235729862",
+      "Name": "Play_Gun_Aim",
+      "ObjectPath": "\\Events\\MikoEvents\\Play_Gun_Aim",
+      "GUID": "{1DA2EA2C-3580-4BAF-9EB8-B9163ADAF81F}",
+      "MaxAttenuation": "475",
+      "DurationType": "OneShot",
+      "DurationMin": "0.3315625",
+      "DurationMax": "0.46272916",
+      "MediaRefs": [
+       {
+        "Id": "14920469"
+       },
+       {
+        "Id": "850070289"
+       },
+       {
+        "Id": "1012671640"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{F949E346-3992-8D05-87AA-6934A4E60C6A}"
+ }
+}
