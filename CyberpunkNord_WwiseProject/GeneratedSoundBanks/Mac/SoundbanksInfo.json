@@ -831,82 +831,127 @@
     "Type": "Event",
     "GUID": "{6C35B7F2-824A-4A0E-A3B2-F18D8B96B227}",
     "Language": "SFX",
-    "Hash": "{EEAF7FC3-CDFA-1539-2568-BD7F9C3692F3}",
+    "Hash": "{3D87E8CD-DC4A-ADE7-2F64-B69D7A732C17}",
     "ObjectPath": "Play_Gun_Shoot",
     "ShortName": "Play_Gun_Shoot",
     "Path": "Event/Play_Gun_Shoot.bnk",
     "Media": [
      {
-      "Id": "970783",
+      "Id": "23116475",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Loose",
-      "ShortName": "AB_Generic_GunShoot_Rifle2.wav",
-      "Path": "Media/970783.wem",
-      "CachePath": "SFX/AB_Generic_GunShoot_Rifle2_10C4C929.wem"
+      "ShortName": "SFX_General_HFX_Pistol_Shoot_02.wav",
+      "Path": "Media/23116475.wem",
+      "CachePath": "SFX/SFX_General_HFX_Pistol_Shoot_02_10C4C929.wem"
      },
      {
-      "Id": "81399345",
+      "Id": "28261435",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Loose",
-      "ShortName": "AB_Generic_GunShoot_Pistol1.wav",
-      "Path": "Media/81399345.wem",
-      "CachePath": "SFX/AB_Generic_GunShoot_Pistol1_10C4C929.wem"
+      "ShortName": "SFX_General_HFX_Rifle_Shoot_06.wav",
+      "Path": "Media/28261435.wem",
+      "CachePath": "SFX/SFX_General_HFX_Rifle_Shoot_06_10C4C929.wem"
      },
      {
-      "Id": "160391706",
+      "Id": "83658081",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Loose",
-      "ShortName": "AB_Generic_GunShoot_Sniper1.wav",
-      "Path": "Media/160391706.wem",
-      "CachePath": "SFX/AB_Generic_GunShoot_Sniper1_10C4C929.wem"
+      "ShortName": "SFX_General_HFX_Sniper_Shoot_02.wav",
+      "Path": "Media/83658081.wem",
+      "CachePath": "SFX/SFX_General_HFX_Sniper_Shoot_02_10C4C929.wem"
      },
      {
-      "Id": "186205641",
+      "Id": "242075500",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Loose",
-      "ShortName": "AB_Generic_GunShoot_Pistol2.wav",
-      "Path": "Media/186205641.wem",
-      "CachePath": "SFX/AB_Generic_GunShoot_Pistol2_10C4C929.wem"
+      "ShortName": "SFX_General_HFX_Rifle_Shoot_03.wav",
+      "Path": "Media/242075500.wem",
+      "CachePath": "SFX/SFX_General_HFX_Rifle_Shoot_03_10C4C929.wem"
      },
      {
-      "Id": "192536123",
+      "Id": "273721556",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Loose",
-      "ShortName": "AB_Generic_GunShoot_Rifle3.wav",
-      "Path": "Media/192536123.wem",
-      "CachePath": "SFX/AB_Generic_GunShoot_Rifle3_10C4C929.wem"
+      "ShortName": "SFX_General_HFX_Sniper_Shoot_03.wav",
+      "Path": "Media/273721556.wem",
+      "CachePath": "SFX/SFX_General_HFX_Sniper_Shoot_03_10C4C929.wem"
      },
      {
-      "Id": "580878413",
+      "Id": "380445572",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Loose",
-      "ShortName": "AB_Generic_GunShoot_Rifle1.wav",
-      "Path": "Media/580878413.wem",
-      "CachePath": "SFX/AB_Generic_GunShoot_Rifle1_10C4C929.wem"
+      "ShortName": "SFX_General_HFX_Pistol_Shoot_04.wav",
+      "Path": "Media/380445572.wem",
+      "CachePath": "SFX/SFX_General_HFX_Pistol_Shoot_04_10C4C929.wem"
      },
      {
-      "Id": "714389958",
+      "Id": "473170026",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Loose",
-      "ShortName": "AB_Generic_GunShoot_Sniper2.wav",
-      "Path": "Media/714389958.wem",
-      "CachePath": "SFX/AB_Generic_GunShoot_Sniper2_10C4C929.wem"
+      "ShortName": "SFX_General_HFX_Rifle_Shoot_01.wav",
+      "Path": "Media/473170026.wem",
+      "CachePath": "SFX/SFX_General_HFX_Rifle_Shoot_01_10C4C929.wem"
      },
      {
-      "Id": "735215668",
+      "Id": "562076184",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Loose",
-      "ShortName": "AB_Generic_GunShoot_Pistol3.wav",
-      "Path": "Media/735215668.wem",
-      "CachePath": "SFX/AB_Generic_GunShoot_Pistol3_10C4C929.wem"
+      "ShortName": "SFX_General_HFX_Rifle_Shoot_02.wav",
+      "Path": "Media/562076184.wem",
+      "CachePath": "SFX/SFX_General_HFX_Rifle_Shoot_02_10C4C929.wem"
+     },
+     {
+      "Id": "579941104",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_General_HFX_Sniper_Shoot_06.wav",
+      "Path": "Media/579941104.wem",
+      "CachePath": "SFX/SFX_General_HFX_Sniper_Shoot_06_10C4C929.wem"
+     },
+     {
+      "Id": "618501598",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_General_HFX_Pistol_Shoot_05.wav",
+      "Path": "Media/618501598.wem",
+      "CachePath": "SFX/SFX_General_HFX_Pistol_Shoot_05_10C4C929.wem"
+     },
+     {
+      "Id": "623415857",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_General_HFX_Rifle_Shoot_05.wav",
+      "Path": "Media/623415857.wem",
+      "CachePath": "SFX/SFX_General_HFX_Rifle_Shoot_05_10C4C929.wem"
+     },
+     {
+      "Id": "721447645",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_General_HFX_Pistol_Shoot_01.wav",
+      "Path": "Media/721447645.wem",
+      "CachePath": "SFX/SFX_General_HFX_Pistol_Shoot_01_10C4C929.wem"
+     },
+     {
+      "Id": "725765793",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_General_HFX_Sniper_Shoot_04.wav",
+      "Path": "Media/725765793.wem",
+      "CachePath": "SFX/SFX_General_HFX_Sniper_Shoot_04_10C4C929.wem"
      },
      {
       "Id": "748811425",
@@ -918,6 +963,15 @@
       "CachePath": "SFX/AB_Generic_GunShoot_Empty2_10C4C929.wem"
      },
      {
+      "Id": "822832330",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_General_HFX_Sniper_Shoot_05.wav",
+      "Path": "Media/822832330.wem",
+      "CachePath": "SFX/SFX_General_HFX_Sniper_Shoot_05_10C4C929.wem"
+     },
+     {
       "Id": "862081436",
       "Language": "SFX",
       "Streaming": "false",
@@ -925,6 +979,42 @@
       "ShortName": "AB_Generic_GunShoot_Empty1.wav",
       "Path": "Media/862081436.wem",
       "CachePath": "SFX/AB_Generic_GunShoot_Empty1_10C4C929.wem"
+     },
+     {
+      "Id": "900489630",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_General_HFX_Sniper_Shoot_01.wav",
+      "Path": "Media/900489630.wem",
+      "CachePath": "SFX/SFX_General_HFX_Sniper_Shoot_01_10C4C929.wem"
+     },
+     {
+      "Id": "955989569",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_General_HFX_Pistol_Shoot_03.wav",
+      "Path": "Media/955989569.wem",
+      "CachePath": "SFX/SFX_General_HFX_Pistol_Shoot_03_10C4C929.wem"
+     },
+     {
+      "Id": "982948292",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_General_HFX_Rifle_Shoot_04.wav",
+      "Path": "Media/982948292.wem",
+      "CachePath": "SFX/SFX_General_HFX_Rifle_Shoot_04_10C4C929.wem"
+     },
+     {
+      "Id": "1073412218",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_General_HFX_Pistol_Shoot_06.wav",
+      "Path": "Media/1073412218.wem",
+      "CachePath": "SFX/SFX_General_HFX_Pistol_Shoot_06_10C4C929.wem"
      }
     ],
     "Events": [
@@ -935,8 +1025,8 @@
       "GUID": "{6C35B7F2-824A-4A0E-A3B2-F18D8B96B227}",
       "MaxAttenuation": "475",
       "DurationType": "OneShot",
-      "DurationMin": "1",
-      "DurationMax": "2.56",
+      "DurationMin": "0.56622916",
+      "DurationMax": "1.24",
       "SwitchContainers": [
        {
         "SwitchValue": {
@@ -947,10 +1037,22 @@
         },
         "MediaRefs": [
          {
-          "Id": "160391706"
+          "Id": "83658081"
          },
          {
-          "Id": "714389958"
+          "Id": "273721556"
+         },
+         {
+          "Id": "579941104"
+         },
+         {
+          "Id": "725765793"
+         },
+         {
+          "Id": "822832330"
+         },
+         {
+          "Id": "900489630"
          }
         ]
        },
@@ -980,13 +1082,22 @@
         },
         "MediaRefs": [
          {
-          "Id": "81399345"
+          "Id": "23116475"
          },
          {
-          "Id": "186205641"
+          "Id": "380445572"
          },
          {
-          "Id": "735215668"
+          "Id": "618501598"
+         },
+         {
+          "Id": "721447645"
+         },
+         {
+          "Id": "955989569"
+         },
+         {
+          "Id": "1073412218"
          }
         ]
        },
@@ -999,13 +1110,22 @@
         },
         "MediaRefs": [
          {
-          "Id": "970783"
+          "Id": "28261435"
          },
          {
-          "Id": "192536123"
+          "Id": "242075500"
          },
          {
-          "Id": "580878413"
+          "Id": "473170026"
+         },
+         {
+          "Id": "562076184"
+         },
+         {
+          "Id": "623415857"
+         },
+         {
+          "Id": "982948292"
          }
         ]
        }
@@ -1441,6 +1561,6 @@
     ]
    }
   ],
-  "FileHash": "{0436E940-9346-3290-C813-BE86FA89F555}"
+  "FileHash": "{036F0B47-1F05-4D9A-E762-82D88A268DD8}"
  }
 }
