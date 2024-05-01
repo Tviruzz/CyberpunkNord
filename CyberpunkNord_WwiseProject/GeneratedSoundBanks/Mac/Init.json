@@ -10,12 +10,28 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{20BACDFF-59A6-5B5D-D1B0-2200A264AD4E}",
+    "Hash": "{92241774-C29F-E32B-1EE5-8F9D9E47579C}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
     "Plugins": {
      "Custom": [
+      {
+       "Id": "366519519",
+       "Name": "Wwise_RoomVerb_(Custom)",
+       "ObjectPath": "\\Master-Mixer Hierarchy\\GameBuses\\Master Audio Bus\\Passthrough\\Room_Railways\\Wwise_RoomVerb_(Custom)",
+       "GUID": "{30D118D6-AD10-43D4-B08D-672C61C9A061}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "532554621",
+       "Name": "Wwise_RoomVerb_(Custom)",
+       "ObjectPath": "\\Master-Mixer Hierarchy\\GameBuses\\Master Audio Bus\\Passthrough\\Room_Corridor\\Wwise_RoomVerb_(Custom)",
+       "GUID": "{285FAACB-EC09-4AC2-8766-6ED1345DDF83}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
       {
        "Id": "646227570",
        "Name": "Wwise_RoomVerb_(Custom)",
@@ -93,6 +109,19 @@
       }
      },
      {
+      "Id": "2968376717",
+      "Name": "Room_Corridor",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\GameBuses\\Master Audio Bus\\Passthrough\\Room_Corridor",
+      "GUID": "{74E745FC-5477-471A-B4EC-761726393A5B}",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "532554621"
+        }
+       ]
+      }
+     },
+     {
       "Id": "3072345656",
       "Name": "RoomAuxBus",
       "ObjectPath": "\\Master-Mixer Hierarchy\\GameBuses\\Master Audio Bus\\Passthrough\\RoomAuxBus",
@@ -101,6 +130,19 @@
        "Custom": [
         {
          "Id": "842161204"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "3642573067",
+      "Name": "Room_Railways",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\GameBuses\\Master Audio Bus\\Passthrough\\Room_Railways",
+      "GUID": "{1CF97768-C24C-4DFF-B169-ED894BB7DF2B}",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "366519519"
         }
        ]
       }
@@ -200,6 +242,6 @@
     ]
    }
   ],
-  "FileHash": "{CFBB878E-124A-6E8A-1D65-851DF70B1C58}"
+  "FileHash": "{702BC95C-BDCD-0380-B46C-FED003AB9825}"
  }
 }

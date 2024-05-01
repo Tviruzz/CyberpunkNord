@@ -10,7 +10,7 @@
     "Type": "Bus",
     "GUID": "{D3CEEF66-2EBC-4B6F-9F63-6CD92D504D99}",
     "Language": "SFX",
-    "Hash": "{7573656F-5C61-0A0D-CAAF-A4B466CF9450}",
+    "Hash": "{549C146D-17A3-38D2-8B04-24ADABBDD00A}",
     "ObjectPath": "RoomAuxBus",
     "ShortName": "RoomAuxBus",
     "Path": "Bus/RoomAuxBus.bnk",
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{160BC9FD-4D7F-F931-FDB2-DC14EEF06E2B}"
+  "FileHash": "{D37EE8E9-34AD-C3E5-9FFE-9E508F96C38C}"
  }
 }

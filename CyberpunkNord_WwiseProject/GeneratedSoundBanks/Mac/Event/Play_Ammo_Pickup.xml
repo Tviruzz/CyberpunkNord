@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="4269559823" Type="Event" GUID="{ED3592B0-EF02-4A32-A446-AAAA08A9E2B1}" Language="SFX" Hash="{BDE3CB0C-5BAA-F39D-2FF3-B36706A1CAE4}">
+		<SoundBank Id="4269559823" Type="Event" GUID="{ED3592B0-EF02-4A32-A446-AAAA08A9E2B1}" Language="SFX" Hash="{61E6FD72-94D8-C857-5530-5A8945E3E14F}">
 			<ObjectPath>Play_Ammo_Pickup</ObjectPath>
 			<ShortName>Play_Ammo_Pickup</ShortName>
 			<Path>Event/Play_Ammo_Pickup.bnk</Path>
@@ -57,5 +57,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{2D5C934D-6708-4876-79CC-EF75DBE55E53}</FileHash>
+	<FileHash>{E7594CE4-C8FC-4BD0-2C60-2204C935F314}</FileHash>
 </SoundBanksInfo>

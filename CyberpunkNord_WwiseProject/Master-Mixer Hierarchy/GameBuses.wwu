@@ -96,6 +96,83 @@
 										</Reference>
 									</ReferenceList>
 								</AuxBus>
+								<AuxBus Name="Room_Railways" ID="{1CF97768-C24C-4DFF-B169-ED894BB7DF2B}">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="BusChannelConfig" Type="int32">
+											<ValueList>
+												<Value>6353158</Value>
+											</ValueList>
+										</Property>
+										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+										<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Effect0">
+											<Custom>
+												<Effect Name="Wwise_RoomVerb_(Custom)" ID="{30D118D6-AD10-43D4-B08D-672C61C9A061}" ShortID="366519519" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+													<PropertyList>
+														<Property Name="DecayTime" Type="Real32" Value="2.9"/>
+														<Property Name="Density" Type="Real32" Value="63"/>
+														<Property Name="ERFrontBackDelay" Type="Real32" Value="100"/>
+														<Property Name="ERLevel" Type="Real32" Value="-15"/>
+														<Property Name="EnableToneControls" Type="bool" Value="True"/>
+														<Property Name="Filter1Gain" Type="Real32" Value="-17"/>
+														<Property Name="Filter2Freq" Type="Real32" Value="660"/>
+														<Property Name="Filter2Gain" Type="Real32" Value="-17.5"/>
+														<Property Name="Filter3Freq" Type="Real32" Value="810"/>
+														<Property Name="HFDamping" Type="Real32" Value="5.1"/>
+														<Property Name="PreDelay" Type="Real32" Value="28"/>
+														<Property Name="Quality" Type="int32" Value="16"/>
+														<Property Name="ReverbLevel" Type="Real32" Value="-10"/>
+														<Property Name="RoomShape" Type="Real32" Value="82"/>
+														<Property Name="RoomSize" Type="Real32" Value="100"/>
+													</PropertyList>
+												</Effect>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+								</AuxBus>
+								<AuxBus Name="Room_Corridor" ID="{74E745FC-5477-471A-B4EC-761726393A5B}">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="BusChannelConfig" Type="int32">
+											<ValueList>
+												<Value>6353158</Value>
+											</ValueList>
+										</Property>
+										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+										<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Effect0">
+											<Custom>
+												<Effect Name="Wwise_RoomVerb_(Custom)" ID="{285FAACB-EC09-4AC2-8766-6ED1345DDF83}" ShortID="532554621" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+													<PropertyList>
+														<Property Name="CenterLevel" Type="Real32" Value="-96"/>
+														<Property Name="DecayTime" Type="Real32" Value="2.9"/>
+														<Property Name="Density" Type="Real32" Value="100"/>
+														<Property Name="ERFrontBackDelay" Type="Real32" Value="100"/>
+														<Property Name="ERLevel" Type="Real32" Value="-9"/>
+														<Property Name="ERPattern" Type="int32" Value="14"/>
+														<Property Name="EnableToneControls" Type="bool" Value="True"/>
+														<Property Name="Filter1Gain" Type="Real32" Value="-10"/>
+														<Property Name="Filter2Freq" Type="Real32" Value="600"/>
+														<Property Name="Filter2Gain" Type="Real32" Value="-10.5"/>
+														<Property Name="HFDamping" Type="Real32" Value="8.2"/>
+														<Property Name="PreDelay" Type="Real32" Value="6"/>
+														<Property Name="Quality" Type="int32" Value="16"/>
+														<Property Name="ReverbLevel" Type="Real32" Value="-10"/>
+														<Property Name="RoomShape" Type="Real32" Value="24"/>
+														<Property Name="RoomSize" Type="Real32" Value="-29"/>
+													</PropertyList>
+												</Effect>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+								</AuxBus>
 							</ChildrenList>
 						</Bus>
 					</ChildrenList>

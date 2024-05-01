@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{E48C02B7-42EB-4B96-8569-29A9CB964CD2}",
     "Language": "SFX",
-    "Hash": "{61E61E75-6A99-B9C0-9A57-7C3DB959DFB5}",
+    "Hash": "{3A029E0D-1136-334D-88F3-09DA0E288A5C}",
     "ObjectPath": "Play_Gun_Pickup",
     "ShortName": "Play_Gun_Pickup",
     "Path": "Event/Play_Gun_Pickup.bnk",
@@ -133,6 +133,6 @@
     ]
    }
   ],
-  "FileHash": "{0B41A7A4-30FB-CD43-07C4-F4BEFC40CD73}"
+  "FileHash": "{06E02214-52C8-6029-3E10-FCD841A09BFE}"
  }
 }

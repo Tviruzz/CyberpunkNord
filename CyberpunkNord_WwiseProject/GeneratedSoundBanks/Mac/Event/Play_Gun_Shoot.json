@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{6C35B7F2-824A-4A0E-A3B2-F18D8B96B227}",
     "Language": "SFX",
-    "Hash": "{3D87E8CD-DC4A-ADE7-2F64-B69D7A732C17}",
+    "Hash": "{E94963E1-D85C-DBDC-CB59-AA96C3A83C5E}",
     "ObjectPath": "Play_Gun_Shoot",
     "ShortName": "Play_Gun_Shoot",
     "Path": "Event/Play_Gun_Shoot.bnk",
@@ -202,7 +202,6 @@
       "Name": "Play_Gun_Shoot",
       "ObjectPath": "\\Events\\AndresEvents\\MainCharacter\\Play_Gun_Shoot",
       "GUID": "{6C35B7F2-824A-4A0E-A3B2-F18D8B96B227}",
-      "MaxAttenuation": "475",
       "DurationType": "OneShot",
       "DurationMin": "0.56622916",
       "DurationMax": "1.24",
@@ -347,6 +346,6 @@
     ]
    }
   ],
-  "FileHash": "{43486415-8860-8C47-3BE3-FE06D1B89DA8}"
+  "FileHash": "{28A237CE-0DFD-EB89-48E2-103B6DE643E5}"
  }
 }
