@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<SoundBanks>
+		<SoundBank Id="3642573067" Type="Bus" GUID="{1CF97768-C24C-4DFF-B169-ED894BB7DF2B}" Language="SFX" Hash="{29927245-09E7-3A55-FEB0-76197DC76494}">
+			<ObjectPath>Room_Railways</ObjectPath>
+			<ShortName>Room_Railways</ShortName>
+			<Path>Bus/Room_Railways.bnk</Path>
+			<Plugins>
+				<Custom>
+					<Plugin Id="366519519" Name="Wwise_RoomVerb_(Custom)" ObjectPath="\Master-Mixer Hierarchy\GameBuses\Master Audio Bus\Passthrough\Room_Railways\Wwise_RoomVerb_(Custom)" GUID="{30D118D6-AD10-43D4-B08D-672C61C9A061}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</Custom>
+			</Plugins>
+			<AuxBusses>
+				<AuxBus Id="3642573067" Name="Room_Railways" ObjectPath="\Master-Mixer Hierarchy\GameBuses\Master Audio Bus\Passthrough\Room_Railways" GUID="{1CF97768-C24C-4DFF-B169-ED894BB7DF2B}">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="366519519"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{60093DD1-61F6-BD63-F2A9-0607B59514A0}</FileHash>
+</SoundBanksInfo>

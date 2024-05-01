@@ -6,9 +6,13 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	2933838247	SmallRoom			\GameBuses\Master Audio Bus\Passthrough\SmallRoom	
+	2968376717	Room_Corridor			\GameBuses\Master Audio Bus\Passthrough\Room_Corridor	
 	3072345656	RoomAuxBus			\GameBuses\Master Audio Bus\Passthrough\RoomAuxBus	
+	3642573067	Room_Railways			\GameBuses\Master Audio Bus\Passthrough\Room_Railways	
 
 Effect plug-ins	ID	Name	Type				Notes
+	366519519	Wwise_RoomVerb_(Custom)	Wwise RoomVerb			
+	532554621	Wwise_RoomVerb_(Custom)	Wwise RoomVerb			
 	646227570	Wwise_RoomVerb_(Custom)	Wwise RoomVerb			
 	842161204	Wwise_RoomVerb_(Custom)	Wwise RoomVerb			
 

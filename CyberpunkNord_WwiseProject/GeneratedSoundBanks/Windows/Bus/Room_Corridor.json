@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "2968376717",
+    "Type": "Bus",
+    "GUID": "{74E745FC-5477-471A-B4EC-761726393A5B}",
+    "Language": "SFX",
+    "Hash": "{EB7A98F6-8F67-9081-8902-7D5CD3304A5C}",
+    "ObjectPath": "Room_Corridor",
+    "ShortName": "Room_Corridor",
+    "Path": "Bus/Room_Corridor.bnk",
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "532554621",
+       "Name": "Wwise_RoomVerb_(Custom)",
+       "ObjectPath": "\\Master-Mixer Hierarchy\\GameBuses\\Master Audio Bus\\Passthrough\\Room_Corridor\\Wwise_RoomVerb_(Custom)",
+       "GUID": "{285FAACB-EC09-4AC2-8766-6ED1345DDF83}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
+    "AuxBusses": [
+     {
+      "Id": "2968376717",
+      "Name": "Room_Corridor",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\GameBuses\\Master Audio Bus\\Passthrough\\Room_Corridor",
+      "GUID": "{74E745FC-5477-471A-B4EC-761726393A5B}",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "532554621"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{D23C5A69-01E1-0D6A-9413-6810BE1A4593}"
+ }
+}

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="2371775700" Type="Event" GUID="{6C35B7F2-824A-4A0E-A3B2-F18D8B96B227}" Language="SFX" Hash="{3D87E8CD-DC4A-ADE7-2F64-B69D7A732C17}">
+		<SoundBank Id="2371775700" Type="Event" GUID="{6C35B7F2-824A-4A0E-A3B2-F18D8B96B227}" Language="SFX" Hash="{E94963E1-D85C-DBDC-CB59-AA96C3A83C5E}">
 			<ObjectPath>Play_Gun_Shoot</ObjectPath>
 			<ShortName>Play_Gun_Shoot</ShortName>
 			<Path>Event/Play_Gun_Shoot.bnk</Path>
@@ -108,7 +108,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2371775700" Name="Play_Gun_Shoot" ObjectPath="\Events\AndresEvents\MainCharacter\Play_Gun_Shoot" GUID="{6C35B7F2-824A-4A0E-A3B2-F18D8B96B227}" MaxAttenuation="475" DurationType="OneShot" DurationMin="0.56622916" DurationMax="1.24">
+				<Event Id="2371775700" Name="Play_Gun_Shoot" ObjectPath="\Events\AndresEvents\MainCharacter\Play_Gun_Shoot" GUID="{6C35B7F2-824A-4A0E-A3B2-F18D8B96B227}" DurationType="OneShot" DurationMin="0.56622916" DurationMax="1.24">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="1613795745" Id="2550763292" GUID="{C15DE933-4891-4D62-BE78-F1763A353FA8}"/>
@@ -165,5 +165,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{69E28A47-3A31-30C4-BF6D-07D4288E6B97}</FileHash>
+	<FileHash>{452FB251-B69C-8EB6-2903-3852B9619184}</FileHash>
 </SoundBanksInfo>
