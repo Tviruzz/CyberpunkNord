@@ -106,7 +106,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="889160563" Type="Event" GUID="{E48C02B7-42EB-4B96-8569-29A9CB964CD2}" Language="SFX" Hash="{61E61E75-6A99-B9C0-9A57-7C3DB959DFB5}">
+		<SoundBank Id="889160563" Type="Event" GUID="{E48C02B7-42EB-4B96-8569-29A9CB964CD2}" Language="SFX" Hash="{3A029E0D-1136-334D-88F3-09DA0E288A5C}">
 			<ObjectPath>Play_Gun_Pickup</ObjectPath>
 			<ShortName>Play_Gun_Pickup</ShortName>
 			<Path>Event/Play_Gun_Pickup.bnk</Path>
@@ -230,12 +230,14 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{5EB922BC-AE3D-5FC1-94F6-EC37E6563396}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{0EB95104-531F-230F-E59D-7039D54556B9}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
 				<Custom>
+					<Plugin Id="366519519" Name="Wwise_RoomVerb_(Custom)" ObjectPath="\Master-Mixer Hierarchy\GameBuses\Master Audio Bus\Passthrough\Room_Railways\Wwise_RoomVerb_(Custom)" GUID="{30D118D6-AD10-43D4-B08D-672C61C9A061}" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="532554621" Name="Wwise_RoomVerb_(Custom)" ObjectPath="\Master-Mixer Hierarchy\GameBuses\Master Audio Bus\Passthrough\Room_Corridor\Wwise_RoomVerb_(Custom)" GUID="{285FAACB-EC09-4AC2-8766-6ED1345DDF83}" LibName="Wwise RoomVerb" LibId="7733251"/>
 					<Plugin Id="646227570" Name="Wwise_RoomVerb_(Custom)" ObjectPath="\Master-Mixer Hierarchy\GameBuses\Master Audio Bus\Passthrough\SmallRoom\Wwise_RoomVerb_(Custom)" GUID="{F7BDF46F-8125-48C4-9652-FBC18C5264B3}" LibName="Wwise RoomVerb" LibId="7733251"/>
 					<Plugin Id="842161204" Name="Wwise_RoomVerb_(Custom)" ObjectPath="\Master-Mixer Hierarchy\GameBuses\Master Audio Bus\Passthrough\RoomAuxBus\Wwise_RoomVerb_(Custom)" GUID="{766AFB46-5A22-4E20-850B-4D7BE19AC268}" LibName="Wwise RoomVerb" LibId="7733251"/>
 				</Custom>
@@ -258,10 +260,24 @@
 						</Custom>
 					</PluginRefs>
 				</AuxBus>
+				<AuxBus Id="2968376717" Name="Room_Corridor" ObjectPath="\Master-Mixer Hierarchy\GameBuses\Master Audio Bus\Passthrough\Room_Corridor" GUID="{74E745FC-5477-471A-B4EC-761726393A5B}">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="532554621"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
 				<AuxBus Id="3072345656" Name="RoomAuxBus" ObjectPath="\Master-Mixer Hierarchy\GameBuses\Master Audio Bus\Passthrough\RoomAuxBus" GUID="{D3CEEF66-2EBC-4B6F-9F63-6CD92D504D99}">
 					<PluginRefs>
 						<Custom>
 							<PluginRef Id="842161204"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="3642573067" Name="Room_Railways" ObjectPath="\Master-Mixer Hierarchy\GameBuses\Master Audio Bus\Passthrough\Room_Railways" GUID="{1CF97768-C24C-4DFF-B169-ED894BB7DF2B}">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="366519519"/>
 						</Custom>
 					</PluginRefs>
 				</AuxBus>
@@ -292,7 +308,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2003795032" Type="Event" GUID="{C4223D45-CAE6-4BBB-88CA-21F88AA151AE}" Language="SFX" Hash="{B2120BAB-336D-12C5-2164-AFF01A5C9F41}">
+		<SoundBank Id="2003795032" Type="Event" GUID="{C4223D45-CAE6-4BBB-88CA-21F88AA151AE}" Language="SFX" Hash="{2AB55C5F-C4F6-C693-1F56-9F0D9A4C4D50}">
 			<ObjectPath>Play_Gun_Reload</ObjectPath>
 			<ShortName>Play_Gun_Reload</ShortName>
 			<Path>Event/Play_Gun_Reload.bnk</Path>
@@ -367,7 +383,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="2371775700" Type="Event" GUID="{6C35B7F2-824A-4A0E-A3B2-F18D8B96B227}" Language="SFX" Hash="{3D87E8CD-DC4A-ADE7-2F64-B69D7A732C17}">
+		<SoundBank Id="2371775700" Type="Event" GUID="{6C35B7F2-824A-4A0E-A3B2-F18D8B96B227}" Language="SFX" Hash="{E94963E1-D85C-DBDC-CB59-AA96C3A83C5E}">
 			<ObjectPath>Play_Gun_Shoot</ObjectPath>
 			<ShortName>Play_Gun_Shoot</ShortName>
 			<Path>Event/Play_Gun_Shoot.bnk</Path>
@@ -474,7 +490,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2371775700" Name="Play_Gun_Shoot" ObjectPath="\Events\AndresEvents\MainCharacter\Play_Gun_Shoot" GUID="{6C35B7F2-824A-4A0E-A3B2-F18D8B96B227}" MaxAttenuation="475" DurationType="OneShot" DurationMin="0.56622916" DurationMax="1.24">
+				<Event Id="2371775700" Name="Play_Gun_Shoot" ObjectPath="\Events\AndresEvents\MainCharacter\Play_Gun_Shoot" GUID="{6C35B7F2-824A-4A0E-A3B2-F18D8B96B227}" DurationType="OneShot" DurationMin="0.56622916" DurationMax="1.24">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="1613795745" Id="2550763292" GUID="{C15DE933-4891-4D62-BE78-F1763A353FA8}"/>
@@ -598,7 +614,26 @@
 				</AuxBus>
 			</AuxBusses>
 		</SoundBank>
-		<SoundBank Id="3072345656" Type="Bus" GUID="{D3CEEF66-2EBC-4B6F-9F63-6CD92D504D99}" Language="SFX" Hash="{7573656F-5C61-0A0D-CAAF-A4B466CF9450}">
+		<SoundBank Id="2968376717" Type="Bus" GUID="{74E745FC-5477-471A-B4EC-761726393A5B}" Language="SFX" Hash="{EB7A98F6-8F67-9081-8902-7D5CD3304A5C}">
+			<ObjectPath>Room_Corridor</ObjectPath>
+			<ShortName>Room_Corridor</ShortName>
+			<Path>Bus/Room_Corridor.bnk</Path>
+			<Plugins>
+				<Custom>
+					<Plugin Id="532554621" Name="Wwise_RoomVerb_(Custom)" ObjectPath="\Master-Mixer Hierarchy\GameBuses\Master Audio Bus\Passthrough\Room_Corridor\Wwise_RoomVerb_(Custom)" GUID="{285FAACB-EC09-4AC2-8766-6ED1345DDF83}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</Custom>
+			</Plugins>
+			<AuxBusses>
+				<AuxBus Id="2968376717" Name="Room_Corridor" ObjectPath="\Master-Mixer Hierarchy\GameBuses\Master Audio Bus\Passthrough\Room_Corridor" GUID="{74E745FC-5477-471A-B4EC-761726393A5B}">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="532554621"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
+		</SoundBank>
+		<SoundBank Id="3072345656" Type="Bus" GUID="{D3CEEF66-2EBC-4B6F-9F63-6CD92D504D99}" Language="SFX" Hash="{549C146D-17A3-38D2-8B04-24ADABBDD00A}">
 			<ObjectPath>RoomAuxBus</ObjectPath>
 			<ShortName>RoomAuxBus</ShortName>
 			<Path>Bus/RoomAuxBus.bnk</Path>
@@ -636,6 +671,25 @@
 				</Event>
 			</Events>
 		</SoundBank>
+		<SoundBank Id="3642573067" Type="Bus" GUID="{1CF97768-C24C-4DFF-B169-ED894BB7DF2B}" Language="SFX" Hash="{29927245-09E7-3A55-FEB0-76197DC76494}">
+			<ObjectPath>Room_Railways</ObjectPath>
+			<ShortName>Room_Railways</ShortName>
+			<Path>Bus/Room_Railways.bnk</Path>
+			<Plugins>
+				<Custom>
+					<Plugin Id="366519519" Name="Wwise_RoomVerb_(Custom)" ObjectPath="\Master-Mixer Hierarchy\GameBuses\Master Audio Bus\Passthrough\Room_Railways\Wwise_RoomVerb_(Custom)" GUID="{30D118D6-AD10-43D4-B08D-672C61C9A061}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</Custom>
+			</Plugins>
+			<AuxBusses>
+				<AuxBus Id="3642573067" Name="Room_Railways" ObjectPath="\Master-Mixer Hierarchy\GameBuses\Master Audio Bus\Passthrough\Room_Railways" GUID="{1CF97768-C24C-4DFF-B169-ED894BB7DF2B}">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="366519519"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
+		</SoundBank>
 		<SoundBank Id="4235729862" Type="Event" GUID="{1DA2EA2C-3580-4BAF-9EB8-B9163ADAF81F}" Language="SFX" Hash="{2AABE070-CBA5-26FC-ACE5-F029DFAD36BA}">
 			<ObjectPath>Play_Gun_Aim</ObjectPath>
 			<ShortName>Play_Gun_Aim</ShortName>
@@ -667,7 +721,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="4269559823" Type="Event" GUID="{ED3592B0-EF02-4A32-A446-AAAA08A9E2B1}" Language="SFX" Hash="{BDE3CB0C-5BAA-F39D-2FF3-B36706A1CAE4}">
+		<SoundBank Id="4269559823" Type="Event" GUID="{ED3592B0-EF02-4A32-A446-AAAA08A9E2B1}" Language="SFX" Hash="{61E6FD72-94D8-C857-5530-5A8945E3E14F}">
 			<ObjectPath>Play_Ammo_Pickup</ObjectPath>
 			<ShortName>Play_Ammo_Pickup</ShortName>
 			<Path>Event/Play_Ammo_Pickup.bnk</Path>
@@ -723,5 +777,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{7729DC04-8633-DA83-D693-F9F56C7E3756}</FileHash>
+	<FileHash>{CBFD10DD-2E08-7701-72F9-3F65628A11A0}</FileHash>
 </SoundBanksInfo>

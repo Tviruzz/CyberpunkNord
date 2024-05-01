@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="4269559823" Type="Event" GUID="{ED3592B0-EF02-4A32-A446-AAAA08A9E2B1}" Language="SFX" Hash="{BDE3CB0C-5BAA-F39D-2FF3-B36706A1CAE4}">
+		<SoundBank Id="4269559823" Type="Event" GUID="{ED3592B0-EF02-4A32-A446-AAAA08A9E2B1}" Language="SFX" Hash="{61E6FD72-94D8-C857-5530-5A8945E3E14F}">
 			<ObjectPath>Play_Ammo_Pickup</ObjectPath>
 			<ShortName>Play_Ammo_Pickup</ShortName>
 			<Path>Event/Play_Ammo_Pickup.bnk</Path>
@@ -57,5 +57,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{76AD6E35-7267-C169-C9A0-41968CEE24B8}</FileHash>
+	<FileHash>{FF7CA5A6-40B0-C652-B65F-9A80692CF749}</FileHash>
 </SoundBanksInfo>

@@ -1,0 +1,6 @@
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	3642573067	Room_Railways			\GameBuses\Master Audio Bus\Passthrough\Room_Railways	
+
+Effect plug-ins	ID	Name	Type				Notes
+	366519519	Wwise_RoomVerb_(Custom)	Wwise RoomVerb			
+

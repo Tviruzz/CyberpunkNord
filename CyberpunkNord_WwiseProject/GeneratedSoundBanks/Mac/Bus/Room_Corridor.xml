@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
+	<SoundBanks>
+		<SoundBank Id="2968376717" Type="Bus" GUID="{74E745FC-5477-471A-B4EC-761726393A5B}" Language="SFX" Hash="{EB7A98F6-8F67-9081-8902-7D5CD3304A5C}">
+			<ObjectPath>Room_Corridor</ObjectPath>
+			<ShortName>Room_Corridor</ShortName>
+			<Path>Bus/Room_Corridor.bnk</Path>
+			<Plugins>
+				<Custom>
+					<Plugin Id="532554621" Name="Wwise_RoomVerb_(Custom)" ObjectPath="\Master-Mixer Hierarchy\GameBuses\Master Audio Bus\Passthrough\Room_Corridor\Wwise_RoomVerb_(Custom)" GUID="{285FAACB-EC09-4AC2-8766-6ED1345DDF83}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</Custom>
+			</Plugins>
+			<AuxBusses>
+				<AuxBus Id="2968376717" Name="Room_Corridor" ObjectPath="\Master-Mixer Hierarchy\GameBuses\Master Audio Bus\Passthrough\Room_Corridor" GUID="{74E745FC-5477-471A-B4EC-761726393A5B}">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="532554621"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{EFB4F9E1-B050-F0B3-9D33-DCA4EEAC295A}</FileHash>
+</SoundBanksInfo>

@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{C4223D45-CAE6-4BBB-88CA-21F88AA151AE}",
     "Language": "SFX",
-    "Hash": "{B2120BAB-336D-12C5-2164-AFF01A5C9F41}",
+    "Hash": "{2AB55C5F-C4F6-C693-1F56-9F0D9A4C4D50}",
     "ObjectPath": "Play_Gun_Reload",
     "ShortName": "Play_Gun_Reload",
     "Path": "Event/Play_Gun_Reload.bnk",
@@ -132,6 +132,6 @@
     ]
    }
   ],
-  "FileHash": "{CD7C4B22-4634-7BF8-74E0-3D10C83C9A70}"
+  "FileHash": "{F6BB4E53-C988-DA3F-2B45-79E23656D3B5}"
  }
 }
