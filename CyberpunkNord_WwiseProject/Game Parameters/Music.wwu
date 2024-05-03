@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{292AD0FE-9BAB-4673-8168-418197705425}" SchemaVersion="110">
+	<GameParameters>
+		<WorkUnit Name="Music" ID="{292AD0FE-9BAB-4673-8168-418197705425}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Gameplay_Intensity" ID="{C87888AA-D480-4953-9368-75D9699D57B6}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>
