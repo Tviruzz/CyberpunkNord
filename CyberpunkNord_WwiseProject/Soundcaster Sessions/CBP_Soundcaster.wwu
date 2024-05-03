@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{25E05AAF-BCFC-4B73-8E95-F673F12D9603}" SchemaVersion="110">
+	<SoundcasterSessions>
+		<WorkUnit Name="CBP_Soundcaster" ID="{25E05AAF-BCFC-4B73-8E95-F673F12D9603}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="MikoSoundcaster" ID="{9BB33E35-1462-47EB-8085-D8F54785D342}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Music" ID="{7EBA1CB9-0AE1-4921-89CB-93AB83A74A5D}" WorkUnitID="{BB7E8603-7006-4884-932E-6C88FF9BB76A}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Gun_Shoot" ID="{DBDAB9AB-7094-480F-AFAB-5BCAA3B79C3D}" WorkUnitID="{FB47D513-4945-4780-A015-B5AA30E0112E}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Walk" ID="{C0D8363C-76CE-40F2-ABDB-AEA1609D293F}" WorkUnitID="{FB47D513-4945-4780-A015-B5AA30E0112E}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Gameplay_Intensity" ID="{C87888AA-D480-4953-9368-75D9699D57B6}"/>
+							<Value>36</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="MX_Gameplay" ID="{C88D12F9-F60B-4874-9284-2F56D9B6EAE5}"/>
+						<CurrentSwitchRef Name="Intensity1" ID="{03CAB7A9-EDD3-4030-86CF-438E8F6B6313}"/>
+						<CurrentSwitchRef Name="Sniper" ID="{C15DE933-4891-4D62-BE78-F1763A353FA8}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

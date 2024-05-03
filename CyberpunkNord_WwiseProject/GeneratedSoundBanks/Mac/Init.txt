@@ -1,3 +1,16 @@
+Switch Group	ID	Name			Wwise Object Path	Notes
+	89505537	Gameplay			\Music\Gameplay	
+
+Switch	ID	Name	Switch Group			Notes
+	3203639332	Intensity8	Gameplay			
+	3203639336	Intensity4	Gameplay			
+	3203639337	Intensity5	Gameplay			
+	3203639338	Intensity6	Gameplay			
+	3203639339	Intensity7	Gameplay			
+	3203639341	Intensity1	Gameplay			
+	3203639342	Intensity2	Gameplay			
+	3203639343	Intensity3	Gameplay			
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	1695690031	Objects			\GameBuses\Master Audio Bus\Objects	
 	2779380550	MainBeds			\GameBuses\Master Audio Bus\MainBeds	

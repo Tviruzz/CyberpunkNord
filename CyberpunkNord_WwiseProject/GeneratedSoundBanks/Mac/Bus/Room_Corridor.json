@@ -10,7 +10,7 @@
     "Type": "Bus",
     "GUID": "{74E745FC-5477-471A-B4EC-761726393A5B}",
     "Language": "SFX",
-    "Hash": "{EB7A98F6-8F67-9081-8902-7D5CD3304A5C}",
+    "Hash": "{CD4FBAE3-525F-72B6-9F7D-B5D1819D93C5}",
     "ObjectPath": "Room_Corridor",
     "ShortName": "Room_Corridor",
     "Path": "Bus/Room_Corridor.bnk",
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{C7B907A1-E098-CE2C-5017-182F2E8A75B0}"
+  "FileHash": "{CF0FB6FE-E4B9-E645-3267-BB964A77A5F2}"
  }
 }

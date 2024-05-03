@@ -5,6 +5,8 @@
 			<ChildrenList>
 				<SwitchGroup Name="Gameplay" ID="{BCE2AC0D-ED07-458C-A4F4-CCEC7A563611}">
 					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
 						<Property Name="UseGameParameter" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
@@ -72,6 +74,17 @@
 							</PointList>
 						</Curve>
 					</SwitchOnRTPC>
+				</SwitchGroup>
+				<SwitchGroup Name="MusicChange" ID="{AB996175-6E88-4216-BF88-ABB5762664D3}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="MX_Gameplay" ID="{C88D12F9-F60B-4874-9284-2F56D9B6EAE5}"/>
+						<Switch Name="MX_Menu" ID="{6E6F6A86-AF33-4957-A465-F1E08F92773B}"/>
+						<Switch Name="MX_NoMusic" ID="{5296762B-C2FE-43B8-A387-63BEA9A46BAA}"/>
+					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>

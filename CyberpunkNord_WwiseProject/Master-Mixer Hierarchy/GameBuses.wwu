@@ -22,7 +22,7 @@
 							<PropertyList>
 								<Property Name="BusChannelConfig" Type="int32">
 									<ValueList>
-										<Value>3584</Value>
+										<Value>6353158</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>

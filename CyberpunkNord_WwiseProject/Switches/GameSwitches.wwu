@@ -2,6 +2,10 @@
 <WwiseDocument Type="WorkUnit" ID="{C91FCD48-89D4-43E4-A561-3574F1DADB9A}" SchemaVersion="110">
 	<Switches>
 		<WorkUnit Name="GameSwitches" ID="{C91FCD48-89D4-43E4-A561-3574F1DADB9A}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="26"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
 			<ChildrenList>
 				<SwitchGroup Name="GroundMaterial" ID="{BD6B4F10-C7BD-40BF-97FB-625F462E0405}">
 					<PropertyList>

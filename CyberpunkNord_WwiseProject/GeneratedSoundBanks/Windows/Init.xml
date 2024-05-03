@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{0EB95104-531F-230F-E59D-7039D54556B9}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{ED5D4145-397B-53BC-4118-750DB37AEA66}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -53,13 +53,36 @@
 					</PluginRefs>
 				</AuxBus>
 			</AuxBusses>
+			<GameParameters>
+				<GameParameter Id="4042905687" Name="Gameplay_Intensity" ObjectPath="\Game Parameters\Music\Gameplay_Intensity" GUID="{C87888AA-D480-4953-9368-75D9699D57B6}"/>
+			</GameParameters>
 			<SwitchGroups>
+				<SwitchGroup Id="89505537" Name="Gameplay" ObjectPath="\Switches\Music\Gameplay" GUID="{BCE2AC0D-ED07-458C-A4F4-CCEC7A563611}">
+					<GameParameterRef Id="4042905687"/>
+					<Switches>
+						<Switch Id="3203639332" Name="Intensity8" ObjectPath="\Switches\Music\Gameplay\Intensity8" GUID="{D1DF9618-B077-4461-B10D-7E3BB81877F9}"/>
+						<Switch Id="3203639336" Name="Intensity4" ObjectPath="\Switches\Music\Gameplay\Intensity4" GUID="{A77005B5-545F-4FDD-8DA3-87965725E91C}"/>
+						<Switch Id="3203639337" Name="Intensity5" ObjectPath="\Switches\Music\Gameplay\Intensity5" GUID="{4AFD679C-CF20-47F8-BA13-C7243CB4F9F8}"/>
+						<Switch Id="3203639338" Name="Intensity6" ObjectPath="\Switches\Music\Gameplay\Intensity6" GUID="{58F6337F-456C-43B1-B20B-425678FAAEE5}"/>
+						<Switch Id="3203639339" Name="Intensity7" ObjectPath="\Switches\Music\Gameplay\Intensity7" GUID="{12D15525-DF44-4861-8921-E4E2641E0984}"/>
+						<Switch Id="3203639341" Name="Intensity1" ObjectPath="\Switches\Music\Gameplay\Intensity1" GUID="{03CAB7A9-EDD3-4030-86CF-438E8F6B6313}"/>
+						<Switch Id="3203639342" Name="Intensity2" ObjectPath="\Switches\Music\Gameplay\Intensity2" GUID="{35F80BDE-B10C-40FB-B211-5C70ABE71B9F}"/>
+						<Switch Id="3203639343" Name="Intensity3" ObjectPath="\Switches\Music\Gameplay\Intensity3" GUID="{03A7E74C-87AC-4D43-B9E6-23F223C9D91A}"/>
+					</Switches>
+				</SwitchGroup>
 				<SwitchGroup Id="1613795745" Name="GunType" ObjectPath="\Switches\GameSwitches\GunType" GUID="{FC45C451-ABE4-4F59-9F95-63920C9DD869}">
 					<Switches>
 						<Switch Id="324443136" Name="Pistol" ObjectPath="\Switches\GameSwitches\GunType\Pistol" GUID="{A1812AA0-79E8-4BCD-86C4-6C5C8A20B88A}"/>
 						<Switch Id="2550763292" Name="Sniper" ObjectPath="\Switches\GameSwitches\GunType\Sniper" GUID="{C15DE933-4891-4D62-BE78-F1763A353FA8}"/>
 						<Switch Id="3354297748" Name="Empty" ObjectPath="\Switches\GameSwitches\GunType\Empty" GUID="{74C65360-8F0C-4D0B-955B-D6C491ABC0C3}"/>
 						<Switch Id="4262674733" Name="Rifle" ObjectPath="\Switches\GameSwitches\GunType\Rifle" GUID="{734914CE-A7F4-4A30-8072-9EBFF2B9B848}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="1911932434" Name="MusicChange" ObjectPath="\Switches\Music\MusicChange" GUID="{AB996175-6E88-4216-BF88-ABB5762664D3}">
+					<Switches>
+						<Switch Id="22467125" Name="MX_NoMusic" ObjectPath="\Switches\Music\MusicChange\MX_NoMusic" GUID="{5296762B-C2FE-43B8-A387-63BEA9A46BAA}"/>
+						<Switch Id="2103702368" Name="MX_Menu" ObjectPath="\Switches\Music\MusicChange\MX_Menu" GUID="{6E6F6A86-AF33-4957-A465-F1E08F92773B}"/>
+						<Switch Id="2655229457" Name="MX_Gameplay" ObjectPath="\Switches\Music\MusicChange\MX_Gameplay" GUID="{C88D12F9-F60B-4874-9284-2F56D9B6EAE5}"/>
 					</Switches>
 				</SwitchGroup>
 				<SwitchGroup Id="3072116243" Name="GroundMaterial" ObjectPath="\Switches\GameSwitches\GroundMaterial" GUID="{BD6B4F10-C7BD-40BF-97FB-625F462E0405}">
@@ -80,5 +103,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{AC869717-626C-72D3-28D4-0B76257BAE61}</FileHash>
+	<FileHash>{9CE114E2-9B78-15B8-89B6-D0BEB37388E8}</FileHash>
 </SoundBanksInfo>
