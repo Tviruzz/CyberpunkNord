@@ -19,10 +19,22 @@ public:
 	UPROPERTY(EditAnywhere,BlueprintReadOnly)
 	FString DebugMessage;
 
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Wwise")
+	class UAkAudioEvent* musicEvent;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Wwise")
+	AActor* musicActor;
+
 	UFUNCTION(BlueprintImplementableEvent, BlueprintCallable)
 	void BlueprintImplementableFunction(UObject* WorldContextObject);
 
+	
+
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
 	void BlueprintExtendableFunction(UObject* WorldContextObject);
+
+
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Wwise")
+	void PlayMusic();
 	
 };

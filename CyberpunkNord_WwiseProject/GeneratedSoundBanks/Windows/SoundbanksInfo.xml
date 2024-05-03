@@ -230,7 +230,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{ED5D4145-397B-53BC-4118-750DB37AEA66}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{6A943391-E914-9091-CEC5-C37D036E0B31}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -618,6 +618,253 @@
 				</Event>
 			</Events>
 		</SoundBank>
+		<SoundBank Id="2932040671" Type="Event" GUID="{E52D56F4-051C-4C12-BA36-EF160694673A}" Language="SFX" Hash="{57B701EA-0D0D-B998-605C-127A9555F739}">
+			<ObjectPath>Play_Music</ObjectPath>
+			<ShortName>Play_Music</ShortName>
+			<Path>Event/Play_Music.bnk</Path>
+			<Media>
+				<File Id="21559910" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MX_Gameplay_C1.wav</ShortName>
+					<Path>Media/21559910.wem</Path>
+					<CachePath>SFX/MX_Gameplay_C1_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="83592818" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MX_Gameplay_C2.wav</ShortName>
+					<Path>Media/83592818.wem</Path>
+					<CachePath>SFX/MX_Gameplay_C2_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="180678992" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MX_Menu_Intro.wav</ShortName>
+					<Path>Media/180678992.wem</Path>
+					<CachePath>SFX/MX_Menu_Intro_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="209062895" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MX_Menu_B.wav</ShortName>
+					<Path>Media/209062895.wem</Path>
+					<CachePath>SFX/MX_Menu_B_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="268146846" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MX_Gameplay_B1.wav</ShortName>
+					<Path>Media/268146846.wem</Path>
+					<CachePath>SFX/MX_Gameplay_B1_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="273055661" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MX_Menu_H.wav</ShortName>
+					<Path>Media/273055661.wem</Path>
+					<CachePath>SFX/MX_Menu_H_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="354397103" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MX_Menu_A_Intro.wav</ShortName>
+					<Path>Media/354397103.wem</Path>
+					<CachePath>SFX/MX_Menu_A_Intro_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="358615987" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MX_Menu_D.wav</ShortName>
+					<Path>Media/358615987.wem</Path>
+					<CachePath>SFX/MX_Menu_D_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="359833696" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MX_Gameplay_D2.wav</ShortName>
+					<Path>Media/359833696.wem</Path>
+					<CachePath>SFX/MX_Gameplay_D2_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="400897456" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MX_Gameplay_A2.wav</ShortName>
+					<Path>Media/400897456.wem</Path>
+					<CachePath>SFX/MX_Gameplay_A2_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="463390777" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MX_Gameplay_B2.wav</ShortName>
+					<Path>Media/463390777.wem</Path>
+					<CachePath>SFX/MX_Gameplay_B2_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="513184409" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MX_Menu_E.wav</ShortName>
+					<Path>Media/513184409.wem</Path>
+					<CachePath>SFX/MX_Menu_E_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="667515374" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MX_Menu_F.wav</ShortName>
+					<Path>Media/667515374.wem</Path>
+					<CachePath>SFX/MX_Menu_F_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="843564055" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MX_Menu_C.wav</ShortName>
+					<Path>Media/843564055.wem</Path>
+					<CachePath>SFX/MX_Menu_C_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="844527657" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MX_Menu_A.wav</ShortName>
+					<Path>Media/844527657.wem</Path>
+					<CachePath>SFX/MX_Menu_A_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="851074589" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MX_Gameplay_A1.wav</ShortName>
+					<Path>Media/851074589.wem</Path>
+					<CachePath>SFX/MX_Gameplay_A1_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="936950229" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MX_Menu_G.wav</ShortName>
+					<Path>Media/936950229.wem</Path>
+					<CachePath>SFX/MX_Menu_G_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="938568300" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MX_Gameplay_D1.wav</ShortName>
+					<Path>Media/938568300.wem</Path>
+					<CachePath>SFX/MX_Gameplay_D1_D79FB2B7.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="377452610" Name="Parametric EQ (Custom)" ObjectPath="\Interactive Music Hierarchy\MusicSystems\Music\Gameplay\Parametric EQ (Custom)" GUID="{1669B573-43E3-4D20-9A46-99F800B8D8F9}" LibName="Wwise Parametric EQ" LibId="6881283"/>
+					<Plugin Id="566646301" Name="Parametric EQ (Custom)" ObjectPath="\Interactive Music Hierarchy\MusicSystems\Music\Parametric EQ (Custom)" GUID="{8DC27347-BED6-47AF-9A25-031CBF9E77E9}" LibName="Wwise Parametric EQ" LibId="6881283"/>
+				</Custom>
+			</Plugins>
+			<Events>
+				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\MikoEvents\Play_Music" GUID="{E52D56F4-051C-4C12-BA36-EF160694673A}" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1911932434" Id="2655229457" GUID="{C88D12F9-F60B-4874-9284-2F56D9B6EAE5}"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="89505537" Id="3203639341" GUID="{03CAB7A9-EDD3-4030-86CF-438E8F6B6313}"/>
+									<MediaRefs>
+										<MediaRef Id="851074589"/>
+									</MediaRefs>
+									<PluginRefs>
+										<Custom>
+											<PluginRef Id="377452610"/>
+										</Custom>
+									</PluginRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="89505537" Id="3203639342" GUID="{35F80BDE-B10C-40FB-B211-5C70ABE71B9F}"/>
+									<MediaRefs>
+										<MediaRef Id="400897456"/>
+									</MediaRefs>
+									<PluginRefs>
+										<Custom>
+											<PluginRef Id="377452610"/>
+										</Custom>
+									</PluginRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="89505537" Id="3203639343" GUID="{03A7E74C-87AC-4D43-B9E6-23F223C9D91A}"/>
+									<MediaRefs>
+										<MediaRef Id="268146846"/>
+									</MediaRefs>
+									<PluginRefs>
+										<Custom>
+											<PluginRef Id="377452610"/>
+										</Custom>
+									</PluginRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="89505537" Id="3203639336" GUID="{A77005B5-545F-4FDD-8DA3-87965725E91C}"/>
+									<MediaRefs>
+										<MediaRef Id="463390777"/>
+									</MediaRefs>
+									<PluginRefs>
+										<Custom>
+											<PluginRef Id="377452610"/>
+										</Custom>
+									</PluginRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="89505537" Id="3203639337" GUID="{4AFD679C-CF20-47F8-BA13-C7243CB4F9F8}"/>
+									<MediaRefs>
+										<MediaRef Id="21559910"/>
+									</MediaRefs>
+									<PluginRefs>
+										<Custom>
+											<PluginRef Id="377452610"/>
+										</Custom>
+									</PluginRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="89505537" Id="3203639339" GUID="{12D15525-DF44-4861-8921-E4E2641E0984}"/>
+									<MediaRefs>
+										<MediaRef Id="938568300"/>
+									</MediaRefs>
+									<PluginRefs>
+										<Custom>
+											<PluginRef Id="377452610"/>
+										</Custom>
+									</PluginRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="89505537" Id="3203639332" GUID="{D1DF9618-B077-4461-B10D-7E3BB81877F9}"/>
+									<MediaRefs>
+										<MediaRef Id="359833696"/>
+									</MediaRefs>
+									<PluginRefs>
+										<Custom>
+											<PluginRef Id="377452610"/>
+										</Custom>
+									</PluginRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="89505537" Id="3203639338" GUID="{58F6337F-456C-43B1-B20B-425678FAAEE5}"/>
+									<MediaRefs>
+										<MediaRef Id="83592818"/>
+									</MediaRefs>
+									<PluginRefs>
+										<Custom>
+											<PluginRef Id="377452610"/>
+										</Custom>
+									</PluginRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1911932434" Id="2103702368" GUID="{6E6F6A86-AF33-4957-A465-F1E08F92773B}"/>
+							<MediaRefs>
+								<MediaRef Id="180678992"/>
+								<MediaRef Id="209062895"/>
+								<MediaRef Id="273055661"/>
+								<MediaRef Id="354397103"/>
+								<MediaRef Id="358615987"/>
+								<MediaRef Id="513184409"/>
+								<MediaRef Id="667515374"/>
+								<MediaRef Id="843564055"/>
+								<MediaRef Id="844527657"/>
+								<MediaRef Id="936950229"/>
+							</MediaRefs>
+							<PluginRefs>
+								<Custom>
+									<PluginRef Id="566646301"/>
+								</Custom>
+							</PluginRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="4042905687" Name="Gameplay_Intensity" ObjectPath="\Game Parameters\Music\Gameplay_Intensity" GUID="{C87888AA-D480-4953-9368-75D9699D57B6}"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="89505537" Name="Gameplay" ObjectPath="\Switches\Music\Gameplay" GUID="{BCE2AC0D-ED07-458C-A4F4-CCEC7A563611}">
+					<GameParameterRef Id="4042905687"/>
+					<Switches>
+						<Switch Id="3203639332" Name="Intensity8" ObjectPath="\Switches\Music\Gameplay\Intensity8" GUID="{D1DF9618-B077-4461-B10D-7E3BB81877F9}"/>
+						<Switch Id="3203639336" Name="Intensity4" ObjectPath="\Switches\Music\Gameplay\Intensity4" GUID="{A77005B5-545F-4FDD-8DA3-87965725E91C}"/>
+						<Switch Id="3203639337" Name="Intensity5" ObjectPath="\Switches\Music\Gameplay\Intensity5" GUID="{4AFD679C-CF20-47F8-BA13-C7243CB4F9F8}"/>
+						<Switch Id="3203639338" Name="Intensity6" ObjectPath="\Switches\Music\Gameplay\Intensity6" GUID="{58F6337F-456C-43B1-B20B-425678FAAEE5}"/>
+						<Switch Id="3203639339" Name="Intensity7" ObjectPath="\Switches\Music\Gameplay\Intensity7" GUID="{12D15525-DF44-4861-8921-E4E2641E0984}"/>
+						<Switch Id="3203639341" Name="Intensity1" ObjectPath="\Switches\Music\Gameplay\Intensity1" GUID="{03CAB7A9-EDD3-4030-86CF-438E8F6B6313}"/>
+						<Switch Id="3203639342" Name="Intensity2" ObjectPath="\Switches\Music\Gameplay\Intensity2" GUID="{35F80BDE-B10C-40FB-B211-5C70ABE71B9F}"/>
+						<Switch Id="3203639343" Name="Intensity3" ObjectPath="\Switches\Music\Gameplay\Intensity3" GUID="{03A7E74C-87AC-4D43-B9E6-23F223C9D91A}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="1911932434" Name="MusicChange" ObjectPath="\Switches\Music\MusicChange" GUID="{AB996175-6E88-4216-BF88-ABB5762664D3}">
+					<Switches>
+						<Switch Id="22467125" Name="MX_NoMusic" ObjectPath="\Switches\Music\MusicChange\MX_NoMusic" GUID="{5296762B-C2FE-43B8-A387-63BEA9A46BAA}"/>
+						<Switch Id="2103702368" Name="MX_Menu" ObjectPath="\Switches\Music\MusicChange\MX_Menu" GUID="{6E6F6A86-AF33-4957-A465-F1E08F92773B}"/>
+						<Switch Id="2655229457" Name="MX_Gameplay" ObjectPath="\Switches\Music\MusicChange\MX_Gameplay" GUID="{C88D12F9-F60B-4874-9284-2F56D9B6EAE5}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
 		<SoundBank Id="2933838247" Type="Bus" GUID="{B430C053-4215-4414-9FD4-5385A21F252E}" Language="SFX" Hash="{B3D0647E-D112-0120-61D7-DB52B6072D15}">
 			<ObjectPath>SmallRoom</ObjectPath>
 			<ShortName>SmallRoom</ShortName>
@@ -800,5 +1047,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{A11E2E6E-22B6-8E01-A8EE-0406D66E156D}</FileHash>
+	<FileHash>{3C0341FD-0877-2D81-32C7-796CFF3DAAE2}</FileHash>
 </SoundBanksInfo>

@@ -21,14 +21,14 @@
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="Gameplay_Intensity" ID="{C87888AA-D480-4953-9368-75D9699D57B6}"/>
-							<Value>36</Value>
+							<Value>0</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="MX_Gameplay" ID="{C88D12F9-F60B-4874-9284-2F56D9B6EAE5}"/>
+						<CurrentSwitchRef Name="MX_Menu" ID="{6E6F6A86-AF33-4957-A465-F1E08F92773B}"/>
 						<CurrentSwitchRef Name="Intensity1" ID="{03CAB7A9-EDD3-4030-86CF-438E8F6B6313}"/>
-						<CurrentSwitchRef Name="Sniper" ID="{C15DE933-4891-4D62-BE78-F1763A353FA8}"/>
+						<CurrentSwitchRef Name="Empty" ID="{74C65360-8F0C-4D0B-955B-D6C491ABC0C3}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

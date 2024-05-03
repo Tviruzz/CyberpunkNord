@@ -13,4 +13,7 @@ void UMusicSubsystem::BlueprintExtendableFunction_Implementation(UObject* WorldC
 	
 }
 
-
+void UMusicSubsystem::PlayMusic_Implementation()
+{
+	UAkGameplayStatics::PostEventByName("Play_Music",musicActor);
+}

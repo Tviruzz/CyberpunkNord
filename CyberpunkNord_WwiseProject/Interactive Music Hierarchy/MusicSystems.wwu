@@ -9,10 +9,9 @@
 			<ChildrenList>
 				<MusicSwitchContainer Name="Music" ID="{7EBA1CB9-0AE1-4921-89CB-93AB83A74A5D}" ShortID="685068129">
 					<PropertyList>
-						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 						<Property Name="MaxSoundPerInstance" Type="int16">
 							<ValueList>
-								<Value>1</Value>
+								<Value>2</Value>
 							</ValueList>
 						</Property>
 						<Property Name="Tempo" Type="Real64" Value="190"/>
@@ -23,7 +22,7 @@
 						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>2</Value>
+								<Value>-6</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -35,12 +34,12 @@
 							<Custom>
 								<Effect Name="Parametric EQ (Custom)" ID="{8DC27347-BED6-47AF-9A25-031CBF9E77E9}" ShortID="566646301" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
 									<PropertyList>
-										<Property Name="FrequencyBand1" Type="Real32" Value="67"/>
-										<Property Name="FrequencyBand2" Type="Real32" Value="734"/>
+										<Property Name="FrequencyBand1" Type="Real32" Value="128"/>
+										<Property Name="FrequencyBand2" Type="Real32" Value="691"/>
 										<Property Name="FrequencyBand3" Type="Real32" Value="2043"/>
 										<Property Name="GainBand1" Type="Real32" Value="-5.5"/>
-										<Property Name="GainBand2" Type="Real32" Value="-6.5"/>
-										<Property Name="GainBand3" Type="Real32" Value="-3"/>
+										<Property Name="GainBand2" Type="Real32" Value="-4.5"/>
+										<Property Name="GainBand3" Type="Real32" Value="-2.5"/>
 										<Property Name="QFactorBand2" Type="Real32" Value="0.5"/>
 									</PropertyList>
 								</Effect>

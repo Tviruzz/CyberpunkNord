@@ -1,0 +1,528 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "2932040671",
+    "Type": "Event",
+    "GUID": "{E52D56F4-051C-4C12-BA36-EF160694673A}",
+    "Language": "SFX",
+    "Hash": "{57B701EA-0D0D-B998-605C-127A9555F739}",
+    "ObjectPath": "Play_Music",
+    "ShortName": "Play_Music",
+    "Path": "Event/Play_Music.bnk",
+    "Media": [
+     {
+      "Id": "21559910",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MX_Gameplay_C1.wav",
+      "Path": "Media/21559910.wem",
+      "CachePath": "SFX/MX_Gameplay_C1_D79FB2B7.wem"
+     },
+     {
+      "Id": "83592818",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MX_Gameplay_C2.wav",
+      "Path": "Media/83592818.wem",
+      "CachePath": "SFX/MX_Gameplay_C2_D79FB2B7.wem"
+     },
+     {
+      "Id": "180678992",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MX_Menu_Intro.wav",
+      "Path": "Media/180678992.wem",
+      "CachePath": "SFX/MX_Menu_Intro_D79FB2B7.wem"
+     },
+     {
+      "Id": "209062895",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MX_Menu_B.wav",
+      "Path": "Media/209062895.wem",
+      "CachePath": "SFX/MX_Menu_B_D79FB2B7.wem"
+     },
+     {
+      "Id": "268146846",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MX_Gameplay_B1.wav",
+      "Path": "Media/268146846.wem",
+      "CachePath": "SFX/MX_Gameplay_B1_D79FB2B7.wem"
+     },
+     {
+      "Id": "273055661",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MX_Menu_H.wav",
+      "Path": "Media/273055661.wem",
+      "CachePath": "SFX/MX_Menu_H_D79FB2B7.wem"
+     },
+     {
+      "Id": "354397103",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MX_Menu_A_Intro.wav",
+      "Path": "Media/354397103.wem",
+      "CachePath": "SFX/MX_Menu_A_Intro_D79FB2B7.wem"
+     },
+     {
+      "Id": "358615987",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MX_Menu_D.wav",
+      "Path": "Media/358615987.wem",
+      "CachePath": "SFX/MX_Menu_D_D79FB2B7.wem"
+     },
+     {
+      "Id": "359833696",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MX_Gameplay_D2.wav",
+      "Path": "Media/359833696.wem",
+      "CachePath": "SFX/MX_Gameplay_D2_D79FB2B7.wem"
+     },
+     {
+      "Id": "400897456",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MX_Gameplay_A2.wav",
+      "Path": "Media/400897456.wem",
+      "CachePath": "SFX/MX_Gameplay_A2_D79FB2B7.wem"
+     },
+     {
+      "Id": "463390777",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MX_Gameplay_B2.wav",
+      "Path": "Media/463390777.wem",
+      "CachePath": "SFX/MX_Gameplay_B2_D79FB2B7.wem"
+     },
+     {
+      "Id": "513184409",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MX_Menu_E.wav",
+      "Path": "Media/513184409.wem",
+      "CachePath": "SFX/MX_Menu_E_D79FB2B7.wem"
+     },
+     {
+      "Id": "667515374",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MX_Menu_F.wav",
+      "Path": "Media/667515374.wem",
+      "CachePath": "SFX/MX_Menu_F_D79FB2B7.wem"
+     },
+     {
+      "Id": "843564055",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MX_Menu_C.wav",
+      "Path": "Media/843564055.wem",
+      "CachePath": "SFX/MX_Menu_C_D79FB2B7.wem"
+     },
+     {
+      "Id": "844527657",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MX_Menu_A.wav",
+      "Path": "Media/844527657.wem",
+      "CachePath": "SFX/MX_Menu_A_D79FB2B7.wem"
+     },
+     {
+      "Id": "851074589",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MX_Gameplay_A1.wav",
+      "Path": "Media/851074589.wem",
+      "CachePath": "SFX/MX_Gameplay_A1_D79FB2B7.wem"
+     },
+     {
+      "Id": "936950229",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MX_Menu_G.wav",
+      "Path": "Media/936950229.wem",
+      "CachePath": "SFX/MX_Menu_G_D79FB2B7.wem"
+     },
+     {
+      "Id": "938568300",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MX_Gameplay_D1.wav",
+      "Path": "Media/938568300.wem",
+      "CachePath": "SFX/MX_Gameplay_D1_D79FB2B7.wem"
+     }
+    ],
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "377452610",
+       "Name": "Parametric EQ (Custom)",
+       "ObjectPath": "\\Interactive Music Hierarchy\\MusicSystems\\Music\\Gameplay\\Parametric EQ (Custom)",
+       "GUID": "{1669B573-43E3-4D20-9A46-99F800B8D8F9}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      },
+      {
+       "Id": "566646301",
+       "Name": "Parametric EQ (Custom)",
+       "ObjectPath": "\\Interactive Music Hierarchy\\MusicSystems\\Music\\Parametric EQ (Custom)",
+       "GUID": "{8DC27347-BED6-47AF-9A25-031CBF9E77E9}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "2932040671",
+      "Name": "Play_Music",
+      "ObjectPath": "\\Events\\MikoEvents\\Play_Music",
+      "GUID": "{E52D56F4-051C-4C12-BA36-EF160694673A}",
+      "DurationType": "Infinite",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1911932434",
+         "Id": "2655229457",
+         "GUID": "{C88D12F9-F60B-4874-9284-2F56D9B6EAE5}"
+        },
+        "Children": [
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "89505537",
+           "Id": "3203639341",
+           "GUID": "{03CAB7A9-EDD3-4030-86CF-438E8F6B6313}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "851074589"
+           }
+          ],
+          "PluginRefs": {
+           "Custom": [
+            {
+             "Id": "377452610"
+            }
+           ]
+          }
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "89505537",
+           "Id": "3203639342",
+           "GUID": "{35F80BDE-B10C-40FB-B211-5C70ABE71B9F}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "400897456"
+           }
+          ],
+          "PluginRefs": {
+           "Custom": [
+            {
+             "Id": "377452610"
+            }
+           ]
+          }
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "89505537",
+           "Id": "3203639343",
+           "GUID": "{03A7E74C-87AC-4D43-B9E6-23F223C9D91A}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "268146846"
+           }
+          ],
+          "PluginRefs": {
+           "Custom": [
+            {
+             "Id": "377452610"
+            }
+           ]
+          }
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "89505537",
+           "Id": "3203639336",
+           "GUID": "{A77005B5-545F-4FDD-8DA3-87965725E91C}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "463390777"
+           }
+          ],
+          "PluginRefs": {
+           "Custom": [
+            {
+             "Id": "377452610"
+            }
+           ]
+          }
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "89505537",
+           "Id": "3203639337",
+           "GUID": "{4AFD679C-CF20-47F8-BA13-C7243CB4F9F8}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "21559910"
+           }
+          ],
+          "PluginRefs": {
+           "Custom": [
+            {
+             "Id": "377452610"
+            }
+           ]
+          }
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "89505537",
+           "Id": "3203639339",
+           "GUID": "{12D15525-DF44-4861-8921-E4E2641E0984}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "938568300"
+           }
+          ],
+          "PluginRefs": {
+           "Custom": [
+            {
+             "Id": "377452610"
+            }
+           ]
+          }
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "89505537",
+           "Id": "3203639332",
+           "GUID": "{D1DF9618-B077-4461-B10D-7E3BB81877F9}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "359833696"
+           }
+          ],
+          "PluginRefs": {
+           "Custom": [
+            {
+             "Id": "377452610"
+            }
+           ]
+          }
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "89505537",
+           "Id": "3203639338",
+           "GUID": "{58F6337F-456C-43B1-B20B-425678FAAEE5}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "83592818"
+           }
+          ],
+          "PluginRefs": {
+           "Custom": [
+            {
+             "Id": "377452610"
+            }
+           ]
+          }
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1911932434",
+         "Id": "2103702368",
+         "GUID": "{6E6F6A86-AF33-4957-A465-F1E08F92773B}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "180678992"
+         },
+         {
+          "Id": "209062895"
+         },
+         {
+          "Id": "273055661"
+         },
+         {
+          "Id": "354397103"
+         },
+         {
+          "Id": "358615987"
+         },
+         {
+          "Id": "513184409"
+         },
+         {
+          "Id": "667515374"
+         },
+         {
+          "Id": "843564055"
+         },
+         {
+          "Id": "844527657"
+         },
+         {
+          "Id": "936950229"
+         }
+        ],
+        "PluginRefs": {
+         "Custom": [
+          {
+           "Id": "566646301"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "4042905687",
+      "Name": "Gameplay_Intensity",
+      "ObjectPath": "\\Game Parameters\\Music\\Gameplay_Intensity",
+      "GUID": "{C87888AA-D480-4953-9368-75D9699D57B6}"
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "89505537",
+      "Name": "Gameplay",
+      "ObjectPath": "\\Switches\\Music\\Gameplay",
+      "GUID": "{BCE2AC0D-ED07-458C-A4F4-CCEC7A563611}",
+      "GameParameterRef": {
+       "Id": "4042905687"
+      },
+      "Switches": [
+       {
+        "Id": "3203639332",
+        "Name": "Intensity8",
+        "ObjectPath": "\\Switches\\Music\\Gameplay\\Intensity8",
+        "GUID": "{D1DF9618-B077-4461-B10D-7E3BB81877F9}"
+       },
+       {
+        "Id": "3203639336",
+        "Name": "Intensity4",
+        "ObjectPath": "\\Switches\\Music\\Gameplay\\Intensity4",
+        "GUID": "{A77005B5-545F-4FDD-8DA3-87965725E91C}"
+       },
+       {
+        "Id": "3203639337",
+        "Name": "Intensity5",
+        "ObjectPath": "\\Switches\\Music\\Gameplay\\Intensity5",
+        "GUID": "{4AFD679C-CF20-47F8-BA13-C7243CB4F9F8}"
+       },
+       {
+        "Id": "3203639338",
+        "Name": "Intensity6",
+        "ObjectPath": "\\Switches\\Music\\Gameplay\\Intensity6",
+        "GUID": "{58F6337F-456C-43B1-B20B-425678FAAEE5}"
+       },
+       {
+        "Id": "3203639339",
+        "Name": "Intensity7",
+        "ObjectPath": "\\Switches\\Music\\Gameplay\\Intensity7",
+        "GUID": "{12D15525-DF44-4861-8921-E4E2641E0984}"
+       },
+       {
+        "Id": "3203639341",
+        "Name": "Intensity1",
+        "ObjectPath": "\\Switches\\Music\\Gameplay\\Intensity1",
+        "GUID": "{03CAB7A9-EDD3-4030-86CF-438E8F6B6313}"
+       },
+       {
+        "Id": "3203639342",
+        "Name": "Intensity2",
+        "ObjectPath": "\\Switches\\Music\\Gameplay\\Intensity2",
+        "GUID": "{35F80BDE-B10C-40FB-B211-5C70ABE71B9F}"
+       },
+       {
+        "Id": "3203639343",
+        "Name": "Intensity3",
+        "ObjectPath": "\\Switches\\Music\\Gameplay\\Intensity3",
+        "GUID": "{03A7E74C-87AC-4D43-B9E6-23F223C9D91A}"
+       }
+      ]
+     },
+     {
+      "Id": "1911932434",
+      "Name": "MusicChange",
+      "ObjectPath": "\\Switches\\Music\\MusicChange",
+      "GUID": "{AB996175-6E88-4216-BF88-ABB5762664D3}",
+      "Switches": [
+       {
+        "Id": "22467125",
+        "Name": "MX_NoMusic",
+        "ObjectPath": "\\Switches\\Music\\MusicChange\\MX_NoMusic",
+        "GUID": "{5296762B-C2FE-43B8-A387-63BEA9A46BAA}"
+       },
+       {
+        "Id": "2103702368",
+        "Name": "MX_Menu",
+        "ObjectPath": "\\Switches\\Music\\MusicChange\\MX_Menu",
+        "GUID": "{6E6F6A86-AF33-4957-A465-F1E08F92773B}"
+       },
+       {
+        "Id": "2655229457",
+        "Name": "MX_Gameplay",
+        "ObjectPath": "\\Switches\\Music\\MusicChange\\MX_Gameplay",
+        "GUID": "{C88D12F9-F60B-4874-9284-2F56D9B6EAE5}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{77B3A449-AEC2-DE71-A28F-8FA3E8D765CE}"
+ }
+}
