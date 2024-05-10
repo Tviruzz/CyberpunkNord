@@ -2,26 +2,13 @@ Event	ID	Name			Wwise Object Path	Notes
 	2932040671	Play_Music			\MikoEvents\Play_Music	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
-	89505537	Gameplay			\Music\Gameplay	
 	1911932434	MusicChange			\Music\MusicChange	
 
 Switch	ID	Name	Switch Group			Notes
-	3203639332	Intensity8	Gameplay			
-	3203639336	Intensity4	Gameplay			
-	3203639337	Intensity5	Gameplay			
-	3203639338	Intensity6	Gameplay			
-	3203639339	Intensity7	Gameplay			
-	3203639341	Intensity1	Gameplay			
-	3203639342	Intensity2	Gameplay			
-	3203639343	Intensity3	Gameplay			
 	22467125	MX_NoMusic	MusicChange			
 	2103702368	MX_Menu	MusicChange			
 	2655229457	MX_Gameplay	MusicChange			
 
-Game Parameter	ID	Name			Wwise Object Path	Notes
-	4042905687	Gameplay_Intensity			\Music\Gameplay_Intensity	
-
 Effect plug-ins	ID	Name	Type				Notes
-	377452610	Parametric EQ (Custom)	Wwise Parametric EQ			
 	566646301	Parametric EQ (Custom)	Wwise Parametric EQ			
 
