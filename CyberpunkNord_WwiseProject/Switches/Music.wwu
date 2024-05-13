@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EA2A932E-611D-4DCE-B15A-41C076E53162}" SchemaVersion="110">
+	<Switches>
+		<WorkUnit Name="Music" ID="{EA2A932E-611D-4DCE-B15A-41C076E53162}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Gameplay" ID="{BCE2AC0D-ED07-458C-A4F4-CCEC7A563611}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Intensity1" ID="{03CAB7A9-EDD3-4030-86CF-438E8F6B6313}"/>
+						<Switch Name="Intensity2" ID="{35F80BDE-B10C-40FB-B211-5C70ABE71B9F}"/>
+						<Switch Name="Intensity3" ID="{03A7E74C-87AC-4D43-B9E6-23F223C9D91A}"/>
+						<Switch Name="Intensity4" ID="{A77005B5-545F-4FDD-8DA3-87965725E91C}"/>
+						<Switch Name="Intensity5" ID="{4AFD679C-CF20-47F8-BA13-C7243CB4F9F8}"/>
+						<Switch Name="Intensity6" ID="{58F6337F-456C-43B1-B20B-425678FAAEE5}"/>
+						<Switch Name="Intensity7" ID="{12D15525-DF44-4861-8921-E4E2641E0984}"/>
+						<Switch Name="Intensity8" ID="{D1DF9618-B077-4461-B10D-7E3BB81877F9}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="Gameplay_Intensity" ID="{C87888AA-D480-4953-9368-75D9699D57B6}"/>
+						<Curve Name="" ID="{B95B8F9A-F965-44E5-8D90-EDE683CBF0BF}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>1</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>13.66171</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>27.32043</XPos>
+									<YPos>3</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>39.91071</XPos>
+									<YPos>4</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>50.44641</XPos>
+									<YPos>5</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>64.55257</XPos>
+									<YPos>6</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>76.60615</XPos>
+									<YPos>7</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>88.48114</XPos>
+									<YPos>8</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>100</XPos>
+									<YPos>8</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+				<SwitchGroup Name="MusicChange" ID="{AB996175-6E88-4216-BF88-ABB5762664D3}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="MX_Gameplay" ID="{C88D12F9-F60B-4874-9284-2F56D9B6EAE5}"/>
+						<Switch Name="MX_Menu" ID="{6E6F6A86-AF33-4957-A465-F1E08F92773B}"/>
+						<Switch Name="MX_NoMusic" ID="{5296762B-C2FE-43B8-A387-63BEA9A46BAA}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

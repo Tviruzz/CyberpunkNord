@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{92241774-C29F-E32B-1EE5-8F9D9E47579C}",
+    "Hash": "{0AABA0BB-09F2-960F-06DE-FDAF7B0C8155}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -148,7 +148,74 @@
       }
      }
     ],
+    "GameParameters": [
+     {
+      "Id": "4042905687",
+      "Name": "Gameplay_Intensity",
+      "ObjectPath": "\\Game Parameters\\Music\\Gameplay_Intensity",
+      "GUID": "{C87888AA-D480-4953-9368-75D9699D57B6}"
+     }
+    ],
     "SwitchGroups": [
+     {
+      "Id": "89505537",
+      "Name": "Gameplay",
+      "ObjectPath": "\\Switches\\Music\\Gameplay",
+      "GUID": "{BCE2AC0D-ED07-458C-A4F4-CCEC7A563611}",
+      "GameParameterRef": {
+       "Id": "4042905687"
+      },
+      "Switches": [
+       {
+        "Id": "3203639332",
+        "Name": "Intensity8",
+        "ObjectPath": "\\Switches\\Music\\Gameplay\\Intensity8",
+        "GUID": "{D1DF9618-B077-4461-B10D-7E3BB81877F9}"
+       },
+       {
+        "Id": "3203639336",
+        "Name": "Intensity4",
+        "ObjectPath": "\\Switches\\Music\\Gameplay\\Intensity4",
+        "GUID": "{A77005B5-545F-4FDD-8DA3-87965725E91C}"
+       },
+       {
+        "Id": "3203639337",
+        "Name": "Intensity5",
+        "ObjectPath": "\\Switches\\Music\\Gameplay\\Intensity5",
+        "GUID": "{4AFD679C-CF20-47F8-BA13-C7243CB4F9F8}"
+       },
+       {
+        "Id": "3203639338",
+        "Name": "Intensity6",
+        "ObjectPath": "\\Switches\\Music\\Gameplay\\Intensity6",
+        "GUID": "{58F6337F-456C-43B1-B20B-425678FAAEE5}"
+       },
+       {
+        "Id": "3203639339",
+        "Name": "Intensity7",
+        "ObjectPath": "\\Switches\\Music\\Gameplay\\Intensity7",
+        "GUID": "{12D15525-DF44-4861-8921-E4E2641E0984}"
+       },
+       {
+        "Id": "3203639341",
+        "Name": "Intensity1",
+        "ObjectPath": "\\Switches\\Music\\Gameplay\\Intensity1",
+        "GUID": "{03CAB7A9-EDD3-4030-86CF-438E8F6B6313}"
+       },
+       {
+        "Id": "3203639342",
+        "Name": "Intensity2",
+        "ObjectPath": "\\Switches\\Music\\Gameplay\\Intensity2",
+        "GUID": "{35F80BDE-B10C-40FB-B211-5C70ABE71B9F}"
+       },
+       {
+        "Id": "3203639343",
+        "Name": "Intensity3",
+        "ObjectPath": "\\Switches\\Music\\Gameplay\\Intensity3",
+        "GUID": "{03A7E74C-87AC-4D43-B9E6-23F223C9D91A}"
+       }
+      ]
+     },
      {
       "Id": "1613795745",
       "Name": "GunType",
@@ -178,6 +245,32 @@
         "Name": "Rifle",
         "ObjectPath": "\\Switches\\GameSwitches\\GunType\\Rifle",
         "GUID": "{734914CE-A7F4-4A30-8072-9EBFF2B9B848}"
+       }
+      ]
+     },
+     {
+      "Id": "1911932434",
+      "Name": "MusicChange",
+      "ObjectPath": "\\Switches\\Music\\MusicChange",
+      "GUID": "{AB996175-6E88-4216-BF88-ABB5762664D3}",
+      "Switches": [
+       {
+        "Id": "22467125",
+        "Name": "MX_NoMusic",
+        "ObjectPath": "\\Switches\\Music\\MusicChange\\MX_NoMusic",
+        "GUID": "{5296762B-C2FE-43B8-A387-63BEA9A46BAA}"
+       },
+       {
+        "Id": "2103702368",
+        "Name": "MX_Menu",
+        "ObjectPath": "\\Switches\\Music\\MusicChange\\MX_Menu",
+        "GUID": "{6E6F6A86-AF33-4957-A465-F1E08F92773B}"
+       },
+       {
+        "Id": "2655229457",
+        "Name": "MX_Gameplay",
+        "ObjectPath": "\\Switches\\Music\\MusicChange\\MX_Gameplay",
+        "GUID": "{C88D12F9-F60B-4874-9284-2F56D9B6EAE5}"
        }
       ]
      },
@@ -242,6 +335,6 @@
     ]
    }
   ],
-  "FileHash": "{702BC95C-BDCD-0380-B46C-FED003AB9825}"
+  "FileHash": "{5A03C48D-03BC-3718-4BA4-7ABC5B30B46A}"
  }
 }

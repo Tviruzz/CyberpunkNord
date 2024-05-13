@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<Attenuation Name="Att_Test_Emmiter" ID="{6CB5FA59-8459-47F3-AD72-0EE58920D174}" ShortID="1063758839">
 					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
 						<Property Name="ConeAttenuation" Type="Real64">
 							<ValueList>
 								<Value>-8</Value>
@@ -25,6 +26,7 @@
 								<Value>True</Value>
 							</ValueList>
 						</Property>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
 						<Property Name="RadiusMax" Type="Real64" Value="475"/>
 					</PropertyList>
 					<CurveUsageInfoList>

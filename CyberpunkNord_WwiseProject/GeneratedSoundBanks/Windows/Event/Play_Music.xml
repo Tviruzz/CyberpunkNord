@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<SoundBanks>
+		<SoundBank Id="2932040671" Type="Event" GUID="{E52D56F4-051C-4C12-BA36-EF160694673A}" Language="SFX" Hash="{F74B755F-027D-251F-68BE-789E439A74EB}">
+			<ObjectPath>Play_Music</ObjectPath>
+			<ShortName>Play_Music</ShortName>
+			<Path>Event/Play_Music.bnk</Path>
+			<Media>
+				<File Id="21559910" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MX_Gameplay_C1.wav</ShortName>
+					<Path>Media/21559910.wem</Path>
+					<CachePath>SFX/MX_Gameplay_C1_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="83592818" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MX_Gameplay_C2.wav</ShortName>
+					<Path>Media/83592818.wem</Path>
+					<CachePath>SFX/MX_Gameplay_C2_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="144857058" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MX_Gameplay_Intro.wav</ShortName>
+					<Path>Media/144857058.wem</Path>
+					<CachePath>SFX/MX_Gameplay_Intro_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="179047032" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MX_Gameplay_A2_Loop.wav</ShortName>
+					<Path>Media/179047032.wem</Path>
+					<CachePath>SFX/MX_Gameplay_A2_Loop_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="180678992" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MX_Menu_Intro.wav</ShortName>
+					<Path>Media/180678992.wem</Path>
+					<CachePath>SFX/MX_Menu_Intro_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="209062895" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MX_Menu_B.wav</ShortName>
+					<Path>Media/209062895.wem</Path>
+					<CachePath>SFX/MX_Menu_B_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="268146846" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MX_Gameplay_B1.wav</ShortName>
+					<Path>Media/268146846.wem</Path>
+					<CachePath>SFX/MX_Gameplay_B1_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="273055661" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MX_Menu_H.wav</ShortName>
+					<Path>Media/273055661.wem</Path>
+					<CachePath>SFX/MX_Menu_H_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="354397103" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MX_Menu_A_Intro.wav</ShortName>
+					<Path>Media/354397103.wem</Path>
+					<CachePath>SFX/MX_Menu_A_Intro_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="358615987" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MX_Menu_D.wav</ShortName>
+					<Path>Media/358615987.wem</Path>
+					<CachePath>SFX/MX_Menu_D_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="359833696" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MX_Gameplay_D2.wav</ShortName>
+					<Path>Media/359833696.wem</Path>
+					<CachePath>SFX/MX_Gameplay_D2_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="374688242" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MX_Gameplay_E1_Loop.wav</ShortName>
+					<Path>Media/374688242.wem</Path>
+					<CachePath>SFX/MX_Gameplay_E1_Loop_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="400897456" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MX_Gameplay_A2.wav</ShortName>
+					<Path>Media/400897456.wem</Path>
+					<CachePath>SFX/MX_Gameplay_A2_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="463390777" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MX_Gameplay_B2.wav</ShortName>
+					<Path>Media/463390777.wem</Path>
+					<CachePath>SFX/MX_Gameplay_B2_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="513184409" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MX_Menu_E.wav</ShortName>
+					<Path>Media/513184409.wem</Path>
+					<CachePath>SFX/MX_Menu_E_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="667515374" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MX_Menu_F.wav</ShortName>
+					<Path>Media/667515374.wem</Path>
+					<CachePath>SFX/MX_Menu_F_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="750693650" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MX_Gameplay_B2_Loop.wav</ShortName>
+					<Path>Media/750693650.wem</Path>
+					<CachePath>SFX/MX_Gameplay_B2_Loop_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="843564055" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MX_Menu_C.wav</ShortName>
+					<Path>Media/843564055.wem</Path>
+					<CachePath>SFX/MX_Menu_C_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="844527657" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MX_Menu_A.wav</ShortName>
+					<Path>Media/844527657.wem</Path>
+					<CachePath>SFX/MX_Menu_A_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="848910210" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MX_Gameplay_B1_Loop.wav</ShortName>
+					<Path>Media/848910210.wem</Path>
+					<CachePath>SFX/MX_Gameplay_B1_Loop_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="851074589" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MX_Gameplay_A1.wav</ShortName>
+					<Path>Media/851074589.wem</Path>
+					<CachePath>SFX/MX_Gameplay_A1_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="936950229" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MX_Menu_G.wav</ShortName>
+					<Path>Media/936950229.wem</Path>
+					<CachePath>SFX/MX_Menu_G_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="938568300" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MX_Gameplay_D1.wav</ShortName>
+					<Path>Media/938568300.wem</Path>
+					<CachePath>SFX/MX_Gameplay_D1_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="1040506497" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MX_Gameplay_A1_Loop.wav</ShortName>
+					<Path>Media/1040506497.wem</Path>
+					<CachePath>SFX/MX_Gameplay_A1_Loop_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="1042558262" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MX_Gameplay_E2_Loop.wav</ShortName>
+					<Path>Media/1042558262.wem</Path>
+					<CachePath>SFX/MX_Gameplay_E2_Loop_D79FB2B7.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="566646301" Name="Parametric EQ (Custom)" ObjectPath="\Interactive Music Hierarchy\MusicSystems\Music\Parametric EQ (Custom)" GUID="{8DC27347-BED6-47AF-9A25-031CBF9E77E9}" LibName="Wwise Parametric EQ" LibId="6881283"/>
+				</Custom>
+			</Plugins>
+			<Events>
+				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\MikoEvents\Play_Music" GUID="{E52D56F4-051C-4C12-BA36-EF160694673A}" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1911932434" Id="2655229457" GUID="{C88D12F9-F60B-4874-9284-2F56D9B6EAE5}"/>
+							<MediaRefs>
+								<MediaRef Id="180678992"/>
+								<MediaRef Id="209062895"/>
+								<MediaRef Id="273055661"/>
+								<MediaRef Id="354397103"/>
+								<MediaRef Id="358615987"/>
+								<MediaRef Id="513184409"/>
+								<MediaRef Id="667515374"/>
+								<MediaRef Id="843564055"/>
+								<MediaRef Id="844527657"/>
+								<MediaRef Id="936950229"/>
+							</MediaRefs>
+							<PluginRefs>
+								<Custom>
+									<PluginRef Id="566646301"/>
+								</Custom>
+							</PluginRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1911932434" Id="2103702368" GUID="{6E6F6A86-AF33-4957-A465-F1E08F92773B}"/>
+							<MediaRefs>
+								<MediaRef Id="21559910"/>
+								<MediaRef Id="83592818"/>
+								<MediaRef Id="144857058"/>
+								<MediaRef Id="179047032"/>
+								<MediaRef Id="268146846"/>
+								<MediaRef Id="359833696"/>
+								<MediaRef Id="374688242"/>
+								<MediaRef Id="400897456"/>
+								<MediaRef Id="463390777"/>
+								<MediaRef Id="750693650"/>
+								<MediaRef Id="848910210"/>
+								<MediaRef Id="851074589"/>
+								<MediaRef Id="938568300"/>
+								<MediaRef Id="1040506497"/>
+								<MediaRef Id="1042558262"/>
+							</MediaRefs>
+							<PluginRefs>
+								<Custom>
+									<PluginRef Id="566646301"/>
+								</Custom>
+							</PluginRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="1911932434" Name="MusicChange" ObjectPath="\Switches\Music\MusicChange" GUID="{AB996175-6E88-4216-BF88-ABB5762664D3}">
+					<Switches>
+						<Switch Id="22467125" Name="MX_NoMusic" ObjectPath="\Switches\Music\MusicChange\MX_NoMusic" GUID="{5296762B-C2FE-43B8-A387-63BEA9A46BAA}"/>
+						<Switch Id="2103702368" Name="MX_Menu" ObjectPath="\Switches\Music\MusicChange\MX_Menu" GUID="{6E6F6A86-AF33-4957-A465-F1E08F92773B}"/>
+						<Switch Id="2655229457" Name="MX_Gameplay" ObjectPath="\Switches\Music\MusicChange\MX_Gameplay" GUID="{C88D12F9-F60B-4874-9284-2F56D9B6EAE5}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{ADE9532E-7813-2624-1E54-7C1FFADA3387}</FileHash>
+</SoundBanksInfo>

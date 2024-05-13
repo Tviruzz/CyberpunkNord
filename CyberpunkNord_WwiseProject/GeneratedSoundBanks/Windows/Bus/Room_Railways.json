@@ -10,7 +10,7 @@
     "Type": "Bus",
     "GUID": "{1CF97768-C24C-4DFF-B169-ED894BB7DF2B}",
     "Language": "SFX",
-    "Hash": "{29927245-09E7-3A55-FEB0-76197DC76494}",
+    "Hash": "{A552B008-30E4-53EA-75B0-1D3C8F2E9BEE}",
     "ObjectPath": "Room_Railways",
     "ShortName": "Room_Railways",
     "Path": "Bus/Room_Railways.bnk",
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{A73755FB-A4AA-5D22-6A2A-8753C69DA979}"
+  "FileHash": "{DFBA1EBB-D562-BC78-58E0-001D3B440A84}"
  }
 }

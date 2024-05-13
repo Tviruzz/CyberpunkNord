@@ -1,0 +1,14 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2932040671	Play_Music			\MikoEvents\Play_Music	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1911932434	MusicChange			\Music\MusicChange	
+
+Switch	ID	Name	Switch Group			Notes
+	22467125	MX_NoMusic	MusicChange			
+	2103702368	MX_Menu	MusicChange			
+	2655229457	MX_Gameplay	MusicChange			
+
+Effect plug-ins	ID	Name	Type				Notes
+	566646301	Parametric EQ (Custom)	Wwise Parametric EQ			
+

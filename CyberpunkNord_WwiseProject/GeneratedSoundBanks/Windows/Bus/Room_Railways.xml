@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="3642573067" Type="Bus" GUID="{1CF97768-C24C-4DFF-B169-ED894BB7DF2B}" Language="SFX" Hash="{29927245-09E7-3A55-FEB0-76197DC76494}">
+		<SoundBank Id="3642573067" Type="Bus" GUID="{1CF97768-C24C-4DFF-B169-ED894BB7DF2B}" Language="SFX" Hash="{A552B008-30E4-53EA-75B0-1D3C8F2E9BEE}">
 			<ObjectPath>Room_Railways</ObjectPath>
 			<ShortName>Room_Railways</ShortName>
 			<Path>Bus/Room_Railways.bnk</Path>
@@ -21,5 +21,5 @@
 			</AuxBusses>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{60093DD1-61F6-BD63-F2A9-0607B59514A0}</FileHash>
+	<FileHash>{1275A427-25ED-1750-D340-8B16ADD193E2}</FileHash>
 </SoundBanksInfo>
