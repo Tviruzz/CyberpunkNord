@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{E52D56F4-051C-4C12-BA36-EF160694673A}",
     "Language": "SFX",
-    "Hash": "{57B701EA-0D0D-B998-605C-127A9555F739}",
+    "Hash": "{F74B755F-027D-251F-68BE-789E439A74EB}",
     "ObjectPath": "Play_Music",
     "ShortName": "Play_Music",
     "Path": "Event/Play_Music.bnk",
@@ -32,6 +32,24 @@
       "ShortName": "MX_Gameplay_C2.wav",
       "Path": "Media/83592818.wem",
       "CachePath": "SFX/MX_Gameplay_C2_D79FB2B7.wem"
+     },
+     {
+      "Id": "144857058",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MX_Gameplay_Intro.wav",
+      "Path": "Media/144857058.wem",
+      "CachePath": "SFX/MX_Gameplay_Intro_D79FB2B7.wem"
+     },
+     {
+      "Id": "179047032",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MX_Gameplay_A2_Loop.wav",
+      "Path": "Media/179047032.wem",
+      "CachePath": "SFX/MX_Gameplay_A2_Loop_D79FB2B7.wem"
      },
      {
       "Id": "180678992",
@@ -97,6 +115,15 @@
       "CachePath": "SFX/MX_Gameplay_D2_D79FB2B7.wem"
      },
      {
+      "Id": "374688242",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MX_Gameplay_E1_Loop.wav",
+      "Path": "Media/374688242.wem",
+      "CachePath": "SFX/MX_Gameplay_E1_Loop_D79FB2B7.wem"
+     },
+     {
       "Id": "400897456",
       "Language": "SFX",
       "Streaming": "false",
@@ -133,6 +160,15 @@
       "CachePath": "SFX/MX_Menu_F_D79FB2B7.wem"
      },
      {
+      "Id": "750693650",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MX_Gameplay_B2_Loop.wav",
+      "Path": "Media/750693650.wem",
+      "CachePath": "SFX/MX_Gameplay_B2_Loop_D79FB2B7.wem"
+     },
+     {
       "Id": "843564055",
       "Language": "SFX",
       "Streaming": "false",
@@ -149,6 +185,15 @@
       "ShortName": "MX_Menu_A.wav",
       "Path": "Media/844527657.wem",
       "CachePath": "SFX/MX_Menu_A_D79FB2B7.wem"
+     },
+     {
+      "Id": "848910210",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MX_Gameplay_B1_Loop.wav",
+      "Path": "Media/848910210.wem",
+      "CachePath": "SFX/MX_Gameplay_B1_Loop_D79FB2B7.wem"
      },
      {
       "Id": "851074589",
@@ -176,18 +221,28 @@
       "ShortName": "MX_Gameplay_D1.wav",
       "Path": "Media/938568300.wem",
       "CachePath": "SFX/MX_Gameplay_D1_D79FB2B7.wem"
+     },
+     {
+      "Id": "1040506497",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MX_Gameplay_A1_Loop.wav",
+      "Path": "Media/1040506497.wem",
+      "CachePath": "SFX/MX_Gameplay_A1_Loop_D79FB2B7.wem"
+     },
+     {
+      "Id": "1042558262",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MX_Gameplay_E2_Loop.wav",
+      "Path": "Media/1042558262.wem",
+      "CachePath": "SFX/MX_Gameplay_E2_Loop_D79FB2B7.wem"
      }
     ],
     "Plugins": {
      "Custom": [
-      {
-       "Id": "377452610",
-       "Name": "Parametric EQ (Custom)",
-       "ObjectPath": "\\Interactive Music Hierarchy\\MusicSystems\\Music\\Gameplay\\Parametric EQ (Custom)",
-       "GUID": "{1669B573-43E3-4D20-9A46-99F800B8D8F9}",
-       "LibName": "Wwise Parametric EQ",
-       "LibId": "6881283"
-      },
       {
        "Id": "566646301",
        "Name": "Parametric EQ (Custom)",
@@ -212,176 +267,6 @@
          "GroupId": "1911932434",
          "Id": "2655229457",
          "GUID": "{C88D12F9-F60B-4874-9284-2F56D9B6EAE5}"
-        },
-        "Children": [
-         {
-          "SwitchValue": {
-           "GroupType": "Switch",
-           "GroupId": "89505537",
-           "Id": "3203639341",
-           "GUID": "{03CAB7A9-EDD3-4030-86CF-438E8F6B6313}"
-          },
-          "MediaRefs": [
-           {
-            "Id": "851074589"
-           }
-          ],
-          "PluginRefs": {
-           "Custom": [
-            {
-             "Id": "377452610"
-            }
-           ]
-          }
-         },
-         {
-          "SwitchValue": {
-           "GroupType": "Switch",
-           "GroupId": "89505537",
-           "Id": "3203639342",
-           "GUID": "{35F80BDE-B10C-40FB-B211-5C70ABE71B9F}"
-          },
-          "MediaRefs": [
-           {
-            "Id": "400897456"
-           }
-          ],
-          "PluginRefs": {
-           "Custom": [
-            {
-             "Id": "377452610"
-            }
-           ]
-          }
-         },
-         {
-          "SwitchValue": {
-           "GroupType": "Switch",
-           "GroupId": "89505537",
-           "Id": "3203639343",
-           "GUID": "{03A7E74C-87AC-4D43-B9E6-23F223C9D91A}"
-          },
-          "MediaRefs": [
-           {
-            "Id": "268146846"
-           }
-          ],
-          "PluginRefs": {
-           "Custom": [
-            {
-             "Id": "377452610"
-            }
-           ]
-          }
-         },
-         {
-          "SwitchValue": {
-           "GroupType": "Switch",
-           "GroupId": "89505537",
-           "Id": "3203639336",
-           "GUID": "{A77005B5-545F-4FDD-8DA3-87965725E91C}"
-          },
-          "MediaRefs": [
-           {
-            "Id": "463390777"
-           }
-          ],
-          "PluginRefs": {
-           "Custom": [
-            {
-             "Id": "377452610"
-            }
-           ]
-          }
-         },
-         {
-          "SwitchValue": {
-           "GroupType": "Switch",
-           "GroupId": "89505537",
-           "Id": "3203639337",
-           "GUID": "{4AFD679C-CF20-47F8-BA13-C7243CB4F9F8}"
-          },
-          "MediaRefs": [
-           {
-            "Id": "21559910"
-           }
-          ],
-          "PluginRefs": {
-           "Custom": [
-            {
-             "Id": "377452610"
-            }
-           ]
-          }
-         },
-         {
-          "SwitchValue": {
-           "GroupType": "Switch",
-           "GroupId": "89505537",
-           "Id": "3203639339",
-           "GUID": "{12D15525-DF44-4861-8921-E4E2641E0984}"
-          },
-          "MediaRefs": [
-           {
-            "Id": "938568300"
-           }
-          ],
-          "PluginRefs": {
-           "Custom": [
-            {
-             "Id": "377452610"
-            }
-           ]
-          }
-         },
-         {
-          "SwitchValue": {
-           "GroupType": "Switch",
-           "GroupId": "89505537",
-           "Id": "3203639332",
-           "GUID": "{D1DF9618-B077-4461-B10D-7E3BB81877F9}"
-          },
-          "MediaRefs": [
-           {
-            "Id": "359833696"
-           }
-          ],
-          "PluginRefs": {
-           "Custom": [
-            {
-             "Id": "377452610"
-            }
-           ]
-          }
-         },
-         {
-          "SwitchValue": {
-           "GroupType": "Switch",
-           "GroupId": "89505537",
-           "Id": "3203639338",
-           "GUID": "{58F6337F-456C-43B1-B20B-425678FAAEE5}"
-          },
-          "MediaRefs": [
-           {
-            "Id": "83592818"
-           }
-          ],
-          "PluginRefs": {
-           "Custom": [
-            {
-             "Id": "377452610"
-            }
-           ]
-          }
-         }
-        ]
-       },
-       {
-        "SwitchValue": {
-         "GroupType": "Switch",
-         "GroupId": "1911932434",
-         "Id": "2103702368",
-         "GUID": "{6E6F6A86-AF33-4957-A465-F1E08F92773B}"
         },
         "MediaRefs": [
          {
@@ -422,78 +307,73 @@
           }
          ]
         }
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1911932434",
+         "Id": "2103702368",
+         "GUID": "{6E6F6A86-AF33-4957-A465-F1E08F92773B}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "21559910"
+         },
+         {
+          "Id": "83592818"
+         },
+         {
+          "Id": "144857058"
+         },
+         {
+          "Id": "179047032"
+         },
+         {
+          "Id": "268146846"
+         },
+         {
+          "Id": "359833696"
+         },
+         {
+          "Id": "374688242"
+         },
+         {
+          "Id": "400897456"
+         },
+         {
+          "Id": "463390777"
+         },
+         {
+          "Id": "750693650"
+         },
+         {
+          "Id": "848910210"
+         },
+         {
+          "Id": "851074589"
+         },
+         {
+          "Id": "938568300"
+         },
+         {
+          "Id": "1040506497"
+         },
+         {
+          "Id": "1042558262"
+         }
+        ],
+        "PluginRefs": {
+         "Custom": [
+          {
+           "Id": "566646301"
+          }
+         ]
+        }
        }
       ]
-     }
-    ],
-    "GameParameters": [
-     {
-      "Id": "4042905687",
-      "Name": "Gameplay_Intensity",
-      "ObjectPath": "\\Game Parameters\\Music\\Gameplay_Intensity",
-      "GUID": "{C87888AA-D480-4953-9368-75D9699D57B6}"
      }
     ],
     "SwitchGroups": [
-     {
-      "Id": "89505537",
-      "Name": "Gameplay",
-      "ObjectPath": "\\Switches\\Music\\Gameplay",
-      "GUID": "{BCE2AC0D-ED07-458C-A4F4-CCEC7A563611}",
-      "GameParameterRef": {
-       "Id": "4042905687"
-      },
-      "Switches": [
-       {
-        "Id": "3203639332",
-        "Name": "Intensity8",
-        "ObjectPath": "\\Switches\\Music\\Gameplay\\Intensity8",
-        "GUID": "{D1DF9618-B077-4461-B10D-7E3BB81877F9}"
-       },
-       {
-        "Id": "3203639336",
-        "Name": "Intensity4",
-        "ObjectPath": "\\Switches\\Music\\Gameplay\\Intensity4",
-        "GUID": "{A77005B5-545F-4FDD-8DA3-87965725E91C}"
-       },
-       {
-        "Id": "3203639337",
-        "Name": "Intensity5",
-        "ObjectPath": "\\Switches\\Music\\Gameplay\\Intensity5",
-        "GUID": "{4AFD679C-CF20-47F8-BA13-C7243CB4F9F8}"
-       },
-       {
-        "Id": "3203639338",
-        "Name": "Intensity6",
-        "ObjectPath": "\\Switches\\Music\\Gameplay\\Intensity6",
-        "GUID": "{58F6337F-456C-43B1-B20B-425678FAAEE5}"
-       },
-       {
-        "Id": "3203639339",
-        "Name": "Intensity7",
-        "ObjectPath": "\\Switches\\Music\\Gameplay\\Intensity7",
-        "GUID": "{12D15525-DF44-4861-8921-E4E2641E0984}"
-       },
-       {
-        "Id": "3203639341",
-        "Name": "Intensity1",
-        "ObjectPath": "\\Switches\\Music\\Gameplay\\Intensity1",
-        "GUID": "{03CAB7A9-EDD3-4030-86CF-438E8F6B6313}"
-       },
-       {
-        "Id": "3203639342",
-        "Name": "Intensity2",
-        "ObjectPath": "\\Switches\\Music\\Gameplay\\Intensity2",
-        "GUID": "{35F80BDE-B10C-40FB-B211-5C70ABE71B9F}"
-       },
-       {
-        "Id": "3203639343",
-        "Name": "Intensity3",
-        "ObjectPath": "\\Switches\\Music\\Gameplay\\Intensity3",
-        "GUID": "{03A7E74C-87AC-4D43-B9E6-23F223C9D91A}"
-       }
-      ]
-     },
      {
       "Id": "1911932434",
       "Name": "MusicChange",
@@ -523,6 +403,6 @@
     ]
    }
   ],
-  "FileHash": "{77B3A449-AEC2-DE71-A28F-8FA3E8D765CE}"
+  "FileHash": "{BE7B7002-64AF-B004-B47E-D8EEBBDF2C11}"
  }
 }
